@@ -1,0 +1,1099 @@
+{
+  "schemaVersion": 2,
+  "dataStatus": "reviewed-draft",
+  "published": true,
+  "lastReviewedAt": "2026-08-06",
+  "id": "zhou-yu",
+  "name": "周瑜",
+  "courtesyName": "公瑾",
+  "childhoodName": null,
+  "artName": null,
+  "otherNames": [
+    "周郎"
+  ],
+  "lifespan": "175年—210年",
+  "birthplace": "揚州廬江郡舒縣（今安徽省舒城縣一帶）",
+  "primaryIdentity": "東漢末年孫策、孫權麾下名將；赤壁之戰前線主將，官至偏將軍、領南郡太守",
+  "summary": "周瑜出身廬江士族，與孫策同年交好，曾帶兵、船糧協助其經略江東；短暫處於袁術體系後，於建安三年正式歸吳。孫策死後，他與張昭共掌眾事、支持孫權；建安十三年力主拒曹，與程普為左右督，採納黃蓋火攻策，在赤壁、烏林擊退曹操，繼而攻取南郡。建安十五年取蜀計畫獲准，返回江陵整備後行至巴丘病逝，年三十六，臨終上疏推薦魯肅接任。正史稱其有姿貌、性度恢廓且精通音律；小說則將他改寫為嫉妒諸葛亮、被『三氣』而死的人物，與史實差距甚大。",
+  "avatar": "images/zhou_yu.png",
+  "overview": {
+    "intro": {
+      "paragraphs": [
+        {
+          "text": "周瑜字公瑾，廬江舒縣人，生於175年。其從祖父周景及周景之子周忠都曾任漢太尉，父周異任洛陽令；本傳又直接稱他『長壯有姿貌』。周瑜不只是外貌俊美的青年將領，也精通音律，即使飲酒三爵之後仍能察覺樂曲缺誤，因而有『曲有誤，周郎顧』之謠。這一整段音律記載屬《三國志》正文，不是裴松之注。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhouyu-main",
+              "locator": "卷五十四・周瑜傳開篇及音律段"
+            }
+          ]
+        },
+        {
+          "text": "他與孫策的關係，正文記為兩人同年而『獨相友善』，周瑜讓出道南大宅安置孫策一家，升堂拜見孫策之母，兩家有無相通；後來孫策渡江時，周瑜又帶兵迎接。『總角之好，骨肉之分』與周瑜曾『發眾及船糧以濟大事』則出自裴注引《江表傳》，不是正文，但仍是很早的史籍材料。正史沒有兩人正式結拜的記載。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhouyu-main",
+              "locator": "卷五十四・與孫策交遊、迎策渡江"
+            },
+            {
+              "sourceId": "jiangbiao-zhuan-zhouyu",
+              "locator": "裴注引孫策授周瑜建威中郎將時令文"
+            }
+          ]
+        },
+        {
+          "text": "赤壁之戰中，周瑜是孫權方面力主抗曹並主持前線作戰的核心人物，官稱前部大督；但《程普傳》同時記兩人『為左右督』，劉備亦率軍與孫軍合作，因此更準確的說法是周瑜為孫權軍的主要前線統帥之一及作戰核心，而非整支聯軍唯一最高指揮者。火攻構想由黃蓋提出，詐降與火船前部由黃蓋執行，周瑜採納部署並率輕銳接續進攻，劉備與周瑜等又共同追擊。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhouyu-main",
+              "locator": "卷五十四・拒曹議、赤壁火攻"
+            },
+            {
+              "sourceId": "sgz-chengpu-main",
+              "locator": "卷五十五・程普傳『與周瑜為左右督』"
+            }
+          ]
+        }
+      ],
+      "originalTexts": [
+        {
+          "text": "瑜長壯有姿貌。",
+          "sourceId": "sgz-zhouyu-main",
+          "locator": "卷五十四・周瑜傳開篇"
+        },
+        {
+          "text": "瑜少精意於音樂。雖三爵之後，其有闕誤。瑜必知之，知之必顧，故時人謠曰：『曲有誤，周郎顧。』",
+          "sourceId": "sgz-zhouyu-main",
+          "locator": "卷五十四・周瑜傳音律段"
+        }
+      ]
+    },
+    "factionTimeline": [
+      {
+        "stageName": "孫策渡江創業・帶兵相助",
+        "personName": "孫策",
+        "personId": "sun-ce",
+        "actualFactionId": "sun-ce-jiangdong-regime",
+        "period": "興平年間（約194—195年，確切起訖不詳）",
+        "periodUncertain": true
+      },
+      {
+        "stageName": "袁術勢力・居巢長",
+        "personName": "袁術",
+        "personId": null,
+        "actualFactionId": "yuan-shu-faction",
+        "period": "興平年間後期至建安三年（約195／196—198年）",
+        "periodUncertain": true
+      },
+      {
+        "stageName": "孫策江東政權・正式歸吳",
+        "personName": "孫策",
+        "personId": "sun-ce",
+        "actualFactionId": "sun-ce-jiangdong-regime",
+        "period": "建安三年（198年）— 建安五年（200年）孫策去世",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "孫權江東政權・稱帝前",
+        "personName": "孫權",
+        "personId": "sun-quan",
+        "actualFactionId": "sun-quan-pre-imperial-regime",
+        "period": "建安五年（200年）— 建安十五年（210年）病逝",
+        "periodUncertain": false
+      }
+    ],
+    "relatives": [
+      {
+        "personName": "周景",
+        "personId": null,
+        "relation": "從祖父（同族祖輩）",
+        "natureType": "史籍記載",
+        "note": "《周瑜傳》稱周景、周景之子周忠皆任漢太尉；古代『從祖父』不宜直接套成現代單一親等，故保留原稱並以同族祖輩說明。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・周瑜傳開篇"
+          }
+        ]
+      },
+      {
+        "personName": "周忠",
+        "personId": null,
+        "relation": "族中父輩（周景之子）",
+        "natureType": "史籍記載",
+        "note": "與父周景先後任漢太尉；本傳沒有再詳述周忠與周瑜的現代親等稱呼。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・周瑜傳開篇"
+          }
+        ]
+      },
+      {
+        "personName": "周異",
+        "personId": null,
+        "relation": "父",
+        "natureType": "史籍記載",
+        "note": "官至洛陽令；本傳未載其生卒與其他仕歷。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・『父異，洛陽令』"
+          }
+        ]
+      },
+      {
+        "personName": "周尚",
+        "personId": null,
+        "relation": "從父（同族父輩）",
+        "natureType": "史籍記載",
+        "note": "曾任丹楊太守，周瑜前往探望時恰逢孫策渡江；袁術後遣袁胤代任，周尚與周瑜一同返回壽春。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・孫策渡江及袁術代守丹楊段"
+          }
+        ]
+      },
+      {
+        "personName": "孫策",
+        "personId": "sun-ce",
+        "relation": "情同兄弟（總角之好，骨肉之分）",
+        "natureType": "史籍記載",
+        "note": "《三國志》正文記兩人同年而「獨相友善」；裴松之注引《江表傳》載孫策稱與周瑜「總角之好，骨肉之分」，並記周瑜曾發眾及船糧相助。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・與孫策交遊、迎策渡江"
+          },
+          {
+            "sourceId": "jiangbiao-zhuan-zhouyu",
+            "locator": "裴注引孫策授周瑜建威中郎將時令文"
+          }
+        ],
+        "fictionalRelation": {
+          "label": "結拜兄長",
+          "natureType": "演義設定",
+          "citations": [
+            {
+              "sourceId": "sanguo-yanyi",
+              "locator": "第十五回",
+              "note": "「因結為昆仲，策長瑜兩月，瑜以兄事策」"
+            }
+          ]
+        }
+      },
+      {
+        "personName": "小橋（後世通作小喬）",
+        "personId": null,
+        "relation": "配偶（名分未詳）",
+        "natureType": "三國志正文／裴注補充",
+        "note": "《周瑜傳》正文記『策自納大橋，瑜納小橋』，所以周瑜納小橋本身是正文，不是裴注；裴注引《江表傳》另補孫策戲言。正文使用『納』字，未明定她是正妻或妾，也未記本名、生卒，更沒有說周瑜後載的二子一女皆為小橋所生。『小喬』是後世通行寫法。曹操欲奪二喬與正史無關。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・建安四年前後攻皖得橋公二女"
+          },
+          {
+            "sourceId": "jiangbiao-zhuan-zhouyu",
+            "locator": "裴注引孫策戲周瑜語"
+          },
+          {
+            "sourceId": "dumu-chibi",
+            "locator": "『銅雀春深鎖二喬』"
+          },
+          {
+            "sourceId": "sanguo-yanyi",
+            "locator": "第四十四回・孔明智激周瑜"
+          }
+        ]
+      },
+      {
+        "personName": "周氏（名不詳）",
+        "personId": null,
+        "relation": "女",
+        "natureType": "史籍記載",
+        "note": "嫁太子孫登；本傳未載姓名、生卒，也沒有說明其生母。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・『女配太子登』"
+          }
+        ]
+      },
+      {
+        "personName": "周循",
+        "personId": null,
+        "relation": "長子",
+        "natureType": "史籍記載",
+        "note": "尚公主，拜騎都尉，本傳稱『有瑜風』，但早卒；生母未載。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・周瑜子女段"
+          }
+        ]
+      },
+      {
+        "personName": "周胤",
+        "personId": null,
+        "relation": "次子",
+        "natureType": "史籍記載",
+        "note": "初拜興業都尉，娶孫氏宗女，領兵千人屯公安；黃龍元年封都鄉侯，後因罪徙廬陵。赤烏二年諸葛瑾、步騭等為他請還兵復爵，孫權最後同意，但適逢周胤病死。其生母未載。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・周胤及群臣請復爵段"
+          }
+        ]
+      },
+      {
+        "personName": "周峻",
+        "personId": null,
+        "relation": "兄子（侄）",
+        "natureType": "史籍記載",
+        "note": "因周瑜元功任偏將軍，領吏士千人；去世後，孫權沒有接受任用其子周護的建議。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・周瑜傳末"
+          }
+        ]
+      },
+      {
+        "personName": "周護",
+        "personId": null,
+        "relation": "侄孫（周峻之子）",
+        "natureType": "史籍記載",
+        "note": "周峻死後，全琮表薦周護為將，孫權以其性行危險而不用。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・周瑜傳末"
+          }
+        ]
+      }
+    ],
+    "titlesAndRanks": [
+      {
+        "title": "居巢長",
+        "period": "興平年間後期至建安三年（約195／196—198年），袁術准其請求",
+        "citations": [
+          {
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・離開袁術前"
+          }
+        ]
+      },
+      {
+        "title": "建威中郎將",
+        "period": "建安三年（198年）歸吳後；孫策同時給兵二千、騎五十",
+        "citations": [
+          {
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・建安三年歸吳"
+          }
+        ]
+      },
+      {
+        "title": "春穀長",
+        "period": "建安三年至四年間（約198—199年，確切年月不詳）",
+        "citations": [
+          {
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・備牛渚後"
+          }
+        ]
+      },
+      {
+        "title": "中護軍、領江夏太守",
+        "period": "孫策準備攻取荊州、進攻皖城時（約199年）",
+        "citations": [
+          {
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・從孫策攻皖前"
+          }
+        ]
+      },
+      {
+        "title": "中護軍、與長史張昭共掌眾事",
+        "period": "建安五年（200年）孫策死後",
+        "citations": [
+          {
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・孫權統事"
+          }
+        ]
+      },
+      {
+        "title": "前部大督",
+        "period": "建安十三年（208年）孫權攻黃祖時",
+        "citations": [
+          {
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・建安十三年春"
+          }
+        ]
+      },
+      {
+        "title": "左右督之一（與程普）",
+        "period": "建安十三年（208年）赤壁、烏林之戰",
+        "citations": [
+          {
+            "sourceId": "sgz-chengpu-main",
+            "locator": "卷五十五・程普傳"
+          }
+        ]
+      },
+      {
+        "title": "偏將軍、領南郡太守；奉邑四縣",
+        "period": "建安十四年（209年）曹仁退出南郡後",
+        "citations": [
+          {
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・南郡戰後"
+          }
+        ]
+      }
+    ],
+    "posthumousTitle": null,
+    "evaluations": {
+      "contemporary": [
+        {
+          "evaluatorName": "孫策",
+          "evaluatorEra": "東漢末年",
+          "context": "建安三年授周瑜建威中郎將時，裴注引《江表傳》所載令文",
+          "textType": "古籍原文",
+          "originalText": "周公瑾英俊異才，與孤有總角之好，骨肉之分。如前在丹楊，發眾及船糧以濟大事，論德酬功，此未足以報者也。",
+          "citations": [
+            {
+              "sourceId": "jiangbiao-zhuan-zhouyu",
+              "locator": "裴注引孫策令"
+            }
+          ],
+          "paraphrase": "孫策稱周瑜才華出眾，與自己從小交好、情同骨肉，又曾出兵出糧協助成就大事，現有封賞仍不足以報答其功勞。"
+        },
+        {
+          "evaluatorName": "程普",
+          "evaluatorEra": "東漢末年",
+          "context": "程普起初以年長屢次凌侮周瑜，後因周瑜謙讓而敬服；裴注引《江表傳》",
+          "textType": "古籍原文",
+          "originalText": "與周公瑾交，若飲醇醪，不覺自醉。",
+          "citations": [
+            {
+              "sourceId": "jiangbiao-zhuan-zhouyu",
+              "locator": "裴注引程普語"
+            }
+          ],
+          "paraphrase": "程普表示與周瑜相處如同飲下醇厚美酒，會在不知不覺間為其氣度所折服。"
+        },
+        {
+          "evaluatorName": "蔣幹",
+          "evaluatorEra": "東漢末年",
+          "context": "曹操派蔣幹游說周瑜未成後；裴注引《江表傳》",
+          "textType": "古籍原文",
+          "paraphrase": "蔣幹回報稱周瑜雅量高致，不可能以言辭離間；中州人士也因此稱許他。",
+          "citations": [
+            {
+              "sourceId": "jiangbiao-zhuan-zhouyu",
+              "locator": "裴注引蔣幹說周瑜段"
+            }
+          ],
+          "originalText": "幹還，稱瑜雅量高致，非言辭所間。"
+        },
+        {
+          "evaluatorName": "孫權",
+          "evaluatorEra": "東漢末年",
+          "context": "周瑜去世時哭悼；裴注引《江表傳》",
+          "textType": "古籍原文",
+          "originalText": "公瑾有王佐之資，今忽短命，孤何賴哉！",
+          "citations": [
+            {
+              "sourceId": "jiangbiao-zhuan-zhouyu",
+              "locator": "裴注引孫權哭周瑜語"
+            }
+          ],
+          "paraphrase": "孫權哀嘆周瑜具有輔佐帝王的才器，如今突然早逝，使自己失去了最重要的依靠。"
+        },
+        {
+          "evaluatorName": "孫權",
+          "evaluatorEra": "孫吳皇帝",
+          "context": "稱帝後追論周瑜奠定帝業之功；裴注引《江表傳》",
+          "textType": "古籍原文",
+          "originalText": "孤非周公瑾，不帝矣。",
+          "citations": [
+            {
+              "sourceId": "jiangbiao-zhuan-zhouyu",
+              "locator": "裴注引孫權稱尊號後語"
+            }
+          ],
+          "paraphrase": "孫權承認若沒有周瑜建立的功業，自己便不可能登上皇帝之位。"
+        }
+      ],
+      "later": [
+        {
+          "evaluatorName": "陳壽",
+          "evaluatorEra": "西晉（《三國志》作者）",
+          "context": "《周瑜魯肅呂蒙傳》卷末合評",
+          "textType": "古籍原文",
+          "originalText": "周瑜、魯肅建獨斷之明，出眾人之表，實奇才也。",
+          "citations": [
+            {
+              "sourceId": "sgz-wushu54-appraisal",
+              "locator": "卷五十四卷末評語"
+            }
+          ],
+          "paraphrase": "陳壽稱周瑜、魯肅具有獨立果斷的見識，才華遠超常人，確實都是罕見的奇才。"
+        },
+        {
+          "evaluatorName": "杜牧",
+          "evaluatorEra": "唐代",
+          "context": "〈赤壁〉以反事設想凸顯周瑜勝負對江東命運的影響；屬詩歌想像，不是史實補充",
+          "textType": "古籍原文",
+          "originalText": "東風不與周郎便，銅雀春深鎖二喬。",
+          "citations": [
+            {
+              "sourceId": "dumu-chibi",
+              "locator": "〈赤壁〉後二句"
+            }
+          ],
+          "paraphrase": "杜牧以假設東風未曾相助的反面想像，凸顯赤壁勝負對周瑜與江東命運的重大影響。"
+        }
+      ]
+    }
+  },
+  "historicalBio": [
+    {
+      "period": "熹平四年（175年）至少年時",
+      "periodType": "range",
+      "title": "廬江士族出身，長壯有姿貌且精通音律",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "周瑜生於廬江舒縣。其家族在東漢中央官僚體系中地位不低，從祖父周景及周忠均任太尉，父周異任洛陽令。本傳稱周瑜成年後體格高大健壯、容貌出眾；又明載他年少精通音樂，即使飲酒後也能發現樂曲錯誤。後世俊美儒將形象有史料基礎，但正文沒有具體描寫他的臉形、服色或兵器。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・周瑜傳開篇及音律段"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "周瑜字公瑾，廬江舒人也。從祖父景，景子忠，皆為漢太尉。父異，洛陽令。瑜長壯有姿貌。",
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・周瑜傳開篇"
+          }
+        ]
+      }
+    },
+    {
+      "period": "中平末年至興平年間（約189—195年）",
+      "periodType": "approx",
+      "title": "與孫策交好，帶兵協助渡江創業",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "孫堅起兵討董卓後把家遷到舒縣，孫策與周瑜同年，兩人特別友善。周瑜把道南大宅讓給孫策居住，親自拜見孫策之母，兩家財物互通。孫策後來準備從歷陽東渡時馳書通知周瑜，周瑜帶兵迎接；孫策大喜，稱有周瑜相助，大事可成。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・與孫策交遊、迎策渡江"
+              }
+            ]
+          },
+          {
+            "text": "孫策所稱『總角之好，骨肉之分』以及周瑜在丹楊『發眾及船糧』相助，保存於裴注引《江表傳》。這能證明兩人早年交情與實際軍需援助，但正史沒有正式結拜儀式；網站不應以演義式『結義兄弟』取代史料用語。",
+            "citations": [
+              {
+                "sourceId": "jiangbiao-zhuan-zhouyu",
+                "locator": "裴注引孫策令"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "堅子策與瑜同年，獨相友善，瑜推道南大宅以舍策，升堂拜母，有無通共。",
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・周瑜傳"
+          },
+          {
+            "text": "會策將東渡，到歷陽，馳書報瑜，瑜將兵迎策。策大喜曰：『吾得卿，諧也。』",
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・孫策東渡"
+          }
+        ]
+      },
+      "uncertaintyNote": "正文沒有為讓宅、拜母及首次迎策逐一標年；只能依孫堅討董卓與孫策渡江活動推定大致時段。"
+    },
+    {
+      "period": "興平年間後期至建安三年（約195／196—198年）",
+      "periodType": "approx",
+      "title": "短暫處於袁術體系，以居巢長為東歸之途",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "周瑜協助孫策攻取橫江、當利、秣陵等地後，依孫策安排返回丹楊。袁術隨後以從弟袁胤取代周尚為丹楊太守，周瑜與周尚一同返回壽春。袁術想任周瑜為將，周瑜判斷袁術終究不能成事，便求任居巢長，打算藉此取得東歸孫策的道路；袁術允許後，周瑜於建安三年從居巢返回吳地。這段應獨立列為袁術勢力，不能把周瑜一生簡化成始終未離孫策。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・返回壽春、求居巢長、建安三年東歸"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "術欲以瑜為將，瑜觀術終無所成，故求為居巢長，欲假塗東歸，術聽之。遂自居巢還吳。是歲，建安三年也。",
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・周瑜傳"
+          }
+        ]
+      },
+      "uncertaintyNote": "返回壽春與任居巢長的確切年份未載；建安三年（198年）東歸則為正文確定紀年。"
+    },
+    {
+      "period": "建安三年至五年（198—200年）",
+      "periodType": "range",
+      "title": "正式歸吳，攻皖納小橋並隨孫策經略荊豫",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "建安三年周瑜回到吳地，孫策親自迎接，任命他為建威中郎將，給兵二千、騎五十；周瑜當時二十四歲，吳中稱為『周郎』。他先後備守牛渚、領春穀長，之後任中護軍、領江夏太守，隨孫策攻下皖城，又進攻尋陽、劉勳與江夏，回軍平定豫章、廬陵。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・建安三年歸吳至留鎮巴丘"
+              }
+            ]
+          },
+          {
+            "text": "攻下皖城後，正文記孫策、周瑜得到橋公二女，孫策納大橋，周瑜納小橋。裴注引《江表傳》僅補孫策以二人同為橋公女婿開玩笑。史料沒有交代二橋本名，也沒有證明小橋的正妻／妾名分；後世常寫『大喬、小喬』，正史字形作『大橋、小橋』。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・攻皖得橋公二女"
+              },
+              {
+                "sourceId": "jiangbiao-zhuan-zhouyu",
+                "locator": "裴注引孫策戲周瑜語"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "策親自迎瑜，授建威中郎將，即與兵二千人，騎五十匹。瑜時年二十四，吳中皆呼為周郎。",
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・建安三年"
+          },
+          {
+            "text": "時得橋公兩女，皆國色也。策自納大橋，瑜納小橋。",
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・攻皖"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安五年至十二年（200—207年）",
+      "periodType": "range",
+      "title": "支持孫權承業，與張昭共掌眾事",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "建安五年孫策去世後，周瑜率兵赴喪並留在吳地，以中護軍身分與長史張昭共掌眾事。孫策之母又要求孫權像兄長一樣對待周瑜；周瑜則在其他將領尚以簡略賓客禮對孫權時，率先盡敬、確立臣節。建安七年前後曹操要求孫權送質子，裴注引《江表傳》記周瑜主張不可受制於曹氏，孫權及其母採納。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・孫權統事及周瑜執臣節"
+              },
+              {
+                "sourceId": "jiangbiao-zhuan-zhouyu",
+                "locator": "裴注引建安七年拒送質子議"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "五年，策薨。權統事。瑜將兵赴喪，遂留吳，以中護軍與長史張昭共掌眾事。",
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・建安五年"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安十一年至十三年（206—208年）",
+      "periodType": "range",
+      "title": "平麻保、擒鄧龍，攻黃祖後力主拒曹",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "建安十一年，周瑜督孫瑜等討平麻、保二屯，斬其首領並俘虜萬餘人；黃祖部將鄧龍率數千人進入柴桑時，周瑜追擊生擒鄧龍。建安十三年春，孫權攻江夏黃祖，周瑜任前部大督。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・建安十一年至十三年春"
+              }
+            ]
+          },
+          {
+            "text": "同年曹操取得荊州後，孫權部下多主張迎降。周瑜分析曹操北方未定、關西仍有馬超韓遂、水戰非北軍所長、遠征軍不習水土且將生疾病，請以精兵三萬進住夏口破敵。孫權採納其抗曹主張。裴松之同時指出，建議孫權拒曹的先發之功實始於魯肅，周瑜與魯肅暗合；因此不能抹去魯肅的決策貢獻。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・建安十三年拒曹議及裴松之案語"
+              },
+              {
+                "sourceId": "sgz-lusu-main",
+                "locator": "卷五十四・魯肅勸孫權拒曹、召周瑜"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "將軍擒操，宜在今日。瑜請得精兵三萬人，進住夏口，保為將軍破之。",
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・周瑜拒曹議"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安十三年（208年）",
+      "periodType": "exact",
+      "title": "赤壁、烏林之戰：黃蓋建火攻，周瑜統率接戰",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "孫權派周瑜、程普等與劉備合力迎擊曹操，兩軍在赤壁遭遇。曹軍已有疾病，初次交戰敗退至江北，孫劉軍在南岸。《程普傳》明載程普與周瑜為左右督；周瑜是孫權方面的作戰核心與主要前線統帥之一，但聯軍還有程普與劉備，不宜寫成周瑜一人獨掌全部盟軍。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・赤壁初戰"
+              },
+              {
+                "sourceId": "sgz-chengpu-main",
+                "locator": "卷五十五・『與周瑜為左右督』"
+              }
+            ]
+          },
+          {
+            "text": "火攻建議明確由周瑜部將黃蓋提出。黃蓋見曹軍船艦首尾相接，建議以火燒退；孫軍準備數十艘蒙沖鬥艦，內裝薪草、灌油、覆以帷幕並建旗，先寫信欺稱投降，又把走舸繫在大船後方。接近曹軍後，黃蓋令火船同時發火，猛烈風勢把火延燒到岸上營落；周瑜等率輕銳緊接其後進攻，曹軍大敗，劉備與周瑜等再共同追擊。故構想與詐降火船前部功勞歸黃蓋，周瑜的功勞在採納、組織、統率與後續接戰。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・黃蓋建議、詐降火攻及追擊"
+              }
+            ]
+          },
+          {
+            "text": "正文只說『時風盛猛』；裴注引《江表傳》說當時東南風急。正史沒有諸葛亮設七星壇『借東風』，也沒有草船借箭一事，更沒有記周瑜參與這兩件事。兩者都是《三國演義》為諸葛亮安排的小說情節。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・赤壁火攻"
+              },
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第四十六回草船借箭、第四十九回七星壇祭風"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "瑜部將黃蓋曰：『今寇眾我寡，難與持久。然觀操軍船艦，首尾相接，可燒而走也。』",
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・赤壁火攻"
+          },
+          {
+            "text": "蓋放諸船，同時發火。時風盛猛，悉延燒岸上營落。頃之，煙炎張天，人馬燒溺死者甚眾，軍遂敗退，還保南郡。",
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・赤壁火攻"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安十三年至十四年（208—209年）",
+      "periodType": "range",
+      "title": "進攻南郡，負傷督戰而迫曹仁退兵",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操北退後，周瑜與程普進攻曹仁守備的南郡。周瑜先派甘寧據夷陵；甘寧被圍後，周瑜採呂蒙之計，親自與呂蒙救援，再渡江屯於北岸決戰。周瑜親自跨馬臨陣時右脅中流矢，傷勢嚴重；曹仁聽說他臥病未起而來挑戰，周瑜仍起身巡營激勵將士，曹仁遂退。戰後孫權拜周瑜為偏將軍、領南郡太守，以四縣為奉邑，屯江陵。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・南郡之戰及戰後任命"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "瑜親跨馬擽陳，會流矢中右脅，瘡甚，便還。後仁聞瑜臥未起，勒兵就陳。瑜乃自興，案行軍營，激揚吏士，仁由是遂退。",
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・南郡之戰"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安十四年至十五年（209—210年）",
+      "periodType": "range",
+      "title": "提出控制劉備與取蜀北圖的戰略",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "劉備到京口見孫權後，周瑜上疏指出劉備具梟雄之姿，關羽、張飛又是熊虎之將，主張把劉備留在吳地、以宮室與玩好牽制，再分開關張而由吳將統率作戰；孫權考量曹操仍在北方、需廣攬英雄且劉備難以猝制，沒有採納。這顯示周瑜對孫劉聯盟始終有高度戒心。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・周瑜上疏論劉備"
+              }
+            ]
+          },
+          {
+            "text": "周瑜又向孫權提出西取益州、兼併張魯、與馬超結援，再由自己回軍與孫權據襄陽壓迫曹操的計畫。孫權同意，周瑜返回江陵準備行裝。這是正史中的取蜀戰略，不是小說所寫借『假途滅虢』之名再被諸葛亮識破的劇情。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・取蜀並張魯之議"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "乞與奮威俱進取蜀，得蜀而并張魯，因留奮威固守其地，好與馬超結援。瑜還與將軍據襄陽以蹙操，北方可圖也。",
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・取蜀之議"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安十五年（210年）",
+      "periodType": "exact",
+      "title": "整備取蜀途中病卒巴丘，臨終薦魯肅",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "孫權批准取蜀計畫後，周瑜回江陵整備，途中在巴丘病逝，年三十六。裴松之指出，此處應是當時巴陵一帶的巴丘，與周瑜早年所鎮、屬廬陵郡的巴丘同名而不同地。史書只說病卒／暴疾，沒有記具體病名；更沒有諸葛亮以計策把他氣死。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・取蜀整備、巴丘病卒及裴松之案語"
+              }
+            ]
+          },
+          {
+            "text": "周瑜病重時上疏孫權，憂慮曹操在北、劉備近在公安、邊民未附，明確推薦魯肅以智略接任。裴注引《江表傳》保存另一篇辭句較詳但意旨相同的臨終箋。孫權隨即任魯肅為奮武校尉，接掌周瑜四千餘兵與四縣奉邑。這才是正史中的遺言與權力交接。",
+            "citations": [
+              {
+                "sourceId": "sgz-lusu-main",
+                "locator": "卷五十四・周瑜病困上疏薦魯肅"
+              },
+              {
+                "sourceId": "jiangbiao-zhuan-zhouyu",
+                "locator": "裴注引周瑜臨終箋"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "瑜還江陵為行裝，而道於巴丘病卒，時年三十六。",
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・周瑜傳"
+          },
+          {
+            "text": "魯肅智略足任，乞以代瑜。瑜隕踣之日，所懷盡矣。",
+            "sourceId": "sgz-lusu-main",
+            "locator": "卷五十四・魯肅傳載周瑜臨終上疏"
+          }
+        ]
+      },
+      "uncertaintyNote": "死亡年份、地點名與享年均有正文依據；具體病名未載。更精確地說，周瑜是在取蜀計畫獲准、回江陵整備期間病卒，史書沒有明寫大軍已正式出發進入益州。"
+    },
+    {
+      "period": "周瑜死後",
+      "periodType": "range",
+      "title": "子女受封與孫權持續追念",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "周瑜有二子一女。女兒嫁太子孫登；長子周循尚公主、任騎都尉，早卒；次子周胤任興業都尉、娶宗女、領兵千人，後封都鄉侯，因罪徙廬陵。赤烏二年諸葛瑾、步騭等聯名請孫權念周瑜功勳恢復周胤兵爵，孫權最終同意，但周胤恰在此時病死。史書沒有說明三人的生母，不能自動全部歸為小橋所生。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・周瑜子女及周胤復爵議"
+              }
+            ]
+          },
+          {
+            "text": "孫權晚年仍把赤壁破曹、拓有荊州歸功於周瑜，並在稱帝後說若非周公瑾，自己不能成就帝業。《三國志》沒有記載周瑜獲得諡號，故 posthumousTitle 保持 null，不依後世尊稱自行補造。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・周瑜傳裴注及傳末"
+              },
+              {
+                "sourceId": "jiangbiao-zhuan-zhouyu",
+                "locator": "裴注引孫權稱尊號後語"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "瑜兩男一女，女配太子登。男循尚公主，拜騎都尉，有瑜風，早卒。循弟胤，初拜興業都尉。",
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・周瑜子女段"
+          }
+        ]
+      }
+    }
+  ],
+  "romanceBio": [
+    {
+      "chapter": "第四十四回",
+      "eventName": "孔明以『奪二喬』智激周瑜",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫諸葛亮故意告訴周瑜，曹操南征真正目的是奪取大喬、小喬，並把曹植〈銅雀臺賦〉改誦為『攬二喬於東南兮，樂朝夕之與共』。周瑜因小喬是自己之妻而大怒，遂堅決抗曹。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第四十四回・孔明用智激周瑜"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "此為小說情節，正史無載。裴注引陰澹《魏紀》保存的曹植賦文沒有『二喬／二橋』，也沒有曹操欲奪二喬的意思；杜牧唐詩『銅雀春深鎖二喬』是較早的後世文學想像，《三國演義》再把它改造成曹操伐吳動機與諸葛亮激將計。正史中的周瑜以軍事與政治形勢力主拒曹，並非因私怨才決戰。",
+            "citations": [
+              {
+                "sourceId": "yin-dan-weiji-tongquetai-fu",
+                "locator": "裴注引陰澹《魏紀》載賦文"
+              },
+              {
+                "sourceId": "dumu-chibi",
+                "locator": "〈赤壁〉"
+              },
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・周瑜拒曹議"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第四十五回",
+      "eventName": "群英會設局，使蔣幹盜書",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫周瑜故意佯醉，讓來做說客的蔣幹偷走偽造書信，誘使曹操誤殺蔡瑁、張允，以解除曹軍水軍威脅。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第四十五回・群英會蔣幹中計"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "裴注引《江表傳》確有曹操派蔣幹游說周瑜之事，但周瑜只是以君臣骨肉之恩表明不可動搖，展示軍營後送客；蔣幹回報周瑜雅量高致、非言辭所能離間。正史沒有盜書，也沒有周瑜借蔣幹之手害死蔡瑁、張允。",
+            "citations": [
+              {
+                "sourceId": "jiangbiao-zhuan-zhouyu",
+                "locator": "裴注引蔣幹游說周瑜"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第四十六回",
+      "eventName": "草船借箭與周瑜嫉才",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫周瑜妒忌諸葛亮才智，命他十日造十萬支箭並暗中阻撓；諸葛亮立軍令狀，利用霧夜草船向曹軍『借箭』，三日完成。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第四十六回・用奇謀孔明借箭"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "此為小說情節，正史無載。《三國志》赤壁相關記載沒有草船借箭，也沒有周瑜命諸葛亮造箭或因嫉才欲害諸葛亮。周瑜與諸葛亮在赤壁期間的具體私人競爭，正史亦無相應記載。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・赤壁戰事"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第四十六至四十九回",
+      "eventName": "苦肉計、連環計與借東風",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說把赤壁火攻擴寫成周瑜與黃蓋合演苦肉計、闞澤獻詐降書、龐統施連環計，最後由諸葛亮築七星壇借來東南風；周瑜見諸葛亮能呼風喚雨，又起殺心。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第四十六至四十九回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史確有黃蓋提出火攻、先書詐降、以載薪灌油船隻縱火，也記當時風勢猛烈；但沒有黃蓋先受杖責的苦肉計、龐統獻連環計或諸葛亮借東風。火攻構想與詐降前部應歸黃蓋，周瑜則負責統率並率輕銳後繼。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・黃蓋火攻與《江表傳》補充"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第五十一至五十六回",
+      "eventName": "三氣周瑜與『假途滅虢』",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說讓諸葛亮接連奪取南郡、破壞周瑜的美人計，再識破周瑜假借替劉備取西川、實欲襲取荊州的『假途滅虢』計。周瑜因反覆受挫而吐血，形成『三氣周瑜』主線。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第五十一至五十六回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史與小說有重大出入。南郡是周瑜與程普等歷經作戰、周瑜中箭負傷後迫使曹仁退走所得；周瑜取蜀、並張魯、聯馬超再圖北方的方案也是真實向孫權提出並獲批准的戰略，不是諸葛亮揭穿的假道偷襲。正史沒有『三氣』情節。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・南郡之戰及取蜀之議"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第五十七回",
+      "eventName": "『既生瑜，何生亮』而亡",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫周瑜行至巴丘，收到諸葛亮書信後怒氣攻心，墜馬吐血，臨死連嘆『既生瑜，何生亮』，並在遺書中推薦魯肅。這句名言由小說塑造，並不見於《三國志》。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第五十七回・周瑜病亡"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史記周瑜在取蜀計畫獲准、回江陵整備期間於巴丘病卒，年三十六；沒有諸葛亮以書信或計謀把他氣死，也沒有『既生瑜，何生亮』。推薦魯肅接任確有正史依據，但出自周瑜病困時向孫權所上的疏／箋，理由是曹操、劉備與邊境形勢，不是向諸葛亮認輸。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・巴丘病卒"
+              },
+              {
+                "sourceId": "sgz-lusu-main",
+                "locator": "卷五十四・周瑜臨終上疏薦魯肅"
+              },
+              {
+                "sourceId": "jiangbiao-zhuan-zhouyu",
+                "locator": "裴注引周瑜臨終箋"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": "上疏論劉備",
+      "type": "上疏",
+      "extant": "全文保存於《三國志・周瑜傳》正文",
+      "attribution": "周瑜親自呈奏孫權的上疏文字，可信度高",
+      "summary": "劉備以左將軍領荊州牧、到京口見孫權後，周瑜上疏認為劉備具梟雄之姿，麾下又有關羽、張飛熊虎之將，主張把劉備留置吳地，以宮室、美女與玩好牽制，並將關羽、張飛分開安置、各置一方，藉此消解劉備日後坐大的威脅。孫權考量曹操仍在北方、需廣攬英雄且劉備難以猝制，最終沒有採納。",
+      "anthology": "《三國志》卷五十四《吳書・周瑜傳》；清嚴可均輯《全後漢文》卷九十四題作〈疏論劉備〉收錄",
+      "excerpt": "劉備以梟雄之姿，而有關羽、張飛熊虎之將，必非久屈為人用者。愚謂大計宜徙備置吳，盛為築宮室，多其美女玩好，以娛其耳目，分此二人，各置一方，使如瑜者得挾與攻戰，大事可定也。",
+      "citations": [
+        {
+          "sourceId": "sgz-zhouyu-main",
+          "locator": "卷五十四・周瑜上疏論劉備"
+        }
+      ]
+    },
+    {
+      "title": "臨終上疏／疾困與孫權箋",
+      "type": "上疏／書信",
+      "extant": "《三國志・魯肅傳》正文保存簡短版本，裴松之注引《江表傳》另保存篇幅較長的異本",
+      "attribution": "周瑜病重臨終前呈孫權的文書，兩個版本文字不同但意旨相同；裴松之本人案語明言『此箋與本傳所載，意旨雖同，其辭乖異耳』，應視為同一封臨終文書的兩種傳本，不是兩篇不同的作品",
+      "summary": "周瑜病危時上疏孫權，分析曹操在北、劉備寄寓荊州近在公安、邊民未附的形勢，力薦魯肅接替自己統兵鎮撫。裴注引《江表傳》所存較長版本，另回顧受孫策知遇之恩、規劃取蜀取襄陽的未竟志向，措辭更詳盡沉痛。",
+      "anthology": "《三國志》卷五十四《吳書・周瑜魯肅呂蒙傳》正文及裴松之注引《江表傳》",
+      "excerpt": "人生有死，修短命矣，誠不足惜，但恨微志未展，不復奉教命耳。方今曹公在北，疆埸未靜，劉備寄寓，有似養虎，天下之事，未知終始，此朝士旰食之秋，至尊垂慮之日也。魯肅忠烈，臨事不苟，可以代瑜。",
+      "citations": [
+        {
+          "sourceId": "sgz-lusu-main",
+          "locator": "卷五十四・周瑜病困上疏薦魯肅"
+        },
+        {
+          "sourceId": "jiangbiao-zhuan-zhouyu",
+          "locator": "裴注引周瑜臨終箋，並見裴松之案語『此箋與本傳所載，意旨雖同，其辭乖異耳』"
+        }
+      ]
+    }
+  ]
+}
