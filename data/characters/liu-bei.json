@@ -83,7 +83,7 @@
       {
         "stageName": "徐州失守、轉依呂布與曹操",
         "personName": "曹操",
-        "personId": null,
+        "personId": "cao-cao",
         "actualFactionId": "cao-cao-han-court",
         "period": "建安元年（196年）— 建安四年（199年）",
         "periodUncertain": false
