@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 2,
+  "dataStatus": "reviewed-draft",
+  "published": true,
+  "lastReviewedAt": "2026-08-05",
+  "demoNote": "黃夫人是真實歷史人物，但現存早期記載極少。本檔將裴松之注引《襄陽記》、《三國演義》第一百十七回與現代遊戲塑造分層處理；頁首不用後世通稱『黃月英』冒充本名，也不收錄查無明確可靠出處的木牛流馬等發明傳說。",
+  "id": "huang-furen",
+  "name": "黃夫人",
+  "courtesyName": null,
+  "childhoodName": null,
+  "artName": null,
+  "otherNames": [
+    "黃氏（《三國演義》稱呼）"
+  ],
+  "lifespan": "生卒年不詳",
+  "birthplace": "不詳（父親黃承彥為沔南名士）",
+  "primaryIdentity": "東漢末年沔南名士黃承彥之女、諸葛亮之妻；本名不詳。",
+  "summary": "裴松之注引《襄陽記》記載，黃承彥將女兒許配給諸葛亮，並稱其女雖有黃髮黑膚的外貌特徵，才具足以與諸葛亮相配。史料沒有留下她的本名、生卒年或其他可確認事蹟；『黃月英』是後世流傳並經現代大眾文化普及的稱呼。",
+  "avatar": "images/huang_furen.png",
+  "overview": {
+    "intro": {
+      "paragraphs": [
+        {
+          "text": "黃夫人是諸葛亮之妻、沔南名士黃承彥之女。她沒有獨立傳記，婚姻資料見於裴松之注《三國志・諸葛亮傳》所引《襄陽記》，不是陳壽《三國志》正文。該書稱黃承彥主動向諸葛亮提親，形容女兒黃頭黑色而才堪相配；諸葛亮允婚後，鄉里因她的外貌而傳出取笑諺語。",
+          "citations": [
+            {
+              "sourceId": "xiangyang-ji-zhuge",
+              "locator": "《諸葛亮傳》裴松之注引《襄陽記》・黃承彥嫁女"
+            }
+          ]
+        },
+        {
+          "text": "現存正史與裴注都沒有記載她的本名。《三國演義》第一百十七回也只稱『黃氏』，並未使用『黃月英』。『黃月英』的確切最早出處目前缺乏可核實的一手材料；能明確確認的是，2003年光榮《真・三國無雙3》以『月英』為角色名，進一步強化了這個後世名稱在當代大眾文化中的能見度。",
+          "citations": [
+            {
+              "sourceId": "xiangyang-ji-zhuge",
+              "locator": "記婚姻而未載女兒本名"
+            },
+            {
+              "sourceId": "sanguo-yanyi",
+              "locator": "第一百一十七回・僅稱『黃氏』"
+            },
+            {
+              "sourceId": "shin-sangokumusou-3-yueying",
+              "locator": "2003年『月英』角色設定"
+            }
+          ]
+        }
+      ]
+    },
+    "factionTimeline": [
+      {
+        "stageName": "家庭關係・隨諸葛亮出仕蜀漢",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "liubei-group",
+        "period": "婚年不詳 — 卒年不詳",
+        "periodUncertain": true
+      }
+    ],
+    "relatives": [
+      {
+        "personName": "黃承彥",
+        "personId": null,
+        "relation": "父",
+        "natureType": "裴松之注引記載",
+        "note": "《襄陽記》稱黃承彥高爽開列，為沔南名士，並記載他主動向諸葛亮提議婚配。",
+        "citations": [
+          {
+            "sourceId": "xiangyang-ji-zhuge",
+            "locator": "《諸葛亮傳》裴松之注引《襄陽記》・黃承彥嫁女"
+          }
+        ]
+      },
+      {
+        "personName": "諸葛亮",
+        "personId": "zhuge-liang",
+        "relation": "夫",
+        "natureType": "裴松之注引記載",
+        "note": "《襄陽記》記載黃承彥向諸葛亮提親，諸葛亮允婚；史料未記婚年。",
+        "citations": [
+          {
+            "sourceId": "xiangyang-ji-zhuge",
+            "locator": "《諸葛亮傳》裴松之注引《襄陽記》・黃承彥嫁女"
+          }
+        ]
+      },
+      {
+        "personName": "諸葛瞻",
+        "personId": null,
+        "relation": "《三國演義》明文所稱之子",
+        "natureType": "演義原文",
+        "note": "《三國演義》第一百十七回明稱諸葛瞻『其母黃氏，即黃承彥之女也』。現存《三國志》正文雖記諸葛瞻為諸葛亮之子，沒有在同段明記其生母姓名，因此此處只按演義原文標示，不將母子關係包裝成正文明載。",
+        "citations": [
+          {
+            "sourceId": "sanguo-yanyi",
+            "locator": "第一百一十七回・諸葛瞻出場"
+          },
+          {
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・諸葛瞻附傳，未記生母姓名"
+          }
+        ]
+      }
+    ],
+    "titlesAndRanks": [],
+    "posthumousTitle": null,
+    "evaluations": {
+      "contemporary": [],
+      "later": []
+    }
+  },
+  "historicalBio": [
+    {
+      "period": "年份不詳",
+      "periodType": "unknown",
+      "title": "黃承彥嫁女，婚配諸葛亮",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "裴松之注引《襄陽記》記載，沔南名士黃承彥得知諸葛亮正在選擇婚配對象，便主動表示自己有一名容貌被形容為黃頭黑色、但才具足以相配的女兒。諸葛亮答應婚事，黃承彥隨即將女兒送嫁；當時鄉里因其外貌而以諺語取笑諸葛亮的選擇。",
+            "citations": [
+              {
+                "sourceId": "xiangyang-ji-zhuge",
+                "locator": "《諸葛亮傳》裴松之注引《襄陽記》・黃承彥嫁女"
+              }
+            ]
+          },
+          {
+            "text": "這是目前可核對的主要早期記載。它能確認黃承彥之女與諸葛亮的婚姻，也記下父親對女兒外貌與才具的說法；但沒有記載她的本名、生卒年、具體學問、政治或軍事活動，也不能據此證明後世所說的發明事蹟。",
+            "citations": [
+              {
+                "sourceId": "xiangyang-ji-zhuge",
+                "locator": "原文記載範圍"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "聞君擇婦；身有醜女，黃頭黑色，而才堪相配。",
+            "sourceId": "xiangyang-ji-zhuge",
+            "locator": "《諸葛亮傳》裴松之注引《襄陽記》"
+          }
+        ]
+      },
+      "uncertaintyNote": "《襄陽記》原文沒有記載婚姻年份；裴松之將此條附於《諸葛亮傳》末段，也不能用注文所在位置推定事件發生年代。"
+    }
+  ],
+  "romanceBio": [
+    {
+      "chapter": "第一百一十七回",
+      "eventName": "《三國演義》中的黃氏與諸葛瞻身世",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "《三國演義》在諸葛瞻登場時追述其母，只稱她為黃氏、黃承彥之女。小說形容她容貌甚陋而才具非凡，通曉天文、地理、韜略與遁甲；又說諸葛亮在南陽時聞其賢能而求娶，自己的學問也多受夫人幫助。小說並稱諸葛亮死後黃氏不久也去世，臨終以忠孝勉勵兒子諸葛瞻。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第一百一十七回・鄧士載偷度陰平，諸葛瞻戰死綿竹"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "其母黃氏，即黃承彥之女也。母貌甚陋，而有奇才。",
+            "sourceId": "sanguo-yanyi",
+            "locator": "第一百一十七回"
+          },
+          {
+            "text": "武侯之學，夫人多所贊助焉。",
+            "sourceId": "sanguo-yanyi",
+            "locator": "第一百一十七回"
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "裴注引《襄陽記》能支持的只有黃承彥之女、外貌描述、才堪相配及諸葛亮允婚。精通天文地理與韜略遁甲、協助諸葛亮學問、諸葛亮死後不久去世、臨終教子忠孝等內容，都不見於該段早期史料，應視為《三國演義》的增飾。",
+            "citations": [
+              {
+                "sourceId": "xiangyang-ji-zhuge",
+                "locator": "《諸葛亮傳》裴松之注引《襄陽記》・原文記載範圍"
+              },
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第一百一十七回・小說增飾"
+              }
+            ]
+          },
+          {
+            "text": "本回原著仍只稱『黃氏』，沒有使用『黃月英』；因此不能把黃月英標成《三國演義》原著姓名。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第一百一十七回"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "後世大眾文化（非《三國演義》原著）",
+      "eventName": "『黃月英』名稱的後世流傳與現代普及",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "後世通俗敘事與大眾文化常以『黃月英』稱呼諸葛亮之妻，但目前未找到足以確定這個名字最早出自哪一部評書的一手材料。2003年光榮《真・三國無雙3》明確以『月英』作為角色名，並將她塑造成持武器參戰的可操作人物，對當代玩家熟悉『黃月英』形象有明顯推廣作用。這是現代遊戲設定，不是《三國演義》原文。",
+            "citations": [
+              {
+                "sourceId": "shin-sangokumusou-3-yueying",
+                "locator": "2003年『月英』角色設定"
+              }
+            ]
+          }
+        ],
+        "uncertaintyNote": "『黃月英』是否最早出自某一近代評書，目前缺乏可追溯版本與具體回目，故本檔不作確定斷言。"
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "《襄陽記》與《三國演義》都沒有記載『黃月英』這個姓名；歷史頁首因此使用『黃夫人』，並將黃月英只列作後世通稱。",
+            "citations": [
+              {
+                "sourceId": "xiangyang-ji-zhuge",
+                "locator": "未載本名"
+              },
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第一百一十七回・僅稱黃氏"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "works": [],
+  "commonAlias": "黃月英（後世通稱，非史實本名）"
+}
