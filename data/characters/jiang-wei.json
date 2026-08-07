@@ -1,0 +1,1136 @@
+{
+  "schemaVersion": 2,
+  "dataStatus": "reviewed-draft",
+  "published": true,
+  "lastReviewedAt": "2026-08-06",
+  "id": "jiang-wei",
+  "name": "姜維",
+  "courtesyName": "伯約",
+  "childhoodName": null,
+  "artName": null,
+  "otherNames": [],
+  "lifespan": "約202年—264年",
+  "birthplace": "涼州天水郡冀縣（今甘肅省甘谷縣一帶）",
+  "primaryIdentity": "曹魏天水郡官吏，後為蜀漢後期主要將領；官至大將軍，封平襄侯",
+  "summary": "姜維早年仕於曹魏天水郡，建興六年因太守猜疑、上邽與冀縣拒納，在諸葛亮第一次北伐撤軍時進入蜀漢。諸葛亮稱其忠勤、思慮精密且深解兵意，予以快速拔擢。諸葛亮死後，姜維歷經蔣琬、費禕執政時期；費禕在世時限制其大舉用兵，費禕死後姜維多次率軍北伐，曾在洮西大破王經，也在段谷、侯和遭受重挫。景耀末年，他因黃皓與閻宇的政治壓力留屯沓中；魏軍伐蜀時退守劍閣阻住鍾會，卻因鄧艾偷渡陰平、成都投降而奉命放下武器。其後姜維企圖利用鍾會叛亂恢復蜀漢，事敗於成都兵變，與妻子皆被殺。陳壽批評他長期用兵、判斷不周；郤正則肯定其好學、清素與節制，形成後世評價姜維時最重要的兩面。",
+  "avatar": "images/jiang_wei.png",
+  "overview": {
+    "intro": {
+      "paragraphs": [
+        {
+          "text": "姜維字伯約，天水冀縣人。其確切出生年不見直接紀年；本傳記他在建興六年（228年）歸蜀、受諸葛亮拔擢時二十七歲，依傳統虛歲倒推約生於202年，因此頁首保留『約』字。他少年喪父，與母親同住，喜好鄭玄一系經學；父親姜冏原任郡功曹，在羌、戎叛亂中護衛郡將戰死，姜維因父親殉職而受賜中郎官，參與本郡軍事。",
+          "citations": [
+            {
+              "sourceId": "sgz-jiangwei-main",
+              "locator": "卷四十四・姜維傳開篇及建興六年拔擢段"
+            }
+          ]
+        },
+        {
+          "text": "正史沒有記載姜維的身高、臉形或具體容貌。過去常見的『身長八尺，容貌甚偉』其實是諸葛亮的記載，不能移用到姜維身上；裴注引《世語》稱蜀漢官屬『天下英俊，無出維右』，語境偏向才俊出眾，也不足以直接證明他外貌俊美。姜維作為俊朗青年儒將的圖像，是依小說稱許、後世藝術與人物氣質重建，並非正史容貌復原。",
+          "citations": [
+            {
+              "sourceId": "shiyu-jiangwei",
+              "locator": "《姜維傳》裴注引《世語》"
+            },
+            {
+              "sourceId": "sgz-zhuge-main",
+              "locator": "卷三十五附陳壽進《諸葛亮集》表・『身長八尺，容貌甚偉』實指諸葛亮"
+            }
+          ]
+        },
+        {
+          "text": "姜維的歷史評價不能只寫成『諸葛亮唯一繼承人』或『窮兵黷武的亡國將領』。正史確定諸葛亮高度肯定其軍事理解與才幹，但諸葛亮死後蜀漢最高政務先由蔣琬、費禕承接，姜維主要循軍事系統上升；他在洮西取得重大勝利，也在段谷等役遭受嚴重損失。蜀亡前他守住劍閣，使鍾會一度考慮退兵；最終則因鄧艾繞道突入與成都投降而失敗。",
+          "citations": [
+            {
+              "sourceId": "sgz-jiangwei-main",
+              "locator": "卷四十四・諸葛亮稱許、歷次出兵、劍閣守戰及卷末評語"
+            }
+          ]
+        }
+      ],
+      "originalTexts": [
+        {
+          "text": "姜維，字伯約，天水冀人也。少孤，與母居，好鄭氏學。",
+          "sourceId": "sgz-jiangwei-main",
+          "locator": "卷四十四・姜維傳開篇"
+        },
+        {
+          "text": "姜伯約甚敏於軍事，既有膽義，深解兵意。此人心存漢室而才兼於人。",
+          "sourceId": "sgz-jiangwei-main",
+          "locator": "卷四十四・諸葛亮與張裔、蔣琬書"
+        }
+      ]
+    },
+    "factionTimeline": [
+      {
+        "stageName": "曹魏・天水郡地方軍政體系",
+        "personName": "曹叡",
+        "personId": null,
+        "actualFactionId": "caowei-tianshui-local-service",
+        "period": "入仕年份不詳 — 太和二年／蜀漢建興六年（228年）",
+        "periodUncertain": true,
+        "description": {
+          "paragraphs": [
+            {
+              "text": "姜維先任天水郡上計掾，後受州辟為從事；又因父姜冏戰死而受中郎官、參本郡軍事。史書沒有交代他每次任官的年份，不能把整段仕歷硬定在曹丕或曹叡某一個年號內。",
+              "citations": [
+                {
+                  "sourceId": "sgz-jiangwei-main",
+                  "locator": "卷四十四・姜維傳開篇"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "stageName": "蜀漢・後主政權",
+        "personName": "劉禪",
+        "personId": null,
+        "actualFactionId": "shuhan-houzhu",
+        "period": "建興六年（228年）— 炎興元年（263年）蜀漢滅亡",
+        "periodUncertain": false,
+        "description": {
+          "paragraphs": [
+            {
+              "text": "姜維在諸葛亮第一次北伐撤軍時進入蜀漢，先後歷經諸葛亮、蔣琬、費禕掌政時期，最終官至大將軍、封平襄侯。這是他一生主要政治與軍事歸屬。",
+              "citations": [
+                {
+                  "sourceId": "sgz-jiangwei-main",
+                  "locator": "卷四十四・建興六年至景耀六年"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "stageName": "降鍾會後參與成都之變・暗圖復蜀",
+        "personName": "鍾會",
+        "personId": null,
+        "actualFactionId": "zhong-hui-chengdu-rebellion",
+        "period": "炎興元年末至魏咸熙元年正月（263—264年）",
+        "periodUncertain": false,
+        "description": {
+          "paragraphs": [
+            {
+              "text": "劉禪降魏後，姜維奉敕向鍾會放下武器，之後受鍾會厚待並參與其叛亂。裴注所引《漢晉春秋》《華陽國志》《晉陽秋》都將姜維的深層目的解釋為利用鍾會奪取魏軍兵權、伺機恢復蜀漢，因此本階段記為短暫的名義從屬，不把他簡化成真正轉而效忠鍾會。",
+              "citations": [
+                {
+                  "sourceId": "sgz-jiangwei-main",
+                  "locator": "卷四十四・降鍾會至成都之亂"
+                },
+                {
+                  "sourceId": "hanjin-chunqiu-jiangwei-zhonghui",
+                  "locator": "《姜維傳》裴注引《漢晉春秋》"
+                },
+                {
+                  "sourceId": "jinyangqiu-jiangwei",
+                  "locator": "《姜維傳》裴注引《晉陽秋》"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "relatives": [
+      {
+        "personName": "姜冏",
+        "personId": null,
+        "relation": "父",
+        "natureType": "三國志正文記載",
+        "note": "天水郡功曹；遇羌、戎叛亂時護衛郡將，戰死於戰場。姜維因父親殉職而受賜中郎官、參本郡軍事。史書未載其生卒年與姜氏更早世系。",
+        "citations": [
+          {
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・姜維傳開篇"
+          }
+        ]
+      },
+      {
+        "personName": "姜氏（名不詳）",
+        "personId": null,
+        "relation": "母",
+        "natureType": "三國志正文／裴注補充",
+        "note": "姜維早年喪父後與母同居。建興六年姜維隨諸葛亮入蜀，正文稱他與母親相失；裴注引《魏略》記其母、妻、子留在魏境且未被沒入官府，孫盛《雜記》又記母親曾寫信勸他回鄉。各材料沒有交代母親姓名、生卒，也沒有可靠記載她後來是否與姜維重聚。",
+        "citations": [
+          {
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・開篇及建興六年歸蜀"
+          },
+          {
+            "sourceId": "weilue-jiangwei",
+            "locator": "《姜維傳》裴注引《魏略》"
+          },
+          {
+            "sourceId": "sunsheng-zaji-jiangwei",
+            "locator": "《姜維傳》裴注引孫盛《雜記》"
+          }
+        ]
+      },
+      {
+        "personName": "姜氏配偶（名不詳）",
+        "personId": null,
+        "relation": "妻",
+        "natureType": "裴注引《魏略》／三國志正文",
+        "note": "《魏略》記姜維進入蜀軍後，魏軍取得其母、妻、子，因判斷姜維本無預謀叛魏而未沒入其家；本傳末又記成都之亂後『維妻子皆伏誅』。兩處是否指同一位妻子、家屬何時或如何入蜀，均無明文，不可補造姓名與經歷。",
+        "citations": [
+          {
+            "sourceId": "weilue-jiangwei",
+            "locator": "《姜維傳》裴注引《魏略》"
+          },
+          {
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・成都之亂後『維妻子皆伏誅』"
+          }
+        ]
+      },
+      {
+        "personName": "姜氏子女（姓名、數量不詳）",
+        "personId": null,
+        "relation": "子女",
+        "natureType": "裴注引《魏略》／三國志正文",
+        "note": "史料只以『妻子』或『母妻子』概稱姜維家屬，沒有留下子女姓名、性別與數量；成都之亂後家屬被殺。後世若出現具名子嗣，不宜在沒有早期史籍依據時列為史實。",
+        "citations": [
+          {
+            "sourceId": "weilue-jiangwei",
+            "locator": "《姜維傳》裴注引《魏略》"
+          },
+          {
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・姜維傳末"
+          }
+        ]
+      }
+    ],
+    "titlesAndRanks": [
+      {
+        "title": "天水郡上計掾",
+        "period": "曹魏時期，確切年份不詳",
+        "citations": [
+          {
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・姜維傳開篇"
+          }
+        ]
+      },
+      {
+        "title": "州從事",
+        "period": "曹魏時期，確切年份不詳",
+        "citations": [
+          {
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・『州辟為從事』"
+          }
+        ]
+      },
+      {
+        "title": "中郎、參本郡軍事",
+        "period": "因父姜冏戰死而受賜，確切年份不詳",
+        "citations": [
+          {
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・姜冏戰死後"
+          }
+        ]
+      },
+      {
+        "title": "倉曹掾、奉義將軍、當陽亭侯",
+        "period": "建興六年（228年）歸蜀後，由諸葛亮辟授／加封",
+        "citations": [
+          {
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・諸葛亮拔擢姜維"
+          }
+        ]
+      },
+      {
+        "title": "中監軍、征西將軍",
+        "period": "諸葛亮在世後期，確切升遷年份不詳",
+        "citations": [
+          {
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・諸葛亮稱許姜維後"
+          }
+        ]
+      },
+      {
+        "title": "右監軍、輔漢將軍、統諸軍、平襄侯",
+        "period": "建興十二年（234年）諸葛亮去世後",
+        "citations": [
+          {
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・建興十二年"
+          }
+        ]
+      },
+      {
+        "title": "大司馬司馬",
+        "period": "延熙二年（239年）蔣琬遷大司馬後",
+        "citations": [
+          {
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・隨蔣琬住漢中後"
+          }
+        ]
+      },
+      {
+        "title": "鎮西大將軍、領涼州刺史",
+        "period": "延熙六年（243年）",
+        "citations": [
+          {
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・延熙六年"
+          }
+        ]
+      },
+      {
+        "title": "衛將軍、與大將軍費禕共錄尚書事",
+        "period": "延熙十年（247年）",
+        "citations": [
+          {
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・延熙十年"
+          }
+        ]
+      },
+      {
+        "title": "假節",
+        "period": "至遲延熙十二年（249年）出西平時已受假節",
+        "citations": [
+          {
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・『假維節復出西平』"
+          }
+        ]
+      },
+      {
+        "title": "督中外軍事",
+        "period": "延熙十七年（254年）",
+        "citations": [
+          {
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・延熙十七年"
+          }
+        ]
+      },
+      {
+        "title": "大將軍",
+        "period": "延熙十九年（256年）春；段谷敗後請貶",
+        "citations": [
+          {
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・延熙十九年"
+          }
+        ]
+      },
+      {
+        "title": "後將軍、行大將軍事",
+        "period": "延熙十九年（256年）段谷敗後自貶",
+        "citations": [
+          {
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・段谷敗後"
+          }
+        ]
+      },
+      {
+        "title": "復拜大將軍",
+        "period": "景耀元年（258年）自芒水撤軍返成都後",
+        "citations": [
+          {
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・景耀元年"
+          }
+        ]
+      }
+    ],
+    "posthumousTitle": null,
+    "evaluations": {
+      "contemporary": [
+        {
+          "evaluatorName": "諸葛亮",
+          "evaluatorEra": "蜀漢丞相",
+          "context": "建興六年姜維歸蜀後，諸葛亮致留府長史張裔、參軍蔣琬書",
+          "textType": "古籍原文",
+          "originalText": "姜伯約忠勤時事，思慮精密，考其所有，永南、季常諸人不如也。其人，涼州上士也。",
+          "citations": [
+            {
+              "sourceId": "sgz-jiangwei-main",
+              "locator": "卷四十四・諸葛亮與張裔、蔣琬書"
+            }
+          ],
+          "paraphrase": "諸葛亮稱姜維忠於職事、思慮精密，才能勝過李邵、馬良等人，是涼州最優秀的人才。"
+        },
+        {
+          "evaluatorName": "費禕",
+          "evaluatorEra": "蜀漢大將軍",
+          "context": "費禕限制姜維大舉用兵時；裴注引《漢晉春秋》",
+          "textType": "古籍原文",
+          "originalText": "吾等不如丞相亦已遠矣；丞相猶不能定中夏，況吾等乎！且不如保國治民，敬守社稷，如其功業，以俟能者，無以為希冀徼倖而決成敗於一舉。若不如志，悔之無及。",
+          "citations": [
+            {
+              "sourceId": "hanjin-chunqiu-feiyi-jiangwei",
+              "locator": "《姜維傳》裴注引《漢晉春秋》"
+            }
+          ],
+          "paraphrase": "費禕認為眾人的能力遠不及諸葛亮，而諸葛亮尚且未能平定中原，因此應先保國安民，不可把國家成敗押在一次僥倖的大舉出兵上。"
+        },
+        {
+          "evaluatorName": "張翼",
+          "evaluatorEra": "蜀漢將領",
+          "context": "延熙十八年姜維議再出兵時，張翼在朝廷公開反對；洮西大勝後又勸停止進攻",
+          "textType": "古籍原文",
+          "paraphrase": "張翼認為蜀漢國小民勞，不宜頻繁用兵；洮西大勝後應及時收兵，繼續圍攻狄道可能反而毀掉已取得的大功。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhangyi-main",
+              "locator": "卷四十五・張翼傳延熙十八年"
+            }
+          ],
+          "originalText": "維議復出軍，唯翼廷爭，以為國小民勞，不宜黷武。翼曰：「可止矣，不宜復進，進或毀此大功。」"
+        },
+        {
+          "evaluatorName": "廖化",
+          "evaluatorEra": "蜀漢將領",
+          "context": "景耀五年姜維出狄道時；《廖化傳》裴注引《漢晉春秋》",
+          "textType": "古籍原文",
+          "originalText": "兵不戢，必自焚，伯約之謂也。智不出敵，而力少於寇，用之無厭，何以能立？",
+          "citations": [
+            {
+              "sourceId": "hanjin-chunqiu-liaohua-jiangwei",
+              "locator": "《廖化傳》裴注引《漢晉春秋》"
+            }
+          ],
+          "paraphrase": "廖化批評姜維長期用兵而不知停止，智略未能勝過敵人、國力又弱於對方，若仍無止境出兵便難以長久立足。"
+        },
+        {
+          "evaluatorName": "鍾會",
+          "evaluatorEra": "曹魏將領",
+          "context": "蜀漢投降後，鍾會厚待姜維，向長史杜預評論其才望",
+          "textType": "古籍原文",
+          "originalText": "以伯約比中土名士，公休、太初不能勝也。",
+          "citations": [
+            {
+              "sourceId": "sgz-jiangwei-main",
+              "locator": "卷四十四・鍾會厚待姜維"
+            }
+          ],
+          "paraphrase": "鍾會認為姜維的才望即使與中原名士相比，諸葛誕、夏侯玄也不能勝過他。"
+        },
+        {
+          "evaluatorName": "郤正",
+          "evaluatorEra": "蜀漢至西晉官員",
+          "context": "姜維死後所作論，肯定其生活清素與好學；本傳全文保存",
+          "textType": "古籍原文",
+          "originalText": "如姜維之樂學不倦，清素節約，自一時之儀表也。",
+          "citations": [
+            {
+              "sourceId": "sgz-jiangwei-main",
+              "locator": "卷四十四・郤正論姜維"
+            }
+          ],
+          "paraphrase": "郤正稱許姜維勤學不倦、生活清廉儉約，足以成為當時士人的表率。"
+        }
+      ],
+      "later": [
+        {
+          "evaluatorName": "陳壽",
+          "evaluatorEra": "西晉（《三國志》作者）",
+          "context": "《蔣琬費禕姜維傳》卷末評語",
+          "textType": "古籍原文",
+          "originalText": "姜維粗有文武，志立功名，而玩眾黷旅，明斷不周，終致隕斃。",
+          "citations": [
+            {
+              "sourceId": "sgz-shu44-appraisal",
+              "locator": "卷四十四卷末評語"
+            }
+          ],
+          "paraphrase": "陳壽認為姜維略具文武才能，也有建立功名的志向，但長期勞動軍隊、判斷不夠周全，最終因此敗亡。"
+        },
+        {
+          "evaluatorName": "孫盛",
+          "evaluatorEra": "東晉史家",
+          "context": "批評姜維背魏奔蜀、捐親苟免、久黷兵事，於忠孝節義與智勇皆有虧；裴注引孫盛評語",
+          "textType": "古籍原文",
+          "paraphrase": "孫盛批評姜維本仕於魏，卻投奔蜀漢、違背君主而謀求私利，稱不上忠；為求自保而捨棄母親，稱不上孝；領兵傷害故國，稱不上義；兵敗卻未能殉節而死，稱不上節；加上他未曾廣施德政便使百姓疲於征戰，身負抵禦外敵之責卻導致敵軍長驅直入，就智謀與勇略而言也沒有值得稱道之處。",
+          "citations": [
+            {
+              "sourceId": "sunsheng-comment-jiangwei",
+              "locator": "《姜維傳》裴注所載孫盛評語"
+            }
+          ],
+          "originalText": "姜維策名魏室，而外奔蜀朝，違君徇利，不可謂忠；捐親苟免，不可謂孝；害加舊邦，不可謂義；敗不死難，不可謂節；且德政未敷而疲民以逞，居禦侮之任而致敵喪守，於夫智勇，莫可云也。"
+        },
+        {
+          "evaluatorName": "裴松之",
+          "evaluatorEra": "劉宋史家、《三國志》注者",
+          "context": "反駁孫盛對姜維未回救成都及復蜀之謀的部分批評",
+          "textType": "古籍原文",
+          "paraphrase": "裴松之認為姜維守劍閣已使鍾會不能前進，鄧艾繞道與成都先降使他難以同時回救腹地；利用鍾會除去魏將、取得兵權再圖復蜀雖屬非常之計，不能僅因事敗就斷定全然愚闇。不過裴松之的辯護針對末局與特定指責，不等於肯定姜維所有長期軍政決策。",
+          "citations": [
+            {
+              "sourceId": "peisongzhi-jiangwei-comment",
+              "locator": "《姜維傳》裴松之案語"
+            }
+          ],
+          "originalText": "維若回軍救內，則會乘其背；當時之勢，焉得兩濟？……若令魏將皆死，兵事在維手；殺會復蜀，不為難矣。"
+        }
+      ]
+    }
+  },
+  "historicalBio": [
+    {
+      "period": "約202年至建興六年（228年）以前",
+      "periodType": "approx",
+      "title": "天水冀縣出身，承父蔭進入曹魏地方軍政體系",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "姜維出生於天水郡冀縣，少年喪父，與母親同住，喜好鄭玄一系經學。其父姜冏任郡功曹，在羌、戎叛亂時為保護郡將而戰死；曹魏地方政府因此賜姜維中郎官，使他參與本郡軍事。姜維在此之前或同一時期也曾任郡上計掾、州從事，顯示他早年兼有地方行政與軍事經驗。",
+            "citations": [
+              {
+                "sourceId": "sgz-jiangwei-main",
+                "locator": "卷四十四・姜維傳開篇"
+              }
+            ]
+          },
+          {
+            "text": "裴注引《傅子》另稱姜維好立功名、暗中豢養敢死之士，不以普通布衣生活自限。這是魏晉評論者對其性格與志向的描寫，不是《三國志》正文，宜作補充而不能取代可核實的官職經歷。",
+            "citations": [
+              {
+                "sourceId": "fuzi-jiangwei",
+                "locator": "《姜維傳》裴注引《傅子》"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "仕郡上計掾，州辟為從事。以父冏昔為郡功曹，值羌、戎叛亂，身衛郡將，沒於戰場，賜維官中郎，參本郡軍事。",
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・姜維傳開篇"
+          }
+        ]
+      },
+      "uncertaintyNote": "出生年依228年『時年二十七』倒推，約為202年；早期各項曹魏官職沒有逐年紀錄。"
+    },
+    {
+      "period": "建興六年／魏太和二年（228年）",
+      "periodType": "exact",
+      "title": "遭天水太守猜疑與城門拒納，被迫進入蜀軍",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "諸葛亮第一次北伐進抵祁山時，天水太守外出巡察，姜維與梁緒、尹賞、梁虔等隨行。太守得知蜀軍將至、各縣響應，懷疑姜維等人有異心，夜間逃往上邽；姜維追到時城門已閉，回冀縣也不獲接納，最後與同僚一同投向諸葛亮。街亭敗後諸葛亮撤退，遷走西縣千餘家並帶姜維等入蜀，姜維因此與母親分離。",
+            "citations": [
+              {
+                "sourceId": "sgz-jiangwei-main",
+                "locator": "卷四十四・建興六年歸蜀"
+              }
+            ]
+          },
+          {
+            "text": "裴注引《魏略》的版本細節不同：太守馬遵原隨雍州刺史郭淮行動，因懷疑屬吏而斥責他們都是賊；姜維為照看冀縣家屬回城，後被當地吏民推去見諸葛亮，不得已隨蜀軍撤退。魏軍後來取得其母、妻、子，因判斷姜維本無預謀叛心而沒有沒收其家。兩種記載都不支持把姜維寫成早已密謀叛魏、主動迎接諸葛亮。",
+            "citations": [
+              {
+                "sourceId": "weilue-jiangwei",
+                "locator": "《姜維傳》裴注引《魏略》"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "太守聞蜀軍垂至而諸縣響應，疑維等皆有異心，於是夜亡保上邽。維等覺太守去，追遲，至城門，城門已閉，不納。維等相率還冀，冀亦不入維。維等乃俱詣諸葛亮。",
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・建興六年"
+          }
+        ]
+      },
+      "uncertaintyNote": "《三國志》正文與《魏略》都記姜維受到猜疑與阻拒，但人物行程、同伴及家屬處置細節不同，本站並列而不強行合併。"
+    },
+    {
+      "period": "建興六年至十二年（228—234年）",
+      "periodType": "range",
+      "title": "受諸葛亮高度稱許，二十七歲迅速封侯拜將",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "諸葛亮任姜維為倉曹掾，加奉義將軍、封當陽亭侯；姜維當時二十七歲。諸葛亮在寫給張裔、蔣琬的信中，稱姜維忠勤、思慮精密，是涼州上士，又說他敏於軍事、有膽義、深解兵意，應先統率中虎步兵受教，完成軍事訓練後再入宮覲見劉禪。姜維其後遷中監軍、征西將軍。",
+            "citations": [
+              {
+                "sourceId": "sgz-jiangwei-main",
+                "locator": "卷四十四・諸葛亮拔擢與稱許姜維"
+              }
+            ]
+          },
+          {
+            "text": "孫盛《雜記》另記姜維收到母親勸歸的信，答以『良田百頃，不在一畝；但有遠志，不在當歸』。這段常被用來表現其功名志向，但傳文只寫『維曰』，沒有保存完整往返信件，故可列入生平補充，暫不作獨立著作。",
+            "citations": [
+              {
+                "sourceId": "sunsheng-zaji-jiangwei",
+                "locator": "《姜維傳》裴注引孫盛《雜記》"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "亮辟維為倉曹掾，加奉義將軍，封當陽亭侯，時年二十七。",
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・建興六年"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建興十二年至延熙九年（234—246年）",
+      "periodType": "range",
+      "title": "諸葛亮死後循軍職上升，在蔣琬規劃下經營西方",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "諸葛亮於建興十二年去世後，姜維回成都，升為右監軍、輔漢將軍，統率諸軍並進封平襄侯。延熙元年隨大將軍蔣琬屯漢中；蔣琬遷大司馬後，以姜維為大司馬府司馬，多次令其率偏軍西進。延熙六年，姜維升鎮西大將軍、領涼州刺史。",
+            "citations": [
+              {
+                "sourceId": "sgz-jiangwei-main",
+                "locator": "卷四十四・建興十二年至延熙六年"
+              }
+            ]
+          },
+          {
+            "text": "蔣琬原想改由漢水、沔水東下攻魏興、上庸，朝臣反對後，與費禕、姜維等重新討論，改認為涼州胡塞是較合適方向，主張讓姜維任涼州刺史、進取河右，自己在後方鎮繼。這說明姜維的西向戰略並非諸葛亮死後立刻由他一人獨斷，而曾在蔣琬政軍架構內運作。",
+            "citations": [
+              {
+                "sourceId": "sgz-jiangwei-main",
+                "locator": "卷四十四・蔣琬傳議涼州與姜維為刺史"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "延熙十年至十五年（247—252年）",
+      "periodType": "range",
+      "title": "任衛將軍共錄尚書事，受費禕節制而以偏軍西進",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "延熙十年，姜維升衛將軍，與大將軍費禕共錄尚書事；同年討平汶山平康夷，又出隴西、南安、金城一帶，與郭淮、夏侯霸等交戰，接納胡王治無戴等部落並遷回安置。延熙十二年又假節出西平，未能攻克而還。",
+            "citations": [
+              {
+                "sourceId": "sgz-jiangwei-main",
+                "locator": "卷四十四・延熙十年至十二年"
+              }
+            ]
+          },
+          {
+            "text": "姜維熟悉西方風俗，自負兼有才略與武勇，希望聯合羌、胡，判斷隴山以西可以切斷並取得；但費禕經常限制其大規模出兵，所給兵力不超過一萬。裴注引《漢晉春秋》保存費禕的理由：連諸葛亮都未能平定中原，後繼者更應保國治民，不可把成敗押在一次僥倖的大舉上。",
+            "citations": [
+              {
+                "sourceId": "sgz-jiangwei-main",
+                "locator": "卷四十四・費禕裁制姜維"
+              },
+              {
+                "sourceId": "hanjin-chunqiu-feiyi-jiangwei",
+                "locator": "《姜維傳》裴注引《漢晉春秋》"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "每欲興軍大舉，費禕常裁制不從，與其兵不過萬人。",
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・姜維傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "延熙十六年至十八年（253—255年）",
+      "periodType": "range",
+      "title": "費禕死後大舉北伐，先退南安、繼取三縣民，洮西大破王經",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "延熙十六年費禕遇刺後，姜維率數萬人經董亭圍南安，因糧盡撤退。次年加督中外軍事，再出隴西；狄道長李簡舉城投降，姜維在襄武與徐質交戰，斬首破敵，並遷河間、狄道、臨洮三縣居民入蜀。",
+            "citations": [
+              {
+                "sourceId": "sgz-jiangwei-main",
+                "locator": "卷四十四・延熙十六、十七年"
+              }
+            ]
+          },
+          {
+            "text": "延熙十八年，姜維與夏侯霸、張翼等出狄道，在洮西大破魏雍州刺史王經，魏軍死者以萬計。王經退守狄道，張翼主張勝勢已足、不宜再進；姜維仍圍城，魏征西將軍陳泰進兵解圍，姜維退屯鐘題。洮西是姜維北伐最顯著的戰果之一，但後續圍城沒有擴大成果。",
+            "citations": [
+              {
+                "sourceId": "sgz-jiangwei-main",
+                "locator": "卷四十四・延熙十八年洮西、狄道"
+              },
+              {
+                "sourceId": "sgz-zhangyi-main",
+                "locator": "卷四十五・張翼傳洮西戰後諫止"
+              }
+            ]
+          }
+        ]
+      },
+      "uncertaintyNote": "『九伐中原』不是《三國志》對姜維軍事行動的固定分期；是否把偏軍西入、討羌胡、未克而還或防禦性行動計入，會得到不同次數。本站依年份與事件分列，不倒套九次框架。"
+    },
+    {
+      "period": "延熙十九年（256年）",
+      "periodType": "exact",
+      "title": "段谷大敗，自請貶為後將軍",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "姜維升大將軍後整頓軍隊，與鎮西大將軍胡濟約在上邽會師；胡濟沒有按約前來，姜維因而在段谷被鄧艾擊敗。蜀軍星散流離，死者甚眾，民眾因此怨恨，隴西也動盪不安。姜維上表謝罪、承擔責任，請求削降官位，降為後將軍，但仍代行大將軍職權。",
+            "citations": [
+              {
+                "sourceId": "sgz-jiangwei-main",
+                "locator": "卷四十四・延熙十九年段谷之敗"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "濟失誓不至，故維為魏大將鄧艾所破於段谷，星散流離，死者甚眾。眾庶由是怨讟，而隴以西亦騷動不寧。維謝過引負，求自貶削。為後將軍，行大將軍事。",
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・延熙十九年"
+          }
+        ]
+      }
+    },
+    {
+      "period": "延熙二十年至景耀元年（257—258年）",
+      "periodType": "range",
+      "title": "芒水對峙後復任大將軍，改變漢中防禦配置",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "諸葛誕在淮南反司馬氏時，姜維趁魏關中兵東調，再率數萬人出駱谷到沈嶺。司馬望、鄧艾依渭水堅守，姜維多次挑戰而魏軍不應；景耀元年得知諸葛誕敗亡後撤回成都，恢復大將軍官位。",
+            "citations": [
+              {
+                "sourceId": "sgz-jiangwei-main",
+                "locator": "卷四十四・延熙二十年至景耀元年"
+              }
+            ]
+          },
+          {
+            "text": "本傳接著以『初』字追敘姜維曾改變漢中防禦制度。魏延、王平時期以重兵實守外圍諸圍，目的在阻敵入境；姜維則主張敵至時收兵聚糧於漢、樂二城，以關隘與遊軍拖疲敵人，待其撤退再合擊。此策不是單純『撤空漢中』，而是一套誘敵深入後反擊的設計；但263年陽安關口因蔣舒開城投降而迅速失守，也顯示它高度依賴各城與關口確實守住，不能把後來結果全歸於一人或完全排除制度風險。",
+            "citations": [
+              {
+                "sourceId": "sgz-jiangwei-main",
+                "locator": "卷四十四・漢中防禦改制及景耀六年魏軍入侵"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "敵攻關不克，野無散穀，千里縣糧，自然疲乏。引退之日，然後諸城並出，與遊軍並力搏之，此殄敵之術也。",
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・漢中防禦改制"
+          }
+        ]
+      },
+      "uncertaintyNote": "《姜維傳》把漢中改制放在景耀元年復拜大將軍之後，以『初』字追敘，沒有明記改革的確切年月；本事件以景耀元年前後統攝，不把排列順序當成精確日期。"
+    },
+    {
+      "period": "景耀五年（262年）",
+      "periodType": "exact",
+      "title": "侯和再敗，因黃皓與閻宇勢力留屯沓中",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "姜維率軍出漢、侯和，被鄧艾擊敗，退住沓中。此時宦官黃皓在朝中弄權，與右大將軍閻宇相結，暗中想廢姜維而改立閻宇；姜維身為外來投蜀者，又多年作戰未能建立決定性成果，因而畏懼，不再返回成都。",
+            "citations": [
+              {
+                "sourceId": "sgz-jiangwei-main",
+                "locator": "卷四十四・景耀五年侯和與沓中"
+              }
+            ]
+          },
+          {
+            "text": "裴注引《華陽國志》補充：姜維憎惡黃皓擅權，曾請劉禪殺他；劉禪把黃皓說成只是奔走小臣，沒有採納。姜維見黃皓黨羽眾多，便退而請求到沓中種麥，以避開內部逼迫。這是早期史籍所載的政治避禍，不只是小說情節。",
+            "citations": [
+              {
+                "sourceId": "huayang-guozhi-jiangwei",
+                "locator": "《姜維傳》裴注引《華陽國志》"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "景耀六年／炎興元年（263年）",
+      "periodType": "exact",
+      "title": "預警鍾會伐蜀未被採納，轉戰後守住劍閣",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "姜維上表劉禪，警告鍾會正在關中治兵，建議派張翼、廖化分護陽安關口與陰平橋頭；黃皓相信鬼巫所說敵軍不會到來，勸劉禪壓下奏章，群臣也不知情。直到鍾會、鄧艾軍已出動，蜀漢才倉促派援軍。",
+            "citations": [
+              {
+                "sourceId": "sgz-jiangwei-main",
+                "locator": "卷四十四・景耀六年預警鍾會"
+              }
+            ]
+          },
+          {
+            "text": "鄧艾等從多路進攻沓中，姜維得知鍾會已入漢中後撤。他一度受諸葛緒堵截，利用佯向北道、誘使對方後退而搶先過橋頭，之後與廖化、張翼、董厥合軍退守劍閣。鍾會致書稱許，姜維不回信，只列營守險；鍾會無法攻克，又因糧運遙遠而考慮撤軍。",
+            "citations": [
+              {
+                "sourceId": "sgz-jiangwei-main",
+                "locator": "卷四十四・沓中撤退、合軍守劍閣"
+              },
+              {
+                "sourceId": "sgz-zhonghui-main",
+                "locator": "卷二十八・伐蜀與劍閣對峙"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "維不答書，列營守險。會不能克，糧運縣遠，將議還歸。",
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・劍閣守戰"
+          }
+        ]
+      }
+    },
+    {
+      "period": "炎興元年（263年）",
+      "periodType": "exact",
+      "title": "鄧艾偷渡陰平攻破綿竹，姜維奉劉禪敕令降鍾會",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "姜維在劍閣擋住鍾會時，鄧艾由陰平小道繞入蜀地，擊敗諸葛瞻於綿竹，進逼成都；劉禪向鄧艾投降。姜維等人最初收到成都固守、東奔孫吳或南入建寧等相互矛盾的傳聞，遂由廣漢、郪道探查消息；收到劉禪正式敕令後，才放下武器，在涪縣軍前向鍾會投降。蜀軍將士憤怒到拔刀砍石。",
+            "citations": [
+              {
+                "sourceId": "sgz-jiangwei-main",
+                "locator": "卷四十四・成都投降與涪縣解甲"
+              }
+            ]
+          },
+          {
+            "text": "干寶《晉紀》稱鍾會問姜維為何來得這麼遲，姜維正色流淚答『今日見此為速矣』，鍾會因而驚異。這段呈現姜維降服時的情緒，但屬裴注引文，不是《三國志》正文。",
+            "citations": [
+              {
+                "sourceId": "ganbao-jinji-jiangwei",
+                "locator": "《姜維傳》裴注引干寶《晉紀》"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "尋被後主敕令乃投戈放甲，詣會於涪軍前，將士咸怒，拔刀斫石。",
+            "sourceId": "sgz-jiangwei-main",
+            "locator": "卷四十四・蜀漢投降"
+          }
+        ]
+      }
+    },
+    {
+      "period": "魏咸熙元年正月（264年）",
+      "periodType": "exact",
+      "title": "利用鍾會異志圖謀復蜀，成都兵變中戰死",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "鍾會厚待姜維，出行同車、入座同席；鍾會陷害鄧艾並押送成都後，自稱益州牧起兵反對司馬昭。裴注引《漢晉春秋》稱姜維察知鍾會野心，故意以韓信、文種等人的遭遇勸他功成身退，再順勢誘導其走向叛亂；《華陽國志》更稱姜維想讓鍾會殺掉北來諸將，之後再殺鍾會、收回魏軍兵權以恢復蜀漢，並密書劉禪請忍受數日之辱。",
+            "citations": [
+              {
+                "sourceId": "sgz-jiangwei-main",
+                "locator": "卷四十四・鍾會厚待姜維與成都之亂"
+              },
+              {
+                "sourceId": "hanjin-chunqiu-jiangwei-zhonghui",
+                "locator": "《姜維傳》裴注引《漢晉春秋》"
+              },
+              {
+                "sourceId": "huayang-guozhi-jiangwei",
+                "locator": "《姜維傳》裴注引《華陽國志》"
+              }
+            ]
+          },
+          {
+            "text": "鍾會囚禁魏軍將領後，軍隊於正月十八日攻入成都。據《鍾會傳》，姜維率鍾會左右迎戰，親手殺死五六人，之後被魏軍格殺；鍾會也被殺，死者數百。姜維妻子一併伏誅。裴注引《世語》另有死後剖視『膽如斗大』的奇異記載，可信層級低於正文，不宜當作可驗證的生理事實。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhonghui-main",
+                "locator": "卷二十八・咸熙元年正月十八日成都兵變"
+              },
+              {
+                "sourceId": "sgz-jiangwei-main",
+                "locator": "卷四十四・姜維傳末"
+              },
+              {
+                "sourceId": "shiyu-jiangwei",
+                "locator": "《姜維傳》裴注引《世語》"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "願陛下忍數日之辱，臣欲使社稷危而復安，日月幽而復明。",
+            "sourceId": "huayang-guozhi-jiangwei",
+            "locator": "《姜維傳》裴注引《華陽國志》"
+          },
+          {
+            "text": "姜維率會左右戰，手殺五六人，眾既格斬維，爭赴殺會。",
+            "sourceId": "sgz-zhonghui-main",
+            "locator": "卷二十八・鍾會傳"
+          }
+        ]
+      },
+      "uncertaintyNote": "姜維企圖借鍾會之亂復蜀，有《漢晉春秋》《華陽國志》《晉陽秋》等早期材料互相支持；但具體步驟多出自裴注引書，正文只明載鍾會叛亂、姜維參與及兵變死亡。"
+    }
+  ],
+  "romanceBio": [
+    {
+      "chapter": "第九十二至九十三回",
+      "eventName": "識破孔明之計、戰趙雲，後中反間計歸降",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說先寫姜維博覽群書、文武雙全、奉母至孝。他識破諸葛亮誘天水出兵的計策，設伏擊退趙雲，又親自持槍與趙雲交戰，使趙雲驚嘆其槍法。諸葛亮愛惜其才，利用姜維母親與假扮姜維攻城等反間安排，使馬遵、梁虔誤信他已降蜀，姜維走投無路後才向諸葛亮投降。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第九十二至九十三回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史確有天水太守猜疑、城門拒納與姜維不得已進入蜀軍的核心，但沒有姜維大戰趙雲、識破諸葛亮計策、假姜維攻城或諸葛亮設計利用其母等情節。小說把史實中的政治猜疑擴寫為完整的智謀對決。",
+            "citations": [
+              {
+                "sourceId": "sgz-jiangwei-main",
+                "locator": "卷四十四・建興六年歸蜀"
+              },
+              {
+                "sourceId": "weilue-jiangwei",
+                "locator": "《姜維傳》裴注引《魏略》"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第九十三、第一百零四回",
+      "eventName": "被塑造成諸葛亮兵法與北伐志業的直接傳人",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "姜維歸降時，小說讓諸葛亮親口說遍求賢者以傳平生所學，遇到姜維才如願。五丈原臨終前，諸葛亮又把二十四篇兵書、連弩圖本交給姜維，並說其兵法皆已傳授姜維；退軍時則指定姜維斷後。這套安排奠定後世『武侯傳人』的姜維形象。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第九十三回、第一百零四回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "此為小說集中強化的傳承敘事。正史確定諸葛亮高度稱許並快速拔擢姜維，也記姜維在諸葛亮死後統諸軍、逐步升遷；但沒有臨終授二十四篇兵書、連弩圖本或指定其繼承全部用兵密法。蜀漢最高政務在諸葛亮死後先由蔣琬、費禕承接。",
+            "citations": [
+              {
+                "sourceId": "sgz-jiangwei-main",
+                "locator": "卷四十四・諸葛亮稱許及建興十二年後官職"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第一百零七至一百一十五回",
+      "eventName": "連年伐魏，與鄧艾成為宿敵",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說把蜀漢後期軍事主線集中在姜維與鄧艾的反覆鬥智、鬥陣與用兵上。第一百一十五回姜維自己說『吾今八次伐魏』，隨後再攻洮陽、侯河失利並受詔班師；譙周、廖化等則從天象、民力與敵我條件反對繼續出兵。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第一百零七至一百一十五回；第一百一十五回明言『吾今八次伐魏』"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "姜維多次北伐、與鄧艾交戰、張翼與廖化反對長期用兵都有史料根據，但小說大幅重組戰役順序、將領對決與計謀。尤其常見的『九伐中原』不是《三國志》的固定用語；現行《三國演義》第一百一十五回反而明說當次為『八次伐魏』，之後即轉入魏軍大舉伐蜀，不能把『九伐』直接說成小說原文明定。",
+            "citations": [
+              {
+                "sourceId": "sgz-jiangwei-main",
+                "locator": "卷四十四・延熙至景耀年間歷次出兵"
+              },
+              {
+                "sourceId": "sgz-zhangyi-main",
+                "locator": "卷四十五・張翼傳"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第一百一十五回",
+      "eventName": "後主信讒召回，託屯田沓中避禍",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫黃皓與閻宇相結，假傳後主詔命姜維班師；姜維回成都後請誅黃皓不成，又得郤正提醒，於是主動請求率軍到沓中屯田，以避開黃皓陷害並兼作邊防。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第一百一十五回・託屯田姜維避禍"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "姜維請殺黃皓、因政治壓力求在沓中種麥避禍，並非小說憑空創造，而出自裴注引《華陽國志》；《三國演義》增添假詔班師、郤正密告等具體戲劇流程。正文則只寫黃皓欲廢姜維而立閻宇，姜維因此自危、不再回成都。",
+            "citations": [
+              {
+                "sourceId": "sgz-jiangwei-main",
+                "locator": "卷四十四・景耀五年"
+              },
+              {
+                "sourceId": "huayang-guozhi-jiangwei",
+                "locator": "《姜維傳》裴注引《華陽國志》"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第一百一十六至一百一十八回",
+      "eventName": "魏軍伐蜀、武侯顯聖與劍閣拒敵，終奉詔投降",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫鍾會入漢中時諸葛亮在定軍山顯聖，勸其善待蜀民；姜維則轉戰回劍閣，與廖化、張翼、董厥共同守關，自信只要自己還在便不容魏吞蜀。鄧艾偷渡陰平、諸葛瞻戰死、劉禪降魏後，姜維收到敕令，悲憤之下向鍾會投降。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第一百一十六至一百一十八回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "姜維退守劍閣、使鍾會不能攻克，以及鄧艾由陰平繞入、成都投降後奉敕解甲，均有正史依據；武侯顯聖、姜維在關上宣稱『若有維在』等為小說增飾。正史還記蜀軍投降時將士拔刀砍石，並未寫諸葛亮顯靈。",
+            "citations": [
+              {
+                "sourceId": "sgz-jiangwei-main",
+                "locator": "卷四十四・景耀六年劍閣與投降"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第一百一十九回",
+      "eventName": "假投降煽動鍾會，計敗後自刎",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫姜維假意輔佐鍾會，先設計收押鄧艾，再以韓信、文種之禍煽動鍾會反司馬昭，密書劉禪保證使漢室復明。魏將兵變時，姜維忽然心痛，仍拔劍衝殺；鍾會死後，他仰天大叫『吾計不成，乃天命也』，自刎而死。小說稱其時年五十九，剖腹後膽如雞卵。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第一百一十九回・假投降巧計成虛話"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "利用鍾會異志圖謀復蜀與密書劉禪，確有裴注引《漢晉春秋》《華陽國志》《晉陽秋》等早期材料支持；但『心痛後自刎』是小說改寫。《鍾會傳》記姜維率鍾會左右作戰，手殺五六人後被魏軍格殺。『膽如斗大』則出自可信度較低的《世語》，小說改成『膽如雞卵』；小說所稱五十九歲也與本傳228年時二十七歲所能推得的年齡不合。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhonghui-main",
+                "locator": "卷二十八・成都兵變"
+              },
+              {
+                "sourceId": "huayang-guozhi-jiangwei",
+                "locator": "《姜維傳》裴注引《華陽國志》"
+              },
+              {
+                "sourceId": "shiyu-jiangwei",
+                "locator": "《姜維傳》裴注引《世語》"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": "上表預警鍾會伐蜀",
+      "type": "表章／軍事預警",
+      "extant": "主要文字保存於《三國志・姜維傳》正文",
+      "attribution": "姜維於景耀六年上表劉禪；傳文以『維表後主』明載",
+      "summary": "姜維察覺鍾會在關中整軍、可能進攻蜀漢，建議預先派張翼、廖化分守陽安關口與陰平橋頭。黃皓相信鬼巫，勸劉禪壓下奏章，群臣也未得知；魏軍真正出動後，蜀漢才倉促派援。現存文字足以呈現奏表核心建議，但不確定是否為原表全文。",
+      "anthology": "《三國志》卷四十四《蜀書・姜維傳》",
+      "excerpt": "聞鍾會治兵關中，欲規進取，宜並遣張翼、廖化詣督諸軍分護陽安關口、陰平橋頭，以防未然。",
+      "citations": [
+        {
+          "sourceId": "sgz-jiangwei-main",
+          "locator": "卷四十四・景耀六年『維表後主』"
+        }
+      ]
+    },
+    {
+      "title": "密書後主圖復蜀",
+      "type": "密書／書信殘文",
+      "extant": "僅存短段，見《三國志・姜維傳》裴注引《華陽國志》",
+      "attribution": "傳為姜維在鍾會控制成都期間密致劉禪之書",
+      "summary": "姜維請已投降的劉禪暫忍屈辱，表示自己將設法使危亡的社稷重新安定、幽暗的日月重新光明。它是理解姜維表面依附鍾會、實際圖謀復蜀的重要文字證據；現只存一句核心內容，不能據此復原完整密書。",
+      "anthology": "《華陽國志》相關佚文；《三國志》卷四十四裴松之注引",
+      "excerpt": "願陛下忍數日之辱，臣欲使社稷危而復安，日月幽而復明。",
+      "citations": [
+        {
+          "sourceId": "huayang-guozhi-jiangwei",
+          "locator": "《姜維傳》裴注引《華陽國志》"
+        }
+      ]
+    }
+  ]
+}
