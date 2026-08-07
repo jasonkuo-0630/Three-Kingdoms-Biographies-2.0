@@ -1,0 +1,1861 @@
+/* ============================================================
+   三國人物誌 - style.css
+   設計方向：深墨/深褐背景 + 米白宣紙內容卡片，朱砂暗紅為主要強調色，
+   史實生平用黛青、演義生平用暗紅作為時間線識別色，金色僅作為
+   細線點綴。避免卷軸竹簡與過度裝飾，維持現代、乾淨、易讀。
+   ============================================================ */
+
+:root {
+  /* 背景 */
+  --bg: #201b17;
+  --bg-2: #29221c;
+  --line: rgba(236, 228, 211, 0.12);
+
+  /* 內容區（宣紙色卡片） */
+  --parchment: #f6efe0;
+  --parchment-2: #ece0c7;
+  --text-on-parchment: #2a2318;
+  --text-on-parchment-muted: rgba(42, 35, 24, 0.64);
+
+  /* 頁面文字（深底之上） */
+  --text: #ece4d3;
+  --text-muted: rgba(236, 228, 211, 0.62);
+  --text-faint: rgba(236, 228, 211, 0.4);
+
+  /* 朱砂暗紅：主要強調色 */
+  --accent: #9c3b2e;
+  --accent-soft: rgba(156, 59, 46, 0.15);
+  --accent-border: rgba(156, 59, 46, 0.45);
+
+  /* 黛青（史實生平識別色） */
+  --historical: #33606a;
+  --historical-light: #7fc4d1;
+  --historical-soft: rgba(51, 96, 106, 0.16);
+
+  /* 暗紅（演義生平識別色，刻意比朱砂更深、更沉，方便與主色區分） */
+  --romance: #7a2f2f;
+  --romance-soft: rgba(122, 47, 47, 0.16);
+
+  /* 低調金：僅作細線/點綴用 */
+  --gold: #a9812f;
+
+  --radius: 10px;
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  --font-display: "Noto Serif TC", serif;
+  --font-body: "Noto Sans TC", sans-serif;
+
+  /* ---- 卷首／勢力總覽頁專用色票（奈奈設計稿沿用） ---- */
+  --ink: #17231f;
+  --ink-soft: #46524d;
+  --paper: #eee8da;
+  --paper-light: #f7f3e9;
+  --tone-wei: #334b5d;
+  --tone-shu: #466348;
+  --tone-wu: #82433b;
+  --tone-han: #54405f;
+  --tone-qun: #7a5a35;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------- 版面容器 ---------- */
+.page {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 24px 96px;
+}
+
+.loading-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-faint);
+}
+
+/* ============================================================
+   以下卷首（index.html）／勢力總覽頁（faction.html）的視覺設計
+   沿用奈奈提供的試作稿（配色、大字浮水印、人物卡片、進場動畫），
+   由我們改接真實資料與連結。原試作稿裡沒被實際頁面用到的殘留
+   樣式（.hero 舊版主視覺、.daily-card、.portrait-cluster 三圖疊層、
+   .five-factions 舊版五宮格）已經清掉，不搬過來。
+   ============================================================ */
+
+.home-page,
+.faction-page {
+  min-height: 100vh;
+  background: var(--ink);
+  color: #f4eee3;
+  font-family: var(--font-body);
+}
+
+/* ---------- 頁首（品牌列） ---------- */
+.topbar {
+  width: 100%;
+  padding-inline: max(20px, calc((100% - 1180px) / 2));
+  background: var(--paper-light);
+  color: var(--ink);
+}
+
+.topbar-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.brand-seal {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  border: 1px solid rgba(139, 52, 45, 0.7);
+  color: var(--accent);
+  font-family: var(--font-display);
+  font-weight: 800;
+  transform: rotate(-2deg);
+  box-shadow: inset 0 0 0 3px rgba(139, 52, 45, 0.08);
+}
+
+.brand-copy strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 20px;
+  letter-spacing: 0.16em;
+}
+
+.brand-copy small {
+  display: block;
+  margin-top: 3px;
+  color: #6a716c;
+  font-size: 11px;
+  letter-spacing: 0.11em;
+}
+
+.top-link {
+  color: var(--ink);
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--gold);
+  white-space: nowrap;
+}
+
+/* ---------- 卷首：快速搜尋（沿用我方功能，樣式改配這版米白頁首） ---------- */
+.quick-search {
+  position: relative;
+  flex: 1 1 320px;
+  max-width: 420px;
+}
+
+.topbar-search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 42px;
+  background: #fbf8f0;
+  border: 1px solid rgba(54, 67, 59, 0.15);
+  padding: 0 14px;
+}
+
+.topbar-search svg {
+  width: 16px;
+  height: 16px;
+  color: #9a9d96;
+  flex-shrink: 0;
+}
+
+.topbar-search input {
+  flex: 1;
+  background: none;
+  border: none;
+  outline: none;
+  color: var(--ink);
+  font-size: 13px;
+  font-family: var(--font-body);
+  letter-spacing: 0.05em;
+}
+
+.topbar-search input::placeholder {
+  color: #9a9d96;
+}
+
+.quick-search-results {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  background: var(--paper-light);
+  border: 1px solid rgba(54, 67, 59, 0.15);
+  box-shadow: 0 12px 32px rgba(23, 35, 31, 0.18);
+  list-style: none;
+  margin: 0;
+  padding: 6px;
+  max-height: 320px;
+  overflow-y: auto;
+  z-index: 20;
+}
+
+.quick-search-results li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.quick-search-results li a:hover {
+  background: rgba(169, 129, 71, 0.12);
+}
+
+.qs-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.qs-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.qs-courtesy {
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+
+.quick-search-empty {
+  padding: 12px;
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+/* ---------- 卷首：左右分割主視覺（左五個勢力入口 / 右說書人） ---------- */
+.portal-hero {
+  position: relative;
+  min-height: calc(100vh - 86px);
+  display: grid;
+  grid-template-columns: minmax(700px, 1.08fr) minmax(520px, 0.92fr);
+  overflow: hidden;
+  border-block: 1px solid rgba(191, 160, 103, 0.32);
+}
+
+.portal-bg-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* 現在底圖是純水墨遠山，沒有人臉需要閃避了，置中裁切即可 */
+  object-position: center center;
+  z-index: 0;
+}
+
+.portal-factions {
+  position: relative;
+  z-index: 1;
+  min-width: 0;
+  padding: clamp(28px, 4vh, 46px) clamp(28px, 3.4vw, 68px);
+  display: grid;
+  place-items: center;
+}
+
+.homepage-factions {
+  width: min(100%, 910px);
+  height: min(540px, calc(100vh - 148px));
+  min-height: 440px;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: 15px;
+}
+
+.portal-faction {
+  --tone: var(--tone-wei);
+  position: relative;
+  min-height: 0;
+  height: 100%;
+  overflow: hidden;
+  text-decoration: none;
+  color: #f4eee3;
+  border: 1px solid rgba(43, 55, 48, 0.2);
+  background: #263631;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.portal-faction:nth-child(1) { grid-column: 1 / 3; }
+.portal-faction:nth-child(2) { grid-column: 3 / 5; }
+.portal-faction:nth-child(3) { grid-column: 5 / 7; }
+.portal-faction:nth-child(4) { grid-column: 2 / 4; }
+.portal-faction:nth-child(5) { grid-column: 4 / 6; }
+
+.portal-faction--shu { --tone: var(--tone-shu); background: #304333; }
+.portal-faction--wu { --tone: var(--tone-wu); background: #4c302b; }
+.portal-faction--donghan { --tone: var(--tone-han); background: #372c3f; }
+.portal-faction--qunxiong { --tone: var(--tone-qun); background: #4b3928; }
+
+.portal-faction::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background:
+    linear-gradient(90deg, color-mix(in srgb, var(--tone) 90%, #101a16) 0%, color-mix(in srgb, var(--tone) 72%, transparent) 47%, transparent 82%),
+    linear-gradient(0deg, rgba(9, 15, 13, 0.94) 0%, transparent 56%);
+}
+
+.portal-faction::after {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  z-index: 4;
+  border: 1px solid rgba(236, 220, 190, 0.12);
+  pointer-events: none;
+}
+
+.portal-faction:hover {
+  transform: translateY(-7px);
+  border-color: color-mix(in srgb, var(--tone) 70%, #d7c69f);
+  box-shadow: 0 22px 45px rgba(29, 35, 30, 0.2);
+}
+
+.portal-mark {
+  position: absolute;
+  z-index: 0;
+  left: -18px;
+  top: -26px;
+  color: rgba(244, 237, 221, 0.08);
+  font-family: var(--font-display);
+  font-size: clamp(138px, 11vw, 190px);
+  font-weight: 900;
+  line-height: 1;
+  transform: rotate(-9deg);
+}
+
+.portal-portrait {
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.portal-portrait::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(12, 18, 15, 0.42) 0%, transparent 48%), linear-gradient(0deg, rgba(12, 18, 15, 0.94) 0%, rgba(12, 18, 15, 0.06) 62%, transparent 92%);
+}
+
+.portal-portrait-img {
+  position: absolute;
+  right: -7%;
+  bottom: 0;
+  width: 94%;
+  height: 94%;
+  object-fit: contain;
+  object-position: right bottom;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 24%, #000 100%);
+  mask-image: linear-gradient(90deg, transparent 0%, #000 24%, #000 100%);
+  filter: saturate(0.7) contrast(1.03) drop-shadow(0 10px 18px rgba(0, 0, 0, 0.38));
+}
+
+.portal-portrait-placeholder {
+  position: absolute;
+  z-index: 2;
+  right: 18px;
+  top: 62px;
+  width: 76px;
+  height: 112px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  border: 1px dashed rgba(235, 223, 199, 0.3);
+  color: rgba(235, 223, 199, 0.45);
+  font-family: var(--font-display);
+  font-size: 11px;
+  line-height: 1.7;
+  letter-spacing: 0.12em;
+}
+
+.portal-copy {
+  position: absolute;
+  z-index: 5;
+  left: 18px;
+  right: 14px;
+  bottom: 17px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.portal-label {
+  margin: 3px 0 2px;
+  font-family: var(--font-display);
+  font-size: clamp(27px, 2vw, 34px);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.portal-count {
+  position: relative;
+  z-index: 5;
+  margin-top: 12px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(236, 220, 190, 0.2);
+  color: rgba(244, 238, 227, 0.78);
+  font-size: 10px;
+  letter-spacing: 0.13em;
+}
+
+.portal-count::after {
+  content: "→";
+  margin-left: 6px;
+  color: #c6a96f;
+}
+
+.portal-load-error {
+  color: var(--text-muted);
+}
+
+/* ---------- 卷首：右側說書人去背圖（貼齊右下角，底圖已是共用背景不重複疊） ---------- */
+.portal-storyteller-panel {
+  position: relative;
+  z-index: 1;
+  min-width: 0;
+}
+
+.portal-storyteller-cutout {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 94%;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: right bottom;
+  filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.35));
+}
+
+/* 引言文字先拿掉，等版面定案後再考慮要不要疊回來，樣式先留著方便之後重新啟用 */
+.storyteller-copy-overlay {
+  position: absolute;
+  z-index: 2;
+  left: clamp(30px, 4.4vw, 76px);
+  top: 22%;
+  max-width: min(330px, 46%);
+  color: #25332e;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.storyteller-quote {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(26px, 2.2vw, 36px);
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+}
+
+.storyteller-caption {
+  margin-top: 26px;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-left: 2px solid #9b4338;
+}
+
+.storyteller-eyebrow {
+  color: #806c49;
+  font-size: 10px;
+  letter-spacing: 0.28em;
+}
+
+.storyteller-caption strong {
+  margin-top: 5px;
+  font-family: var(--font-display);
+  font-size: 18px;
+  letter-spacing: 0.12em;
+}
+
+@media (max-width: 1180px) {
+  .portal-hero {
+    min-height: auto;
+    grid-template-columns: 1fr;
+  }
+  .portal-factions {
+    min-height: 620px;
+  }
+  .homepage-factions {
+    height: 540px;
+  }
+  .portal-storyteller-panel {
+    min-height: 560px;
+  }
+  .storyteller-copy-overlay {
+    max-width: 44%;
+  }
+}
+
+@media (max-width: 760px) {
+  .topbar-inner {
+    height: auto;
+    padding-block: 14px;
+    gap: 12px;
+  }
+  .quick-search {
+    order: 3;
+    max-width: none;
+    flex-basis: 100%;
+  }
+  .portal-factions {
+    min-height: auto;
+    padding: 24px 18px 30px;
+  }
+  .homepage-factions {
+    height: auto;
+    min-height: 0;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: none;
+    grid-auto-rows: 250px;
+    gap: 11px;
+  }
+  .portal-faction:nth-child(n) {
+    grid-column: auto;
+  }
+  .portal-faction:last-child {
+    grid-column: 1 / -1;
+    width: calc(50% - 5.5px);
+    justify-self: center;
+  }
+  .portal-storyteller-panel {
+    /* 手機版直接不顯示說書人去背圖——反正版面塞不下完整人像，
+       硬塞只會變成看不出是誰的裁切殘影，不如乾脆藏起來 */
+    display: none;
+  }
+}
+
+@media (max-width: 430px) {
+  .homepage-factions {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 245px;
+  }
+  .portal-faction:last-child {
+    grid-column: auto;
+    width: 100%;
+  }
+}
+
+/* ---------- 勢力總覽頁（faction.html）：橫幅 ---------- */
+.faction-page {
+  --tone: var(--tone-shu);
+}
+.faction-page--wei { --tone: var(--tone-wei); }
+.faction-page--shu { --tone: var(--tone-shu); }
+.faction-page--wu { --tone: var(--tone-wu); }
+.faction-page--donghan { --tone: var(--tone-han); }
+.faction-page--qunxiong { --tone: var(--tone-qun); }
+
+.faction-page .topbar {
+  background: rgba(237, 230, 216, 0.94);
+}
+
+.faction-banner {
+  position: relative;
+  width: min(1180px, calc(100% - 40px));
+  margin: 24px auto 0;
+  min-height: 220px;
+  overflow: hidden;
+  padding: 48px 44px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 30px;
+  background:
+    radial-gradient(circle at 82% 20%, color-mix(in srgb, var(--tone) 66%, #b3986b), transparent 34rem),
+    linear-gradient(120deg, color-mix(in srgb, var(--tone) 76%, #101b17), #17251f 72%);
+  color: #f3ecdf;
+  border: 1px solid rgba(191, 160, 103, 0.3);
+  border-radius: 4px;
+}
+
+/* [hidden] 要蓋過上面的 display:flex，JS 切換 .hidden 才會真的有效果——
+   跟 .slip-list／.empty-state 是同一種疏漏，這裡補上 */
+.faction-banner[hidden] {
+  display: none;
+}
+
+.banner-mark {
+  position: absolute;
+  z-index: 0;
+  right: 7%;
+  top: -72px;
+  color: rgba(241, 232, 214, 0.06);
+  font-family: var(--font-display);
+  font-size: 280px;
+  font-weight: 900;
+  line-height: 1;
+  transform: rotate(-7deg);
+}
+
+.banner-copy {
+  position: relative;
+  z-index: 1;
+}
+
+.banner-eyebrow {
+  margin: 0;
+  color: #c5ae7d;
+  font-size: 12px;
+  letter-spacing: 0.16em;
+}
+
+.banner-copy h1 {
+  margin: 5px 0 10px;
+  font-family: var(--font-display);
+  font-size: clamp(40px, 6vw, 68px);
+  line-height: 1;
+  letter-spacing: 0.14em;
+}
+
+.banner-copy p:last-child {
+  margin: 0;
+  color: rgba(243, 236, 223, 0.62);
+  font-size: 13px;
+  letter-spacing: 0.12em;
+}
+
+.banner-count {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 5px;
+  color: #c5ae7d;
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .faction-banner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+}
+
+/* ---------- 篩選列（搜尋 + 勢力 pills） ---------- */
+.filter-bar {
+  width: min(1180px, calc(100% - 40px));
+  margin: 40px auto 0;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 15px;
+  background: rgba(248, 244, 234, 0.06);
+  border: 1px solid rgba(236, 220, 190, 0.12);
+}
+
+.search-box {
+  flex: 1 1 330px;
+  min-width: 220px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 42px;
+  background: rgba(251, 248, 240, 0.06);
+  border: 1px solid rgba(236, 220, 190, 0.15);
+  padding: 0 14px;
+}
+
+.search-box svg {
+  width: 18px;
+  height: 18px;
+  color: #a49c88;
+  flex-shrink: 0;
+}
+
+.search-box input {
+  flex: 1;
+  height: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  color: #f4eee3;
+  font-size: 13px;
+  font-family: var(--font-body);
+  letter-spacing: 0.05em;
+}
+
+.search-box input::placeholder {
+  color: #8b8f89;
+}
+
+.clear-btn {
+  border: 1px solid rgba(155, 67, 56, 0.4);
+  background: transparent;
+  color: #d98d80;
+  padding: 9px 14px;
+  cursor: pointer;
+  font-size: 12px;
+  letter-spacing: 0.07em;
+}
+
+.result-count {
+  width: min(1180px, calc(100% - 40px));
+  margin: 18px auto 0;
+  color: #a49c88;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+}
+
+/* ---------- 竹簡人物列 ---------- */
+.slip-panel {
+  width: min(1180px, calc(100% - 40px));
+  margin: 26px auto 100px;
+}
+
+.slip-list {
+  height: min(680px, calc(100vh - 320px));
+  min-height: 360px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 4px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(169, 129, 71, 0.5) transparent;
+}
+
+.slip {
+  --tone: var(--tone-wei);
+  flex-shrink: 0; /* 沒有這行 flexbox 會把每一列壓扁塞進固定高度，而不是讓清單捲動 */
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  height: 84px;
+  padding: 0 24px 0 0;
+  text-decoration: none;
+  color: inherit;
+  background:
+    linear-gradient(90deg, color-mix(in srgb, var(--tone) 7%, transparent), transparent 40%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
+  border: 1px solid rgba(236, 220, 190, 0.08);
+  overflow: hidden;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.slip--shu { --tone: var(--tone-shu); }
+.slip--wu { --tone: var(--tone-wu); }
+.slip--donghan { --tone: var(--tone-han); }
+.slip--qunxiong { --tone: var(--tone-qun); }
+
+.slip:hover,
+.slip.is-hovered {
+  transform: scale(1.018) translateX(3px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35);
+  border-color: color-mix(in srgb, var(--tone) 55%, #d7c69f);
+  z-index: 2;
+}
+
+.slip-accent {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: var(--tone);
+  opacity: 0.7;
+  transition: width 0.18s ease, opacity 0.18s ease;
+}
+
+.slip:hover .slip-accent,
+.slip.is-hovered .slip-accent {
+  width: 6px;
+  opacity: 1;
+}
+
+.slip-mark {
+  position: absolute;
+  right: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 90px;
+  color: color-mix(in srgb, var(--tone) 14%, transparent);
+  line-height: 1;
+  pointer-events: none;
+}
+
+.slip-avatar {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  margin-left: 22px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid rgba(236, 220, 190, 0.35);
+}
+
+.slip-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.slip-main {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  min-width: 150px;
+}
+
+.slip-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 19px;
+  letter-spacing: 0.08em;
+  color: #f4eee3;
+}
+
+.slip-courtesy {
+  font-size: 12px;
+  color: #b7ae9c;
+  letter-spacing: 0.05em;
+}
+
+.slip-courtesy--muted {
+  color: #726f63;
+}
+
+.slip-extra {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  opacity: 0;
+  transform: translateX(-6px);
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+.slip:hover .slip-extra,
+.slip.is-hovered .slip-extra {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slip-tags {
+  display: flex;
+  gap: 6px;
+}
+
+.slip-tag {
+  font-size: 10px;
+  letter-spacing: 0.05em;
+  padding: 3px 8px;
+  border: 1px solid rgba(236, 220, 190, 0.25);
+  color: #cbc4b0;
+  white-space: nowrap;
+}
+
+/* 史實記載／後世文學：跟人物頁時間線同一套識別色（黛青／暗紅），不是另外配的新顏色 */
+.slip-tag--hist {
+  border-color: rgba(127, 196, 209, 0.4);
+  color: #a9d8e0;
+}
+
+.slip-tag--romance {
+  border-color: rgba(122, 47, 47, 0.5);
+  color: #d99a9a;
+}
+
+.slip-enter {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: color-mix(in srgb, var(--tone) 70%, #cbb98a);
+  white-space: nowrap;
+}
+
+.empty-state {
+  width: min(1180px, calc(100% - 40px));
+  margin: 26px auto 100px;
+  min-height: 230px;
+  display: grid;
+  place-items: center;
+  gap: 10px;
+  border: 1px dashed rgba(236, 220, 190, 0.2);
+  color: #a49c88;
+  text-align: center;
+  font-size: 13px;
+}
+
+/* [hidden] 的優先權要蓋過上面兩條規則，JS 切換 .hidden 才會真的有效果，
+   不然 display:flex／display:grid 會讓「隱藏」形同虛設 */
+.slip-list[hidden],
+.empty-state[hidden] {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .filter-bar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .slip-list {
+    height: min(560px, calc(100vh - 280px));
+  }
+  .slip {
+    gap: 12px;
+    padding-right: 14px;
+  }
+  .slip-avatar {
+    width: 44px;
+    height: 44px;
+    margin-left: 14px;
+  }
+  .slip-name {
+    font-size: 16px;
+  }
+  .slip-mark {
+    font-size: 64px;
+  }
+  /* 手機版空間有限，標籤跟入卷連結改成常駐顯示，不用特地 hover
+     （觸控裝置本來就沒有真正的 hover，藏起來反而看不到） */
+  .slip-extra {
+    opacity: 1;
+    transform: none;
+    gap: 8px;
+  }
+  .slip-tags {
+    display: none;
+  }
+}
+
+/* ---------- footer（卷首／勢力頁共用） ---------- */
+.home-page .site-footer,
+.faction-page .site-footer {
+  padding: 34px 20px 42px;
+  background: #172620;
+  color: rgba(243, 237, 226, 0.65);
+  font-size: 11px;
+  letter-spacing: 0.07em;
+}
+
+
+/* ---------- 詳細頁：返回列 / 錯誤頁 ---------- */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  margin: 26px 0 8px;
+}
+
+.back-link:hover {
+  color: var(--text);
+}
+
+.not-found {
+  padding: 60px 10px;
+  text-align: center;
+}
+
+.not-found h1 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+}
+
+.not-found p {
+  color: var(--text-muted);
+  margin-bottom: 18px;
+}
+
+/* ---------- 示範資料徽章 ---------- */
+.demo-badge {
+  display: inline-block;
+  margin: 20px 0 0;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  border: 1px solid var(--accent-border);
+  color: #e8a99b;
+  font-size: 0.8rem;
+}
+
+/* ---------- 詳細頁：人物頭部 ---------- */
+.avatar-ring {
+  display: block;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  padding: 3px;
+  background: linear-gradient(160deg, var(--gold), #e6d19f);
+  flex-shrink: 0;
+}
+
+.avatar-ring img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: block;
+  object-fit: cover;
+  border: 2px solid var(--parchment);
+  background: var(--parchment-2);
+}
+
+.avatar-ring--lg {
+  width: 128px;
+  height: 128px;
+}
+
+.avatar-ring--lg img {
+  border-color: var(--bg);
+}
+
+.avatar-ring--sm {
+  width: 46px;
+  height: 46px;
+}
+
+.char-hero {
+  display: flex;
+  gap: 26px;
+  align-items: flex-start;
+  padding: 26px 0 26px;
+  margin-top: 10px;
+  border-bottom: 1px solid var(--line);
+  flex-wrap: wrap;
+}
+
+.char-hero-info {
+  flex: 1 1 320px;
+  min-width: 0;
+}
+
+.char-hero-name {
+  font-family: var(--font-display);
+  font-size: clamp(1.7rem, 4vw, 2.2rem);
+  font-weight: 700;
+  margin: 0 0 4px;
+  letter-spacing: 0.04em;
+}
+
+.char-alias {
+  color: var(--accent);
+  font-size: 0.92rem;
+  margin: 0 0 10px;
+}
+
+.char-summary {
+  color: var(--text-muted);
+  font-size: 1rem;
+  margin: 0 0 16px;
+  max-width: 60ch;
+}
+
+.meta-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+}
+
+.meta-field {
+  display: flex;
+  gap: 6px;
+  font-size: 0.9rem;
+}
+
+.meta-label {
+  color: var(--text-faint);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.meta-value {
+  color: var(--text);
+  font-weight: 500;
+  min-width: 0;
+}
+
+/* ---------- 頁籤 ---------- */
+.tabs-nav {
+  display: flex;
+  gap: 4px;
+  margin: 26px 0 0;
+  border-bottom: 1px solid var(--line);
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.tab-btn {
+  font-family: var(--font-display);
+  font-size: 0.98rem;
+  padding: 12px 20px;
+  background: transparent;
+  border: none;
+  color: var(--text-faint);
+  cursor: pointer;
+  white-space: nowrap;
+  position: relative;
+}
+
+.tab-btn:hover {
+  color: var(--text-muted);
+}
+
+.tab-btn[aria-selected="true"] {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.tab-btn[aria-selected="true"]::after {
+  content: "";
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  bottom: -1px;
+  height: 2px;
+  background: var(--accent);
+}
+
+/* 依頁籤類型微調底線識別色 */
+.tab-btn[data-tab="historical"][aria-selected="true"]::after {
+  background: var(--historical);
+}
+.tab-btn[data-tab="romance"][aria-selected="true"]::after {
+  background: var(--romance);
+}
+
+.tab-panel {
+  padding: 28px 0 10px;
+}
+
+.tab-panel[hidden] {
+  display: none;
+}
+
+/* ---------- 總覽 ---------- */
+.section-block {
+  margin-bottom: 32px;
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0 0 14px;
+  padding-left: 12px;
+  border-left: 3px solid var(--accent);
+}
+
+.paraphrase-text {
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.9;
+  margin: 0 0 8px;
+}
+
+.plain-card {
+  padding: 14px 18px;
+  border-radius: var(--radius);
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+}
+
+.plain-card p {
+  margin: 0 0 8px;
+}
+
+/* 可展開的「查看史料原文」區塊 */
+.original-text-toggle {
+  margin: 6px 0 12px;
+  padding: 10px 14px;
+  border-radius: var(--radius);
+  background: rgba(0, 0, 0, 0.18);
+  border: 1px solid var(--line);
+}
+
+.original-text-toggle summary {
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: var(--gold);
+  font-weight: 500;
+  list-style: revert;
+}
+
+.original-text-toggle summary:hover {
+  color: #e6c47f;
+}
+
+.original-text-toggle[open] summary {
+  margin-bottom: 10px;
+}
+
+/* 逐字引文一律用 blockquote，跟白話整理內容明確區隔 */
+.original-text {
+  margin: 0 0 6px;
+  padding: 10px 14px;
+  border-left: 2px solid var(--gold);
+  background: rgba(169, 129, 47, 0.06);
+  font-family: var(--font-display);
+  font-size: 0.94rem;
+  color: var(--text);
+  line-height: 1.85;
+}
+
+.original-text-source {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: baseline;
+  font-size: 0.76rem;
+  color: var(--text-faint);
+  margin: 0 0 14px;
+}
+
+.original-text-source:last-child {
+  margin-bottom: 0;
+}
+
+/* 年代推定／不同記載／可信度說明 */
+.uncertainty-note {
+  margin: 6px 0 12px;
+  padding: 10px 14px;
+  border-radius: var(--radius);
+  background: rgba(169, 129, 47, 0.08);
+  border: 1px dashed rgba(169, 129, 47, 0.4);
+}
+
+.uncertainty-label {
+  display: block;
+  font-size: 0.72rem;
+  color: #d9b463;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.uncertainty-note p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.88rem;
+}
+
+/* 來源標籤：整站共用 */
+.citations {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.source-chip {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: baseline;
+  font-size: 0.78rem;
+  color: var(--text-faint);
+  margin: 0 8px 4px 0;
+}
+
+.source-chip--missing {
+  color: #e0a89e;
+  border: 1px dashed rgba(224, 168, 158, 0.5);
+  border-radius: 6px;
+  padding: 2px 8px;
+}
+
+.source-kind {
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: rgba(169, 129, 47, 0.16);
+  border: 1px solid rgba(169, 129, 47, 0.4);
+  color: #d9b463;
+  font-size: 0.72rem;
+}
+
+.source-title {
+  color: var(--text-muted);
+}
+
+.source-locator {
+  color: var(--text-faint);
+}
+
+.source-locator::before {
+  content: "· ";
+}
+
+.source-note::before {
+  content: "· ";
+}
+
+/* 所屬勢力歷程 */
+.faction-stage-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.faction-stage {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  padding: 16px 18px;
+  border-radius: var(--radius);
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+}
+
+a.faction-stage.is-link {
+  cursor: pointer;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+a.faction-stage.is-link:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.faction-stage-person {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.02rem;
+}
+
+.faction-stage-faction {
+  color: var(--gold);
+  font-size: 0.85rem;
+  margin-top: 2px;
+}
+
+.faction-stage-period {
+  color: var(--text-faint);
+  font-size: 0.8rem;
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.uncertain-flag {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  color: #d9b463;
+  border: 1px solid rgba(169, 129, 47, 0.4);
+  background: rgba(169, 129, 47, 0.12);
+}
+
+/* 同一人物合併成一張卡片時，第二段之後的階段用一條淡虛線隔開，
+   視覺上表達「同一人的下一個階段」而不是另一則獨立紀錄 */
+.faction-stage-segment.has-divider {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--line);
+}
+
+/* 官職與爵位 */
+.rank-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rank-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 12px;
+  padding: 12px 16px;
+  border-radius: var(--radius);
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+}
+
+.rank-title {
+  font-weight: 700;
+}
+
+.rank-period {
+  color: var(--text-faint);
+  font-size: 0.85rem;
+}
+
+/* 親屬表格（桌面）／卡片（手機） */
+.table-scroll {
+  overflow-x: auto;
+}
+
+.relative-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+.relative-table th,
+.relative-table td {
+  text-align: left;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+
+/* 「關係」欄位內容通常很短（妻/長子/次子…），強制不換行，
+   避免因欄寬不足被硬擠成兩行 */
+.relative-table td:nth-child(2) {
+  white-space: nowrap;
+}
+
+.relative-table th {
+  color: var(--text-faint);
+  font-weight: 500;
+  font-size: 0.82rem;
+}
+
+.rel-person-cell {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  white-space: nowrap;
+}
+
+/* 沒有頭像的親屬（例如不打算建檔的父母），姓名往右縮一點對齊有頭像的那些人 */
+.rel-person-cell--no-avatar {
+  display: inline-block;
+  padding-left: 58px;
+  font-weight: 700;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+}
+
+.rel-name-text {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+a.rel-person-cell.is-link:hover span {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+}
+
+.nature-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  border: 1px solid;
+  white-space: nowrap;
+}
+
+.nature-badge[data-nature="record"] {
+  color: #9fc0a3;
+  border-color: rgba(159, 192, 163, 0.4);
+  background: rgba(159, 192, 163, 0.1);
+}
+
+.nature-badge[data-nature="fiction"] {
+  color: #e0a89e;
+  border-color: rgba(224, 168, 158, 0.4);
+  background: rgba(224, 168, 158, 0.1);
+}
+
+/* 一筆親屬同時有「正史關係」與「演義設定」兩層時，分兩行顯示，
+   不要擠成一句話混在一起（例如桃園三兄弟、孫策與周瑜） */
+.rel-relation-line {
+  margin-bottom: 4px;
+}
+
+.rel-relation-line:last-child {
+  margin-bottom: 0;
+}
+
+.rel-relation-line--fiction {
+  color: var(--text-faint);
+  font-size: 0.88em;
+}
+
+td[data-label="資料性質"] > div {
+  margin-bottom: 6px;
+}
+
+td[data-label="資料性質"] > div:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  .relative-table thead {
+    display: none;
+  }
+  .relative-table,
+  .relative-table tbody,
+  .relative-table tr,
+  .relative-table td {
+    display: block;
+    width: 100%;
+  }
+  .relative-table tr {
+    margin-bottom: 12px;
+    border-radius: var(--radius);
+    background: var(--bg-2);
+    border: 1px solid var(--line);
+    padding: 4px 0;
+  }
+  .relative-table td {
+    border-bottom: none;
+    padding: 8px 14px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .relative-table td.person-cell {
+    display: block;
+  }
+  .relative-table td:not(.person-cell)::before {
+    content: attr(data-label);
+    color: var(--text-faint);
+    font-size: 0.78rem;
+    flex-shrink: 0;
+  }
+}
+
+/* 評價 */
+.quote-card {
+  padding: 16px 18px;
+  border-radius: var(--radius);
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  margin-bottom: 12px;
+}
+
+.quote-meta {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.quote-evaluator {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.98rem;
+  color: var(--text);
+}
+
+.quote-era {
+  color: var(--text-faint);
+  font-size: 0.8rem;
+}
+
+.quote-context {
+  color: var(--text-muted);
+  font-size: 0.86rem;
+  margin: 0 0 8px;
+}
+
+.quote-card .original-text,
+.quote-card .paraphrase-text {
+  margin-bottom: 8px;
+}
+
+/* ---------- 史實 / 演義生平：縱向時間線 ---------- */
+.timeline-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 128px 26px 1fr;
+  gap: 0 14px;
+}
+
+@media (max-width: 640px) {
+  .timeline-item {
+    grid-template-columns: 20px 1fr;
+  }
+  .timeline-period-col {
+    display: none;
+  }
+  .timeline-period-inline {
+    display: inline-block !important;
+  }
+}
+
+.timeline-period-col {
+  padding-top: 4px;
+  text-align: right;
+  color: var(--text-faint);
+  font-size: 0.82rem;
+}
+
+.timeline-period-inline {
+  display: none;
+  font-size: 0.78rem;
+  color: var(--text-faint);
+  margin-bottom: 4px;
+}
+
+.timeline-track {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.timeline-track::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  bottom: -24px;
+  width: 2px;
+  background: var(--line);
+}
+
+.timeline-item:last-child .timeline-track::before {
+  display: none;
+}
+
+.timeline-dot {
+  position: relative;
+  z-index: 1;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  margin-top: 5px;
+  background: var(--accent);
+  box-shadow: 0 0 0 3px var(--bg);
+}
+
+.timeline-item--historical .timeline-dot {
+  background: var(--historical);
+}
+.timeline-item--romance .timeline-dot {
+  background: var(--romance);
+}
+
+.timeline-content {
+  padding-bottom: 26px;
+}
+
+.timeline-title {
+  font-family: var(--font-display);
+  font-size: 1.02rem;
+  margin: 0 0 8px;
+}
+
+.timeline-item--historical .timeline-title {
+  color: var(--historical-light);
+}
+.timeline-item--romance .timeline-title {
+  color: #d98f8f;
+}
+
+.diff-note {
+  margin-top: 10px;
+  padding: 10px 14px;
+  border-radius: var(--radius);
+  background: var(--romance-soft);
+  border: 1px solid rgba(122, 47, 47, 0.35);
+}
+
+.diff-note p {
+  margin: 4px 0 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.diff-label {
+  font-size: 0.75rem;
+  color: #d98f8f;
+  font-weight: 700;
+}
+
+/* ---------- 著作 ---------- */
+.work-entry {
+  padding: 18px 20px;
+  border-radius: var(--radius);
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  margin-bottom: 14px;
+}
+
+.work-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--accent);
+  margin: 0 0 10px;
+}
+
+/* 類型／現存狀況／歸屬狀態：改成一格一格的小標籤，不再黏成一整行 */
+.work-meta-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed var(--line);
+}
+
+.work-meta-field {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 0.85rem;
+}
+
+.work-meta-label {
+  color: var(--text-faint);
+  font-size: 0.72rem;
+}
+
+.work-meta-value {
+  color: var(--text);
+}
+
+/* 收錄文獻／原文摘錄：各自獨立一個子區塊，跟簡介分開 */
+.work-subsection {
+  margin-top: 12px;
+}
+
+.work-subsection-label {
+  display: block;
+  font-size: 0.72rem;
+  color: var(--gold);
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.work-anthology {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.work-entry .paraphrase-text {
+  font-size: 0.94rem;
+}
+
+.original-text-paragraph {
+  margin: 0 0 10px;
+}
+
+.original-text-paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.version-note {
+  margin: 10px 0 0;
+  padding: 10px 14px;
+  border-radius: var(--radius);
+  background: rgba(169, 129, 47, 0.06);
+  border: 1px dashed rgba(169, 129, 47, 0.35);
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+.version-note-label {
+  display: block;
+  font-size: 0.7rem;
+  color: #d9b463;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.work-entry .citations {
+  margin-top: 12px;
+}
+
+/* ---------- footer ---------- */
+.site-footer {
+  text-align: center;
+  color: var(--text-faint);
+  font-size: 0.78rem;
+  padding: 40px 0 10px;
+}
