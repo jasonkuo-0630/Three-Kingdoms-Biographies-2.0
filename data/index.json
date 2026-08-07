@@ -204,5 +204,20 @@
     ],
     "avatar": "images/jiang_wei.png",
     "filterGroup": "shu"
+  },
+  {
+    "id": "liu-xie",
+    "published": true,
+    "name": "劉協",
+    "courtesyName": "伯和",
+    "searchTerms": [
+      "劉協",
+      "伯和",
+      "漢獻帝",
+      "山陽公",
+      "liu xie"
+    ],
+    "avatar": "images/liu_xie.png",
+    "filterGroup": "donghan"
   }
 ]
