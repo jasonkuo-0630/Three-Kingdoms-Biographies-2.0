@@ -1,0 +1,989 @@
+{
+  "schemaVersion": 2,
+  "dataStatus": "reviewed-draft",
+  "published": true,
+  "lastReviewedAt": "2026-08-06",
+  "id": "zhang-liao",
+  "name": "張遼",
+  "courtesyName": "文遠",
+  "childhoodName": null,
+  "artName": null,
+  "otherNames": [
+    "本姓聶"
+  ],
+  "lifespan": "約169年—222年",
+  "birthplace": "并州雁門郡馬邑縣（今山西省朔州市一帶）",
+  "primaryIdentity": "東漢末至曹魏名將；官至前將軍，封晉陽侯",
+  "summary": "張遼早年由丁原召用，先後受何進節制，轉屬董卓、呂布；下邳之敗後率眾歸降曹操。其後參與平定袁氏、白狼山破烏桓、天柱山討陳蘭梅成，尤以建安二十年合肥守戰著名。曹魏建立後任前將軍、封晉陽侯，黃初三年帶病臨江禦吳並參與擊破呂範軍，旋病逝江都，諡剛侯。",
+  "avatar": "images/zhang_liao.png",
+  "overview": {
+    "intro": {
+      "paragraphs": [
+        {
+          "text": "張遼字文遠，雁門馬邑人，本為西漢聶壹後裔，因家族避怨而改姓張。其生年沒有直接紀年；現代常用的169年，是依《張遼傳》記他在呂布據徐州時『年二十八』，再配合事件年代倒推所得，因此頁首以『約169年』標示。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhangliao-main",
+              "locator": "卷十七・張遼傳開篇"
+            }
+          ]
+        },
+        {
+          "text": "他一生最鮮明的特點，是能在兵力不利、軍心不穩或道路險峻時迅速判斷並親自帶頭作戰。白狼山、天柱山與合肥三役分別呈現其臨陣勸戰、深入險地及以突擊安定守軍的能力；陳壽將張遼列入曹操時期『五子為先』的良將群體，但『五子良將』不是當時正式官號。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhangliao-main",
+              "locator": "卷十七・白狼山、天柱山、合肥諸段"
+            },
+            {
+              "sourceId": "sgz-weishu17-appraisal",
+              "locator": "卷十七卷末評語"
+            }
+          ]
+        }
+      ],
+      "originalTexts": [
+        {
+          "text": "張遼字文遠，雁門馬邑人也。本聶壹之後，以避怨變姓。少爲郡吏。",
+          "sourceId": "sgz-zhangliao-main",
+          "locator": "卷十七・張遼傳"
+        }
+      ]
+    },
+    "factionTimeline": [
+      {
+        "stageName": "丁原麾下・并州從事",
+        "personName": "丁原",
+        "personId": null,
+        "actualFactionId": "ding-yuan-bingzhou-force",
+        "period": "中平末年（約188—189年，確切起始時間不詳）",
+        "periodUncertain": true
+      },
+      {
+        "stageName": "何進麾下・奉命募兵",
+        "personName": "何進",
+        "personId": null,
+        "actualFactionId": "he-jin-han-court",
+        "period": "中平六年（189年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "董卓政權",
+        "personName": "董卓",
+        "personId": null,
+        "actualFactionId": "dong-zhuo-regime",
+        "period": "中平六年（189年）何進敗亡後 — 初平三年（192年）董卓被殺",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "呂布勢力",
+        "personName": "呂布",
+        "personId": null,
+        "actualFactionId": "lu-bu-faction",
+        "period": "初平三年（192年）— 建安三年（198年）下邳敗亡",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "曹操麾下・東漢朝廷名義",
+        "personName": "曹操",
+        "personId": null,
+        "actualFactionId": "cao-cao-han-court",
+        "period": "建安三年（198年）— 建安二十一年（216年）曹操進魏王",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "曹操魏王國政權",
+        "personName": "曹操",
+        "personId": null,
+        "actualFactionId": "cao-cao-wei-kingdom",
+        "period": "建安二十一年（216年）— 建安二十五年（220年）曹操去世",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "曹丕魏王國過渡政權",
+        "personName": "曹丕",
+        "personId": null,
+        "actualFactionId": "cao-pi-wei-kingdom",
+        "period": "延康元年（220年）曹丕繼魏王位 — 同年受禪稱帝",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "曹魏・文帝政權",
+        "personName": "曹丕",
+        "personId": null,
+        "actualFactionId": "caowei-wendi",
+        "period": "黃初元年（220年）— 黃初三年（222年）病逝",
+        "periodUncertain": false
+      }
+    ],
+    "relatives": [
+      {
+        "personName": "聶壹",
+        "personId": null,
+        "relation": "先祖",
+        "natureType": "史籍記載",
+        "note": "《張遼傳》稱張遼為聶壹之後，因避怨改姓；沒有交代中間世系，也沒有說明改姓發生在張遼本人還是更早的祖先。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangliao-main",
+            "locator": "卷十七・張遼傳開篇"
+          }
+        ]
+      },
+      {
+        "personName": "張氏（名不詳）",
+        "personId": null,
+        "relation": "母",
+        "natureType": "史籍記載",
+        "note": "曹丕命人以車馬護送張遼家屬前往合肥屯所，又令張遼所督將吏在道旁迎拜其母；黃初二年另特為其母修建殿舍。史書未載姓名與生卒。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangliao-main",
+            "locator": "卷十七・曹丕即王位及黃初二年"
+          }
+        ]
+      },
+      {
+        "personName": "張汎",
+        "personId": null,
+        "relation": "兄",
+        "natureType": "史籍記載",
+        "note": "曹丕即魏王位後，從張遼封邑中分封其兄張汎為列侯。除姓名與受封外，史書未載其他事蹟。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangliao-main",
+            "locator": "卷十七・『分封兄汎及一子列侯』"
+          }
+        ]
+      },
+      {
+        "personName": "張虎",
+        "personId": null,
+        "relation": "子",
+        "natureType": "史籍記載",
+        "note": "張遼去世後承襲晉陽侯爵，後任偏將軍；去世後由其子張統承襲。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangliao-main",
+            "locator": "卷十七・張遼傳末"
+          }
+        ]
+      },
+      {
+        "personName": "張氏（名不詳）",
+        "personId": null,
+        "relation": "子",
+        "natureType": "史籍記載／身分未詳",
+        "note": "曹丕即魏王位後，另分封張遼一子為列侯；原文沒有記名，也沒有說此子是否就是後來承爵的張虎，故不可逕行合併。黃初六年，曹丕又賜張遼一子關內侯爵，原文同樣未記名，也無法確定是否為同一人。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangliao-main",
+            "locator": "卷十七・延康元年與黃初六年"
+          }
+        ]
+      },
+      {
+        "personName": "張統",
+        "personId": null,
+        "relation": "孫（張虎之子）",
+        "natureType": "史籍記載",
+        "note": "張虎去世後承襲晉陽侯爵；本傳未載其後續官職與事蹟。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangliao-main",
+            "locator": "卷十七・張遼傳末"
+          }
+        ]
+      }
+    ],
+    "titlesAndRanks": [
+      {
+        "title": "郡吏",
+        "period": "少年時，確切年份不詳",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangliao-main",
+            "locator": "卷十七・張遼傳開篇"
+          }
+        ]
+      },
+      {
+        "title": "并州從事",
+        "period": "漢末受并州刺史丁原召用時",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangliao-main",
+            "locator": "卷十七・張遼傳開篇"
+          }
+        ]
+      },
+      {
+        "title": "騎都尉",
+        "period": "初平三年（192年）董卓死後轉屬呂布",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangliao-main"
+          }
+        ]
+      },
+      {
+        "title": "領魯相",
+        "period": "隨呂布東奔徐州後（約196年前後，確切年份不詳）",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangliao-main"
+          }
+        ]
+      },
+      {
+        "title": "中郎將、關內侯",
+        "period": "建安三年（198年）下邳歸降曹操後",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangliao-main"
+          }
+        ]
+      },
+      {
+        "title": "裨將軍",
+        "period": "歸曹後數有戰功，確切升遷年份不詳",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangliao-main"
+          }
+        ]
+      },
+      {
+        "title": "行中堅將軍",
+        "period": "從討袁譚、袁尚於黎陽有功後（約202—203年）",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangliao-main"
+          }
+        ]
+      },
+      {
+        "title": "蕩寇將軍",
+        "period": "建安十一年（206年），曹操上表顯寵張遼、樂進、于禁後",
+        "citations": [
+          {
+            "sourceId": "sgz-yuejin-main",
+            "locator": "卷十七・建安十一年曹操上表"
+          }
+        ]
+      },
+      {
+        "title": "都亭侯",
+        "period": "平定江夏諸縣後（約206—207年）",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangliao-main"
+          }
+        ]
+      },
+      {
+        "title": "假節",
+        "period": "討平陳蘭、梅成後（建安十四年，209年）",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangliao-main"
+          }
+        ]
+      },
+      {
+        "title": "征東將軍",
+        "period": "建安二十年（215年）合肥守戰後",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangliao-main"
+          }
+        ]
+      },
+      {
+        "title": "前將軍",
+        "period": "延康元年（220年）曹丕即魏王位後",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangliao-main"
+          }
+        ]
+      },
+      {
+        "title": "都鄉侯",
+        "period": "延康元年（220年）受命復屯合肥時",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangliao-main"
+          }
+        ]
+      },
+      {
+        "title": "晉陽侯",
+        "period": "黃初元年（220年）曹丕稱帝後，食邑增至二千六百戶",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangliao-main"
+          }
+        ]
+      }
+    ],
+    "posthumousTitle": {
+      "title": "剛侯",
+      "grantedBy": "黃初三年（222年），張遼病逝江都後由魏文帝曹丕賜諡",
+      "citations": [
+        {
+          "sourceId": "sgz-zhangliao-main",
+          "locator": "卷十七・張遼傳末"
+        }
+      ],
+      "paragraphs": [
+        {
+          "text": "張遼在黃初三年對吳軍事行動期間病勢加重，病逝於江都。曹丕為之流淚，隨即諡為『剛侯』，由子張虎承爵；這是張遼逝世當年的賜諡，不是多年後另行追諡。《三國志》未保存一篇獨立的諡詔，也沒有明說選用『剛』字的理由。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhangliao-main",
+              "locator": "卷十七・『帝爲流涕，諡曰剛侯。子虎嗣』"
+            }
+          ]
+        }
+      ]
+    },
+    "evaluations": {
+      "contemporary": [
+        {
+          "evaluatorName": "曹操",
+          "evaluatorEra": "東漢末年",
+          "context": "建安十一年上表漢帝，合稱樂進、于禁、張遼的能力與功績",
+          "textType": "古籍原文",
+          "originalText": "武力旣弘，計略周備，質忠性一，守執節義，每臨戰攻，常爲督率，奮強突固，無堅不陷，自援枹鼓，手不知倦。又遣別征，統御師旅，撫衆則和，奉令無犯，當敵制決，靡有遺失。",
+          "citations": [
+            {
+              "sourceId": "sgz-yuejin-main",
+              "locator": "卷十七・樂進傳附建安十一年曹操上表"
+            }
+          ],
+          "paraphrase": "曹操稱樂進、于禁、張遼等人武力強盛、謀略周全、忠誠守節，無論衝鋒陷陣或統領軍隊都能勝任。"
+        },
+        {
+          "evaluatorName": "曹操",
+          "evaluatorEra": "東漢末年",
+          "context": "張遼深入天柱山斬陳蘭、梅成後論功",
+          "textType": "古籍原文",
+          "originalText": "登天山，履峻險，以取蘭成，蕩寇功也。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhangliao-main",
+              "locator": "卷十七・討陳蘭梅成"
+            }
+          ],
+          "paraphrase": "曹操肯定張遼冒險登上險峻的天柱山，成功斬滅陳蘭、梅成，建立平定賊寇之功。"
+        },
+        {
+          "evaluatorName": "曹丕",
+          "evaluatorEra": "曹魏文帝",
+          "context": "黃初二年在洛陽建始殿詢問合肥破吳經過後",
+          "textType": "古籍原文",
+          "originalText": "此亦古之召虎也。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhangliao-main",
+              "locator": "卷十七・黃初二年"
+            }
+          ],
+          "paraphrase": "曹丕把張遼比作周代名將召虎，認為他的戰功足以與古代名將並論。"
+        },
+        {
+          "evaluatorName": "孫權",
+          "evaluatorEra": "東吳君主",
+          "context": "黃初三年張遼帶病隨曹休臨江時，告誡吳軍諸將",
+          "textType": "古籍原文",
+          "originalText": "張遼雖病，不可當也，愼之！",
+          "citations": [
+            {
+              "sourceId": "sgz-zhangliao-main",
+              "locator": "卷十七・病中臨江"
+            }
+          ],
+          "paraphrase": "孫權警告諸將，即使張遼正在生病，仍然是難以抵擋的強敵，必須格外謹慎。"
+        },
+        {
+          "evaluatorName": "曹丕",
+          "evaluatorEra": "曹魏文帝",
+          "context": "黃初六年追念張遼、李典合肥戰功的詔書；此為君主對戰果的高度概括，不等於八百人單獨消滅十萬人",
+          "textType": "古籍原文",
+          "originalText": "合肥之役，遼、典以步卒八百，破賊十萬，自古用兵，未之有也。使賊至今奪氣，可謂國之爪牙矣。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhangliao-main",
+              "locator": "卷十七・黃初六年詔"
+            }
+          ],
+          "paraphrase": "曹丕高度稱頌張遼、李典在合肥以寡擊眾的戰功，認為此役前所未有，二人足稱國家的重要武力支柱。"
+        }
+      ],
+      "later": [
+        {
+          "evaluatorName": "陳壽",
+          "evaluatorEra": "西晉（《三國志》作者）",
+          "context": "《張樂于張徐傳》卷末對曹操麾下五將的合評",
+          "textType": "古籍原文",
+          "originalText": "太祖建茲武功，而時之良將，五子爲先。于禁最號毅重，然弗克其終。張郃以巧變爲稱，樂進以驍果顯名，而鑑其行事，未副所聞。或注記有遺漏，未如張遼、徐晃之備詳也。",
+          "citations": [
+            {
+              "sourceId": "sgz-weishu17-appraisal",
+              "locator": "卷十七卷末評語"
+            }
+          ],
+          "paraphrase": "陳壽將張遼列為曹操麾下最重要的五位良將之一，並指出張遼與徐晃的事跡記載尤其完整詳備。"
+        },
+        {
+          "evaluatorName": "孫盛",
+          "evaluatorEra": "東晉史家",
+          "context": "評曹操在合肥以張遼、李典出戰、樂進守城的密教與將領配合",
+          "textType": "古籍原文",
+          "paraphrase": "孫盛認為合肥守軍孤弱無援，若只任勇將會好戰生患，只任怯將又難保軍心；曹操能按諸將特質分配出戰與守城任務，使事情發生後如合符契，是精妙的用兵安排。",
+          "citations": [
+            {
+              "sourceId": "sunsheng-hefei-comment",
+              "locator": "裴注附於卷十七合肥戰事後"
+            }
+          ],
+          "originalText": "至於合肥之守，縣弱無援，專任勇者則好戰生患，專任怯者則懼心難保。且彼眾我寡，必懷貪墯；以致命之兵，擊貪墯之卒，其勢必勝；勝而後守，守則必固。是以魏武推選方員，參以同異，為之密教，節宣其用；事至而應，若合符契，妙矣夫！"
+        }
+      ]
+    }
+  },
+  "historicalBio": [
+    {
+      "period": "漢末至中平六年（約188—189年）",
+      "periodType": "approx",
+      "title": "由丁原召用，轉受何進節制",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "張遼少年任郡吏，因武力過人，被并州刺史丁原召為從事，奉命帶兵前往京都。到京後，《張遼傳》明寫何進派他赴河北募兵，募得千餘人；這表示張遼在此任務中直接受何進指揮，不能把何進階段刪去，但史書沒有記載他另在何進幕府獲授正式官名。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangliao-main",
+                "locator": "卷十七・張遼傳開篇"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "漢末，并州刺史丁原以遼武力過人，召爲從事，使將兵詣京都。何進遣詣河北募兵，得千餘人。",
+            "sourceId": "sgz-zhangliao-main",
+            "locator": "卷十七・張遼傳"
+          }
+        ]
+      },
+      "uncertaintyNote": "丁原召用張遼的確切年份未載；何進在189年被殺，故赴河北募兵可確定不晚於該年。"
+    },
+    {
+      "period": "中平六年至建安三年（189—198年）",
+      "periodType": "range",
+      "title": "先後轉屬董卓、呂布，於下邳歸降曹操",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "張遼募兵返回時何進已敗亡，遂率所募部眾歸屬董卓；董卓被殺後又以兵歸呂布，升騎都尉。呂布被李傕擊敗後，張遼隨之東奔徐州，領魯相；建安三年曹操攻破下邳，張遼率其部眾歸降，被拜中郎將、封關內侯。這段不是後世把他簡化成『反覆易主』即可概括：每次轉屬都與原上級敗亡或政權崩解相連，《張遼傳》並未記他主動背叛丁原、何進、董卓或呂布。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangliao-main",
+                "locator": "卷十七・張遼傳開篇"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "還，進敗，以兵屬董卓。卓敗，以兵屬呂布，遷騎都尉。布爲李傕所敗，從布東奔徐州，領魯相，時年二十八。太祖破呂布於下邳，遼將其衆降，拜中郎將，賜爵關內侯。",
+            "sourceId": "sgz-zhangliao-main",
+            "locator": "卷十七・張遼傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安五年（200年）",
+      "periodType": "exact",
+      "title": "奉曹操之命探問關羽去留",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "關羽暫居曹營時，曹操察覺他無久留之意，命張遼私下探問。關羽坦言曹操待己甚厚，但劉備恩重且曾誓同生死，自己不會留下；不過在離去前，必先立功報答曹操。張遼據實回報，曹操稱許關羽之義。這段探問、對話與回報均見《三國志》正文。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・關羽傳建安五年"
+              }
+            ]
+          },
+          {
+            "text": "張遼是否曾猶豫，則是裴松之注引《傅子》的補充。《傅子》說他擔心回報會使關羽被殺，但隱瞞又有違事君之道，最後以曹操如君父、關羽如兄弟作權衡，仍然據實回報。這層細節不能直接標成《三國志》正文；《三國演義》又另行擴寫成土山說降與『三罪三便、三約』，與正史情節不同。",
+            "citations": [
+              {
+                "sourceId": "fuzi-zhangliao-guanyu",
+                "locator": "裴注引《傅子》"
+              },
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第二十五回"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "初，曹公壯羽爲人，而察其心神無久留之意，謂張遼曰：『卿試以情問之。』旣而遼以問羽，羽歎曰：『吾極知曹公待我厚，然吾受劉將軍厚恩，誓以共死，不可背之。吾終不留，吾要當立效以報曹公乃去。』遼以羽言報曹公，曹公義之。",
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・關羽傳"
+          },
+          {
+            "text": "遼欲白太祖，恐太祖殺羽，不白，非事君之道，乃歎曰：『公，君父也；羽，兄弟耳。』遂白之。",
+            "sourceId": "fuzi-zhangliao-guanyu",
+            "locator": "裴注引《傅子》"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安五年至十一年（約200—206年）",
+      "periodType": "range",
+      "title": "招降昌豨，平定河北與海濱",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "官渡戰後，張遼先平定魯國諸縣，與夏侯淵圍昌豨時觀察到敵方箭矢漸少、昌豨頻頻注視自己，判斷對方有意動搖，遂設法交談並說降。張遼甚至單身上三公山進入昌豨家中拜其妻子，曹操事後責備這不是大將應冒的風險；張遼則答稱自己倚仗曹操威信，確信昌豨不敢加害。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangliao-main",
+                "locator": "卷十七・圍昌豨"
+              }
+            ]
+          },
+          {
+            "text": "其後張遼參與黎陽、鄴城、南皮等戰事，另行招降趙國、常山山賊與黑山孫輕等，又在海濱擊破遼東賊柳毅。回鄴時曹操親自出迎，與他同車，拜為蕩寇將軍；這一連串戰功奠定了他在曹操軍中的獨當一面地位。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangliao-main",
+                "locator": "卷十七・平袁氏諸段"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安十二年（207年）",
+      "periodType": "exact",
+      "title": "白狼山力主出戰，破烏桓並斬蹋頓",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操遠征柳城，在白狼山一帶突然遭遇烏桓軍。張遼力勸曹操把握戰機，意氣昂揚；曹操讚賞其氣勢，把自己所持麾交給張遼。正文接著記『遂擊，大破之，斬單于蹋頓』，可確認張遼受麾指揮攻擊，且斬蹋頓的戰果被記在此段。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangliao-main",
+                "locator": "卷十七・從征袁尚於柳城"
+              }
+            ]
+          },
+          {
+            "text": "但正史沒有描述張遼如何親手與蹋頓單挑，也沒有明說致命一擊必由張遼本人揮出；較穩妥的寫法是『張遼率軍大破烏桓，陣斬蹋頓』。小說則明寫張遼策馬將蹋頓斬於馬下，把軍事戰果具象化為個人單挑。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangliao-main",
+                "locator": "卷十七・白狼山戰事"
+              },
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第三十三回"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "從征袁尙於柳城，卒與虜遇，遼勸太祖戰，氣甚奮，太祖壯之，自以所持麾授遼。遂擊，大破之，斬單于蹋頓。",
+            "sourceId": "sgz-zhangliao-main",
+            "locator": "卷十七・張遼傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安十四年（209年）",
+      "periodType": "exact",
+      "title": "深入天柱山，斬陳蘭、梅成",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "陳蘭、梅成叛亂後退入灊山天柱山，山路高峻狹險，諸將以兵少難進為由勸阻。張遼認為狹路交鋒正是勇者得先，遂進至山下攻擊，斬陳蘭、梅成並俘其部眾。曹操特別稱許他能登山履險取勝，增封食邑並授假節。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangliao-main",
+                "locator": "卷十七・討陳蘭梅成"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "遼曰：『此所謂一與一，勇者得前耳。』遂進到山下安營，攻之，斬蘭成首，盡虜其衆。",
+            "sourceId": "sgz-zhangliao-main",
+            "locator": "卷十七・張遼傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安二十年（215年）",
+      "periodType": "exact",
+      "title": "合肥八百突擊與逍遙津追擊",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操留張遼、樂進、李典等率七千餘人守合肥，自己西征張魯。孫權率十萬眾圍城後，守軍開啟曹操預留教令：張遼、李典出戰，樂進守城。張遼判斷援軍未至城池就可能被攻破，必須趁吳軍尚未完全會合先挫其銳氣、安定眾心；李典同意此策。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangliao-main",
+                "locator": "卷十七・合肥之戰"
+              }
+            ]
+          },
+          {
+            "text": "張遼當夜招募敢戰者八百人，宰牛犒軍。次日清晨披甲持戟先登，殺數十人、斬二將，高呼姓名直衝到孫權麾下；被包圍後先帶數十人突圍，又因其餘士卒呼救而返身救出。戰鬥自清晨至中午，使吳軍士氣受挫，魏軍才回城修守。這八百人是主動晨襲的突擊隊，不是合肥全部守軍，也不能解讀成八百人在一次野戰中殲滅十萬人。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangliao-main",
+                "locator": "卷十七・『遼夜募敢從之士，得八百人』以下"
+              }
+            ]
+          },
+          {
+            "text": "孫權圍合肥十餘日不能攻克，撤軍時張遼率諸軍追擊，幾乎擒獲孫權。正史因此包含兩段相接但不同的戰鬥：先是八百人突擊吳軍初到之陣，後是吳軍撤退時的追擊；後世常以『逍遙津』統稱。曹丕黃初六年詔書以『遼、典以步卒八百，破賊十萬』高度概括此役，人物生平仍應保留完整兵力與戰鬥層次。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangliao-main",
+                "locator": "卷十七・合肥之戰及黃初六年詔"
+              },
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・建安二十年合肥戰事"
+              }
+            ]
+          },
+          {
+            "text": "『張遼止啼』不見於《三國志》正文。現存可追溯的早期文字，是《太平御覽》卷四百八十八引已佚《魏略》，稱張遼由此威震江東，孩子啼哭不止時父母以張遼之名恐嚇。它具有古籍傳承依據，但屬後世類書保存的《魏略》佚文，不能標成《三國志》正史正文；《三國演義》第六十七回又把它納入小說敘事。",
+            "citations": [
+              {
+                "sourceId": "weilue-zhangliao-via-taiping-yulan",
+                "locator": "《太平御覽》卷四百八十八・人事部一百二十九・啼"
+              },
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第六十七回"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "太祖旣征孫權還，使遼與樂進、李典等將七千餘人屯合肥。太祖征張魯，教與護軍薛悌，署函邊曰『賊至乃發』。俄而權率十萬衆圍合肥。",
+            "sourceId": "sgz-zhangliao-main",
+            "locator": "卷十七・張遼傳"
+          },
+          {
+            "text": "於是遼夜募敢從之士，得八百人，椎牛饗將士，明日大戰。平旦，遼被甲持戟，先登陷陳，殺數十人，斬二將，大呼自名，衝壘入，至權麾下。",
+            "sourceId": "sgz-zhangliao-main",
+            "locator": "卷十七・張遼傳"
+          },
+          {
+            "text": "權守合肥十餘日，城不可拔，乃引退。遼率諸軍追擊，幾復獲權。",
+            "sourceId": "sgz-zhangliao-main",
+            "locator": "卷十七・張遼傳"
+          },
+          {
+            "text": "《魏略》曰：張遼爲孫權所圍，遼潰圍出，復入，權衆破走，由是威震江東。兒啼不肯止者，其父母以遼恐之。",
+            "sourceId": "weilue-zhangliao-via-taiping-yulan",
+            "locator": "《太平御覽》卷四百八十八"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安二十一年至延康元年（216—220年）",
+      "periodType": "range",
+      "title": "增兵居巢，奉召救樊",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "建安二十一年曹操再次到合肥，巡視張遼先前戰處，感嘆良久，為他增兵並留更多軍隊，改屯居巢。建安二十四年關羽圍樊城曹仁時，張遼奉召回援；尚未抵達，徐晃已擊退關羽、解除樊圍。張遼後與曹操會於摩陂，再屯陳郡。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangliao-main",
+                "locator": "卷十七・建安二十一年至關羽圍樊"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "黃初元年至三年（220—222年）",
+      "periodType": "range",
+      "title": "曹魏前將軍，帶病臨江破呂範後病逝",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹丕即魏王位後，張遼轉前將軍，進都鄉侯；曹丕稱帝後封晉陽侯，食邑增至二千六百戶。黃初二年張遼入朝洛陽，曹丕親問合肥破吳經過，稱他如古代召虎，並為張遼及其母修建住所。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangliao-main",
+                "locator": "卷十七・曹丕即王位至黃初二年"
+              }
+            ]
+          },
+          {
+            "text": "張遼後屯雍丘患病，曹丕派侍中劉曄帶太醫探視，又迎他到皇帝行在親自慰問，病情稍有好轉才返回駐地。黃初三年孫權反魏，曹丕命張遼乘舟與曹休至海陵臨江；孫權特別告誡諸將張遼雖病仍不可抵擋。當年張遼與諸將擊破吳將呂範軍，隨後病勢轉重，病逝江都。由此可知他不是死於215年合肥之戰，也不是當場戰死，而是在七年後帶病參與對吳行動後病逝。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangliao-main",
+                "locator": "卷十七・病中臨江及病逝"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "孫權復叛，帝遣遼乘舟，與曹休至海陵，臨江。權甚憚焉，敕諸將：『張遼雖病，不可當也，愼之！』是歳，遼與諸將破權將呂範。遼病篤，遂薨於江都。帝爲流涕，諡曰剛侯。",
+            "sourceId": "sgz-zhangliao-main",
+            "locator": "卷十七・張遼傳末"
+          }
+        ]
+      }
+    },
+    {
+      "period": "黃初六年（225年）",
+      "periodType": "exact",
+      "title": "曹丕追念合肥之功，增封後代",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "張遼去世三年後，曹丕追念張遼、李典守合肥之功，下詔稱二人以八百步卒破十萬敵軍，是國家爪牙；命從張遼、李典各自封邑中分出一百戶，並各賜一子關內侯爵。這是對功臣後代的追賞，不是張遼『剛侯』諡號的授予時間；剛侯已在222年去世時賜下。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangliao-main",
+                "locator": "卷十七・黃初六年詔"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "六年，帝追念遼、典在合肥之功，詔曰：『合肥之役，遼、典以步卒八百，破賊十萬，自古用兵，未之有也。使賊至今奪氣，可謂國之爪牙矣。其分遼、典邑各百戸，賜一子爵關內侯。』",
+            "sourceId": "sgz-zhangliao-main",
+            "locator": "卷十七・張遼傳末"
+          }
+        ]
+      }
+    }
+  ],
+  "romanceBio": [
+    {
+      "chapter": "第十九回",
+      "eventName": "白門樓罵曹而獲釋",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫張遼在白門樓被俘後痛罵呂布怕死，又當面辱罵曹操為國賊、引頸待斬；劉備攀住曹操手臂、關羽跪地求情，曹操才釋放張遼並收為部將。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第十九回至第二十回回首"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "此為小說增飾。正史只記曹操破呂布於下邳後，張遼率其部眾歸降，隨即受拜中郎將、封關內侯；沒有白門樓罵曹、劉備關羽求情救命的情節。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangliao-main",
+                "locator": "卷十七・下邳歸降"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第二十五回",
+      "eventName": "土山說降關羽與三約",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說安排張遼到土山勸說被圍的關羽，列出立即戰死的『三罪』與暫降曹操的『三便』；關羽提出降漢不降曹、保護二嫂、得知劉備下落即可離去三項條件，張遼回報並說服曹操接受。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第二十五回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史沒有土山被圍、三罪三便或三項降約。正文所載張遼與關羽對話，是曹操已厚待關羽之後，張遼奉命探問去留；關羽明說終將歸劉備，但會先立功報曹。裴注《傅子》才補述張遼是否據實回報的猶豫。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・關羽傳"
+              },
+              {
+                "sourceId": "fuzi-zhangliao-guanyu",
+                "locator": "裴注引《傅子》"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第三十三回",
+      "eventName": "白狼山親斬蹋頓",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說將烏桓首領寫作冒頓，安排曹操授麾後，張遼分兵進擊並親自拍馬將冒頓斬於馬下。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第三十三回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史所載烏桓單于是蹋頓，不是冒頓；《張遼傳》確實把曹操授麾、張遼率軍大破敵軍及斬蹋頓連續記載，但沒有描寫二人單挑或明說張遼本人施行致命一擊。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangliao-main",
+                "locator": "卷十七・白狼山戰事"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第五十三回",
+      "eventName": "合肥設伏射傷太史慈",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫太史慈利用戈定在合肥城中縱火作內應，張遼識破騷亂並反設伏兵，誘使太史慈入城中箭；太史慈傷重而亡。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第五十三回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "此段以《張遼傳》平定軍中夜亂的事蹟為素材重新編排，但正史中的亂事發生在張遼屯長社時，與太史慈無關；太史慈本傳記其卒年為建安十一年（206年），也不是被張遼射傷後死亡。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangliao-main",
+                "locator": "卷十七・屯長社平定軍亂"
+              },
+              {
+                "sourceId": "sgz-taishici-main",
+                "locator": "卷四十九・太史慈傳末『年四十一，建安十一年卒』"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第六十七回",
+      "eventName": "威震逍遙津，江東小兒不敢夜啼",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說把合肥突擊與孫權退軍遇襲集中成逍遙津大戰，寫張遼、李典、樂進協力伏擊，孫權策馬跳過斷橋脫險；戰後江南人人畏懼張遼，小兒聞名也不敢夜啼。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第六十七回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史確載孫權率十萬圍合肥、張遼募八百人先襲、七千餘守軍守城，以及孫權撤退時張遼率諸軍追擊而幾乎擒獲孫權；但小說另加入小師橋預先拆斷、張遼率二千餘騎衝殺等具體配置。『止啼』不見《三國志》正文，來源層級是《太平御覽》所引《魏略》佚文，小說再予承用。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangliao-main",
+                "locator": "卷十七・合肥之戰"
+              },
+              {
+                "sourceId": "weilue-zhangliao-via-taiping-yulan",
+                "locator": "《太平御覽》卷四百八十八"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第八十六回",
+      "eventName": "中丁奉箭傷而亡",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說把張遼之死推遲到黃初五年，寫他隨曹丕伐吳，在魏軍退卻時為救曹丕迎戰丁奉，中箭傷腰；回到許昌後箭瘡迸裂而死，曹丕厚葬。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第八十六回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "此為小說改寫，正史與演義有明確出入。張遼在黃初三年（222年）已患病，仍與曹休臨江並參與擊破呂範軍，隨後病篤，病逝江都；正史沒有丁奉射傷張遼、回許昌箭瘡迸裂的記載。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangliao-main",
+                "locator": "卷十七・張遼傳末"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "works": []
+}
