@@ -219,5 +219,21 @@
     ],
     "avatar": "images/liu_xie.png",
     "filterGroup": "donghan"
+  },
+  {
+    "id": "cao-cao",
+    "published": true,
+    "name": "曹操",
+    "courtesyName": "孟德",
+    "searchTerms": [
+      "曹操",
+      "孟德",
+      "阿瞞",
+      "魏武帝",
+      "魏太祖",
+      "cao cao"
+    ],
+    "avatar": "images/cao_cao.png",
+    "filterGroup": "wei"
   }
 ]
