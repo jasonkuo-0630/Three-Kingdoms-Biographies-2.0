@@ -1,0 +1,892 @@
+{
+  "schemaVersion": 2,
+  "dataStatus": "reviewed-draft",
+  "published": true,
+  "lastReviewedAt": "2026-08-05",
+  "id": "zhang-fei",
+  "name": "張飛",
+  "courtesyName": "益德",
+  "childhoodName": null,
+  "artName": null,
+  "otherNames": [
+    "張翼德（《三國演義》用字）"
+  ],
+  "lifespan": "生年不詳 — 章武元年（221年）",
+  "birthplace": "涿郡（今河北省涿州市一帶）",
+  "primaryIdentity": "東漢末年至蜀漢初年將領，曾任宜都太守、征虜將軍、巴西太守、右將軍；劉備稱帝後遷車騎將軍、領司隸校尉，封西鄉侯，死後由後主劉禪追諡桓侯。",
+  "summary": "少年時即與關羽追隨劉備，長坂之役僅率二十騎據水斷橋，阻止曹軍追擊。入蜀後攻破江州、釋放並禮待嚴顏，後在巴西利用狹窄山道擊敗張郃。章武元年準備隨劉備伐吳時，被帳下將張達、范彊殺害；史家肯定其勇猛與國士之風，也批評他刑殺過度、不體恤部下。",
+  "avatar": "images/zhang_fei.png",
+  "overview": {
+    "intro": {
+      "paragraphs": [
+        {
+          "text": "張飛，字益德，涿郡人。年少時與關羽一同追隨劉備；關羽比他年長數歲，張飛以兄長之禮事奉關羽。《三國志》另記劉備與關羽、張飛寢則同床、恩若兄弟，但沒有三人舉行正式結拜儀式的記載。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhangfei-main",
+              "locator": "卷三十六・張飛傳開篇"
+            },
+            {
+              "sourceId": "sgz-guanyu-main",
+              "locator": "卷三十六・關羽傳開篇"
+            }
+          ]
+        },
+        {
+          "text": "張飛以雄壯威猛著稱，當陽長坂拒後、入蜀義釋嚴顏及巴西擊破張郃，都是《三國志》正文所載事蹟。他敬愛君子，卻不體恤地位較低的部屬，又經常鞭打士卒後仍留在身邊；劉備曾警告這會招致禍患，最終張飛果然在出兵前被帳下將領殺害。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhangfei-main",
+              "locator": "卷三十六・張飛傳"
+            }
+          ]
+        }
+      ]
+    },
+    "factionTimeline": [
+      {
+        "stageName": "劉備集團・早年輾轉",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "liubei-group",
+        "period": "中平年間（184—189年，起始時間不詳）— 建安六年（201年）前後",
+        "periodUncertain": true
+      },
+      {
+        "stageName": "劉表麾下・荊州寄寓",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "liu-biao-faction",
+        "period": "建安六年（201年）前後 — 建安十三年（208年）",
+        "periodUncertain": true
+      },
+      {
+        "stageName": "劉備集團・荊州據地",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "liubei-jingzhou-regime",
+        "period": "建安十三年（208年）— 建安十六年（211年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "劉備集團・入蜀作戰",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "liubei-yizhou-regime",
+        "period": "建安十六年（211年）— 建安十九年（214年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "劉備集團・益州牧政權",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "liubei-yizhou-regime",
+        "period": "建安十九年（214年）— 建安二十四年（219年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "漢中王政權",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "hanzhong-kingdom",
+        "period": "建安二十四年（219年）— 章武元年（221年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "蜀漢・先主政權",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "shuhan-xianzhu",
+        "period": "章武元年（221年）稱帝 — 同年張飛遇害",
+        "periodUncertain": false
+      }
+    ],
+    "relatives": [
+      {
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "relation": "情同兄弟（正史稱「恩若兄弟」）",
+        "natureType": "史籍記載",
+        "note": "《三國志》正文記劉備與關羽、張飛「寢則同床，恩若兄弟」，可確認三人關係緊密。",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・關羽傳開篇"
+          }
+        ],
+        "fictionalRelation": {
+          "label": "結拜大哥",
+          "natureType": "演義設定",
+          "citations": [
+            {
+              "sourceId": "sanguo-yanyi",
+              "locator": "第一回"
+            }
+          ]
+        }
+      },
+      {
+        "personName": "關羽",
+        "personId": "guan-yu",
+        "relation": "情同兄弟（正史稱「恩若兄弟」）",
+        "natureType": "史籍記載",
+        "note": "《三國志‧張飛傳》記關羽年長張飛數歲，張飛以兄長之禮事奉關羽（「羽年長數歲，飛兄事之」）。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangfei-main",
+            "locator": "卷三十六・張飛傳開篇"
+          }
+        ],
+        "fictionalRelation": {
+          "label": "結拜二哥",
+          "natureType": "演義設定",
+          "citations": [
+            {
+              "sourceId": "sanguo-yanyi",
+              "locator": "第一回"
+            }
+          ]
+        }
+      },
+      {
+        "personName": "夏侯氏（本名不詳）",
+        "personId": null,
+        "relation": "妻",
+        "natureType": "裴松之注引",
+        "note": "裴松之注引《魏略》稱，建安五年夏侯霸從妹十三、四歲時外出樵採，『為張飛所得』；張飛得知她出身良家後納為妻。該文又說她生下一女，後成為劉禪皇后，但沒有明確指出是敬哀皇后或其妹張皇后，因此不宜自行判定。",
+        "citations": [
+          {
+            "sourceId": "weilu-xiahoushi",
+            "locator": "《三國志》卷九夏侯淵傳裴注引《魏略》"
+          }
+        ]
+      },
+      {
+        "personName": "張氏（敬哀皇后）",
+        "personId": null,
+        "relation": "長女",
+        "natureType": "史籍記載",
+        "note": "章武元年納為劉禪太子妃，建興元年立為皇后，建興十五年去世，葬南陵。後世電玩作品或稱『張星彩』，但各作品所指對象不一致，不宜視為定論，詳見來源說明。",
+        "citations": [
+          {
+            "sourceId": "sgz-shu-consorts",
+            "locator": "卷三十四・後主敬哀皇后"
+          },
+          {
+            "sourceId": "zhang-xingcai-koei"
+          }
+        ]
+      },
+      {
+        "personName": "張氏（劉禪繼后）",
+        "personId": null,
+        "relation": "次女",
+        "natureType": "史籍記載",
+        "note": "敬哀皇后之妹，建興十五年入宮為貴人，延熙元年立為皇后；蜀漢亡國後隨劉禪遷往洛陽。後世電玩作品或稱『張星彩』，但各作品所指對象不一致，不宜視為定論，詳見來源說明。",
+        "citations": [
+          {
+            "sourceId": "sgz-shu-consorts",
+            "locator": "卷三十四・後主張皇后"
+          },
+          {
+            "sourceId": "zhang-xingcai-koei"
+          }
+        ]
+      },
+      {
+        "personName": "張苞",
+        "personId": null,
+        "relation": "長子",
+        "natureType": "史籍記載",
+        "note": "《張飛傳》只記張苞早夭，沒有留下成年領兵或參與伐吳、北伐的事蹟；小說中的武將生涯屬文學增飾。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangfei-main",
+            "locator": "卷三十六・張飛傳末"
+          }
+        ]
+      },
+      {
+        "personName": "張紹",
+        "personId": null,
+        "relation": "次子",
+        "natureType": "史籍記載",
+        "note": "張飛死後承襲爵位，官至侍中、尚書僕射。蜀漢亡國時，張紹奉劉禪降書出城，亦見《後主傳》。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangfei-main",
+            "locator": "卷三十六・張飛傳末"
+          },
+          {
+            "sourceId": "sgz-houzhu",
+            "locator": "卷三十三・炎興元年"
+          }
+        ]
+      },
+      {
+        "personName": "張遵",
+        "personId": null,
+        "relation": "孫（張苞之子）",
+        "natureType": "史籍記載",
+        "note": "官為尚書，景耀六年隨諸葛瞻在綿竹抵抗鄧艾，戰死。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangfei-main",
+            "locator": "卷三十六・張飛傳末"
+          }
+        ]
+      }
+    ],
+    "titlesAndRanks": [
+      {
+        "title": "別部司馬",
+        "period": "劉備任平原相時（約初平年間，確切年份不詳）",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・關羽傳開篇"
+          }
+        ]
+      },
+      {
+        "title": "中郎將",
+        "period": "建安三年（198年）隨劉備、曹操攻滅呂布後",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangfei-main"
+          }
+        ]
+      },
+      {
+        "title": "宜都太守、征虜將軍、新亭侯",
+        "period": "建安十三年（208年）後劉備平定荊州南部時",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangfei-main"
+          }
+        ]
+      },
+      {
+        "title": "巴西太守",
+        "period": "建安十九年（214年）益州平定後",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangfei-main"
+          }
+        ]
+      },
+      {
+        "title": "右將軍、假節",
+        "period": "建安二十四年（219年）劉備稱漢中王後",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangfei-main"
+          }
+        ]
+      },
+      {
+        "title": "車騎將軍、領司隸校尉、西鄉侯",
+        "period": "章武元年（221年）劉備稱帝後",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangfei-main"
+          }
+        ]
+      }
+    ],
+    "posthumousTitle": {
+      "title": "桓侯",
+      "grantedBy": "景耀三年（260年）秋九月，蜀漢後主劉禪追諡",
+      "citations": [
+        {
+          "sourceId": "sgz-houzhu",
+          "locator": "卷三十三・景耀三年秋九月"
+        },
+        {
+          "sourceId": "sgz-zhangfei-main",
+          "locator": "卷三十六・張飛傳末"
+        }
+      ],
+      "paragraphs": [
+        {
+          "text": "張飛去世約三十九年後，劉禪在景耀三年秋九月同時追諡關羽、張飛、馬超、龐統與黃忠，張飛諡為『桓侯』。《三國志》未保存張飛個人的追諡詔書，也沒有另述選用『桓』字的具體理由。",
+          "citations": [
+            {
+              "sourceId": "sgz-houzhu",
+              "locator": "卷三十三・景耀三年秋九月"
+            },
+            {
+              "sourceId": "sgz-zhangfei-main",
+              "locator": "卷三十六・『追諡飛曰桓侯』"
+            }
+          ]
+        }
+      ]
+    },
+    "evaluations": {
+      "contemporary": [
+        {
+          "evaluatorName": "程昱等曹魏謀臣",
+          "evaluatorEra": "東漢末年",
+          "context": "《張飛傳》追述關羽、張飛的勇名",
+          "textType": "古籍原文",
+          "originalText": "魏謀臣程昱等咸稱羽、飛萬人之敵也。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhangfei-main",
+              "locator": "卷三十六・張飛傳"
+            }
+          ],
+          "paraphrase": "程昱等人一致稱許關羽、張飛勇猛過人，具有在戰場上獨當一面的萬人敵之才。"
+        },
+        {
+          "evaluatorName": "劉備",
+          "evaluatorEra": "蜀漢先主",
+          "context": "劉備針對張飛刑殺過度、鞭打部下又將其留在身邊所作的警告",
+          "textType": "古籍原文",
+          "originalText": "卿刑殺既過差，又日鞭撾健兒，而令在左右，此取禍之道也。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhangfei-main",
+              "locator": "卷三十六・張飛傳"
+            }
+          ],
+          "paraphrase": "劉備警告張飛刑罰殺戮過重，又經常鞭打士卒卻仍讓他們留在身邊，這是在主動招致禍患。"
+        },
+        {
+          "evaluatorName": "周瑜",
+          "evaluatorEra": "東漢末年・孫權麾下",
+          "context": "周瑜論劉備及其部將，認為劉備不會長久屈居人下",
+          "textType": "古籍原文",
+          "originalText": "劉備以梟雄之姿，而有關羽、張飛熊虎之將，必非久屈為人用者。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhouyu-main",
+              "locator": "卷五十四・周瑜傳"
+            }
+          ],
+          "paraphrase": "周瑜認為劉備本具梟雄之姿，又有關羽、張飛這樣的猛將輔佐，不可能長久屈居孫權之下。"
+        }
+      ],
+      "later": [
+        {
+          "evaluatorName": "陳壽",
+          "evaluatorEra": "西晉（《三國志》作者）",
+          "context": "《關張馬黃趙傳》卷末對關羽、張飛的合評",
+          "textType": "古籍原文",
+          "originalText": "關羽、張飛皆稱萬人之敵，為世虎臣。羽報效曹公，飛義釋嚴顏，並有國士之風。然羽剛而自矜，飛暴而無恩，以短取敗，理數之常也。",
+          "citations": [
+            {
+              "sourceId": "sgz-guanzhang-mahuang-zhao-appraisal",
+              "locator": "卷三十六卷末評語"
+            }
+          ],
+          "paraphrase": "陳壽肯定張飛勇冠當世、義釋嚴顏而有國士風範，也指出他性情暴烈、缺乏恩惠，最終因自身弱點招致敗亡。"
+        },
+        {
+          "evaluatorName": "楊戲",
+          "evaluatorEra": "蜀漢",
+          "context": "延熙四年（241年）《季漢輔臣贊》對關羽、張飛的合贊",
+          "textType": "古籍原文",
+          "originalText": "關、張赳赳，出身匡世，扶翼攜上，雄壯虎烈。藩屏左右，翻飛電發。濟于艱難，贊主洪業，侔迹韓、耿，齊聲雙德。交待無禮，並致姦慝，悼惟輕慮，隕身匡國。",
+          "citations": [
+            {
+              "sourceId": "jihan-fuchen-zan",
+              "locator": "關羽、張飛合贊"
+            }
+          ],
+          "paraphrase": "楊戲稱頌關羽、張飛勇烈輔主、共成大業，功名可比前代名將；又惋惜二人因輕率待人而遭奸人所害。"
+        }
+      ]
+    }
+  },
+  "historicalBio": [
+    {
+      "period": "中平年間以後（184年後，確切時間不詳）",
+      "periodType": "approx",
+      "title": "與關羽一同追隨劉備",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "張飛年少時便與關羽一同追隨劉備。關羽年長數歲，張飛以兄長之禮事奉他；劉備任平原相後，關羽、張飛同任別部司馬，分別統率部曲。正史可證三人關係親密，但沒有桃園結義或正式盟誓。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangfei-main",
+                "locator": "卷三十六・張飛傳開篇"
+              },
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・關羽傳開篇"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "張飛字益德，涿郡人也，少與關羽俱事先主。羽年長數歲，飛兄事之。",
+            "sourceId": "sgz-zhangfei-main",
+            "locator": "卷三十六・張飛傳"
+          }
+        ]
+      },
+      "uncertaintyNote": "《張飛傳》沒有記載張飛開始追隨劉備的確切年份；以184年黃巾起事作為背景只能視為時段推定。"
+    },
+    {
+      "period": "建安三年（198年）",
+      "periodType": "exact",
+      "title": "隨劉備、曹操攻滅呂布，受拜中郎將",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "劉備隨曹操攻破呂布後返回許都，曹操任命張飛為中郎將。此後劉備離開曹操，先後依附袁紹與劉表，張飛仍隨其行動。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangfei-main",
+                "locator": "卷三十六・張飛傳開篇"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "先主從曹公破呂布，隨還許，曹公拜飛為中郎將。先主背曹公依袁紹、劉表。",
+            "sourceId": "sgz-zhangfei-main",
+            "locator": "卷三十六・張飛傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安十三年（208年）",
+      "periodType": "exact",
+      "title": "當陽長坂據水斷橋",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操追兵在當陽長坂追上劉備，劉備棄下妻子與大批人眾撤走，命張飛率二十騎斷後。張飛據水斷橋，瞋目橫矛自報姓名，邀敵決死，曹軍無人敢近，使劉備等得以脫身。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangfei-main",
+                "locator": "卷三十六・當陽長坂"
+              },
+              {
+                "sourceId": "sgz-liubei-main",
+                "locator": "卷三十二・當陽長坂"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "使飛將二十騎拒後。飛據水斷橋，瞋目橫矛曰：『身是張益德也，可來共決死！』敵皆無敢近者，故遂得免。",
+            "sourceId": "sgz-zhangfei-main",
+            "locator": "卷三十六・張飛傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安十八至十九年（約213—214年）",
+      "periodType": "approx",
+      "title": "溯江西上，攻取江州並義釋嚴顏",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "劉備與劉璋決裂後，張飛隨諸葛亮等溯江西上、分定郡縣，在江州擊破並生擒巴郡太守嚴顏。嚴顏拒降且面對斬首毫不變色，張飛敬佩其氣節，將他釋放並以賓客之禮相待。『義釋嚴顏』的核心事實確實見於《三國志》正文。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangfei-main",
+                "locator": "卷三十六・入蜀攻江州"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "飛怒，令左右牽去斫頭，顏色不變，曰：『斫頭便斫頭，何為怒邪！』飛壯而釋之，引為賓客。",
+            "sourceId": "sgz-zhangfei-main",
+            "locator": "卷三十六・張飛傳"
+          }
+        ]
+      },
+      "uncertaintyNote": "《張飛傳》未標出攻取江州的確切年月；通常依劉備攻成都進程置於213至214年間。"
+    },
+    {
+      "period": "建安二十年前後（約215年）",
+      "periodType": "approx",
+      "title": "巴西擊破張郃",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操平定漢中後，張郃率軍進入巴西，企圖遷移當地居民。張飛與張郃相拒五十餘日，率精兵萬餘人從別道出擊，利用山道狹窄、敵軍前後不能相救的弱點擊破張郃。張郃棄馬翻山，只與十餘名部下退回南鄭，巴地因此安定。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangfei-main",
+                "locator": "卷三十六・巴西之戰"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "飛率精卒萬餘人，從他道邀郃軍交戰，山道迮狹，前後不得相救，飛遂破郃。郃棄馬緣山，獨與麾下十餘人從間道退，引軍還南鄭，巴土獲安。",
+            "sourceId": "sgz-zhangfei-main",
+            "locator": "卷三十六・張飛傳"
+          }
+        ]
+      },
+      "uncertaintyNote": "本傳將此事置於曹操破張魯之後，未另標年月；約215年是依相關戰事年代推定。"
+    },
+    {
+      "period": "建安二十四年至章武元年（219—221年）",
+      "periodType": "range",
+      "title": "右將軍至車騎將軍、西鄉侯",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "劉備稱漢中王後，任張飛為右將軍、假節。章武元年劉備稱帝，又遷張飛為車騎將軍、兼領司隸校尉，進封西鄉侯；任命策書稱許其忠毅與遠近聞名的聲望。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangfei-main",
+                "locator": "卷三十六・建安二十四年至章武元年"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "先主為漢中王，拜飛為右將軍、假節。章武元年，遷車騎將軍，領司隸校尉，進封西鄉侯。",
+            "sourceId": "sgz-zhangfei-main",
+            "locator": "卷三十六・張飛傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "章武元年（221年）",
+      "periodType": "exact",
+      "title": "出兵伐吳前被張達、范彊殺害",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "劉備準備伐吳時，張飛奉命率一萬人從閬中前往江州會師。出發前，帳下將張達、范彊殺害張飛，帶著他的首級順流投奔孫權。正史直接記錄兇手與經過，沒有把死亡概括成『大意』，也沒有記載張飛命全軍三日內製備白旗白甲。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangfei-main",
+                "locator": "卷三十六・張飛傳末"
+              }
+            ]
+          },
+          {
+            "text": "《張飛傳》在死因前先記張飛不體恤部下、刑殺與鞭打過度，劉備多次警告他把受刑士卒留在身旁會招禍，而張飛始終沒有改正。這是陳壽對其遇害背景的因果安排，但不等同於小說式的『大意』評語。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangfei-main",
+                "locator": "卷三十六・性格與遇害段"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "臨發，其帳下將張達、范彊殺飛，持其首，順流而奔孫權。飛營都督表報先主，先主聞飛都督之有表也，曰：『噫！飛死矣。』",
+            "sourceId": "sgz-zhangfei-main",
+            "locator": "卷三十六・張飛傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "景耀三年（260年）秋九月",
+      "periodType": "exact",
+      "title": "由後主劉禪追諡桓侯",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "蜀漢後主劉禪同時追諡關羽、張飛、馬超、龐統與黃忠，張飛所得諡號為桓侯。史籍沒有保存針對張飛的個別追諡詔書或說明選字理由。",
+            "citations": [
+              {
+                "sourceId": "sgz-houzhu",
+                "locator": "卷三十三・景耀三年秋九月"
+              },
+              {
+                "sourceId": "sgz-zhangfei-main",
+                "locator": "卷三十六・張飛傳末"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "三年秋九月，追諡故將軍關羽、張飛、馬超、龐統、黃忠。",
+            "sourceId": "sgz-houzhu",
+            "locator": "卷三十三・後主傳"
+          },
+          {
+            "text": "追諡飛曰桓侯。",
+            "sourceId": "sgz-zhangfei-main",
+            "locator": "卷三十六・張飛傳"
+          }
+        ]
+      }
+    }
+  ],
+  "romanceBio": [
+    {
+      "chapter": "第一回",
+      "eventName": "桃園結義",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說安排劉備、關羽、張飛在張飛莊後桃園祭告天地，結為異姓兄弟，依年齡以劉備為兄、關羽次之、張飛為弟。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第一回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "此為小說情節，正史無正式結拜儀式。《三國志》只能證明劉備與二人恩若兄弟，以及張飛因關羽年長而以兄長之禮事奉他。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・關羽傳開篇"
+              },
+              {
+                "sourceId": "sgz-zhangfei-main",
+                "locator": "卷三十六・張飛傳開篇"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第二回",
+      "eventName": "怒鞭督郵",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫督郵刁難劉備、索取賄賂，張飛得知後將督郵綁在縣衙前痛打，劉備趕來制止，三人隨後棄官離去。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第二回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史與演義的人物分配恰好相反：《三國志・先主傳》正文記載劉備本人闖入驛舍綁住督郵、杖打二百，完全沒有張飛參與；《三國演義》才把動手者改寫為張飛。",
+            "citations": [
+              {
+                "sourceId": "sgz-liubei-main",
+                "locator": "卷三十二・安喜尉鞭督郵段"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "督郵以公事到縣，先主求謁，不通，直入縛督郵，杖二百，解綬繫其頸著馬枊，棄官亡命。",
+            "sourceId": "sgz-liubei-main",
+            "locator": "卷三十二・先主傳"
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第五回",
+      "eventName": "三英戰呂布",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說在虎牢關之戰安排張飛先與呂布單挑，關羽、劉備陸續加入，三人合戰逼退呂布，成為桃園兄弟共同作戰的代表場面。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第五回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "此為小說情節，正史沒有劉備、關羽、張飛在虎牢關合戰呂布的記載。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangfei-main",
+                "note": "張飛本傳無此事"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第十四回",
+      "eventName": "酒後失徐州",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫劉備留張飛守徐州並要求禁酒，張飛卻醉酒鞭打曹豹，曹豹遂引呂布夜襲下邳，張飛敗走。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第十四回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "《先主傳》正文只記曹豹反叛、暗中迎接呂布；裴松之注引《英雄記》則記張飛留守下邳、欲殺曹豹，曹豹固守並招引呂布。史料沒有張飛因醉酒誤事、劉備下達禁酒命令或曹豹因受鞭而反的完整小說情節。",
+            "citations": [
+              {
+                "sourceId": "sgz-liubei-main",
+                "locator": "卷三十二・建安元年徐州失守"
+              },
+              {
+                "sourceId": "yingxiongji-xuzhou",
+                "locator": "《先主傳》裴注引《英雄記》"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第四十二回",
+      "eventName": "長坂橋一聲退曹軍",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說擴寫張飛單騎立於長坂橋頭、連聲喝問誰敢決死，使夏侯傑驚落馬下、曹操大軍回身潰退；張飛其後拆斷橋梁撤離。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第四十二回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "事件核心有正史依據：張飛確率二十騎據水斷橋、橫矛喝敵，使追兵無人敢近。但夏侯傑被喝死、曹操全軍因一聲大潰等戲劇效果為小說增飾。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangfei-main",
+                "locator": "卷三十六・當陽長坂"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第六十三回",
+      "eventName": "義釋嚴顏",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫張飛以計攻破巴郡、生擒嚴顏，因敬佩嚴顏寧死不降的氣節而親自解縛、延為賓客，之後藉嚴顏協助一路招降沿途關隘。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第六十三回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "義釋嚴顏本身是正史記載，不是小說虛構；《三國演義》主要增寫張飛奪城用計及嚴顏協助招降沿途守軍等細節。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangfei-main",
+                "locator": "卷三十六・江州破嚴顏段"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第七十回",
+      "eventName": "智取瓦口隘",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說將巴西之戰改寫為張飛以飲酒示敵、另走小路突襲張郃，最終奪取瓦口隘，突出其粗中有細。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第七十回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史確載張飛利用山道狹窄、張郃軍前後不能相救而大破敵軍，但沒有飲酒詐敵等具體計謀；這些是小說為凸顯張飛智略所作的戲劇化重構。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangfei-main",
+                "locator": "卷三十六・巴西之戰"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第八十一回",
+      "eventName": "急兄仇，遇害於閬中",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫張飛急於替關羽報仇，命部將范疆、張達在三日內製備白旗白甲；二人因無法完成而遭痛打，害怕再受重罰，遂趁張飛醉臥時將他殺害，帶首級投奔東吳。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第八十一回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史只記張飛準備率萬人由閬中赴江州會師，臨行前被帳下將張達、范彊殺害；白旗白甲期限、二人受鞭、張飛醉臥等直接導火線均不見史書。陳壽確實把張飛長期刑殺過差、不恤部下列為遇害背景，但沒有稱他『大意』。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhangfei-main",
+                "locator": "卷三十六・張飛傳末"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "works": []
+}
