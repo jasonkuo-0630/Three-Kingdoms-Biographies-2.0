@@ -1001,6 +1001,14 @@ summary:focus-visible {
     flex-direction: column;
     align-items: stretch;
   }
+  .search-box {
+    /* .search-box 原本的 flex: 1 1 330px 是給橫向排列用的（330px 是最小寬度）；
+       .filter-bar 在手機版變成直向排列後，同一個 flex-basis 會被讀成最小「高度」
+       330px，搜尋框才會整個爆版。手機版另外重置成固定高度，不要沿用橫向那組數值 */
+    flex: 0 0 auto;
+    width: 100%;
+    height: 44px;
+  }
   .slip-list {
     height: min(560px, calc(100vh - 280px));
   }
