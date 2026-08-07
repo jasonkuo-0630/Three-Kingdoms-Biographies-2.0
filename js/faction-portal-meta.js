@@ -33,7 +33,7 @@ const FACTION_PORTAL_META = {
     portrait: "images/sun_quan_main.png",
   },
   qunxiong: {
-    mark: "雄",
+    mark: "群",
     label: "群雄",
     // 群雄沒有單一君主，不像其他四個陣營有明確的主君，
     // ruler 留空、渲染時不顯示這行小標籤（portal.js／listing.js 已對應處理）
