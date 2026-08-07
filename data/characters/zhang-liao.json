@@ -86,7 +86,7 @@
       {
         "stageName": "曹操麾下・東漢朝廷名義",
         "personName": "曹操",
-        "personId": null,
+        "personId": "cao-cao",
         "actualFactionId": "cao-cao-han-court",
         "period": "建安三年（198年）— 建安二十一年（216年）曹操進魏王",
         "periodUncertain": false
@@ -94,7 +94,7 @@
       {
         "stageName": "曹操魏王國政權",
         "personName": "曹操",
-        "personId": null,
+        "personId": "cao-cao",
         "actualFactionId": "cao-cao-wei-kingdom",
         "period": "建安二十一年（216年）— 建安二十五年（220年）曹操去世",
         "periodUncertain": false
