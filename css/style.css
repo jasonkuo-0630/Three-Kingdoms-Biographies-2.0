@@ -526,9 +526,9 @@ summary:focus-visible {
 .storyteller-copy-overlay {
   position: absolute;
   z-index: 2;
-  left: clamp(30px, 4.4vw, 76px);
-  top: 22%;
-  max-width: min(330px, 46%);
+  left: clamp(16px, 2.6vw, 48px);
+  top: 32%;
+  max-width: min(300px, 40%); /* 收窄避免碰到臉，但留夠寬度讓七字一行不亂斷 */
   color: #25332e;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
 }
@@ -536,10 +536,11 @@ summary:focus-visible {
 .storyteller-quote {
   margin: 0;
   font-family: var(--font-display);
-  font-size: clamp(26px, 2.2vw, 36px);
+  font-size: clamp(20px, 1.9vw, 26px);
   font-weight: 700;
   line-height: 1.6;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.06em;
+  white-space: nowrap; /* 七字一句，強制不換行，寧可字小一點也不要斷句斷得難看 */
 }
 
 .storyteller-caption {
@@ -552,7 +553,7 @@ summary:focus-visible {
 }
 
 .storyteller-eyebrow {
-  color: #806c49;
+  color: #f4eee3;
   font-size: 10px;
   letter-spacing: 0.28em;
 }
@@ -635,11 +636,13 @@ summary:focus-visible {
 /* ---------- 勢力總覽頁（faction.html）：整頁陣營色調 ---------- */
 .faction-page {
   --tone: var(--tone-shu);
-  /* 整頁都罩一層很淡的陣營色暈，不只橫幅——但刻意壓得很低調，
-     不能搶竹簡列表本身（頭像／姓名）的視覺重量 */
+  /* 整頁底色都吃陣營色。之前這裡跟 var(--ink) 混，但 --ink 本身帶一點
+     綠色（#17231f），導致藍／紫／咖啡色系都被拉往綠黑色、只有蜀漢自己
+     的綠色看起來正常——跟橫幅踩過的坑是同一種問題，一樣改成跟純黑混，
+     黑色不會搶 --tone 的色相 */
   background:
-    radial-gradient(ellipse 1400px 700px at 50% 0%, color-mix(in srgb, var(--tone) 16%, transparent), transparent 70%),
-    var(--ink);
+    radial-gradient(ellipse 1600px 900px at 50% 0%, color-mix(in srgb, var(--tone) 18%, transparent), transparent 75%),
+    color-mix(in srgb, var(--tone) 26%, black);
 }
 .faction-page--wei { --tone: var(--tone-wei); }
 .faction-page--shu { --tone: var(--tone-shu); }
@@ -743,8 +746,8 @@ summary:focus-visible {
   gap: 16px;
   flex-wrap: wrap;
   padding: 15px;
-  background: rgba(248, 244, 234, 0.06);
-  border: 1px solid rgba(236, 220, 190, 0.12);
+  background: color-mix(in srgb, var(--tone) 8%, transparent);
+  border: 1px solid color-mix(in srgb, var(--tone) 22%, rgba(236, 220, 190, 0.12));
 }
 
 .search-box {
@@ -754,8 +757,8 @@ summary:focus-visible {
   align-items: center;
   gap: 10px;
   height: 42px;
-  background: rgba(251, 248, 240, 0.06);
-  border: 1px solid rgba(236, 220, 190, 0.15);
+  background: color-mix(in srgb, var(--tone) 14%, #1a1712);
+  border: 1px solid color-mix(in srgb, var(--tone) 40%, rgba(236, 220, 190, 0.15));
   padding: 0 14px;
 }
 
