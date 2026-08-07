@@ -1,0 +1,1575 @@
+{
+  "schemaVersion": 2,
+  "dataStatus": "reviewed-draft",
+  "published": true,
+  "lastReviewedAt": "2026-08-05",
+  "demoNote": "諸葛亮示範資料。已逐條區分《三國志》正文、裴松之注引文獻、《三國演義》與後世文學；三顧異說、隆中對兩版、白帝城託孤、北伐次數、空城計等爭議均另作說明。古籍文字以目前可核對的通行標點本整理，日後若採用指定校勘本，仍可依版本覆核異文。",
+  "id": "zhuge-liang",
+  "name": "諸葛亮",
+  "courtesyName": "孔明",
+  "childhoodName": null,
+  "artName": null,
+  "otherNames": [
+    "臥龍",
+    "伏龍",
+    "武侯"
+  ],
+  "lifespan": "約181年（依卒年與享年逆推）— 建興十二年（234年）",
+  "birthplace": "琅邪郡陽都縣（今山東省臨沂市沂南縣一帶）",
+  "primaryIdentity": "蜀漢丞相、政治家與軍事統帥，受劉備託孤輔佐後主，封武鄉侯，領益州牧，死後追諡忠武侯。",
+  "summary": "早年隨叔父避亂荊州，躬耕隆中。劉備三顧後出仕，提出跨有荊、益、聯吳抗曹的對策，並親赴江東促成孫劉聯盟。蜀漢建立後任丞相；劉備去世後受託輔政，整頓法度、恢復吳盟、平定南中並多次北伐，建興十二年病逝五丈原。",
+  "avatar": "images/zhuge_liang.png",
+  "overview": {
+    "intro": {
+      "paragraphs": [
+        {
+          "text": "諸葛亮，字孔明，琅邪陽都人，是漢代司隸校尉諸葛豐之後。父親諸葛珪早逝，他隨叔父諸葛玄輾轉至荊州；諸葛玄死後，諸葛亮在隆中躬耕，好吟《梁父吟》，身長八尺，常把自己比作管仲、樂毅。徐庶等少數友人相信他的才能。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhuge-main",
+              "locator": "卷三十五・蜀書五・諸葛亮傳"
+            },
+            {
+              "sourceId": "hanjin-chunqiu-zhuge",
+              "locator": "《諸葛亮傳》裴注引《漢晉春秋》・隆中位置"
+            }
+          ]
+        },
+        {
+          "text": "建安十二年（207年）前後，劉備經徐庶推薦三次往訪，諸葛亮向他分析曹操、孫權與荊益形勢，提出先據荊州、益州，外結孫權、內修政理，等待時變而兩路北進的構想。這段具體對策確實載於《三國志・諸葛亮傳》；《三國演義》第三十八回雖大量沿用，仍有改寫與增飾，兩者不宜混成同一段原文。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhuge-main",
+              "locator": "卷三十五・徐庶薦亮、三顧與隆中對"
+            },
+            {
+              "sourceId": "sanguo-yanyi",
+              "locator": "第三十八回・定三分隆中決策"
+            }
+          ]
+        },
+        {
+          "text": "諸葛亮出仕後奉命出使孫權，促成孫劉共同抗曹；其後督辦荊南三郡賦稅，參與取益州並長期鎮守成都。劉備稱帝後任命他為丞相；白帝城託孤後，他成為後主政權的核心，對內治國整軍，對外恢復與孫吳的聯盟、平定南中，並自建興五年至十二年間數度北伐。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhuge-main",
+              "locator": "卷三十五・使吳、取蜀、受託與北伐各段"
+            }
+          ]
+        }
+      ]
+    },
+    "factionTimeline": [
+      {
+        "stageName": "劉備集團・荊州寄寓",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "liu-biao-faction",
+        "period": "建安十二年（207年）— 建安十三年（208年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "劉備集團・荊州據地",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "liubei-jingzhou-regime",
+        "period": "建安十三年（208年）— 建安十六年（211年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "劉備集團・益州牧政權",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "liubei-yizhou-regime",
+        "period": "建安十六年（211年）— 建安二十四年（219年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "漢中王政權",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "hanzhong-kingdom",
+        "period": "建安二十四年（219年）— 建安二十六年／章武元年（221年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "蜀漢・先主政權",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "shuhan-xianzhu",
+        "period": "章武元年（221年）— 章武三年（223年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "蜀漢・後主政權",
+        "personName": "劉禪",
+        "personId": null,
+        "actualFactionId": "shuhan-houzhu",
+        "period": "建興元年（223年）— 建興十二年（234年）",
+        "periodUncertain": false
+      }
+    ],
+    "relatives": [
+      {
+        "personName": "諸葛珪",
+        "personId": null,
+        "relation": "父",
+        "natureType": "三國志正文記載",
+        "note": "字君貢，漢末任太山郡丞；諸葛亮早年喪父。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・諸葛亮傳開篇"
+          }
+        ]
+      },
+      {
+        "personName": "諸葛玄",
+        "personId": null,
+        "relation": "叔父",
+        "natureType": "正文與注引記載有異",
+        "note": "《諸葛亮傳》正文稱諸葛玄為袁術所署豫章太守，後往依劉表；裴注引《獻帝春秋》則稱劉表表其為豫章太守，並記他於建安二年死於西城兵亂，任命來源與死亡經過均有差異。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・諸葛亮傳開篇"
+          },
+          {
+            "sourceId": "xiandi-chunqiu-zhuge",
+            "locator": "《諸葛亮傳》裴注引《獻帝春秋》"
+          }
+        ]
+      },
+      {
+        "personName": "諸葛瑾",
+        "personId": null,
+        "relation": "兄",
+        "natureType": "三國志正文記載",
+        "note": "字子瑜，仕於孫吳。諸葛亮與諸葛瑾各事其主，史書保存兩人書信及養子諸葛喬的往來。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhugejin-main",
+            "locator": "卷五十二・諸葛瑾傳"
+          },
+          {
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・諸葛喬傳"
+          }
+        ]
+      },
+      {
+        "personName": "諸葛均",
+        "personId": null,
+        "relation": "弟",
+        "natureType": "三國志正文記載",
+        "note": "早年與諸葛亮同隨叔父諸葛玄至荊州，後仕蜀漢，官至長水校尉。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・諸葛亮傳開篇及身後親屬段"
+          }
+        ]
+      },
+      {
+        "personName": "黃夫人",
+        "personId": "huang-furen",
+        "relation": "妻",
+        "natureType": "後世傳說",
+        "note": "婚姻關係見裴松之注引《襄陽記》：沔南名士黃承彥將女兒許配給諸葛亮，但史料沒有記載她的本名。《三國演義》第一百十七回仍只稱她為黃氏，也沒有使用黃月英。黃月英是後世說書與大眾文化流傳的名字；2003年光榮《真・三國無雙3》以月英塑造角色後更為普及，不能倒推為歷史本名。",
+        "citations": [
+          {
+            "sourceId": "xiangyang-ji-zhuge",
+            "locator": "《諸葛亮傳》裴注引《襄陽記》・黃承彥嫁女"
+          },
+          {
+            "sourceId": "sanguo-yanyi",
+            "locator": "第一百一十七回・『其母黃氏，即黃承彥之女也』"
+          },
+          {
+            "sourceId": "shin-sangokumusou-3-yueying",
+            "locator": "月英角色設定"
+          }
+        ]
+      },
+      {
+        "personName": "諸葛喬",
+        "personId": null,
+        "relation": "養子（原為侄）",
+        "natureType": "三國志正文記載",
+        "note": "諸葛瑾次子，原字仲慎。諸葛亮當時無子，請諸葛瑾將他送至蜀漢為嗣，改字伯松；建興六年去世，年二十五。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・諸葛喬傳"
+          }
+        ]
+      },
+      {
+        "personName": "諸葛瞻",
+        "personId": null,
+        "relation": "子",
+        "natureType": "三國志正文記載",
+        "note": "字思遠，建興十二年時八歲。後官至行都護衛將軍、平尚書事；景耀六年在綿竹抵抗鄧艾，戰敗身亡。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・諸葛瞻傳"
+          }
+        ]
+      },
+      {
+        "personName": "諸葛尚",
+        "personId": null,
+        "relation": "孫",
+        "natureType": "三國志正文記載",
+        "note": "諸葛瞻長子，景耀六年與父親一同戰死於綿竹。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・諸葛瞻傳"
+          }
+        ]
+      },
+      {
+        "personName": "諸葛京",
+        "personId": null,
+        "relation": "孫",
+        "natureType": "三國志正文及裴注記載",
+        "note": "諸葛瞻次子，蜀亡後內徙河東；裴注引《諸葛氏譜》稱其字行宗，後仕西晉，官至江州刺史。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・諸葛瞻傳及裴注"
+          }
+        ]
+      }
+    ],
+    "titlesAndRanks": [
+      {
+        "title": "軍師中郎將",
+        "period": "赤壁之戰後，約建安十三年至十四年（208—209年）",
+        "citations": [
+          {
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・督零陵、桂陽、長沙賦稅"
+          }
+        ]
+      },
+      {
+        "title": "軍師將軍、署左將軍府事",
+        "period": "建安十九年（214年）成都平定後",
+        "citations": [
+          {
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・成都平定後任命"
+          }
+        ]
+      },
+      {
+        "title": "丞相、錄尚書事、假節",
+        "period": "章武元年（221年）劉備稱帝後",
+        "citations": [
+          {
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・先主策亮為丞相"
+          }
+        ]
+      },
+      {
+        "title": "領司隸校尉",
+        "period": "章武元年（221年）張飛去世後",
+        "citations": [
+          {
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・『張飛卒後，領司隸校尉』"
+          }
+        ]
+      },
+      {
+        "title": "武鄉侯、開府治事",
+        "period": "建興元年（223年）",
+        "citations": [
+          {
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・後主即位後任命"
+          }
+        ]
+      },
+      {
+        "title": "領益州牧",
+        "period": "建興元年（223年）封侯開府後不久",
+        "citations": [
+          {
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・『頃之，又領益州牧』"
+          }
+        ]
+      },
+      {
+        "title": "右將軍、行丞相事",
+        "period": "建興六年（228年）街亭失利後自貶三等",
+        "citations": [
+          {
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・街亭失利與自貶"
+          }
+        ]
+      },
+      {
+        "title": "復為丞相",
+        "period": "建興七年（229年）取得武都、陰平後",
+        "citations": [
+          {
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・後主復丞相詔"
+          }
+        ]
+      }
+    ],
+    "posthumousTitle": {
+      "title": "忠武侯",
+      "grantedBy": "建興十二年（234年），後主劉禪下詔追諡",
+      "citations": [
+        {
+          "sourceId": "sgz-zhuge-main",
+          "locator": "卷三十五・諸葛亮卒後追諡詔"
+        }
+      ],
+      "paragraphs": [
+        {
+          "text": "諸葛亮於建興十二年八月病逝五丈原軍中後，後主劉禪派使者追贈丞相武鄉侯印綬，諡為忠武侯。後世常稱諸葛武侯或武侯，是由其爵位武鄉侯與諡號忠武侯形成的尊稱，不是他生前已使用的諡號。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhuge-main",
+              "locator": "卷三十五・『謚君為忠武侯』"
+            }
+          ]
+        }
+      ]
+    },
+    "evaluations": {
+      "contemporary": [
+        {
+          "evaluatorName": "劉備",
+          "evaluatorEra": "東漢末至蜀漢先主時期",
+          "context": "白帝城病篤託孤時，劉備對諸葛亮才能的評價；容許他在嗣子不才時自行處置的話也在同一段正史語境中",
+          "textType": "古籍原文",
+          "originalText": "君才十倍曹丕，必能安國，終定大事。若嗣子可輔，輔之；如其不才，君可自取。",
+          "paraphrase": "劉備認為諸葛亮才能遠勝曹丕，足以安定國家並完成大事；他接著以劉禪能否輔佐為條件作出極重的託付。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhuge-main",
+              "locator": "卷三十五・章武三年白帝城託孤"
+            }
+          ]
+        },
+        {
+          "evaluatorName": "傅幹",
+          "evaluatorEra": "東漢末年",
+          "context": "劉備進攻益州期間，傅幹評估劉備集團的人才；此語見裴松之注引《傅子》",
+          "textType": "古籍原文",
+          "originalText": "諸葛亮達治知變，正而有謀，而為之相。",
+          "paraphrase": "傅幹將諸葛亮概括為通達治道、懂得應變、品行端正而有謀略的人，並把他列為劉備能成事的核心輔佐者。",
+          "citations": [
+            {
+              "sourceId": "fuzi-liubei",
+              "locator": "《三國志・先主傳》裴注引《傅子》"
+            }
+          ]
+        },
+        {
+          "evaluatorName": "司馬懿",
+          "evaluatorEra": "曹魏",
+          "context": "諸葛亮病逝、蜀軍撤退後，司馬懿巡視其營壘部署所作的評語",
+          "textType": "古籍原文",
+          "originalText": "天下奇才也！",
+          "paraphrase": "這是長期在關中與諸葛亮對峙的敵方主將，在諸葛亮死後檢視其營壘所作的直接評價。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhuge-main",
+              "locator": "卷三十五・五丈原病卒後"
+            }
+          ]
+        },
+        {
+          "evaluatorName": "劉禪",
+          "evaluatorEra": "蜀漢後主時期",
+          "context": "建興十二年追諡諸葛亮的詔策",
+          "textType": "古籍原文",
+          "originalText": "惟君體資文武，明叡篤誠，受遺託孤，匡輔朕躬，繼絕興微，志存靖亂。",
+          "paraphrase": "後主在追諡詔中稱諸葛亮兼具文武之資、明智忠誠，承受託孤並輔佐自己，以延續漢室、平定亂世為志。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhuge-main",
+              "locator": "卷三十五・追諡忠武侯詔"
+            }
+          ]
+        }
+      ],
+      "later": [
+        {
+          "evaluatorName": "陳壽",
+          "evaluatorEra": "西晉",
+          "context": "《三國志・諸葛亮傳》卷末總評；陳壽肯定其治國、治軍與公誠，也認為其治民長於將略、奇謀不是所長",
+          "textType": "古籍原文",
+          "originalText": "亮之器能政理，抑亦管、蕭之亞匹也。",
+          "paraphrase": "陳壽把諸葛亮治理政務的能力比作管仲、蕭何一流；同段也指出他在治軍、治民方面見長，但奇謀與臨陣將略相對不是最突出，因此這不是毫無保留的神化。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhuge-appraisal",
+              "locator": "卷三十五・陳壽評語"
+            }
+          ]
+        },
+        {
+          "evaluatorName": "裴松之",
+          "evaluatorEra": "南朝宋",
+          "context": "辨難《蜀記》郭沖五事時，先肯定諸葛亮的人格與才能，隨後指出郭沖所述逸事多不可信",
+          "textType": "古籍原文",
+          "originalText": "亮之異美，誠所願聞，然沖之所說，實皆可疑。",
+          "paraphrase": "裴松之並非否定諸葛亮，而是認為讚美名臣也必須守住史料可信度；這正是空城計相似傳聞不能直接當成史實的重要依據。",
+          "citations": [
+            {
+              "sourceId": "shuji-guochong",
+              "locator": "《諸葛亮傳》裴注・郭沖五事前案語"
+            }
+          ]
+        },
+        {
+          "evaluatorName": "杜甫",
+          "evaluatorEra": "唐代",
+          "context": "遊成都武侯祠所作〈蜀相〉，概括三顧、兩朝輔政與北伐未竟",
+          "textType": "後世詩歌原文",
+          "originalText": "三顧頻煩天下計，兩朝開濟老臣心。出師未捷身先死，長使英雄淚滿襟。",
+          "paraphrase": "杜甫把諸葛亮的歷史形象集中在知遇、輔政與未竟北伐三點，成為後世忠臣形象最具影響力的文學表述之一。",
+          "citations": [
+            {
+              "sourceId": "dufu-shuxiang",
+              "locator": "〈蜀相〉頸聯、尾聯"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "historicalBio": [
+    {
+      "period": "約181年（後世逆推）— 建安二年（197年）前後",
+      "periodType": "approx",
+      "title": "琅邪出身與避亂荊州",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "諸葛亮生於琅邪陽都，父親諸葛珪曾任太山郡丞。父親早逝後，他與弟弟諸葛均跟隨叔父諸葛玄赴豫章；朝廷另派朱皓接任後，諸葛玄轉往依附荊州牧劉表。裴松之注引《獻帝春秋》對諸葛玄由誰任命、如何退守西城及死亡另有不同敘述。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・諸葛亮傳開篇"
+              },
+              {
+                "sourceId": "xiandi-chunqiu-zhuge",
+                "locator": "《諸葛亮傳》裴注引《獻帝春秋》"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "諸葛亮字孔明，琅邪陽都人也。漢司隸校尉諸葛豐後也。父圭，字君貢，漢末為太山郡丞。亮早孤，從父玄為袁術所署豫章太守，玄將亮及亮弟均之官。",
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・諸葛亮傳開篇"
+          }
+        ]
+      },
+      "uncertaintyNote": "《三國志》明載諸葛亮於建興十二年去世、享年五十四；181年是依古代年齡算法逆推的通行出生年，並非史書直接記載的出生日期。諸葛玄經歷亦有正文與《獻帝春秋》異說。"
+    },
+    {
+      "period": "約建安二年至十二年（197—207年）",
+      "periodType": "approx",
+      "title": "躬耕隆中與自比管樂",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "諸葛玄死後，諸葛亮在荊州躬耕，好吟《梁父吟》。裴注引《漢晉春秋》說他居於南陽鄧縣、襄陽城西二十里的隆中。他身長八尺，常自比管仲、樂毅，當時多數人不以為然，只有崔州平、徐庶等友人相信。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・躬耕與自比管樂"
+              },
+              {
+                "sourceId": "hanjin-chunqiu-zhuge",
+                "locator": "裴注引《漢晉春秋》・隆中位置"
+              }
+            ]
+          },
+          {
+            "text": "裴注引《魏略》補充他與石廣元、徐元直、孟公威等遊學時只掌握學問的大要，並曾推測三位朋友可仕至刺史、郡守，對自己的前程則笑而不答。這些細節出自注引，不是《三國志》正文。",
+            "citations": [
+              {
+                "sourceId": "weilu-zhuge-visit",
+                "locator": "《諸葛亮傳》裴注引《魏略》・荊州遊學"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "玄卒，亮躬畊隴畝，好為《梁父吟》。身長八尺，每自比於管仲、樂毅，時人莫之許也。惟博陵崔州平、潁川徐庶元直與亮友善，謂為信然。",
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・躬耕與自比管樂"
+          }
+        ]
+      },
+      "uncertaintyNote": "史書沒有逐年記載諸葛亮開始躬耕的確切時間；以諸葛玄約建安二年去世至三顧前後作為約略範圍。"
+    },
+    {
+      "period": "建安十二年（207年）前後",
+      "periodType": "exact",
+      "title": "三顧草廬與主動求見異說",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "《三國志・諸葛亮傳》正文記徐庶向劉備推薦諸葛亮，並說此人只能由劉備親自拜訪，不能強行召來。劉備因此三次前往，才見到諸葛亮。諸葛亮後來在〈出師表〉中也自述先帝三次到草廬拜訪。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・徐庶薦亮與三顧"
+              }
+            ]
+          },
+          {
+            "text": "但裴松之注引《魏略》《九州春秋》另載：諸葛亮判斷曹操平定河北後將攻荊州，主動北行見劉備；劉備起初以年輕書生相待，後因諸葛亮提出清查游戶、擴充兵源之策，才以上客之禮相待。這是與正文方向相反的史料異說。",
+            "citations": [
+              {
+                "sourceId": "weilu-zhuge-visit",
+                "locator": "《諸葛亮傳》裴注引《魏略》・亮先詣備異說"
+              },
+              {
+                "sourceId": "jiuzhou-chunqiu-zhuge-visit",
+                "locator": "《諸葛亮傳》裴注引《九州春秋》・同類異說"
+              }
+            ]
+          },
+          {
+            "text": "裴松之本人以〈出師表〉的第一人稱自述反駁，認為既然諸葛亮明說劉備三顧草廬，就不可能是諸葛亮先往見劉備；他對兩類記載背離至此感到十分可怪。因此本站以正文與諸葛亮自述為主，同時保留注引異說。",
+            "citations": [
+              {
+                "sourceId": "weilu-zhuge-visit",
+                "locator": "裴松之案語・以〈出師表〉反駁異說"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "庶曰：『此人可就見，不可屈致也。將軍宜枉駕顧之。』由是先主遂詣亮，凡三往，乃見。",
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・徐庶薦亮與三顧"
+          },
+          {
+            "text": "臣松之以為亮表雲『先帝不以臣卑鄙，猥自枉屈，三顧臣於草廬之中，諮臣以當世之事』，則非亮先詣備，明矣。雖聞見異辭，各生彼此，然乖背至是，亦良為可怪。",
+            "sourceId": "weilu-zhuge-visit",
+            "locator": "裴松之案語"
+          }
+        ]
+      },
+      "uncertaintyNote": "建安十二年是裴松之依〈出師表〉所說相識至今已有二十一年，以及建興五年北伐的時間推算；並非正文直接標出某月某日。三顧與主動求見兩說的史料分歧不可抹去。"
+    },
+    {
+      "period": "建安十二年（207年）前後",
+      "periodType": "exact",
+      "title": "隆中對：跨有荊益、聯吳抗曹",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "劉備屏退旁人，向諸葛亮說自己雖想在天下伸張大義，卻因才智與謀略不足而屢遭挫敗。諸葛亮判斷曹操已挾天子、兵力強盛，不可正面爭鋒；孫權據江東而根基穩固，可結援而不可圖取。荊州與益州則具有地理與資源優勢，而劉表、劉璋都無力善守。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・隆中對"
+              }
+            ]
+          },
+          {
+            "text": "他的核心構想是取得荊州、益州，安撫西南各族，對外與孫權結盟，對內整頓政治；待天下有變時，由一員上將率荊州軍向宛、洛，劉備親率益州軍出秦川，從而成就霸業、復興漢室。這是《三國志》正文保存的具體對策，不應把演義新增的圖卷、天時地利人和等文字當作正史原文。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・隆中對"
+              },
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第三十八回・演義版隆中決策"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "今操已擁百萬之眾，挾天子而令諸侯，此誠不可與爭鋒。孫權據有江東，已歷三世，國險而民附，賢能為之用，此可以為援而不可圖也。",
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・隆中對"
+          },
+          {
+            "text": "若跨有荊、益，保其巖阻，西和諸戎，南撫夷越，外結好孫權，內修政理；天下有變，則命一上將將荊州之軍以向宛、洛，將軍身率益州之眾出於秦川，百姓孰敢不簞食壺漿以迎將軍者乎？誠如是，則霸業可成，漢室可興矣。",
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・隆中對"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安十三年（208年）",
+      "periodType": "exact",
+      "title": "長坂敗後使吳與孫劉結盟",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操南下、劉備在長坂敗退後，諸葛亮主動請命向孫權求援。他向孫權分析曹軍遠來疲憊、北方士卒不習水戰，荊州歸附曹操者也多受軍勢逼迫；若孫權與劉備合力，擊破曹軍後便可形成荊州、江東相互支援的鼎足局面。孫權遂派周瑜、程普、魯肅等率水軍三萬與劉備合力抗曹。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・諸葛亮說孫權"
+              }
+            ]
+          },
+          {
+            "text": "正史確立了諸葛亮出使與促成聯盟的角色，但沒有舌戰群儒、智激周瑜、草船借箭或登壇借東風等情節；這些屬《三國演義》對赤壁故事的集中塑造。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・使吳段"
+              },
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第四十三、四十四、四十六、四十九回"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "先主至於夏口，亮曰：『事急矣，請奉命求救於孫將軍。』",
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・使吳段"
+          },
+          {
+            "text": "今將軍誠能命猛將統兵數萬，與豫州協規同力，破操軍必矣。操軍破，必北還，如此則荊、吳之勢彊，鼎足之形成矣。",
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・諸葛亮說孫權"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安十三年至十九年（208—214年）",
+      "periodType": "exact",
+      "title": "督荊南賦稅、溯江入蜀與平成都",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "赤壁之戰後，劉備取得荊州南部郡縣，任命諸葛亮為軍師中郎將，督辦零陵、桂陽、長沙三郡賦稅以充軍用。建安十六年劉備入蜀時，諸葛亮與關羽留鎮荊州；劉備後來轉而攻劉璋，諸葛亮再與張飛、趙雲溯江西進，分定郡縣，會師圍攻成都。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・督三郡及溯江入蜀"
+              }
+            ]
+          },
+          {
+            "text": "成都平定後，諸葛亮升任軍師將軍、署理左將軍府事。劉備外出時，他常留鎮成都，負責確保糧食、軍隊與後方供應。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・成都平定後"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "成都平，以亮為軍師將軍，署左將軍府事。先主外出，亮常鎮守成都，足食足兵。",
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・成都平定後"
+          }
+        ]
+      }
+    },
+    {
+      "period": "章武元年（221年）",
+      "periodType": "exact",
+      "title": "勸進稱帝與拜為丞相",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹丕代漢後，群臣勸劉備稱帝。諸葛亮援引光武帝劉秀在群臣勸進下承擔帝位的故事，表示曹氏既已篡漢、天下無主，劉備身為劉氏宗族，承續漢統稱帝是合宜之舉。劉備即位後，策拜諸葛亮為丞相，命他錄尚書事、假節；張飛死後又領司隸校尉。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・勸進與丞相任命"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "亮以丞相錄尚書事，假節。張飛卒後，領司隸校尉。",
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・先主稱帝後"
+          }
+        ]
+      }
+    },
+    {
+      "period": "章武三年（223年）",
+      "periodType": "exact",
+      "title": "白帝城託孤：自取之語的正史語境",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "劉備在永安病重，從成都召諸葛亮託付後事。他先說諸葛亮才能遠勝曹丕，足以安國定事，接著表示：若嗣子可以輔佐便輔佐，若不成才，則由諸葛亮自行處置。諸葛亮哭泣回答，願竭盡輔弼之力、效忠守節，直到死亡。劉備另敕劉禪事奉丞相如同父親。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・章武三年白帝城託孤"
+              }
+            ]
+          },
+          {
+            "text": "小說第八十五回將這段話改寫成可自行成為成都之主，並加入諸葛亮汗流遍體、手足失措、叩頭流血等敘事；正史與演義的核心語意相承，但小說將場面大幅戲劇化。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・白帝城託孤"
+              },
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第八十五回・劉先主遺詔託孤兒"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "若嗣子可輔，輔之；如其不才，君可自取。",
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・白帝城託孤"
+          },
+          {
+            "text": "臣敢竭股肱之力，效忠貞之節，繼之以死！",
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・諸葛亮答託孤"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建興元年至三年（223—225年）",
+      "periodType": "exact",
+      "title": "開府領益州牧、恢復吳盟與平定南中",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "劉禪即位後，封諸葛亮為武鄉侯，准其開府治事，不久又領益州牧，政事無論大小都由他裁決。面對南中諸郡叛亂，他先以國家新遭大喪為由暫緩出兵，同時遣使聘吳，重新結成盟國。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・建興元年輔政"
+              }
+            ]
+          },
+          {
+            "text": "建興三年春，諸葛亮率軍南征，秋季平定南中。《三國志》正文只概括其春征秋平；裴注引《漢晉春秋》則記孟獲為夷漢所服，諸葛亮七次擒縱，最後使孟獲心服，並採用地方渠帥治理、不留外來官兵與不長途運糧的安排。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・建興三年南征"
+              },
+              {
+                "sourceId": "hanjin-chunqiu-zhuge",
+                "locator": "《諸葛亮傳》裴注引《漢晉春秋》・七縱七禽孟獲"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "三年春，亮率眾南征，其秋悉平。軍資所出，國以富饒。",
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・建興三年"
+          },
+          {
+            "text": "獲止不去，曰：『公，天威也，南人不復反矣。』",
+            "sourceId": "hanjin-chunqiu-zhuge",
+            "locator": "裴注引《漢晉春秋》・孟獲語"
+          }
+        ]
+      },
+      "uncertaintyNote": "南中在建興三年由正文確載；七次擒放孟獲屬裴松之注引《漢晉春秋》，史料層級不同於正文。《三國演義》又在此基礎上擴寫大量戰役與人物。"
+    },
+    {
+      "period": "建興五年至六年（227—228年）",
+      "periodType": "exact",
+      "title": "前出師表、首次北伐與街亭失利",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "建興五年，諸葛亮率軍進駐漢中，出發前上〈出師表〉，勸劉禪廣開言路、賞罰一致、親近賢臣，並自述三顧與受命託孤，表明北定中原、興復漢室的責任。全文由《三國志・諸葛亮傳》正文收錄，是歸屬與可信度最高的諸葛亮傳世文字之一。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・建興五年〈出師表〉全文"
+              }
+            ]
+          },
+          {
+            "text": "建興六年春，諸葛亮以趙雲、鄧芝為疑軍牽制曹真，主力攻祁山，南安、天水、安定三郡一度叛魏響應。馬謖在街亭違背節度，被張郃擊敗，諸葛亮因此撤回漢中，處死馬謖並上疏請求自貶三等，降為右將軍但仍代行丞相職務。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・建興六年首次北伐"
+              }
+            ]
+          },
+          {
+            "text": "《三國志》正文沒有諸葛亮在西城彈琴退司馬懿的空城計。裴注雖收郭沖一則相似故事，裴松之立即指出當時司馬懿尚在宛城、並未在陽平與諸葛亮對陣，軍隊配置也與《魏延傳》矛盾，判斷其敘述虛妄。",
+            "citations": [
+              {
+                "sourceId": "shuji-guochong",
+                "locator": "郭沖第三事及裴松之辨難"
+              },
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第九十五回・武侯彈琴退仲達"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "今南方已定，兵甲已足，當獎率三軍，北定中原，庶竭駑鈍，攘除姦凶，興復漢室，還於舊都。",
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・〈出師表〉"
+          },
+          {
+            "text": "臣明不知人，恤事多闇，《春秋》責帥，臣職是當。請自貶三等，以督厥咎。",
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・街亭自貶疏"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建興六年至七年（228—229年）",
+      "periodType": "exact",
+      "title": "陳倉之役、取武都陰平與復任丞相",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "建興六年冬，諸葛亮再出散關圍陳倉，因糧盡撤退，追擊的魏將王雙被蜀軍斬殺。建興七年，他派陳式攻武都、陰平，自己進至建威策應，魏將郭淮退兵，蜀漢遂取得二郡。劉禪以此前斬王雙、今取二郡的戰果，下詔恢復其丞相職位。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・建興六年冬至七年"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "今復君丞相，君其勿辭。",
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・後主復丞相詔"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建興九年（231年）",
+      "periodType": "exact",
+      "title": "第四次北伐與糧盡退軍",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "建興九年，諸葛亮再攻祁山，以木牛運糧。裴注引《漢晉春秋》記他在上邽一帶與司馬懿軍對峙，蜀軍曾擊破魏延、高翔、吳班所面對的魏軍並獲甲首與軍械；後因糧盡退兵，魏將張郃追擊時中箭身亡。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・建興九年祁山之役"
+              },
+              {
+                "sourceId": "hanjin-chunqiu-zhuge",
+                "locator": "裴注引《漢晉春秋》・上邽、鹵城戰事"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "九年，亮復出祁山，以木牛運。糧盡退軍，與魏將張郃交戰，射殺郃。",
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・建興九年"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建興十二年（234年）",
+      "periodType": "exact",
+      "title": "五丈原屯田、病逝與撤軍",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "建興十二年春，諸葛亮率大軍由斜谷出兵，以流馬運輸，進據武功五丈原，與司馬懿隔渭水對峙。鑒於過去常受糧運限制，他分兵屯田，使軍士與渭濱居民雜處耕作；史書特別說百姓安堵、軍隊沒有私相侵擾。雙方相持一百多天。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・建興十二年五丈原"
+              }
+            ]
+          },
+          {
+            "text": "同年八月，諸葛亮在軍中病逝，享年五十四。蜀軍整理隊伍撤退，司馬懿巡視其營壘後，稱讚他是天下罕見的奇才。裴注引《漢晉春秋》另記蜀軍反旗鳴鼓作勢反擊，司馬懿退避，百姓因而以諺語譏諷生者反被死者嚇退。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・五丈原病卒"
+              },
+              {
+                "sourceId": "hanjin-chunqiu-zhuge",
+                "locator": "裴注引《漢晉春秋》・撤軍與民諺"
+              }
+            ]
+          },
+          {
+            "text": "裴注引《魏書》把諸葛亮之死寫成糧盡勢窮、憂恚吐血後入谷病亡；裴松之指出這是魏方因敵手死亡而自我誇大的說法，所謂入谷去世其實是誤解蜀軍入谷後才發喪。正文只能確定諸葛亮患病並在軍中去世，不應自行改寫成被司馬懿氣死或吐血而亡。",
+            "citations": [
+              {
+                "sourceId": "weishu-zhuge-death",
+                "locator": "《諸葛亮傳》裴注引《魏書》及裴松之案語"
+              },
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・『亮疾病，卒于軍』"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "相持百餘日。其年八月，亮疾病，卒于軍，時年五十四。",
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・五丈原病卒"
+          },
+          {
+            "text": "及軍退，宣王案行其營壘處所，曰：『天下奇才也！』",
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・蜀軍撤退後"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建興十二年（234年）及身後",
+      "periodType": "exact",
+      "title": "薄葬、清廉家產與技術遺產",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "諸葛亮遺命葬於漢中定軍山，依山為墳，墓穴只需容棺，穿當時衣服入殮，不放隨葬器物。他生前向劉禪申報，成都家中只有桑八百株、薄田十五頃，足供子弟衣食；自己在外任職的衣食由官府供給，不另營私產，希望死時家中不多餘布帛、外面不留盈財。史書說他死後果然如此。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・遺命葬定軍山及自表家產"
+              }
+            ]
+          },
+          {
+            "text": "《三國志》又說諸葛亮善於巧思，損益連弩、木牛流馬都出於他的構想，並推演兵法作八陣圖；裴注引《諸葛亮集》保存木牛流馬的部分形制文字。這些可確認為史籍所載的軍事與運輸技術，不等同於小說把他描寫成通曉法術。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・巧思、連弩、木牛流馬與八陣圖"
+              },
+              {
+                "sourceId": "zhuge-liang-ji-zhuge",
+                "locator": "裴注引《亮集》・木牛流馬法"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "若臣死之日，不使內有餘帛，外有贏財，以負陛下。及卒，如其所言。",
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・自表家產"
+          },
+          {
+            "text": "亮性長於巧思，損益連弩，木牛流馬，皆出其意；推演兵法，作八陣圖，鹹得其要雲。",
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・技術與兵法"
+          }
+        ]
+      }
+    },
+    {
+      "period": "景耀六年（263年）",
+      "periodType": "exact",
+      "title": "沔陽立廟與後世追思",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "諸葛亮死後，各地百姓要求為他立廟；朝廷起初以禮制不許，民間便在道路旁按時節私祭。景耀六年，習隆、向充等上表，建議在靠近墓地的沔陽建立正式祠廟，後主採納。同年魏軍伐蜀，鍾會到漢川後也祭諸葛亮之廟，並禁止軍士在墓旁砍柴放牧。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・景耀六年立廟及鍾會祭廟"
+              },
+              {
+                "sourceId": "xiangyang-ji-zhuge",
+                "locator": "裴注引《襄陽記》・民間私祭與立廟議"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "景耀六年春，詔為亮立廟於沔陽。",
+            "sourceId": "sgz-zhuge-main",
+            "locator": "卷三十五・景耀六年"
+          }
+        ]
+      }
+    }
+  ],
+  "romanceBio": [
+    {
+      "chapter": "第三十七至三十八回",
+      "eventName": "三顧草廬與演義版隆中決策",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說把三顧寫成連續的訪賢故事：劉備前兩次撲空，沿途遇見諸葛亮的友人與親屬；第三次到草堂時，諸葛亮正在午睡，劉備在階下久候，張飛甚至想放火逼他起身。諸葛亮醒後才與劉備論天下，取出西川五十四州圖，提出先取荊州、後取西川、形成鼎足再圖中原。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第三十七、三十八回"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "將軍欲成霸業，北讓曹操占天時，南讓孫權占地利，將軍可占人和。先取荊州為家，後即取西川建基業，以成鼎足之勢，然後可圖中原也。",
+            "sourceId": "sanguo-yanyi",
+            "locator": "第三十八回・演義新增總結"
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史確實記劉備三次往訪，也保存具體隆中對；但兩次撲空的對話、草堂午睡、張飛欲放火、西川圖卷，以及用天時、地利、人和分述三方優勢等內容均屬小說敘事。演義版與正史版文字相近卻不完全相同，引用原文時必須分開。裴注另有諸葛亮主動求見劉備的異說，小說沒有採用。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・三顧與隆中對"
+              },
+              {
+                "sourceId": "weilu-zhuge-visit",
+                "locator": "裴注引《魏略》及裴松之案語"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第三十九至四十回",
+      "eventName": "火燒博望坡與火燒新野",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說安排諸葛亮出山後以博望坡火攻作為初次用兵，調度趙雲誘敵、關羽張飛伏擊；其後又在新野設下火攻、水攻與伏兵，令曹仁、曹洪部隊大敗，藉此建立在關張面前的威信。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第三十九回・荊州城公子三求計 博望坡軍師初用兵；第四十回・孔明火燒新野"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "博望之戰發生於諸葛亮出仕以前，正史記載用伏兵擊破夏侯惇等人的主體是劉備，不能歸為諸葛亮的初次用兵；火燒新野則正史無載，是小說情節。",
+            "citations": [
+              {
+                "sourceId": "sgz-liubei-main",
+                "locator": "卷三十二・先主傳・博望伏兵"
+              },
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・諸葛亮出仕年代"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第四十三至四十九回",
+      "eventName": "舌戰群儒、草船借箭與借東風",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說將諸葛亮在江東的活動塑造成連續智鬥：先舌戰張昭等群儒，再以銅雀台詞句激怒周瑜，三日內利用大霧草船借得十萬餘箭，最後登七星壇祭風，宣稱以奇門遁甲借來東南風，完成赤壁火攻的關鍵條件。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第四十三、四十四、四十六、四十九回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "此組細節均為小說情節，正史無載。正史只可確認諸葛亮奉命求援、向孫權分析利害並促成聯盟；草船借箭、借東風與諸葛亮施法沒有可靠史料依據。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・使吳說孫權"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第五十一至五十七回",
+      "eventName": "三氣周瑜",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說反覆安排諸葛亮識破並反制周瑜計策：先乘隙取得南郡，又破壞孫劉聯姻困住劉備的安排，最後以書信和軍勢刺激周瑜。周瑜屢次怒極吐血，臨終感嘆自己既已出生，為何世上又有諸葛亮，使諸葛亮成為壓倒周瑜的智慧化身。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第五十一至五十七回・周瑜與孔明鬥智"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "三氣周瑜及周瑜臨終感嘆生不逢時的名句均屬小說塑造，正史無載。正史周瑜主導赤壁前線並另有取蜀規畫，建安十五年在江陵準備出征途中病逝，沒有被諸葛亮氣死。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・周瑜傳"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第八十五回",
+      "eventName": "白帝城託孤",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫劉備臨終握住諸葛亮的手，稱其才能遠勝曹丕；若劉禪可輔便輔佐，若不成才，諸葛亮可以自行成為成都之主。諸葛亮聽後汗流遍體、手足失措，叩頭流血，誓言竭忠至死；劉備又命兩位兒子以父事丞相。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第八十五回・劉先主遺詔託孤兒"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "君才十倍曹丕，必能安邦定國，終定大事。若嗣子可輔，則輔之；如其不才，君可自為成都之主。",
+            "sourceId": "sanguo-yanyi",
+            "locator": "第八十五回・白帝城託孤"
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史也有同一託孤核心，且確實容許諸葛亮在嗣子不才時自行處置，所以不能把這個意思誤判為演義虛構。小說把語意改成更具體的自行成為成都之主，並擴寫諸葛亮的驚懼與叩頭場面。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・章武三年白帝城託孤"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第八十七至九十回",
+      "eventName": "七擒孟獲",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說用四回篇幅擴寫南征，安排孟獲屢次被擒又被釋放，並加入祝融夫人、木鹿大王、兀突骨、藤甲兵等人物與戰事。直到第七次被擒，孟獲才心悅誠服，誓不再反。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第八十七至九十回・南征與七擒孟獲"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "《三國志》正文只記建興三年春南征、秋季平定；七次擒放孟獲已見裴注引《漢晉春秋》，並非羅貫中完全首創，但小說的七次戰鬥細節與大量人物多屬文學擴寫。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・建興三年南征"
+              },
+              {
+                "sourceId": "hanjin-chunqiu-zhuge",
+                "locator": "裴注引《漢晉春秋》・七縱七禽"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第九十一回",
+      "eventName": "出師表與北伐誓師",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說在諸葛亮北伐前鋪陳祭瀘水、回成都上表與朝臣反對，並收錄〈出師表〉核心全文，以此突出報答先帝知遇、輔佐後主與興復漢室的忠誠。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第九十一回・祭瀘水漢相班師 伐中原武侯上表"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "〈出師表〉本身不是小說偽作，全文確實收錄於《三國志・諸葛亮傳》，可信度很高；小說只是把它放入更具戲劇性的朝會與出征敘事中。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・建興五年〈出師表〉全文"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第九十三回",
+      "eventName": "武鄉侯罵死王朗",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說安排七十六歲的王朗隨曹真出戰，企圖以天命勸降諸葛亮；諸葛亮在兩軍陣前斥責王朗助曹篡漢，最後以激烈言辭痛罵，使王朗氣滿胸膛、撞死馬下。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第九十三回・武鄉侯罵死王朗"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "皓首匹夫！蒼髯老賊！汝即日將歸於九泉之下，何面目見二十四帝乎！",
+            "sourceId": "sanguo-yanyi",
+            "locator": "第九十三回・武鄉侯罵死王朗"
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "此為小說完全虛構的陣前情節，正史無載王朗隨軍與諸葛亮辯論。《三國志・王朗傳》只記王朗於太和二年（228年）在魏國去世，沒有被諸葛亮罵死。",
+            "citations": [
+              {
+                "sourceId": "sgz-wanglang-main",
+                "locator": "卷十三・王朗傳・太和二年薨"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第九十五回",
+      "eventName": "空城計：彈琴退仲達",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫街亭失守後，諸葛亮在西城只有二千五百軍，卻命人大開城門、百姓灑掃，自己在城樓焚香操琴。司馬懿因認定諸葛亮平生謹慎、不會弄險，懷疑城中有伏兵，遂率十五萬軍退去。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第九十五回・武侯彈琴退仲達"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "此為小說情節，可靠正史查無記載。裴注引《蜀記》郭沖第三事雖有諸葛亮開城示弱、司馬懿疑伏退兵的相似傳聞，但裴松之指出當時司馬懿任荊州都督、駐宛城，尚未在關中與諸葛亮交鋒，並從兵力與魏延任務等處證明故事矛盾，直斥郭沖所述多屬虛妄。",
+            "citations": [
+              {
+                "sourceId": "shuji-guochong",
+                "locator": "郭沖第三事及裴松之辨難"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第九十二至一百零四回",
+      "eventName": "六出祁山與木牛流馬",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說將諸葛亮北伐整理成六次出兵祁山的連續主線，穿插收姜維、斬馬謖、造木牛流馬、上方谷火攻與司馬懿堅守等故事，使他與司馬懿形成長期宿敵關係。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第九十二至一百零四回・北伐主線"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史通常可整理為建興六年春祁山、同年冬陳倉、建興七年武都陰平、建興九年再出祁山、建興十二年五丈原等五次主要北伐行動，並非每次都由祁山出兵；小說將其統整成六次出祁山。木牛流馬則確有《三國志》正文與《諸葛亮集》佚文依據，不是小說憑空創造。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・建興六年至十二年北伐紀錄"
+              },
+              {
+                "sourceId": "zhuge-liang-ji-zhuge",
+                "locator": "裴注引《亮集》・木牛流馬法"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第一百零三回",
+      "eventName": "七星燈禳星續命",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫諸葛亮在五丈原觀星知命，依姜維建議設法禳星：帳內布七盞大燈、四十九盞小燈與一盞本命燈，若七日內主燈不滅即可延壽一紀。第六夜魏延急入報軍情，踏滅主燈，諸葛亮因而認定天命不可挽回。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第一百零三回・五丈原諸葛禳星"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "此為小說完全虛構的法術情節，正史查無七星燈、禳星延命或魏延踏滅本命燈的記載。《三國志》只說諸葛亮在軍中患病，於建興十二年八月去世。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・五丈原病卒"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第一百零四回",
+      "eventName": "星落五丈原與木像退魏軍",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫諸葛亮臨終把兵法與連弩傳給姜維，安排楊儀、馬岱處置魏延，並在死後以木像使司馬懿誤以為他仍在軍中，驚退追兵。這使死後仍能嚇退司馬懿的敘事，成為其智謀延續至死後的文學高潮。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第一百零四回・隕大星漢丞相歸天 見木像魏都督喪膽"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "諸葛亮病逝五丈原、蜀軍整軍撤退、司馬懿退避追軍，以及譏諷活著的司馬懿被死者嚇退的民諺都有史籍依據；但木雕諸葛亮坐車嚇退魏軍，是小說的具象化改寫。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・五丈原病卒與撤軍"
+              },
+              {
+                "sourceId": "hanjin-chunqiu-zhuge",
+                "locator": "裴注引《漢晉春秋》・死諸葛走生仲達"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": "出師表（前出師表）",
+      "type": "表章",
+      "extant": "全文保存於《三國志・諸葛亮傳》正文",
+      "attribution": "諸葛亮確切傳世文字，可信度高",
+      "summary": "建興五年北伐前上呈劉禪，先論益州危局與賞罰用人，再自述布衣躬耕、三顧知遇、敗軍受命與白帝託孤，最後請命北定中原。因陳壽在本傳全文收錄，其歸屬遠比後世才出現的家書或託名兵書可靠。",
+      "anthology": "《三國志》卷三十五《蜀書・諸葛亮傳》；後亦收入《文選》《諸葛亮集》等",
+      "excerpt": "臣本布衣，躬耕於南陽，苟全性命於亂世，不求聞達於諸侯。先帝不以臣卑鄙，猥自枉屈，三顧臣於草廬之中，諮臣以當世之事。",
+      "citations": [
+        {
+          "sourceId": "sgz-zhuge-main",
+          "locator": "卷三十五・建興五年〈出師表〉全文"
+        }
+      ],
+      "fullText": [
+        "臣亮言：先帝創業未半而中道崩殂，今天下三分，益州疲弊，此誠危急存亡之秋也。然侍衛之臣不懈於內，忠志之士忘身於外者，蓋追先帝之殊遇，欲報之於陛下也。",
+        "誠宜開張聖聽，以光先帝遺德，恢弘志士之氣，不宜妄自菲薄，引喻失義，以塞忠諫之路也。",
+        "宮中府中，俱為一體，陟罰臧否，不宜異同。若有作奸犯科及為忠善者，宜付有司論其刑賞，以昭陛下平明之理，不宜偏私，使內外異法也。",
+        "侍中、侍郎郭攸之、費禕、董允等，此皆良實，志慮忠純，是以先帝簡拔以遺陛下。愚以為宮中之事，事無大小，悉以咨之，然後施行，必能裨補闕漏，有所廣益。",
+        "將軍向寵，性行淑均，曉暢軍事，試用於昔日，先帝稱之曰能，是以眾議舉寵為督。愚以為營中之事，事無大小，悉以咨之，必能使行陣和睦，優劣得所。",
+        "親賢臣，遠小人，此先漢所以興隆也；親小人，遠賢臣，此後漢所以傾頹也。先帝在時，每與臣論此事，未嘗不嘆息痛恨於桓、靈也。侍中、尚書、長史、參軍，此悉貞良死節之臣，願陛下親之信之，則漢室之隆，可計日而待也。",
+        "臣本布衣，躬耕於南陽，苟全性命於亂世，不求聞達於諸侯。先帝不以臣卑鄙，猥自枉屈，三顧臣於草廬之中，諮臣以當世之事，由是感激，遂許先帝以驅馳。後值傾覆，受任於敗軍之際，奉命於危難之間，爾來二十有一年矣。",
+        "先帝知臣謹慎，故臨崩寄臣以大事也。受命以來，夙夜憂歎，恐託付不效，以傷先帝之明，故五月渡瀘，深入不毛。今南方已定，兵甲已足，當獎率三軍，北定中原，庶竭駑鈍，攘除姦凶，興復漢室，還於舊都。此臣所以報先帝，而忠陛下之職分也。",
+        "至於斟酌損益，進盡忠言，則攸之、禕、允之任也。願陛下託臣以討賊興復之效；不效，則治臣之罪，以告先帝之靈。若無興德之言，則責攸之、禕、允等之慢，以彰其咎。陛下亦宜自謀，以諮諏善道，察納雅言，深追先帝遺詔。臣不勝受恩感激。",
+        "今當遠離，臨表涕零，不知所言。"
+      ]
+    },
+    {
+      "title": "街亭自貶疏",
+      "type": "奏疏",
+      "extant": "主要文字保存於《三國志・諸葛亮傳》正文",
+      "attribution": "諸葛亮街亭失利後上疏自責",
+      "summary": "諸葛亮把街亭與箕谷的失利歸咎於自己授任無方、不能知人，依《春秋》責帥之義請求自貶三等。後主降其為右將軍，但仍令代行丞相事，統率職權如前。",
+      "anthology": "《三國志》卷三十五《蜀書・諸葛亮傳》；後世輯入《諸葛亮集》",
+      "excerpt": "咎皆在臣授任無方。臣明不知人，恤事多闇，《春秋》責帥，臣職是當。請自貶三等，以督厥咎。",
+      "citations": [
+        {
+          "sourceId": "sgz-zhuge-main",
+          "locator": "卷三十五・建興六年街亭失利後"
+        }
+      ]
+    },
+    {
+      "title": "正議",
+      "type": "政論",
+      "extant": "長段文字見《諸葛亮傳》裴松之注引《亮集》",
+      "attribution": "《諸葛亮集》所收，歸屬可信度較高",
+      "summary": "建興元年，魏國華歆、王朗、陳群等致書勸蜀漢稱藩，諸葛亮不逐封回信，而作〈正議〉申論曹魏代漢並非合法天命，表明蜀漢仍以承續漢統、討魏為立場。",
+      "anthology": "《三國志》卷三十五裴松之注引《諸葛亮集》",
+      "excerpt": "夫據道討淫，不在眾寡。",
+      "citations": [
+        {
+          "sourceId": "zhuge-liang-ji-zhuge",
+          "locator": "《諸葛亮傳》裴注引《亮集》・〈正議〉"
+        }
+      ]
+    },
+    {
+      "title": "後出師表",
+      "type": "表章",
+      "extant": "全文由裴松之注轉錄，來源為張儼《默記》",
+      "attribution": "傳為諸葛亮作，但真偽存疑；裴松之明言陳壽所編《諸葛亮集》不收此表",
+      "summary": "表中主張漢室與曹魏不能並立，也不能偏安一隅，以此說明北伐必要性，並承認敵強我弱、成敗難料。由於最早可核來源不是陳壽正文或陳壽所編文集，而是張儼《默記》，本站保留傳統題名但明確標示歸屬爭議。",
+      "anthology": "《三國志》卷三十五裴松之注引張儼《默記》；後世通稱〈後出師表〉",
+      "excerpt": "臣鞠躬儘力，死而後已；至於成敗利鈍，非臣之明所能逆睹也。",
+      "citations": [
+        {
+          "sourceId": "moji-hou-chushi-biao",
+          "locator": "《諸葛亮傳》裴注・『此表，亮集所無，出張儼《默記》』"
+        }
+      ],
+      "fullText": [
+        "先帝慮漢、賊不兩立，王業不偏安，故託臣以討賊也。以先帝之明，量臣之才，故知臣伐賊才弱敵強也；然不伐賊，王業亦亡，惟坐待亡，孰與伐之？是故託臣而弗疑也。",
+        "臣受命之日，寢不安席，食不甘味，思惟北征，宜先入南，故五月渡瀘，深入不毛，並日而食。臣非不自惜也，顧王業不得偏全於蜀都，故冒危難以奉先帝之遺意也，而議者謂為非計。今賊適疲於西，又務於東，兵法乘勞，此進趨之時也。",
+        "謹陳其事如左：高帝明並日月，謀臣淵深，然涉險被創，危然後安。今陛下未及高帝，謀臣不如良、平，而欲以長計取勝，坐定天下，此臣之未解一也。",
+        "劉繇、王朗各據州郡，論安言計，動引聖人，群疑滿腹，眾難塞胸，今歲不戰，明年不徵，使孫策坐大，遂並江東，此臣之未解二也。",
+        "曹操智計殊絕於人，其用兵也，彷彿孫、吳，然困於南陽，險於烏巢，危於祁連，偪於黎陽，幾敗北山，殆死潼關，然後偽定一時耳。況臣才弱，而欲以不危而定之，此臣之未解三也。",
+        "曹操五攻昌霸不下，四越巢湖不成，任用李服而李服圖之，委夏侯而夏侯敗亡。先帝每稱操為能，猶有此失，況臣駑下，何能必勝？此臣之未解四也。",
+        "自臣到漢中，中間期年耳，然喪趙雲、陽群、馬玉、閻芝、丁立、白壽、劉郃、鄧銅等及曲長屯將七十餘人，突將無前，賨、叟、青羌散騎、武騎一千餘人。此皆數十年之內所糾合四方之精銳，非一州之所有，若復數年，則損三分之二也，當何以圖敵？此臣之未解五也。",
+        "今民窮兵疲，而事不可息。事不可息，則住與行勞費正等，而不及今圖之，欲以一州之地與賊持久，此臣之未解六也。",
+        "夫難平者，事也。昔先帝敗軍於楚，當此時，曹操拊手，謂天下以定。然後先帝東連吳、越，西取巴、蜀，舉兵北征，夏侯授首，此操之失計而漢事將成也。然後吳更違盟，關羽毀敗，秭歸蹉跌，曹丕稱帝。凡事如是，難可逆見。",
+        "臣鞠躬儘力，死而後已。至於成敗利鈍，非臣之明所能逆睹也。"
+      ]
+    },
+    {
+      "title": "誡子書",
+      "type": "家書／訓誡",
+      "extant": "全文見北宋《太平御覽》卷四百五十九",
+      "attribution": "傳為諸葛亮作；現存直接文獻較晚，可信度不及《三國志》所收〈出師表〉",
+      "summary": "以寧靜、節儉、立志與學習為修身成才之本，勸誡後輩避免放縱怠慢與急躁，珍惜年華。通行文字極具影響力，但《三國志》所列陳壽《諸葛氏集》二十四篇目沒有直接列出此題，現存文本主要依宋代類書保存，需保留傳承層級。",
+      "anthology": "《太平御覽》卷四百五十九；後世諸葛亮文集輯本",
+      "excerpt": "夫君子之行，靜以修身，儉以養德。非淡薄無以明志，非寧靜無以致遠。",
+      "citations": [
+        {
+          "sourceId": "taiping-yulan-459",
+          "locator": "卷四百五十九・鑒戒下・『又誡子曰』"
+        }
+      ],
+      "fullText": [
+        "夫君子之行，靜以修身，儉以養德。非淡薄無以明志，非寧靜無以致遠。",
+        "夫學欲靜也，才須學也，非學無以廣才，非志無以成學。",
+        "淫慢則不能勵精，險躁則不能治性。年與時馳，意與日去，遂成枯落，多不接世，悲守窮廬，將復何及！"
+      ]
+    },
+    {
+      "title": "誡外甥書",
+      "type": "家書／訓誡",
+      "extant": "全文見北宋《太平御覽》卷四百五十九",
+      "attribution": "傳為諸葛亮作；現存直接文獻較晚，需保留歸屬層級",
+      "summary": "勸外甥志向高遠、仰慕先賢、去除疑滯與瑣碎，廣泛請益，不因一時淹留而放棄志趣；若意志不堅，便可能沉滯於世俗。篇題中的外生是古代對外甥的寫法。",
+      "anthology": "《太平御覽》卷四百五十九；後世諸葛亮文集輯本",
+      "excerpt": "夫志當存高遠，慕先賢，絕情慾，棄疑滯，使庶幾之志，揭然有所存，惻然有所感。",
+      "citations": [
+        {
+          "sourceId": "taiping-yulan-459",
+          "locator": "卷四百五十九・『諸葛亮誡外生曰』"
+        }
+      ],
+      "fullText": [
+        "夫志當存高遠，慕先賢，絕情慾，棄疑滯，使庶幾之志，揭然有所存，惻然有所感。",
+        "忍屈伸，去細碎，廣諮問，除嫌吝，雖有淹留，何損於美趣，何患於不濟。",
+        "若志不強毅，意不慷慨，徒碌碌滯於俗，默默束於情，永竄伏於凡庸，不免於下流矣！"
+      ]
+    }
+  ],
+  "worksNote": "隆中對是《三國志》記錄整理的談話內容，不是諸葛亮自己書面發布的文書，已收錄於史實生平頁籤，這裡不重複列為著作。陳壽奉敕編成的《諸葛氏集》二十四篇原集已佚，現存內容分散保存於下列各篇及史籍引文中，不另立為單獨一篇著作。"
+}
