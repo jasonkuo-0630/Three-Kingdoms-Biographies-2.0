@@ -484,9 +484,27 @@ function workFullTextHtml(work) {
   `;
 }
 
-function worksTabHtml(works) {
+function worksNoteHtml(worksNote) {
+  if (!worksNote) return "";
+  // worksNote 原本設計是純字串，但曹操這筆資料用了跟其他欄位一致的
+  // ContentBlock 格式（paragraphs + citations），這樣可以附上來源出處。
+  // 兩種格式都要支援，不要因為格式升級就讓舊資料（孫策、諸葛亮）跟著壞掉。
+  if (typeof worksNote === "string") {
+    return `<p class="worksnote-text">${escapeHtml(worksNote)}</p>`;
+  }
+  if (worksNote.paragraphs) {
+    return contentBlockHtml({ paragraphs: worksNote.paragraphs }, sourceMap);
+  }
+  return "";
+}
+
+function worksTabHtml(works, worksNote) {
   if (!works || !works.length) return "";
-  return works
+  const noteHtml = worksNoteHtml(worksNote);
+  const noteBlock = noteHtml ? `<div class="plain-card worksnote-block">${noteHtml}</div>` : "";
+  return (
+    noteBlock +
+    works
     .map((w) => {
       const metaFields = [
         workMetaFieldHtml("類型", w.type),
@@ -513,7 +531,8 @@ function worksTabHtml(works) {
         </div>
       `;
     })
-    .join("");
+    .join("")
+  );
 }
 
 /* ---------- 頁籤切換（hash 路由 + 鍵盤方向鍵 + 瀏覽器上一頁/下一頁） ---------- */
@@ -527,7 +546,7 @@ function renderTabs(c) {
     overview: renderOverviewTab(c),
     historical: historicalTimelineHtml(c.historicalBio),
     romance: romanceTimelineHtml(c.romanceBio),
-    works: hasWorks ? worksTabHtml(c.works) : "",
+    works: hasWorks ? worksTabHtml(c.works, c.worksNote) : "",
   };
 
   const nav = document.getElementById("tabs-nav");
