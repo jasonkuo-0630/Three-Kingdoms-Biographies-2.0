@@ -1,0 +1,895 @@
+{
+  "schemaVersion": 2,
+  "dataStatus": "reviewed-draft",
+  "published": true,
+  "lastReviewedAt": "2026-08-05",
+  "id": "guan-yu",
+  "name": "關羽",
+  "courtesyName": "雲長",
+  "childhoodName": null,
+  "artName": null,
+  "otherNames": [
+    "關長生（本字長生）",
+    "關公（後世尊稱）"
+  ],
+  "lifespan": "生年不詳 — 建安二十四年十二月（約220年初）",
+  "birthplace": "河東郡解縣（今山西省運城市鹽湖區一帶）",
+  "primaryIdentity": "東漢末年劉備麾下將領，曾任襄陽太守、蕩寇將軍，董督荊州事；劉備稱漢中王後拜前將軍、假節鉞，封漢壽亭侯，死後由蜀漢後主劉禪追諡壯繆侯。",
+  "summary": "早年與張飛追隨劉備，情誼近於兄弟。建安五年一度被曹操擒獲，斬顏良解白馬之圍後仍返回劉備。其後長期鎮守荊州，建安二十四年圍樊城、因漢水暴漲俘于禁並斬龐德，威震華夏；旋遭孫權襲取後方，軍隊離散，突圍時與子關平一同被擒殺。",
+  "avatar": "images/guan_yu.png",
+  "overview": {
+    "intro": {
+      "paragraphs": [
+        {
+          "text": "關羽，字雲長，本字長生，河東解人。早年亡命至涿郡，與張飛一同追隨劉備。劉備任平原相時，以二人為別部司馬；《三國志》形容劉備與關羽、張飛寢則同床、恩若兄弟，但並未記載三人舉行正式結拜儀式。",
+          "citations": [
+            {
+              "sourceId": "sgz-guanyu-main",
+              "locator": "卷三十六・關羽傳開篇"
+            }
+          ]
+        },
+        {
+          "text": "關羽以勇武、忠於舊主及治軍聞名，也因剛烈自矜、與士大夫關係緊張而受到史家批評。建安二十四年北攻襄樊時聲勢達到頂峰，卻在曹魏正面抵抗與孫權襲取荊州的夾擊下敗亡。後世小說又將溫酒斬華雄、過五關斬六將、華容道義釋曹操等虛構情節附會於他，使歷史人物與文學形象產生很大差異。",
+          "citations": [
+            {
+              "sourceId": "sgz-guanyu-main",
+              "locator": "卷三十六・關羽傳"
+            },
+            {
+              "sourceId": "sgz-guanzhang-mahuang-zhao-appraisal",
+              "locator": "卷三十六卷末評語"
+            },
+            {
+              "sourceId": "sanguo-yanyi",
+              "locator": "第五回、第二十七回、第五十回等"
+            }
+          ]
+        }
+      ]
+    },
+    "factionTimeline": [
+      {
+        "stageName": "劉備集團・早年輾轉",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "liubei-group",
+        "period": "中平年間（184—189年，起始時間不詳）— 建安五年（200年）",
+        "periodUncertain": true
+      },
+      {
+        "stageName": "曹操麾下・短暫受任",
+        "personName": "曹操",
+        "personId": null,
+        "actualFactionId": "cao-cao-han-court",
+        "period": "建安五年（200年）被擒後至斬顏良報效、離曹歸劉",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "劉備集團・汝南重聚",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "liubei-group",
+        "period": "建安五年（200年）— 建安六年（201年）前後",
+        "periodUncertain": true
+      },
+      {
+        "stageName": "劉表麾下・荊州寄寓",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "liu-biao-faction",
+        "period": "建安六年（201年）前後 — 建安十三年（208年）",
+        "periodUncertain": true
+      },
+      {
+        "stageName": "劉備集團・荊州據地",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "liubei-jingzhou-regime",
+        "period": "建安十三年（208年）— 建安十九年（214年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "劉備集團・益州牧政權",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "liubei-yizhou-regime",
+        "period": "建安十九年（214年）— 建安二十四年（219年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "漢中王政權",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "hanzhong-kingdom",
+        "period": "建安二十四年（219年）— 建安二十四年十二月（約220年初）",
+        "periodUncertain": false
+      }
+    ],
+    "relatives": [
+      {
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "relation": "情同兄弟（正史稱「恩若兄弟」）",
+        "natureType": "史籍記載",
+        "note": "《三國志》正文記劉備與關羽、張飛「寢則同床，恩若兄弟」，可確認三人關係緊密。",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・關羽傳開篇"
+          }
+        ],
+        "fictionalRelation": {
+          "label": "結拜大哥",
+          "natureType": "演義設定",
+          "citations": [
+            {
+              "sourceId": "sanguo-yanyi",
+              "locator": "第一回"
+            }
+          ]
+        }
+      },
+      {
+        "personName": "張飛",
+        "personId": "zhang-fei",
+        "relation": "情同兄弟（正史稱「恩若兄弟」）",
+        "natureType": "史籍記載",
+        "note": "《三國志‧張飛傳》記關羽年長張飛數歲，張飛以兄長之禮事奉關羽。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhangfei-main",
+            "locator": "卷三十六・張飛傳開篇"
+          }
+        ],
+        "fictionalRelation": {
+          "label": "結拜三弟",
+          "natureType": "演義設定",
+          "citations": [
+            {
+              "sourceId": "sanguo-yanyi",
+              "locator": "第一回"
+            }
+          ]
+        }
+      },
+      {
+        "personName": "關平",
+        "personId": "guan-ping",
+        "relation": "子",
+        "natureType": "史籍記載",
+        "note": "正史明稱關平為關羽之子，建安二十四年與父親一同被孫權軍擒殺；《三國演義》第二十八回則虛構關平原為關定之子，後被關羽收為義子。",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・『斬羽及子平於臨沮』"
+          },
+          {
+            "sourceId": "sanguo-yanyi",
+            "locator": "第二十八回"
+          }
+        ]
+      },
+      {
+        "personName": "關興",
+        "personId": "guan-xing",
+        "relation": "子",
+        "natureType": "史籍記載",
+        "note": "字安國，承襲爵位。年少已有聲譽，受諸葛亮器重，弱冠任侍中、中監軍，數年後去世。正史沒有他長期隨軍征戰或為父報仇的記載。",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・關羽傳末"
+          }
+        ]
+      },
+      {
+        "personName": "關氏（名不詳）",
+        "personId": null,
+        "relation": "女",
+        "natureType": "史籍記載",
+        "note": "孫權曾派使者為自己的兒子求娶關羽之女，關羽辱罵使者並拒絕婚事。史籍未載其姓名、排行與後續事蹟。",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・建安二十四年"
+          }
+        ]
+      },
+      {
+        "personName": "關統",
+        "personId": null,
+        "relation": "孫（關興之子）",
+        "natureType": "史籍記載",
+        "note": "承襲爵位，娶蜀漢公主，官至虎賁中郎將；去世時沒有兒子。",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・關羽傳末"
+          }
+        ]
+      },
+      {
+        "personName": "關彝",
+        "personId": null,
+        "relation": "孫（關興庶子）",
+        "natureType": "史籍記載",
+        "note": "關統無子後，由關興庶子關彝續封。",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・關羽傳末"
+          }
+        ]
+      }
+    ],
+    "titlesAndRanks": [
+      {
+        "title": "別部司馬",
+        "period": "劉備任平原相時（約初平年間，確切年份不詳）",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main"
+          }
+        ]
+      },
+      {
+        "title": "行下邳太守事",
+        "period": "建安四年（199年）劉備殺車冑、再據徐州後",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main"
+          }
+        ]
+      },
+      {
+        "title": "偏將軍",
+        "period": "建安五年（200年）被曹操擒獲後",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main"
+          }
+        ]
+      },
+      {
+        "title": "漢壽亭侯",
+        "period": "建安五年（200年）斬顏良、解白馬之圍後，由曹操上表封爵",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main"
+          }
+        ]
+      },
+      {
+        "title": "襄陽太守、蕩寇將軍",
+        "period": "赤壁之戰後劉備收取荊州南部諸郡時（約209年前後）",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main"
+          }
+        ]
+      },
+      {
+        "title": "董督荊州事",
+        "period": "劉備西取益州期間起（約211—214年）",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main"
+          }
+        ]
+      },
+      {
+        "title": "前將軍、假節鉞",
+        "period": "建安二十四年（219年）劉備稱漢中王後",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main"
+          }
+        ]
+      }
+    ],
+    "posthumousTitle": {
+      "title": "壯繆侯",
+      "grantedBy": "景耀三年（260年）秋九月，蜀漢後主劉禪追諡",
+      "citations": [
+        {
+          "sourceId": "sgz-houzhu",
+          "locator": "卷三十三・景耀三年秋九月"
+        },
+        {
+          "sourceId": "sgz-guanyu-main",
+          "locator": "卷三十六・關羽傳末"
+        }
+      ],
+      "paragraphs": [
+        {
+          "text": "關羽去世約四十年後，劉禪在景耀三年秋九月同時追諡關羽、張飛、馬超、龐統與黃忠，關羽諡為『壯繆侯』。《三國志》沒有保存針對關羽的單獨追諡詔書，也沒有明說選用『壯繆』二字的具體理由，因此不宜把其中的『繆』直接解釋為後主對關羽一生的明確褒貶判詞。",
+          "citations": [
+            {
+              "sourceId": "sgz-houzhu",
+              "locator": "卷三十三・景耀三年秋九月"
+            },
+            {
+              "sourceId": "sgz-guanyu-main",
+              "locator": "卷三十六・『追諡羽曰壯繆侯』"
+            }
+          ]
+        }
+      ]
+    },
+    "evaluations": {
+      "contemporary": [
+        {
+          "evaluatorName": "程昱等曹魏謀臣",
+          "evaluatorEra": "東漢末年",
+          "context": "《張飛傳》追述關羽、張飛的勇名",
+          "textType": "古籍原文",
+          "originalText": "魏謀臣程昱等咸稱羽、飛萬人之敵也。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhangfei-main",
+              "locator": "卷三十六・張飛傳"
+            }
+          ],
+          "paraphrase": "程昱等人一致稱許關羽、張飛勇猛過人，具有在戰場上獨當一面的萬人敵之才。"
+        },
+        {
+          "evaluatorName": "周瑜",
+          "evaluatorEra": "東漢末年・孫權麾下",
+          "context": "周瑜論劉備及其部將，認為劉備不會長久屈居人下",
+          "textType": "古籍原文",
+          "originalText": "劉備以梟雄之姿，而有關羽、張飛熊虎之將，必非久屈為人用者。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhouyu-main",
+              "locator": "卷五十四・周瑜傳"
+            }
+          ],
+          "paraphrase": "周瑜認為劉備本具梟雄之姿，又有關羽、張飛這樣的猛將輔佐，不可能長久屈居孫權之下。"
+        }
+      ],
+      "later": [
+        {
+          "evaluatorName": "陳壽",
+          "evaluatorEra": "西晉（《三國志》作者）",
+          "context": "《關張馬黃趙傳》卷末對關羽、張飛的合評",
+          "textType": "古籍原文",
+          "originalText": "關羽、張飛皆稱萬人之敵，為世虎臣。羽報效曹公，飛義釋嚴顏，並有國士之風。然羽剛而自矜，飛暴而無恩，以短取敗，理數之常也。",
+          "citations": [
+            {
+              "sourceId": "sgz-guanzhang-mahuang-zhao-appraisal",
+              "locator": "卷三十六卷末評語"
+            }
+          ],
+          "paraphrase": "陳壽肯定關羽勇冠當世、知恩圖報而有國士風範，也指出他剛強自負，最終因性格弱點招致敗亡。"
+        },
+        {
+          "evaluatorName": "楊戲",
+          "evaluatorEra": "蜀漢",
+          "context": "延熙四年（241年）《季漢輔臣贊》對關羽、張飛的合贊",
+          "textType": "古籍原文",
+          "originalText": "關、張赳赳，出身匡世，扶翼攜上，雄壯虎烈。藩屏左右，翻飛電發。濟于艱難，贊主洪業，侔迹韓、耿，齊聲雙德。交待無禮，並致姦慝，悼惟輕慮，隕身匡國。",
+          "citations": [
+            {
+              "sourceId": "jihan-fuchen-zan",
+              "locator": "關羽、張飛合贊"
+            }
+          ],
+          "paraphrase": "楊戲稱頌關羽、張飛勇烈輔主、共成大業，功名可比前代名將；又惋惜二人因輕率待人而遭奸人所害。"
+        }
+      ]
+    }
+  },
+  "historicalBio": [
+    {
+      "period": "中平年間以後（184年後，確切時間不詳）",
+      "periodType": "approx",
+      "title": "亡命涿郡，與張飛追隨劉備",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "關羽原籍河東解縣，因故亡命至涿郡。劉備在鄉里聚集徒眾時，關羽與張飛成為其護衛與主要部將；劉備任平原相後，又以二人為別部司馬，分別統率部曲。三人生活與行動極為親密，但正史沒有桃園結義或正式結拜儀式。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・關羽傳開篇"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "關羽字雲長，本字長生，河東解人也。亡命奔涿郡。先主於鄉里合徒眾，而羽與張飛為之禦侮。先主為平原相，以羽、飛為別部司馬，分統部曲。先主與二人寢則同床，恩若兄弟。",
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・關羽傳"
+          }
+        ]
+      },
+      "uncertaintyNote": "《關羽傳》未記關羽投奔涿郡及開始追隨劉備的確切年份；以184年黃巾起事作為背景只能視為時段推定。"
+    },
+    {
+      "period": "建安四年至五年（199—200年）",
+      "periodType": "exact",
+      "title": "守下邳、被曹操擒獲，斬顏良後歸劉備",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "劉備殺徐州刺史車冑後，使關羽守下邳、代理太守。建安五年曹操東征，劉備敗走袁紹，關羽被擒後受拜偏將軍。白馬之戰中，關羽在萬軍中刺殺袁紹將領顏良並取其首，曹操遂上表封他為漢壽亭侯。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・建安五年"
+              }
+            ]
+          },
+          {
+            "text": "關羽明言自己受劉備厚恩、不可背棄，但會先立功報答曹操再離去。斬顏良後，他封存曹操賞賜，留書告辭，回到袁紹軍中的劉備身邊；曹操命部下不要追趕。正史所載只有這段離曹歸劉，沒有過五關斬六將。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・離曹歸劉段"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "羽歎曰：『吾極知曹公待我厚，然吾受劉將軍厚恩，誓以共死，不可背之。吾終不留，吾要當立效以報曹公乃去。』",
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・關羽傳"
+          },
+          {
+            "text": "羽盡封其所賜，拜書告辭，而奔先主於袁軍。左右欲追之，曹公曰：『彼各為其主，勿追也。』",
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・關羽傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安十三年至十九年（208—214年）",
+      "periodType": "range",
+      "title": "長坂後以水軍接應，受命鎮守荊州",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操南下荊州時，劉備另遣關羽率數百艘船前往江陵。劉備在長坂敗退後斜赴漢津，正好與關羽船隊會合，眾人得以渡過沔水前往夏口。赤壁戰後劉備收取荊州南部諸郡，任關羽為襄陽太守、蕩寇將軍；劉備西取益州後，又命關羽總督荊州事務。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・從劉表至董督荊州事"
+              },
+              {
+                "sourceId": "sgz-liubei-main",
+                "locator": "卷三十二・當陽長坂至夏口"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "先主收江南諸郡，乃封拜元勳，以羽為襄陽太守、蕩寇將軍，駐江北。先主西定益州，拜羽董督荊州事。",
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・關羽傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安二十年（215年）",
+      "periodType": "exact",
+      "title": "益陽對峙與史實中的單刀會",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "劉備取得益州後，孫權要求歸還荊州諸郡，雙方在益陽對峙。正史記載由魯肅主動邀請關羽會面，雙方將兵馬留在百步之外，只讓將軍各持單刀赴會，魯肅當面責問劉備一方不歸還土地。這是一次由魯肅主導的邊界談判，不是《三國演義》所塑造的關羽單憑膽氣深入吳營。其後劉備因曹操進入漢中而與孫權議和，以湘水為界分割荊州。",
+            "citations": [
+              {
+                "sourceId": "sgz-lusu-main",
+                "locator": "卷五十四・魯肅傳益陽會談段"
+              },
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・建安二十年"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "肅邀羽相見，各駐兵馬百步上，但諸將軍單刀俱會。",
+            "sourceId": "sgz-lusu-main",
+            "locator": "卷五十四・魯肅傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "時間不詳（應在建安二十四年以前）",
+      "periodType": "unknown",
+      "title": "中流矢後刮骨去毒",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "關羽左臂曾被流矢射穿，傷口癒合後仍在陰雨時骨痛。醫者判斷箭毒入骨，為他剖臂刮骨；關羽當時仍與諸將飲食談笑。史書沒有記載醫者姓名，因此不能據此認定為華佗。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・刮骨去毒段"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "羽便伸臂令醫劈之。時羽適請諸將飲食相對，臂血流離，盈於盤器，而羽割炙引酒，言笑自若。",
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・關羽傳"
+          }
+        ]
+      },
+      "uncertaintyNote": "《關羽傳》只以『嘗』字記述此事，沒有交代年份，也沒有記載醫者姓名。"
+    },
+    {
+      "period": "建安二十四年（219年）秋",
+      "periodType": "exact",
+      "title": "漢水暴漲，俘于禁、斬龐德，威震華夏",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "關羽率軍圍攻樊城曹仁。曹操派于禁率七軍救援，秋季連降大雨，漢水暴漲，于禁所督七軍被洪水淹沒。關羽利用水軍俘虜于禁等部眾，並斬殺拒降的龐德，聲勢震動中原。史料將洪水明確寫成大霖雨與漢水泛溢，沒有關羽決堤或預先設計水攻的記載。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・建安二十四年襄樊之戰"
+              },
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・建安二十四年"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "秋，大霖雨，漢水汎溢，禁所督七軍皆沒。禁降羽，羽又斬將軍龐德。梁、郟、陸渾群盜或遙受羽印號，為之支黨，羽威震華夏。",
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・關羽傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安二十四年十二月（約220年初）",
+      "periodType": "exact",
+      "title": "荊州失守、退保麥城，突圍後被擒殺",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "關羽北攻樊城時，南郡太守麋芳與屯公安的士仁因素來不滿關羽，又害怕關羽追究軍資供應不足，先後向孫權投降。孫權軍占據江陵並控制關羽部眾家屬；關羽又被徐晃擊退，回軍時士卒逐漸離散。這是荊州失守的正史主線，史書沒有使用『大意失荊州』這種評價性標題。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・荊州失守段"
+              }
+            ]
+          },
+          {
+            "text": "《吳主傳》進一步記載，關羽退至當陽後向西守麥城，假意投降並趁機逃走，部眾散去後只剩十餘騎。孫權預先命朱然、潘璋截斷道路，潘璋司馬馬忠在章鄉擒獲關羽、關平與趙累等人；《關羽傳》則概括為孫權遣將逆擊，在臨沮斬關羽及關平。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・建安二十四年十二月"
+              },
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・關羽傳末"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "權已據江陵，盡虜羽士眾妻子，羽軍遂散。權遣將逆擊羽，斬羽及子平於臨沮。",
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・關羽傳"
+          },
+          {
+            "text": "關羽還當陽，西保麥城。權使誘之。羽偽降，立幡旗為像人於城上，因遁走，兵皆解散，尚十餘騎。",
+            "sourceId": "sgz-wuzhu-main",
+            "locator": "卷四十七・吳主傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "景耀三年（260年）秋九月",
+      "periodType": "exact",
+      "title": "由後主劉禪追諡壯繆侯",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "蜀漢後主劉禪同時追諡關羽、張飛、馬超、龐統與黃忠，關羽所得諡號為壯繆侯。史籍沒有保存針對關羽的個別詔書或說明選字理由。",
+            "citations": [
+              {
+                "sourceId": "sgz-houzhu",
+                "locator": "卷三十三・景耀三年秋九月"
+              },
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・關羽傳末"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "三年秋九月，追諡故將軍關羽、張飛、馬超、龐統、黃忠。",
+            "sourceId": "sgz-houzhu",
+            "locator": "卷三十三・後主傳"
+          },
+          {
+            "text": "追諡羽曰壯繆侯。",
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・關羽傳"
+          }
+        ]
+      }
+    }
+  ],
+  "romanceBio": [
+    {
+      "chapter": "第一回",
+      "eventName": "桃園結義",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說安排劉備、關羽、張飛在張飛莊後桃園祭告天地，結為異姓兄弟，依年齡以劉備為兄、關羽次之、張飛為弟。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第一回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "此為小說情節，正史無正式結拜儀式。《三國志》只能證明劉備與二人恩若兄弟，以及張飛因關羽年長而以兄長之禮事奉他。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・關羽傳開篇"
+              },
+              {
+                "sourceId": "sgz-zhangfei-main",
+                "locator": "卷三十六・張飛傳開篇"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第五回",
+      "eventName": "溫酒斬華雄",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫諸侯聯軍無人能敵華雄，關羽請戰，曹操為他斟下熱酒；關羽返帳時酒仍溫熱，已提回華雄首級。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第五回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "此為小說情節，正史無關羽斬華雄。《三國志・孫堅傳》記孫堅在陽人大破董卓軍，梟其都督華雄等；原文能確認的是孫堅軍的戰果，並未寫孫堅親手與華雄單挑。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunjian-main",
+                "locator": "卷四十六・陽人之戰"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第二十五至二十七回",
+      "eventName": "土山約三事、斬顏良誅文醜、掛印封金",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說在關羽暫歸曹操期間加入『降漢不降曹』等三項約定，並安排他先後斬顏良、文醜；得知劉備下落後，掛印封金離去。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第二十五至二十七回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史確載關羽斬顏良、封存曹操賞賜並留書告辭，但沒有土山三約，也沒有關羽斬文醜的記載。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・建安五年"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第二十七至二十八回",
+      "eventName": "千里走單騎、過五關斬六將",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫關羽護送劉備家眷北尋劉備，沿途因無曹操正式通關文書而闖過五處關隘、斬殺六將，最後在古城與張飛消除誤會、重新會合。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第二十七至二十八回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "此段行程與六名守將為小說虛構。正史只說關羽留書告辭後投奔袁紹軍中的劉備，沒有護送二位嫂嫂、過關斬將或古城斬蔡陽證明心跡的情節。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・離曹歸劉段"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第五十回",
+      "eventName": "華容道義釋曹操",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說安排諸葛亮命關羽把守華容道，關羽念及曹操舊日厚待，最終放走赤壁敗退的曹操。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第五十回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "此為小說情節，正史沒有關羽在華容道攔截、釋放曹操的記載。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "note": "關羽本傳無此事"
+              },
+              {
+                "sourceId": "sgz-liubei-main",
+                "locator": "卷三十二・赤壁之戰後"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第六十六回",
+      "eventName": "單刀赴會",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說著重描寫關羽明知吳方設宴索取荊州，仍只帶少數隨從渡江赴會，席間挾持魯肅並全身而退，以突出其膽氣。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第六十六回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史確有單刀會，但由魯肅主動邀關羽談判，雙方兵馬都留在百步外、諸將各持單刀會面；史實重點是魯肅責問荊州歸屬，不是關羽挾持魯肅脫身。",
+            "citations": [
+              {
+                "sourceId": "sgz-lusu-main",
+                "locator": "卷五十四・魯肅傳"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第七十四至七十五回",
+      "eventName": "水淹七軍與刮骨療毒",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說把漢水洪災寫成關羽觀察地勢與水勢後主動安排的水攻，並令名醫華佗為他刮骨療毒，使兩件事都成為其智勇形象的一部分。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第七十四至七十五回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史記載七軍覆沒源於秋季大雨與漢水自然暴漲，沒有關羽決堤水攻；刮骨去毒確有其事，但史書未記醫者姓名，也沒有說是華佗。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・刮骨去毒及襄樊之戰段"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第七十五至七十七回",
+      "eventName": "大意失荊州、敗走麥城",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說以關羽拒婚辱使、輕視陸遜、前線失利與後方遭呂蒙白衣渡江串成『大意失荊州』的悲劇，最後寫他困守麥城、突圍被擒並拒降遇害。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第七十五至七十七回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史確載孫權襲荊州、麋芳與士仁投降、關羽退保麥城及突圍被擒，但沒有以『大意』作為史家定論。其敗亡是襄樊前線受阻、吳軍襲取後方、守將倒戈、家屬被控制與軍心瓦解共同造成。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・荊州失守段"
+              },
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・建安二十四年"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "works": []
+}
