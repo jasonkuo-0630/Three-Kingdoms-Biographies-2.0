@@ -1,0 +1,1852 @@
+{
+  "schemaVersion": 2,
+  "dataStatus": "reviewed-draft",
+  "published": true,
+  "lastReviewedAt": "2026-08-07",
+  "id": "cao-cao",
+  "name": "曹操",
+  "courtesyName": "孟德",
+  "childhoodName": "阿瞞",
+  "artName": null,
+  "otherNames": [
+    "吉利（《曹瞞傳》稱一名吉利）",
+    "魏武王（220年死後由東漢朝廷追諡）",
+    "魏太祖武皇帝（曹丕建立曹魏後追尊）",
+    "魏武帝（後世慣稱，非生前稱號）"
+  ],
+  "lifespan": "155年—220年",
+  "birthplace": "豫州沛國譙縣（今安徽省亳州市一帶）",
+  "primaryIdentity": "東漢末年軍事家、政治人物與文學家；官至丞相，封魏王，曹魏政權奠基者",
+  "summary": "曹操出身沛國譙縣，早年歷任洛陽北部尉、頓丘令、議郎、騎都尉、濟南相與典軍校尉。董卓專政後，他在陳留起兵，參與關東討董聯軍；其後取得兗州、收編青州黃巾，逐步建立軍政根據地。建安元年迎奉天子、遷都許縣後，他以漢廷名義統一北方，先後擊敗呂布、袁術、袁紹及烏丸等勢力，推行屯田、整頓選舉並多次下令求才；同時也兩度進攻徐州並造成大規模屠殺，在控制朝廷的過程中誅殺董承、伏皇后及多名異議者。赤壁戰敗後未能統一江南，晚年受封魏公、魏王。建安二十五年卒於洛陽，曹丕稱帝後追尊為魏太祖武皇帝。其政治、軍事與文學成就均有傳世記載，正史所呈現的能力、制度建設、殘酷用兵與高度集權應並置理解。",
+  "avatar": "images/cao_cao.png",
+  "demoNote": "曹操資料量大，已優先完成正史骨架、重要爭議、親屬、著作與演義差異；後續若新增曹丕、曹植、曹彰、曹沖等人物檔，可再補雙向 personId。",
+  "overview": {
+    "intro": {
+      "paragraphs": [
+        {
+          "text": "曹操生於沛國譙縣，字孟德。《三國志》正文稱其為漢相國曹參之後，並明載父親曹嵩是宦官曹騰的養子；但陳壽同時說曹嵩的本生來歷無法查清。裴注所引《曹瞞傳》《世語》另稱曹嵩本出夏侯氏，這一說法與正文的謹慎態度不同，不能當成已確定的血統。",
+          "citations": [
+            {
+              "sourceId": "sgz-wudi-main",
+              "locator": "卷一・武帝紀開篇"
+            },
+            {
+              "sourceId": "caoman-zhuan-caocao-peizhu",
+              "locator": "《武帝紀》裴注引《曹瞞傳》及《世語》"
+            }
+          ]
+        },
+        {
+          "text": "他從東漢官吏起家，因鎮壓黃巾、治理濟南與討董而逐步取得聲望；進入兗州後吸收青州黃巾降眾，建立自己的軍事集團。迎奉天子到許縣之後，他同時掌握漢廷官僚體系與直屬軍隊，並利用朝廷名義處理封拜、征討及對外合法性。這套權力結構既不能簡化成單純『匡扶漢室』，也不等同於他在196年便已公開稱帝。",
+          "citations": [
+            {
+              "sourceId": "sgz-wudi-main",
+              "locator": "卷一・中平至建安元年"
+            },
+            {
+              "sourceId": "sgz-maojie-main",
+              "locator": "卷十二・毛玠傳"
+            }
+          ]
+        },
+        {
+          "text": "曹操的重要政績包括接受棗祗、韓浩等人建議興辦屯田，設置田官積穀；採納求才路線，多次明令不因偏短或名節瑕疵棄置有用人才；也在控制區恢復學校與行政秩序。他本人能詩、懂音樂並著兵書，與曹丕、曹植及建安文士共同構成漢末文學的重要中心。",
+          "citations": [
+            {
+              "sourceId": "sgz-wudi-main",
+              "locator": "卷一・建安元年屯田、建安八年置學、建安十五至二十二年求賢諸令及篇末裴注引《魏書》"
+            }
+          ]
+        },
+        {
+          "text": "另一方面，《三國志》《後漢書》都留下徐州大規模殺戮、伏皇后被廢殺及多起政治誅殺的記錄。這些不是《三國演義》才創造的反派情節；同樣地，小說所寫獻七星刀、殺呂伯奢全家後再殺伯奢、割鬚棄袍、因覬覦二喬而南征、命華佗劈顱等，也不能反過來視作正史。本站將兩類材料分層呈現。",
+          "citations": [
+            {
+              "sourceId": "sgz-wudi-main",
+              "locator": "卷一・興平元年徐州、建安十九年伏皇后案"
+            },
+            {
+              "sourceId": "houhanshu-taoqian",
+              "locator": "卷七十三・陶謙傳"
+            },
+            {
+              "sourceId": "sanguo-yanyi",
+              "locator": "第四、四十四、五十八、七十八回等"
+            }
+          ]
+        }
+      ]
+    },
+    "factionTimeline": [
+      {
+        "stageName": "東漢地方官與京官",
+        "personName": "曹操",
+        "personId": null,
+        "actualFactionId": "cao-cao-late-han-service",
+        "period": "約熹平三年（174年）—中平六年（189年）",
+        "periodUncertain": true
+      },
+      {
+        "stageName": "陳留起兵與關東討董",
+        "personName": "曹操",
+        "personId": null,
+        "actualFactionId": "cao-cao-anti-dong-force",
+        "period": "中平六年十二月（189年）—初平二年（191年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "東郡至兗州割據政權",
+        "personName": "曹操",
+        "personId": null,
+        "actualFactionId": "cao-cao-yanzhou-regime",
+        "period": "初平二年（191年）—建安元年八月（196年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "控制許都漢廷",
+        "personName": "曹操",
+        "personId": null,
+        "actualFactionId": "cao-cao-han-court",
+        "period": "建安元年八月（196年）—建安二十一年四月（216年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "魏王國政權",
+        "personName": "曹操",
+        "personId": null,
+        "actualFactionId": "cao-cao-wei-kingdom",
+        "period": "建安二十一年四月（216年）—建安二十五年正月（220年）",
+        "periodUncertain": false
+      }
+    ],
+    "relatives": [
+      {
+        "personName": "曹騰",
+        "personId": null,
+        "relation": "養祖父",
+        "natureType": "三國志正文及裴注記載",
+        "note": "東漢宦官，官至大長秋，封費亭侯；收曹嵩為養子。曹丕建立曹魏後追尊為高皇帝。",
+        "citations": [
+          {
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・武帝紀開篇"
+          }
+        ]
+      },
+      {
+        "personName": "曹嵩",
+        "personId": null,
+        "relation": "父",
+        "natureType": "三國志正文及裴注異說",
+        "note": "曹騰養子，官至太尉。陳壽明言其本生來歷不可考；《曹瞞傳》《世語》稱其本為夏侯氏之子，只能列為異說。初平四年前後在泰山、華縣一帶被陶謙部將所殺，具體是陶謙授意還是都尉張闓劫財行凶，裴注並存不同記載。",
+        "citations": [
+          {
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・開篇及興平元年注文"
+          },
+          {
+            "sourceId": "caoman-zhuan-caocao-peizhu",
+            "locator": "《武帝紀》開篇裴注引《曹瞞傳》《世語》"
+          }
+        ]
+      },
+      {
+        "personName": "丁夫人",
+        "personId": null,
+        "relation": "元配",
+        "natureType": "裴松之注引《魏略》記載",
+        "note": "曹操最初的嫡妻，自己沒有生育，撫養劉夫人所生曹昂。曹昂在宛城戰死後，她長期責怪曹操並哭泣不止；曹操將她送回娘家，後親自求和仍遭拒絕，兩人最終離絕。這段細節不見《三國志》正文，而見《卞皇后傳》裴注引《魏略》。",
+        "citations": [
+          {
+            "sourceId": "weilue-dingfuren-peizhu",
+            "locator": "卷五・武宣卞皇后傳裴注引《魏略》"
+          }
+        ]
+      },
+      {
+        "personName": "卞夫人",
+        "personId": null,
+        "relation": "繼室、魏王后，後追尊武宣皇后",
+        "natureType": "三國志正文",
+        "note": "琅邪開陽人，本倡家。二十歲時被曹操納為妾，丁夫人離絕後成為繼室，撫養多名失母諸子。生曹丕、曹彰、曹植、曹熊；建安二十四年立為魏王后，曹魏建立後尊為皇太后。",
+        "citations": [
+          {
+            "sourceId": "sgz-weishu-consorts",
+            "locator": "卷五・武宣卞皇后傳"
+          },
+          {
+            "sourceId": "sgz-wudi-sons",
+            "locator": "卷二十・武帝諸子總敘"
+          }
+        ]
+      },
+      {
+        "personName": "劉夫人",
+        "personId": null,
+        "relation": "妾",
+        "natureType": "三國志正文及裴注記載",
+        "note": "生曹昂、曹鑠；裴注引《魏略》並記她生清河長公主。她早逝後，曹昂由丁夫人撫養。",
+        "citations": [
+          {
+            "sourceId": "sgz-wudi-sons",
+            "locator": "卷二十・武帝諸子總敘"
+          },
+          {
+            "sourceId": "weilue-dingfuren-peizhu",
+            "locator": "卷五・卞皇后傳裴注引《魏略》"
+          }
+        ]
+      },
+      {
+        "personName": "環夫人",
+        "personId": null,
+        "relation": "妾",
+        "natureType": "三國志正文",
+        "note": "生曹沖、曹據、曹宇。現存正史沒有足以重建她個人生平的更多資料。",
+        "citations": [
+          {
+            "sourceId": "sgz-wudi-sons",
+            "locator": "卷二十・武帝諸子總敘"
+          }
+        ]
+      },
+      {
+        "personName": "曹昂",
+        "personId": null,
+        "relation": "長子",
+        "natureType": "三國志正文及裴注記載",
+        "note": "字子脩，劉夫人所生、丁夫人所養。建安二年隨曹操征張繡，在宛城突襲中戰死；《世語》說他將坐騎讓給曹操，因此自己遇害。此事直接造成丁夫人與曹操決裂。",
+        "citations": [
+          {
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・建安二年宛城之敗"
+          },
+          {
+            "sourceId": "sgz-wudi-sons",
+            "locator": "卷二十・豐愍王昂"
+          }
+        ]
+      },
+      {
+        "personName": "曹丕",
+        "personId": null,
+        "relation": "子、繼承人",
+        "natureType": "三國志正文",
+        "note": "字子桓，卞夫人長子。建安二十二年立為魏王太子，曹操死後繼承丞相、魏王，同年受漢禪建立曹魏；追尊曹操為太祖武皇帝。",
+        "citations": [
+          {
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・建安二十二年至二十五年"
+          },
+          {
+            "sourceId": "sgz-wendi-yiling",
+            "locator": "卷二・文帝紀"
+          }
+        ]
+      },
+      {
+        "personName": "曹彰",
+        "personId": null,
+        "relation": "子",
+        "natureType": "三國志正文",
+        "note": "字子文，卞夫人所生。善射御、膂力過人，志在為將；建安二十三年奉命北征烏丸，建立軍功。",
+        "citations": [
+          {
+            "sourceId": "sgz-rencheng-chensi",
+            "locator": "卷十九・任城威王彰傳"
+          }
+        ]
+      },
+      {
+        "personName": "曹植",
+        "personId": null,
+        "relation": "子",
+        "natureType": "三國志正文",
+        "note": "字子建，卞夫人所生，以文才著名。曹操一度在曹丕、曹植之間考察繼承人選，最後仍立年長的曹丕為太子；小說所寫七步成詩發生在曹操死後，不屬曹操生前史事。",
+        "citations": [
+          {
+            "sourceId": "sgz-rencheng-chensi",
+            "locator": "卷十九・陳思王植傳"
+          }
+        ]
+      },
+      {
+        "personName": "曹沖",
+        "personId": null,
+        "relation": "子",
+        "natureType": "三國志正文",
+        "note": "字倉舒，環夫人所生。正史明載他幼年聰慧、提出以船載象再換載重物的稱象方法，也多次替受刑者辨理。建安十三年十三歲病逝，曹操悲痛，並曾說這是自己的不幸、曹丕等人的幸事；小說另增許多神童細節，不宜全當史實。",
+        "citations": [
+          {
+            "sourceId": "sgz-wudi-sons",
+            "locator": "卷二十・鄧哀王沖傳"
+          }
+        ]
+      },
+      {
+        "personName": "曹節",
+        "personId": null,
+        "relation": "女、漢皇后",
+        "natureType": "其他史籍記載",
+        "note": "建安十八年與曹憲、曹華一同入宮，十九年為貴人，二十年立為皇后。魏受禪時，《後漢書》記她拒交璽綬並怒斥使者；退位後成為山陽公夫人。此敘述與劉協人物檔一致。",
+        "citations": [
+          {
+            "sourceId": "houhanshu-houfei-xia",
+            "locator": "卷十下・獻穆曹皇后紀"
+          }
+        ]
+      },
+      {
+        "personName": "曹憲、曹華",
+        "personId": null,
+        "relation": "女、漢帝夫人後為貴人",
+        "natureType": "其他史籍記載",
+        "note": "與曹節同在建安十八年進為夫人、十九年並拜貴人；早期史籍沒有保存二人後續及子女資料。此敘述與劉協人物檔一致。",
+        "citations": [
+          {
+            "sourceId": "houhanshu-houfei-xia",
+            "locator": "卷十下・獻穆曹皇后紀"
+          }
+        ]
+      },
+      {
+        "personName": "其餘妻妾與子女",
+        "personId": null,
+        "relation": "家族總述",
+        "natureType": "三國志正文",
+        "note": "《三國志・武文世王公傳》明列曹操二十五子及其生母；女兒沒有同樣完整的總表。本站此處只列與曹操生平、繼承、漢魏政治或後續人物建檔直接相關者，不以傳文名單逐人展開。",
+        "citations": [
+          {
+            "sourceId": "sgz-wudi-sons",
+            "locator": "卷二十・武帝諸子總敘"
+          }
+        ]
+      }
+    ],
+    "titlesAndRanks": [
+      {
+        "title": "洛陽北部尉",
+        "period": "約熹平年間，舉孝廉為郎後",
+        "citations": [
+          {
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・早年仕歷"
+          }
+        ]
+      },
+      {
+        "title": "頓丘令、議郎",
+        "period": "熹平至光和年間，確切起訖不詳",
+        "citations": [
+          {
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・早年仕歷"
+          }
+        ]
+      },
+      {
+        "title": "騎都尉",
+        "period": "中平元年（184年），討潁川黃巾",
+        "citations": [
+          {
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・黃巾起"
+          }
+        ]
+      },
+      {
+        "title": "濟南相",
+        "period": "中平年間",
+        "citations": [
+          {
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・濟南相"
+          }
+        ]
+      },
+      {
+        "title": "典軍校尉",
+        "period": "中平五年至六年（約188—189年）",
+        "citations": [
+          {
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・金城邊章韓遂之亂後"
+          }
+        ]
+      },
+      {
+        "title": "行奮武將軍",
+        "period": "初平元年（190年），關東聯軍期間",
+        "citations": [
+          {
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・關東諸軍起兵"
+          }
+        ]
+      },
+      {
+        "title": "東郡太守",
+        "period": "初平二年（191年），袁紹表授",
+        "citations": [
+          {
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・破白繞於濮陽"
+          }
+        ]
+      },
+      {
+        "title": "兗州牧",
+        "period": "初平三年（192年）為州中推迎；興平二年（195年）受漢廷正式拜授",
+        "citations": [
+          {
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・領兗州牧及興平二年"
+          }
+        ]
+      },
+      {
+        "title": "鎮東將軍、費亭侯",
+        "period": "建安元年六月（196年）",
+        "citations": [
+          {
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・建安元年"
+          }
+        ]
+      },
+      {
+        "title": "錄尚書事、大將軍、武平侯",
+        "period": "建安元年迎奉天子至許後",
+        "citations": [
+          {
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・洛陽迎駕與遷許"
+          }
+        ]
+      },
+      {
+        "title": "司空、行車騎將軍",
+        "period": "建安元年冬十月（196年）—建安十三年（208年）",
+        "citations": [
+          {
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・建安元年至十三年"
+          }
+        ]
+      },
+      {
+        "title": "丞相",
+        "period": "建安十三年六月（208年）—建安二十五年（220年）",
+        "citations": [
+          {
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・罷三公官置丞相御史大夫"
+          }
+        ]
+      },
+      {
+        "title": "魏公",
+        "period": "建安十八年五月（213年）—建安二十一年四月（216年）",
+        "citations": [
+          {
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・魏公策命及建魏社稷宗廟"
+          }
+        ]
+      },
+      {
+        "title": "魏王",
+        "period": "建安二十一年四月（216年）—建安二十五年正月（220年）",
+        "citations": [
+          {
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・進爵魏王至崩"
+          }
+        ]
+      }
+    ],
+    "posthumousTitle": {
+      "title": "武王；後追尊太祖武皇帝",
+      "grantedBy": "建安二十五年曹操去世後，東漢朝廷諡武王；同年曹丕建立曹魏後追尊為太祖武皇帝。",
+      "citations": [
+        {
+          "sourceId": "sgz-wudi-main",
+          "locator": "卷一・建安二十五年"
+        },
+        {
+          "sourceId": "sgz-wendi-yiling",
+          "locator": "卷二・黃初元年追尊"
+        }
+      ],
+      "paragraphs": [
+        {
+          "text": "曹操生前最高稱號是魏王，並未稱帝。『魏武帝』是曹丕代漢後所追尊『太祖武皇帝』的後世慣稱；描述曹操生前言行時宜稱曹操、丞相、魏公或魏王，不能讓『魏武帝』看起來像他在世時已正式使用的帝號。",
+          "citations": [
+            {
+              "sourceId": "sgz-wudi-main",
+              "locator": "卷一・魏王至崩"
+            },
+            {
+              "sourceId": "sgz-wendi-yiling",
+              "locator": "卷二・黃初元年"
+            }
+          ]
+        }
+      ]
+    },
+    "evaluations": {
+      "contemporary": [
+        {
+          "evaluatorName": "橋玄",
+          "evaluatorEra": "東漢末年",
+          "context": "曹操尚未顯達時，橋玄認為天下將亂，曹操可能成為安定局勢的人；具體文字見《武帝紀》裴注引材料",
+          "textType": "古籍原文",
+          "originalText": "天下將亂，非命世之才不能濟也，能安之者，其在君乎！",
+          "citations": [
+            {
+              "sourceId": "sgz-wudi-main",
+              "locator": "卷一・早年評識及裴注"
+            }
+          ],
+          "paraphrase": "橋玄判斷天下將亂，認為曹操具有應時而出的才能，可能成為安定局勢的人。"
+        },
+        {
+          "evaluatorName": "許劭",
+          "evaluatorEra": "東漢末年",
+          "context": "《後漢書・許劭傳》版本；書中並稱曹操先求品題、後伺機威脅許劭，敘事成於較晚的范曄《後漢書》",
+          "textType": "古籍原文",
+          "originalText": "君清平之姦賊，亂世之英雄。",
+          "citations": [
+            {
+              "sourceId": "houhanshu-xushao",
+              "locator": "卷六十八・許劭傳"
+            }
+          ],
+          "paraphrase": "《後漢書》版本稱曹操在太平時可能成為奸賊，在亂世則會成為英雄；它和通行的『治世之能臣，亂世之奸雄』不是同一句。"
+        },
+        {
+          "evaluatorName": "許劭",
+          "evaluatorEra": "東漢末年",
+          "context": "孫盛《異同雜語》版本，由《三國志・武帝紀》裴注保存；曹操再三追問後大笑",
+          "textType": "古籍原文",
+          "originalText": "子治世之能臣，亂世之奸雄。",
+          "citations": [
+            {
+              "sourceId": "sunsheng-yitong-zayu-caocao",
+              "locator": "《武帝紀》裴注引孫盛《異同雜語》"
+            }
+          ],
+          "paraphrase": "這才是後世最常引用的『能臣／奸雄』版本，但它屬裴注保存的東晉材料，不是陳壽正文，也不能與《後漢書》異文混成唯一原話。"
+        },
+        {
+          "evaluatorName": "周瑜",
+          "evaluatorEra": "建安十三年（208年）",
+          "context": "赤壁戰前向孫權陳說拒曹理由，立場為交戰中的敵方統帥",
+          "textType": "古籍原文",
+          "originalText": "操雖託名漢相，其實漢賊也。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhouyu-main",
+              "locator": "卷五十四・周瑜拒曹議"
+            }
+          ],
+          "paraphrase": "周瑜認為曹操雖以漢丞相為名，實際權力與行動已危及漢室；這是當時敵對陣營對曹操政治性質的直接判斷。"
+        },
+        {
+          "evaluatorName": "劉協名義發布的魏公策命",
+          "evaluatorEra": "建安十八年（213年）",
+          "context": "曹操進爵魏公時的官方策書，全文極力稱功；因朝廷已受曹操控制，不能當作皇帝自由而中立的私人評價",
+          "textType": "古籍原文",
+          "originalText": "君有定天下之功，重之以明德，班敘海內，宣美風俗，旁施勤教，恤慎刑獄。",
+          "citations": [
+            {
+              "sourceId": "sgz-wudi-main",
+              "locator": "卷一・建安十八年魏公策命"
+            }
+          ],
+          "paraphrase": "策書將曹操描述為平定群雄、整頓官制與教化的功臣；它能反映魏公受封時的官方合法性論述，但具有明顯政治功能。"
+        }
+      ],
+      "later": [
+        {
+          "evaluatorName": "陳壽",
+          "evaluatorEra": "西晉史家",
+          "context": "《三國志・武帝紀》卷末評語",
+          "textType": "古籍原文",
+          "originalText": "太祖運籌演謀，鞭撻宇內，攬申、商之法術，該韓、白之奇策，官方授材，各因其器，矯情任算，不念舊惡，終能總御皇機，克成洪業者，惟其明略最優也。抑可謂非常之人，超世之傑矣。",
+          "citations": [
+            {
+              "sourceId": "sgz-wudi-main",
+              "locator": "卷一・卷末評曰"
+            }
+          ],
+          "paraphrase": "陳壽肯定曹操統御、用人、謀略與建立大業的能力，也明說他吸收申不害、商鞅式法術與韓信、白起式兵略；『非常之人，超世之傑』是對其歷史能力的高度總評。"
+        },
+        {
+          "evaluatorName": "孫盛",
+          "evaluatorEra": "東晉史家",
+          "context": "評曹操以父仇為由進攻陶謙，卻殘殺所部百姓",
+          "textType": "古籍原文",
+          "originalText": "夫伐罪弔民，古之令軌；罪謙之由，而殘其屬部，過矣。",
+          "citations": [
+            {
+              "sourceId": "sgz-wudi-main",
+              "locator": "卷一・興平元年徐州戰事後孫盛評"
+            }
+          ],
+          "paraphrase": "孫盛認為即使陶謙應負責任，曹操仍不應把懲罰擴及其治下民眾，明確批評徐州殺戮過當。"
+        },
+        {
+          "evaluatorName": "鍾嶸",
+          "evaluatorEra": "南朝梁文學批評家",
+          "context": "《詩品》評曹操詩歌風格",
+          "textType": "古籍原文",
+          "originalText": "曹公古直，甚有悲涼之句。",
+          "citations": [
+            {
+              "sourceId": "shipin-caocao",
+              "locator": "《詩品》下品・魏武帝"
+            }
+          ],
+          "paraphrase": "鍾嶸認為曹操詩歌質樸古直，尤其具有悲涼氣質；這一評語後來成為理解建安風骨與曹操樂府的重要線索。"
+        },
+        {
+          "evaluatorName": "毛宗崗",
+          "evaluatorEra": "清代文學評點家",
+          "context": "毛本《三國演義》讀法將主要人物歸為『三絕』，屬小說人物評點，不是史家對正史曹操的結論",
+          "textType": "後世文學評語",
+          "originalText": "古今來奸雄中第一奇人。",
+          "citations": [
+            {
+              "sourceId": "maozonggang-sanguo-dufa",
+              "locator": "《讀三國志法》論曹操"
+            }
+          ],
+          "paraphrase": "毛宗崗把小說中的曹操視為奸雄第一奇人，影響後世通俗印象甚深；這是在《演義》人物系統中的文學評價，不能覆蓋正史中的制度、軍事與文學資料。"
+        }
+      ]
+    }
+  },
+  "historicalBio": [
+    {
+      "period": "永壽元年（155年）—約熹平三年（174年）",
+      "periodType": "approx",
+      "title": "譙縣出身與早年評識",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操是沛國譙縣人。其生年由建安二十五年去世時『年六十六』逆推為155年；《三國志》沒有記出生月日。正文記他少年機警、有權術，任俠放蕩，不以品行受時人重視，只有橋玄、何顒等看出其才能。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・武帝紀開篇及建安二十五年"
+              }
+            ]
+          },
+          {
+            "text": "『阿瞞』『吉利』見《曹瞞傳》裴注，不是陳壽正文。曹嵩本出夏侯氏的說法也只見後來材料；正文說其本生不可考，因此不能據此斷言曹操與夏侯惇有已確認的血緣關係。",
+            "citations": [
+              {
+                "sourceId": "caoman-zhuan-caocao-peizhu",
+                "locator": "《武帝紀》開篇裴注"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "太祖武皇帝，沛國譙人也，姓曹，諱操，字孟德，漢相國參之後。",
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・武帝紀開篇"
+          },
+          {
+            "text": "養子嵩嗣，官至太尉，莫能審其生出本末。嵩生太祖。",
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・武帝紀開篇"
+          }
+        ],
+        "uncertaintyNote": "出生年份可由享年逆推，生日不可考；曹嵩本生、夏侯氏血統及阿瞞等稱呼均須標明不同史料層級。"
+      }
+    },
+    {
+      "period": "約熹平三年（174年）—光和末年（183年前後）",
+      "periodType": "approx",
+      "title": "洛陽北部尉、頓丘令與議郎",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操年二十舉孝廉為郎，出任洛陽北部尉，後任頓丘令，又被徵為議郎。《三國志》正文只簡述仕歷；裴注引《曹瞞傳》才詳寫他設五色棒、違禁者不避豪強，並杖殺宦官蹇碩叔父。這則執法故事可作裴注材料採用，不能誤標為正文。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・年二十舉孝廉"
+              },
+              {
+                "sourceId": "caoman-zhuan-caocao-peizhu",
+                "locator": "《武帝紀》裴注引《曹瞞傳》北部尉事"
+              }
+            ]
+          }
+        ],
+        "uncertaintyNote": "曹操就任洛陽北部尉的通行年份約為174年，但正文只記年二十，未給具體月日。"
+      }
+    },
+    {
+      "period": "中平元年至五年（184—188年）",
+      "periodType": "range",
+      "title": "討黃巾、任濟南相與拒絕王芬廢立之謀",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "黃巾起事後，曹操任騎都尉，參與討伐潁川黃巾，後遷濟南相。濟南有十餘縣，正文記他奏免其中八名依附權貴、貪污的長吏，又禁絕淫祀，使奸宄逃散。其後徵為東郡太守而不就，稱病歸鄉。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・光和末至濟南相"
+              }
+            ]
+          },
+          {
+            "text": "冀州刺史王芬等密謀廢漢靈帝、改立合肥侯，曾邀曹操參與；曹操拒絕，王芬之謀後來失敗。此事顯示他在此階段仍以漢朝官吏身分行動，不能把早年所有政治選擇都倒推為預定篡漢。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・王芬等謀廢靈帝"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "拜騎都尉，討潁川賊。遷為濟南相，國有十餘縣，長吏多阿附貴戚，贓汙狼藉，於是奏免其八；禁斷淫祀，姦宄逃竄，郡界肅然。",
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・濟南相"
+          }
+        ]
+      }
+    },
+    {
+      "period": "中平六年（189年）",
+      "periodType": "year",
+      "title": "拒董卓任命東歸；呂伯奢事件存在三種衝突記載",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "董卓控制洛陽、廢立天子後，想任曹操為驍騎校尉並與他商議政事。曹操改名潛行東歸。途中經過成皋故人呂伯奢家，陳壽正文只記東歸，殺人事件全部來自裴注，且三種版本互相衝突。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・中平六年"
+              }
+            ]
+          },
+          {
+            "text": "《魏書》說呂伯奢不在，其子與賓客企圖劫奪曹操馬匹財物，曹操反殺數人；《世語》說呂家以賓主之禮接待，曹操因懷疑對方圖謀自己，夜殺八人；孫盛《雜記》說曹操誤把食器聲當成加害自己的準備，殺人後悽愴說『寧我負人，毋人負我』。三者不能拼接成同一個確定過程。",
+            "citations": [
+              {
+                "sourceId": "weishu-luboshe-peizhu",
+                "locator": "《武帝紀》裴注引《魏書》"
+              },
+              {
+                "sourceId": "shiyu-luboshe-peizhu",
+                "locator": "《武帝紀》裴注引《世語》"
+              },
+              {
+                "sourceId": "sunsheng-zaji-luboshe",
+                "locator": "《武帝紀》裴注引孫盛《雜記》"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "太祖以卓終必覆敗，遂不就拜，逃歸鄉里。從數騎過故人成皋呂伯奢；伯奢不在，其子與賓客共劫太祖，取馬及物，太祖手刃擊殺數人。",
+            "sourceId": "weishu-luboshe-peizhu",
+            "locator": "《武帝紀》裴注引《魏書》"
+          },
+          {
+            "text": "太祖過伯奢。伯奢出行，五子皆在，備賓主禮。太祖自以背卓命，疑其圖己，手劍夜殺八人而去。",
+            "sourceId": "shiyu-luboshe-peizhu",
+            "locator": "《武帝紀》裴注引《世語》"
+          },
+          {
+            "text": "太祖聞其食器聲，以為圖己，遂夜殺之。既而悽愴曰：『寧我負人，毋人負我！』遂行。",
+            "sourceId": "sunsheng-zaji-luboshe",
+            "locator": "《武帝紀》裴注引孫盛《雜記》"
+          }
+        ],
+        "uncertaintyNote": "三種記載在呂伯奢是否在家、曹操是否遭搶、殺人原因與人數上都不同，無法由現存材料判定哪一種最接近實情。"
+      }
+    },
+    {
+      "period": "中平六年十二月至初平元年（189—190年）",
+      "periodType": "range",
+      "title": "陳留起兵、參與關東聯軍與汴水敗戰",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操到陳留後散家財、合義兵，在己吾起兵討董。初平元年關東州郡同時起兵，推袁紹為盟主，曹操行奮武將軍。各軍多屯駐不前時，曹操主張把握董卓焚洛陽、劫遷天子的時機西進。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・中平六年十二月至初平元年"
+              }
+            ]
+          },
+          {
+            "text": "曹操與張邈部將衛茲西進，在滎陽汴水遭董卓將領徐榮擊敗，士卒死傷甚多，曹操中流矢、坐騎受創，由曹洪讓馬才得以夜遁。其後他返回酸棗批評諸軍置酒不進，提出分路控制要隘的計畫，但未被採納。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・汴水之戰與酸棗議軍"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "舉義兵以誅暴亂，大眾已合，諸君何疑？……今焚燒宮室，劫遷天子，海內震動，不知所歸，此天亡之時也。一戰而天下定矣，不可失也。",
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・初平元年曹操勸進"
+          }
+        ]
+      }
+    },
+    {
+      "period": "初平二年至三年（191—192年）",
+      "periodType": "range",
+      "title": "取得東郡、領兗州牧並收編青州兵",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操擊破黑山軍白繞後，由袁紹表為東郡太守。初平三年兗州刺史劉岱戰死，鮑信等迎曹操領兗州牧。曹操擊敗進入兗州的青州黃巾，接受三十餘萬人投降，從中選拔精銳編為青州兵。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・初平二年至三年"
+              }
+            ]
+          },
+          {
+            "text": "收編青州兵為曹操提供了長期軍事骨幹，也使他從聯軍中的一支轉變為具有地盤、人口與常備軍的割據者。這一階段仍沿用漢官名義，但政治與軍事上已形成獨立集團。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・領兗州牧與青州黃巾降"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "冬，受降卒三十餘萬，男女百餘萬口，收其精銳者，號為青州兵。",
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・初平三年"
+          }
+        ]
+      }
+    },
+    {
+      "period": "初平四年至興平元年（193—194年）",
+      "periodType": "range",
+      "title": "兩度進攻徐州與大規模屠殺",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹嵩在泰山一帶被陶謙部將殺害後，曹操以報父仇為主要理由進攻徐州。初平四年第一次進攻時攻拔十餘城，在彭城擊敗陶謙軍。《陶謙傳》正文記死者以萬計，泗水因此不流；《後漢書・陶謙傳》則更具體寫取慮、睢陵、夏丘皆被屠殺，男女數十萬、雞犬無餘，並稱三輔流民亦多被殺。",
+            "citations": [
+              {
+                "sourceId": "sgz-taoqian-main",
+                "locator": "卷八・陶謙傳・初平四年"
+              },
+              {
+                "sourceId": "houhanshu-taoqian",
+                "locator": "卷七十三・陶謙傳"
+              }
+            ]
+          },
+          {
+            "text": "興平元年曹操再次東征，拔五城、進至東海，攻破襄賁；《武帝紀》正文直書『所過多所殘戮』。兩次戰事的記載不可壓縮成單一屠城，也不能把《後漢書》的『數十萬』說成陳壽正文給出的精確統計；現存早期史籍一致指出殺戮規模極大，但各書措辭與統計層級不同。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・興平元年復征陶謙"
+              },
+              {
+                "sourceId": "sgz-taoqian-main",
+                "locator": "卷八・陶謙傳"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "初平四年，太祖征謙，攻拔十餘城，至彭城大戰。謙兵敗走，死者萬數，泗水為之不流。",
+            "sourceId": "sgz-taoqian-main",
+            "locator": "卷八・陶謙傳"
+          },
+          {
+            "text": "過拔取慮、睢陵、夏丘，皆屠之。凡殺男女數十萬人，雞犬無餘，泗水為之不流，自是五縣城保，無復行人。",
+            "sourceId": "houhanshu-taoqian",
+            "locator": "卷七十三・陶謙傳"
+          },
+          {
+            "text": "太祖擊破之，遂攻拔襄賁，所過多所殘戮。",
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・興平元年"
+          }
+        ]
+      }
+    },
+    {
+      "period": "興平元年至二年（194—195年）",
+      "periodType": "range",
+      "title": "張邈、陳宮迎呂布入兗州；曹操收復根據地",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操第二次征徐州時，張邈、陳宮反叛並迎呂布進入兗州，多數郡縣響應，僅鄄城、范、東阿等地仍守。曹操被迫回軍，與呂布在濮陽等地相持，戰亂、蝗災與飢荒使雙方軍糧俱盡。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・興平元年兗州之變"
+              }
+            ]
+          },
+          {
+            "text": "興平二年曹操逐步擊敗呂布部眾，攻下定陶、平定兗州。漢廷在同年正式拜他為兗州牧。這場危機顯示其兗州統治並不穩固，也使荀彧、程昱守城與恢復根據地成為他後續崛起的重要轉折。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・興平二年兗州平"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安元年（196年）",
+      "periodType": "year",
+      "title": "迎奉天子至許、掌尚書事並興屯田",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "天子東歸洛陽後，曹操在荀彧、程昱等勸說下迎奉車駕，驅逐韓暹，錄尚書事，並將朝廷遷至許縣。此後朝廷制度得到重建，但實際軍政權逐步集中在曹操手中。毛玠較早提出的原話是『奉天子以令不臣』；《獻帝傳》則記沮授曾勸袁紹『挾天子而令諸侯』。因此通行的『挾天子以令諸侯』有同時代近似語源，卻不是曹操自稱的政治口號。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・建安元年迎天子都許"
+              },
+              {
+                "sourceId": "sgz-maojie-main",
+                "locator": "卷十二・毛玠傳"
+              },
+              {
+                "sourceId": "xiandi-zhuan-yuanshao-peizhu",
+                "locator": "卷六・袁紹傳裴注引《獻帝傳》"
+              }
+            ]
+          },
+          {
+            "text": "同年曹操採用棗祗、韓浩等人建議，在許縣附近招募百姓屯田，設置田官積穀。《武帝紀》正文把『始興屯田』記在建安元年，裴注引《魏書》稱首年得穀百萬斛，後來州郡普遍設田官，使遠征糧運壓力降低。制度不是曹操一人憑空發明，但由他批准並擴展成政權基礎。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・建安元年始興屯田及裴注引《魏書》"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "夫兵義者勝，守位以財，宜奉天子以令不臣，脩耕植，畜軍資，如此則霸王之業可成也。",
+            "sourceId": "sgz-maojie-main",
+            "locator": "卷十二・毛玠傳"
+          },
+          {
+            "text": "且今州城粗定，宜迎大駕，安宮鄴都，挾天子而令諸侯，畜士馬以討不庭，誰能禦之！",
+            "sourceId": "xiandi-zhuan-yuanshao-peizhu",
+            "locator": "卷六・袁紹傳裴注引《獻帝傳》沮授語"
+          },
+          {
+            "text": "是歲用棗祗、韓浩等議，始興屯田。",
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・建安元年"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安二年（197年）",
+      "periodType": "year",
+      "title": "宛城之敗、曹昂戰死與丁夫人離絕",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操到宛城後，張繡先降而後反，突襲曹軍。曹操中流矢，長子曹昂、侄曹安民及典韋等戰死。裴注《世語》稱曹昂把坐騎讓給曹操，使父親得以脫身。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・建安二年"
+              }
+            ]
+          },
+          {
+            "text": "《三國志》正文沒有把張繡反叛原因明寫成曹操納張濟遺孀，但《資治通鑑》等後世編年史採取了這一說法。曹昂之死則確實導致養母丁夫人長期責怪曹操，最終離絕；這段家庭衝突見裴注引《魏略》。",
+            "citations": [
+              {
+                "sourceId": "weilue-dingfuren-peizhu",
+                "locator": "卷五・卞皇后傳裴注引《魏略》"
+              },
+              {
+                "sourceId": "zztj-juan62",
+                "locator": "卷六十二・建安二年"
+              }
+            ]
+          }
+        ],
+        "uncertaintyNote": "張繡反叛的動機在《三國志》正文未詳；納張濟妻的說法見後世編年材料，需與戰敗、傷亡等正文可確證事項分開。"
+      }
+    },
+    {
+      "period": "建安三年至五年（198—200年）",
+      "periodType": "range",
+      "title": "滅呂布、擊劉備與衣帶密詔案",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "建安三年曹操進攻下邳，呂布被部下擒交後處死，陳宮、高順等也被殺。此後劉備曾在許都受封左將軍；《先主傳》正文記董承受天子衣帶中密詔，與劉備等謀誅曹操。建安五年事洩，董承、王子服、种輯等被殺，劉備此前已離許起兵。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・建安三年至五年"
+              },
+              {
+                "sourceId": "sgz-liubei-main",
+                "locator": "卷三十二・董承受衣帶中密詔"
+              }
+            ]
+          },
+          {
+            "text": "衣帶密詔的存在有《三國志》正文依據，但正文沒有保存血詔全文，也沒有破指寫詔、縫入玉帶、義狀簽名與吉平下毒等小說場面。曹操隨後親征劉備，劉備敗奔袁紹，關羽被俘後暫歸曹操。",
+            "citations": [
+              {
+                "sourceId": "sgz-liubei-main",
+                "locator": "卷三十二・建安四至五年"
+              },
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第二十至二十四回"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安五年至十二年（200—207年）",
+      "periodType": "range",
+      "title": "官渡破袁紹、平定河北與北征烏丸",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "官渡對峙時曹操兵少糧乏，採納許攸襲擊烏巢的建議，親率精兵焚毀袁紹糧屯，使袁軍崩潰。曹操收得許都及軍中人員私通袁紹的書信後全部焚毀，說袁紹強盛時自己也難自保，不追究眾人。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・建安五年官渡之戰"
+              }
+            ]
+          },
+          {
+            "text": "袁紹死後，曹操利用袁譚、袁尚內鬥，逐步取得冀、青、幽、并等州。建安十二年為追擊袁尚、袁熙而北征三郡烏丸，在白狼山擊破蹋頓等，袁氏兄弟逃往遼東後被公孫康所殺。曹操由此基本控制北方主要地區。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・建安六年至十二年"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "公收紹書中，得許下及軍中人書，皆焚之。",
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・官渡戰後"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安十三年（208年）",
+      "periodType": "year",
+      "title": "任丞相、南取荊州與赤壁敗戰",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "建安十三年，漢廷罷三公官、置丞相與御史大夫，曹操任丞相。秋季南征時劉表病死，劉琮在襄陽投降；劉備敗走，曹軍取得江陵及荊州水軍。曹操隨後沿江東下，與孫權、劉備聯軍在赤壁交戰。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・建安十三年"
+              },
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・赤壁戰前後"
+              }
+            ]
+          },
+          {
+            "text": "正史記曹軍已有疫病，初戰不利後退至江北；黃蓋以火攻焚船，曹軍大敗，曹操撤回北方。小說所寫連環計、借東風、草船借箭及關羽在華容道義釋曹操等，屬後世集中改編，不能作為戰役實錄。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・赤壁戰敗"
+              },
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・黃蓋火攻"
+              },
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第四十三至五十回"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安年間，建安十三年（208年）前",
+      "periodType": "approx",
+      "title": "召華佗治頭風，疑其拖延而下獄處死",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "《三國志・華佗傳》記曹操患頭風，每次發作心亂目眩，華佗針刺即能緩解。後來病情加重，曹操要求華佗專門診治；華佗思鄉返家，以妻病為由多次延期。曹操派人查驗，發現其妻並未患病，遂將華佗逮捕下獄。荀彧請求寬免，曹操不從，華佗被拷問致死。",
+            "citations": [
+              {
+                "sourceId": "sgz-huatuo-main",
+                "locator": "卷二十九・華佗傳"
+              }
+            ]
+          },
+          {
+            "text": "華佗死後曹操頭風未癒；愛子曹沖病重時，曹操感嘆『吾悔殺華佗，令此兒強死也』。正史沒有華佗診斷腦中有瘤、要求用利斧劈開頭顱，曹操也不是因聯想到關羽刮骨療毒或荊軻而殺華佗；那些是《演義》第七十八回的戲劇化改寫。",
+            "citations": [
+              {
+                "sourceId": "sgz-huatuo-main",
+                "locator": "卷二十九・華佗傳"
+              },
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第七十八回"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "太祖苦頭風，每發，心亂目眩，佗針鬲，隨手而差。",
+            "sourceId": "sgz-huatuo-main",
+            "locator": "卷二十九・華佗傳"
+          },
+          {
+            "text": "及後愛子倉舒病困，太祖歎曰：『吾悔殺華佗，令此兒強死也。』",
+            "sourceId": "sgz-huatuo-main",
+            "locator": "卷二十九・華佗傳"
+          }
+        ],
+        "uncertaintyNote": "華佗之死沒有明載年月，但《華佗傳》把曹操悔殺華佗置於曹沖病死之前，因此可確定不晚於建安十三年。"
+      }
+    },
+    {
+      "period": "建安年間",
+      "periodType": "approx",
+      "title": "屯田、求才、學校與建安文學",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操控制北方後，以屯田支撐軍糧與遠征，並在建安八年下令郡國修文學、人口達一定規模的縣設校官。建安十五、十九、二十二年又連續發布求賢令，主張求才於寒微，不因品行偏短或既有污名完全廢棄有治國、用兵能力者。這是一套強調實際能力的戰時取士政策，不等於所有官員都不考察品行。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・建安八年置學及建安十五、十九、二十二年求賢諸令"
+              },
+              {
+                "sourceId": "sgz-maojie-main",
+                "locator": "卷十二・毛玠與崔琰典選舉"
+              }
+            ]
+          },
+          {
+            "text": "裴注引《魏書》稱曹操行軍三十餘年仍手不釋書，白日講武、夜思經傳，登高能賦，所作新詩能配樂成章。他的〈蒿里行〉直接寫關東聯軍內鬥與百姓死亡，〈短歌行〉則表達對人才與有限人生的焦慮；這些傳世作品使他不只是政治軍事人物，也是建安文學的重要作者。",
+            "citations": [
+              {
+                "sourceId": "weishu-caocao-peizhu",
+                "locator": "卷一篇末裴注引《魏書》"
+              },
+              {
+                "sourceId": "yuefu-shiji-caocao",
+                "locator": "《樂府詩集》卷二十七等所收曹操樂府"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安十六年（211年）",
+      "periodType": "year",
+      "title": "潼關、渭南擊敗馬超韓遂；正史無割鬚棄袍",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "關中諸將因曹操派鍾繇西行而疑懼，馬超、韓遂等起兵據潼關。曹操先以主力牽制潼關，暗派徐晃、朱靈渡蒲阪津，再親自渡河；馬超騎兵急攻時，曹操一度陷入危險，靠放出牛馬擾亂追兵才得渡河。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・建安十六年潼關之戰"
+              },
+              {
+                "sourceId": "sgz-machao-main",
+                "locator": "卷三十六・馬超傳"
+              }
+            ]
+          },
+          {
+            "text": "曹操後來利用韓遂與自己敘舊、在書信上多作塗改，引起馬超等相互猜疑，再於渭南決戰擊破聯軍。正史與裴注雖記他渡河幾乎受困，卻沒有馬超命軍士尋找『紅袍者』『長鬚者』，也沒有曹操割鬚、割袍逃命；這是《演義》第五十八回新增情節。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・建安十六年"
+              },
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第五十八回"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安十七年至二十二年（212—217年）",
+      "periodType": "range",
+      "title": "進爵魏公、建立魏國與朝權進一步集中",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "建安十七年董昭等議曹操進爵國公、受九錫，荀彧反對，認為曹操本應以匡朝寧國與忠貞退讓為原則，曹操因此不滿。荀彧同年在壽春『以憂薨』；裴注引《魏氏春秋》另有曹操送空食器、荀彧服藥自殺的版本，不能把後一版本當成正文唯一結論。",
+            "citations": [
+              {
+                "sourceId": "sgz-xunyu-main",
+                "locator": "卷十・荀彧傳・建安十七年"
+              }
+            ]
+          },
+          {
+            "text": "建安十八年曹操受封魏公、加九錫，建立魏國社稷宗廟；建安二十一年進爵魏王。這些制度使漢廷之外出現以鄴為中心、官制與封國完整的魏王國，為曹丕代漢奠定結構。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・建安十八年至二十一年"
+              }
+            ]
+          },
+          {
+            "text": "權力集中同時伴隨政治誅殺。建安十三年孔融一家被處死；建安十九年曹操以伏皇后早年致父書信發露為由，逼迫天子廢后，伏壽與兩名皇子被殺；建安二十一年崔琰被賜死。各案罪名、程序與記載來源不同，不宜合併為小說式單一陰謀，但都反映曹操對朝廷與政治異議的強力控制。",
+            "citations": [
+              {
+                "sourceId": "houhanshu-kongrong",
+                "locator": "卷七十・孔融傳"
+              },
+              {
+                "sourceId": "houhanshu-houfei-xia",
+                "locator": "卷十下・獻帝伏皇后紀"
+              },
+              {
+                "sourceId": "sgz-cuiyan-main",
+                "locator": "卷十二・崔琰傳"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安二十年至二十四年（215—219年）",
+      "periodType": "range",
+      "title": "取漢中、與劉備爭奪及襄樊危機",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "建安二十年曹操西征張魯，攻破陽平關、進入南鄭，張魯後來投降，漢中一度納入曹操控制。建安二十三至二十四年劉備在漢中與曹軍爭戰，夏侯淵於定軍山戰死；曹操親至漢中後撤回，劉備取得漢中。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・建安二十年至二十四年"
+              },
+              {
+                "sourceId": "sgz-liubei-main",
+                "locator": "卷三十二・漢中之戰"
+              }
+            ]
+          },
+          {
+            "text": "同年關羽進攻襄樊、水淹于禁七軍，曹仁被圍，許都受到震動。曹操一度討論遷都，後採納司馬懿、蔣濟聯絡孫權的建議；徐晃解樊城之圍，孫權軍又從江陵方向襲取關羽後方，關羽最終被殺。曹操沒有在此時直接消滅蜀漢或孫吳，北方政權的統一也仍未完成全國統一。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・建安二十四年"
+              },
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・關羽傳"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安二十五年正月（220年）",
+      "periodType": "year",
+      "title": "卒於洛陽、諡武王；曹丕其後代漢追尊",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "建安二十五年正月，曹操在洛陽去世，年六十六。遺令要求天下未定，不依古禮久服喪；前線將士不得離屯，各官照常任職，以時服入殮，不藏金玉珍寶。二月葬於高陵，漢廷諡武王。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・建安二十五年"
+              }
+            ]
+          },
+          {
+            "text": "曹丕繼承丞相、魏王，同年迫成漢魏禪代，建立曹魏，追尊曹操為太祖武皇帝。曹操本人終身沒有正式稱帝；他留下的魏王國、軍隊、官僚與控制區，則是曹丕完成政權轉移的直接基礎。",
+            "citations": [
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・延康元年至黃初元年"
+              },
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・延康元年禪代"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "天下尚未安定，未得遵古也。葬畢，皆除服。其將兵屯戍者，皆不得離屯部。有司各率乃職。斂以時服，無藏金玉珍寶。",
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・遺令"
+          }
+        ]
+      }
+    }
+  ],
+  "romanceBio": [
+    {
+      "chapter": "第一回",
+      "eventName": "許劭評為『治世之能臣，亂世之奸雄』",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫曹操主動前往請許劭品評，許劭起初不答，後說『子治世之能臣，亂世之奸雄』，曹操聞言大喜。這句成為全書預示曹操形象的核心判詞。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第一回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "此語不是《三國志》正文。裴注引孫盛《異同雜語》確有『治世之能臣，亂世之奸雄』版本；《後漢書》則作『清平之姦賊，亂世之英雄』，並寫曹操以威脅迫使許劭回答。小說採用了前一版本並將它編入開場人物定性。",
+            "citations": [
+              {
+                "sourceId": "sunsheng-yitong-zayu-caocao",
+                "locator": "《武帝紀》裴注引孫盛《異同雜語》"
+              },
+              {
+                "sourceId": "houhanshu-xushao",
+                "locator": "卷六十八・許劭傳"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第四回",
+      "eventName": "獻七星寶刀刺董卓未遂",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說讓曹操向王允借七星寶刀，假意接近董卓，準備趁董卓側臥時行刺；因董卓從鏡中看見其動作，曹操臨機改口稱獻刀，隨即逃離洛陽。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第四回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史只記董卓表曹操為驍騎校尉、想與其計事，曹操判斷董卓終將敗亡，於是拒絕任命、變名潛行東歸；沒有王允贈刀、床前行刺與臨機獻刀。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・中平六年"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第四回",
+      "eventName": "誤殺呂伯奢家人，再殺呂伯奢並說『寧教我負天下人』",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說把曹操與陳宮安排在呂伯奢家投宿，曹操聽見磨刀與『縛而殺之』，誤以為將被殺，遂殺呂家八口；發現對方只是準備殺豬後，又在路上故意殺死返家的呂伯奢，並說『寧教我負天下人，休教天下人負我』。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第四回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "裴注確有三種呂伯奢事件記載，但彼此衝突；只有孫盛《雜記》版本寫誤認食器聲並說『寧我負人，毋人負我』。沒有任何一個裴注版本記曹操在路上再殺呂伯奢，也沒有『天下人』三字。小說將多種材料重組並加重其主動殘酷性。",
+            "citations": [
+              {
+                "sourceId": "weishu-luboshe-peizhu",
+                "locator": "《武帝紀》裴注引《魏書》"
+              },
+              {
+                "sourceId": "shiyu-luboshe-peizhu",
+                "locator": "《武帝紀》裴注引《世語》"
+              },
+              {
+                "sourceId": "sunsheng-zaji-luboshe",
+                "locator": "《武帝紀》裴注引孫盛《雜記》"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第二十一回",
+      "eventName": "青梅煮酒論英雄",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫曹操邀劉備在青梅亭煮酒，以龍的變化論天下英雄，最後指出『今天下英雄，惟使君與操耳』；劉備驚落匙箸，再藉雷聲掩飾。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第二十一回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "核心對話與雷聲落箸有《三國志・先主傳》正文依據：曹操確曾從容對劉備說天下英雄只有二人，劉備因驚雷失匕箸。但青梅、煮酒、逐一評論袁紹等群雄與龍的長篇譬喻，是小說擴寫。",
+            "citations": [
+              {
+                "sourceId": "sgz-liubei-main",
+                "locator": "卷三十二・許都從曹公從容宴"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第二十至二十四回",
+      "eventName": "衣帶血詔、義狀與吉平下毒",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說把密詔寫成皇帝破指以血書寫、縫進玉帶，由董承聯絡劉備、馬騰等人簽署義狀；太醫吉平又企圖在藥中下毒殺曹操，案發後遭酷刑。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第二十至二十四回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史正文確實記董承受『帝衣帶中密詔』而與劉備等謀曹操，不能把整件事說成小說虛構；但血書全文、破指、義狀、吉平下毒與酷刑細節沒有正文依據。",
+            "citations": [
+              {
+                "sourceId": "sgz-liubei-main",
+                "locator": "卷三十二・衣帶中密詔"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第四十四回、第五十回",
+      "eventName": "因二喬南征、赤壁後敗走華容道",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫諸葛亮故意把曹植〈銅雀臺賦〉改誦為『攬二喬於東南兮，樂朝夕之與共』，激怒周瑜；赤壁敗後又安排曹操三次大笑引出伏兵，最後由關羽在華容道念舊放行。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第四十四、第五十回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "裴注引陰澹《魏紀》保存的〈銅爵臺賦〉現存文字沒有二喬／二橋，更沒有曹操欲奪二喬；杜牧『銅雀春深鎖二喬』是唐代反設歷史的詩意想像。正史只記曹操由華容道撤退時道路泥濘，令羸兵負草填路；沒有關羽守關放曹。",
+            "citations": [
+              {
+                "sourceId": "yin-dan-weiji-tongquetai-fu",
+                "locator": "《曹植傳》裴注引陰澹《魏紀》"
+              },
+              {
+                "sourceId": "dumu-chibi",
+                "locator": "杜牧〈赤壁〉"
+              },
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・建安十三年華容道"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第五十八回",
+      "eventName": "潼關割鬚棄袍",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫馬超軍追殺曹操，先喊穿紅袍者是曹操，曹操脫袍；又喊長鬚者是曹操，曹操割鬚；再以旗角包頸逃命，形成『割鬚棄袍』。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第五十八回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史確實記曹操渡河時被馬超急攻，箭如雨下，一度幾乎受困；丁斐放出牛馬使追兵爭奪，曹操才得渡河。但沒有紅袍、長鬚、割鬚與旗角包頸。小說以真實險境為骨架創造具象逃亡場面。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・建安十六年潼關北渡"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第七十二回",
+      "eventName": "雞肋口令與楊修之死",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說把楊修多次猜中曹操心意、犯忌的故事串聯起來；漢中退兵前曹操以『雞肋』為夜間口令，楊修判斷即將撤兵而先收行裝，曹操遂以擾亂軍心將其處死。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第七十二回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "『雞肋』口令與楊修猜中退意見《武帝紀》裴注引《九州春秋》，不是全無史料來源；但正史並未說曹操當場因這件事斬楊修。楊修後來被殺涉及與諸侯交關、曹植黨爭及曹操對其才策與家世的疑忌，小說把多重原因集中成即時軍法處決。",
+            "citations": [
+              {
+                "sourceId": "jiuzhou-chunqiu-jilei-peizhu",
+                "locator": "《武帝紀》建安二十四年裴注引《九州春秋》"
+              },
+              {
+                "sourceId": "sgz-yangxiu-peizhu",
+                "locator": "卷十九・曹植傳裴注所載楊修事"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第七十八回",
+      "eventName": "疑華佗開顱加害而殺之",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫華佗判斷曹操頭風病根在腦中，需先服麻肺湯，再用利斧砍開頭顱取出風涎；曹操懷疑華佗想替關羽報仇、仿效荊軻，將他下獄拷死。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第七十八回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史只記華佗以針灸緩解頭風，後因返家拖延、謊稱妻病而被查辦；曹操認為華佗故意保留根治手段以自重，拒絕荀彧求情而將其處死。沒有腦瘤、開顱、關羽與荊軻聯想。曹操後因曹沖病死明確表示後悔殺華佗。",
+            "citations": [
+              {
+                "sourceId": "sgz-huatuo-main",
+                "locator": "卷二十九・華佗傳"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": "短歌行（其一）",
+      "type": "樂府詩",
+      "extant": "全文傳世，見《宋書・樂志》《樂府詩集》等",
+      "attribution": "曹操",
+      "summary": "以人生短促、求賢若渴與天下歸心為主題，是曹操最著名的樂府作品。後世常把它直接系於赤壁宴飲，但現存早期文本沒有可確證的作年與宴飲場景，本站不把小說場面寫進作品背景。",
+      "anthology": "《宋書・樂志》；郭茂倩《樂府詩集》卷二十六／二十七系統",
+      "excerpt": "山不厭高，海不厭深。周公吐哺，天下歸心。",
+      "citations": [
+        {
+          "sourceId": "yuefu-shiji-caocao",
+          "locator": "〈短歌行〉其一"
+        }
+      ],
+      "fullText": [
+        "對酒當歌，人生幾何？譬如朝露，去日苦多。",
+        "慨當以慷，憂思難忘。何以解憂？唯有杜康。",
+        "青青子衿，悠悠我心。但為君故，沉吟至今。",
+        "呦呦鹿鳴，食野之苹。我有嘉賓，鼓瑟吹笙。",
+        "明明如月，何時可掇？憂從中來，不可斷絕。",
+        "越陌度阡，枉用相存。契闊談讌，心念舊恩。",
+        "月明星稀，烏鵲南飛。繞樹三匝，何枝可依？",
+        "山不厭高，海不厭深。周公吐哺，天下歸心。"
+      ]
+    },
+    {
+      "title": "步出夏門行・觀滄海",
+      "type": "樂府詩",
+      "extant": "全文傳世",
+      "attribution": "曹操",
+      "summary": "寫登臨碣石所見海景，以日月星漢若出海中的尺度展開胸襟。一般繫於建安十二年北征烏丸歸途中，但作品本身未明書作年，故不把具體行軍日程當作無疑定論。",
+      "anthology": "《宋書・樂志》；《樂府詩集》所收〈步出夏門行〉",
+      "excerpt": "日月之行，若出其中；星漢燦爛，若出其裏。",
+      "citations": [
+        {
+          "sourceId": "yuefu-shiji-caocao",
+          "locator": "〈步出夏門行・觀滄海〉"
+        }
+      ],
+      "fullText": [
+        "東臨碣石，以觀滄海。",
+        "水何澹澹，山島竦峙。",
+        "樹木叢生，百草豐茂。",
+        "秋風蕭瑟，洪波湧起。",
+        "日月之行，若出其中；",
+        "星漢燦爛，若出其裏。",
+        "幸甚至哉，歌以詠志。"
+      ]
+    },
+    {
+      "title": "步出夏門行・龜雖壽",
+      "type": "樂府詩",
+      "extant": "全文傳世",
+      "attribution": "曹操",
+      "summary": "以神龜、騰蛇與老驥比喻生命有限而志向不衰，也提出人的壽命不只受天命支配，養怡可求永年。",
+      "anthology": "《宋書・樂志》；《樂府詩集》所收〈步出夏門行〉",
+      "excerpt": "老驥伏櫪，志在千里；烈士暮年，壯心不已。",
+      "citations": [
+        {
+          "sourceId": "yuefu-shiji-caocao",
+          "locator": "〈步出夏門行・龜雖壽〉"
+        }
+      ],
+      "fullText": [
+        "神龜雖壽，猶有竟時。",
+        "騰蛇乘霧，終為土灰。",
+        "老驥伏櫪，志在千里；",
+        "烈士暮年，壯心不已。",
+        "盈縮之期，不但在天；",
+        "養怡之福，可得永年。",
+        "幸甚至哉，歌以詠志。"
+      ]
+    },
+    {
+      "title": "蒿里行",
+      "type": "樂府詩",
+      "extant": "全文傳世",
+      "attribution": "曹操",
+      "summary": "從關東義兵討董寫到聯軍因勢利分裂、袁氏兄弟相爭與民生凋敝，以『白骨露於野，千里無雞鳴』概括漢末戰亂。作品本身也能反證把曹操簡化成只懂權術、不關心戰亂後果的單一形象並不充分；但詩中悲憫同樣不能抹去其徐州殺戮。",
+      "anthology": "《宋書・樂志》；《樂府詩集》卷二十七",
+      "excerpt": "白骨露於野，千里無雞鳴。生民百遺一，念之絕人腸。",
+      "citations": [
+        {
+          "sourceId": "yuefu-shiji-caocao",
+          "locator": "〈蒿里行〉"
+        }
+      ],
+      "fullText": [
+        "關東有義士，興兵討群凶。",
+        "初期會盟津，乃心在咸陽。",
+        "軍合力不齊，躊躇而雁行。",
+        "勢利使人爭，嗣還自相戕。",
+        "淮南弟稱號，刻璽於北方。",
+        "鎧甲生蟣蝨，萬姓以死亡。",
+        "白骨露於野，千里無雞鳴。",
+        "生民百遺一，念之絕人腸。"
+      ]
+    },
+    {
+      "title": "求賢令",
+      "type": "政令／求才文書",
+      "extant": "全文見《三國志・武帝紀》",
+      "attribution": "曹操於建安十五年發布",
+      "summary": "主張天下未定正是急需人才之時，不能只以廉潔名聲作唯一門檻，要求屬官公開推薦寒微而有才者。『唯才是舉』出自此令。",
+      "anthology": "《三國志》卷一《武帝紀》；後世輯入《魏武帝集》《全三國文》",
+      "excerpt": "二三子其佐我明揚仄陋，唯才是舉，吾得而用之。",
+      "citations": [
+        {
+          "sourceId": "sgz-wudi-main",
+          "locator": "卷一・建安十五年"
+        }
+      ],
+      "fullText": [
+        "自古受命及中興之君，曷嘗不得賢人君子與之共治天下者乎！及其得賢也，曾不出閭巷，豈幸相遇哉？上之人不求之耳。今天下尚未定，此特求賢之急時也。",
+        "『孟公綽為趙、魏老則優，不可以為滕、薛大夫。』若必廉士而後可用，則齊桓其何以霸世！今天下得無有被褐懷玉而釣於渭濱者乎？又得無有盜嫂受金而未遇無知者乎？",
+        "二三子其佐我明揚仄陋，唯才是舉，吾得而用之。"
+      ]
+    },
+    {
+      "title": "讓縣自明本志令",
+      "type": "政令／政治自述",
+      "extant": "全文見《三國志・武帝紀》裴注引《魏武故事》",
+      "attribution": "曹操於建安十五年發布",
+      "summary": "曹操回顧從舉孝廉、任濟南相、起兵討董到平袁紹劉表的經歷，宣稱自己原先只求成為征西將軍，並以『若國家無孤，不知幾人稱帝幾人稱王』回應篡位疑慮。他拒絕交出軍權，但退還部分封邑。這是理解其自我辯護與政治定位的核心文本，不能視為不帶策略目的的私人告白。",
+      "anthology": "《三國志》卷一裴注引《魏武故事》；後世輯入《全三國文》",
+      "excerpt": "設使國家無有孤，不知當幾人稱帝，幾人稱王。",
+      "citations": [
+        {
+          "sourceId": "weiwu-gushi-rangxian",
+          "locator": "《武帝紀》建安十五年裴注引《魏武故事》"
+        }
+      ],
+      "fullText": [
+        "孤始舉孝廉，年少，自以本非巖穴知名之士，恐為海內人之所見凡愚，欲為一郡守，好作政教，以建立名譽，使世士明知之；故在濟南，始除殘去穢，平心選舉，違迕諸常侍。以為彊豪所忿，恐致家禍，故以病還。去官之後，年紀尚少，顧視同歲中，年有五十，未名為老，內自圖之，從此卻去二十年，待天下清，乃與同歲中始舉者等耳。故以四時歸鄉里，於譙東五十里築精舍，欲秋夏讀書，冬春射獵，求底下之地，欲以泥水自蔽，絕賓客往來之望，然不能得如意。後徵為都尉，遷典軍校尉，意遂更欲為國家討賊立功，欲望封侯作征西將軍，然後題墓道，言『漢故征西將軍曹侯之墓』，此其志也。",
+        "而遭值董卓之難，興舉義兵。是時合兵，能多得耳，然常自損，不欲多之；所以然者，多兵意盛，與彊敵爭，倘更為禍始。故汴水之戰數千，後還到揚州，更募亦復不過三千人，此其本志有限也。後領兗州，破降黃巾三十萬眾。又袁術僭號於九江，下皆稱臣，名門曰建號門，衣被皆為天子之制，兩婦預爭為皇后。志計已定，人有勸術使遂即帝位，露布天下，答言『曹公尚在，未可也』。後孤討擒其四將，獲其人眾，遂使術窮亡解沮，發病而死。及至袁紹據河北，兵勢彊盛，孤自度勢，實不敵之，但計投死為國，以義滅身，足垂於後。幸而破紹，梟其二子。又劉表自以為宗室，包藏奸心，乍前乍卻，以觀世事，據有當州，孤復定之，遂平天下。身為宰相，人臣之貴已極，意望已過矣。",
+        "今孤言此，若為自大，欲人言盡，故無諱耳。設使國家無有孤，不知當幾人稱帝，幾人稱王。或者人見孤彊盛，又性不信天命之事，恐私心相評，言有不遜之志，妄相忖度，每用耿耿。齊桓、晉文所以垂稱至今日者，以其兵勢廣大，猶能奉事周室也。《論語》云：『三分天下有其二，以服事殷，周之德可謂至德矣。』夫能以大事小也。昔樂毅走趙，趙王欲與之圖燕，樂毅伏而垂泣，對曰：『臣事昭王，猶事大王；臣若獲戾，放在他國，沒世然後已，不忍謀趙之徒隸，況燕後嗣乎！』胡亥之殺蒙恬也，恬曰：『自吾先人及至子孫，積信於秦三世矣；今臣將兵三十餘萬，其勢足以背叛，然自知必死而守義者，不敢辱先人之教以忘先王也。』孤每讀此二人書，未嘗不愴然流涕也。",
+        "孤祖父以至孤身，皆當親重之任，可謂見信者矣，以及子桓兄弟，過於三世矣。孤非徒對諸君說此也，常以語妻妾，皆令深知此意。孤謂之言：『顧我萬年之後，汝曹皆當出嫁，欲令傳道吾心，使他人皆知之。』孤此言皆肝鬲之要也。所以勤勤懇懇敘心腹者，見周公有《金縢》之書以自明，恐人不信之，故然。欲孤便爾委捐所典兵眾，以還執事，歸就武平侯國，實不可也。何者？誠恐已離兵為人所禍也。既為子孫計，又已敗則國家傾危，是以不得慕虛名而處實禍，此所不得為也。前朝恩封三子為侯，固辭不受，今更欲受之，非欲復以為榮，欲以為外援，為萬安計。孤聞介推之避晉封、申胥之逃楚賞，未嘗不捨書而歎，有以自省也。奉國威靈，仗鉞征伐，推弱以克彊，處小而禽大，意之所圖，動無違事，心之所慮，何向不濟，遂蕩平天下，不辱主命，可謂天助漢室，非人力也。然封兼四縣，食戶三萬，何德堪之！江湖未靜，不可讓位；至於邑土，可得而辭。今上還陽夏、柘、苦三縣，戶二萬，但食武平萬戶，且以分損謗議，少減孤之責也。"
+      ]
+    },
+    {
+      "title": "敕有司取士勿廢偏短令",
+      "type": "政令／取士文書",
+      "extant": "全文見《三國志・武帝紀》",
+      "attribution": "曹操於建安十九年發布",
+      "summary": "以陳平、蘇秦為例，指出有德行者未必能進取，能進取者未必德行完備，要求主管選舉者不要因人才具有偏短便完全棄置。",
+      "anthology": "《三國志》卷一《武帝紀》；後世輯入《全三國文》",
+      "excerpt": "士有偏短，庸可廢乎！",
+      "citations": [
+        {
+          "sourceId": "sgz-wudi-main",
+          "locator": "卷一・建安十九年十二月"
+        }
+      ],
+      "fullText": [
+        "夫有行之士，未必能進取，進取之士，未必能有行也。陳平豈篤行、蘇秦豈守信邪？而陳平定漢業，蘇秦濟弱燕。由此言之，士有偏短，庸可廢乎！有司明思此義，則士無遺滯，官無廢業矣。"
+      ]
+    },
+    {
+      "title": "舉賢勿拘品行令",
+      "type": "政令／求才文書",
+      "extant": "全文見《三國志・武帝紀》裴注引《魏書》",
+      "attribution": "曹操於建安二十二年發布",
+      "summary": "列舉伊尹、傅說、管仲、韓信、陳平、吳起等出身或品行有爭議而有實際才能者，要求推舉至德、勇戰、文吏、將守及有治國用兵術者，不因污名或不仁不孝的記載一概遺漏。這是曹操用才政策最激進的一篇，但其文本本身也顯示目標主要是治國與用兵效能。",
+      "anthology": "《三國志》卷一裴注引《魏書》；後世輯入《全三國文》",
+      "excerpt": "其各舉所知，勿有所遺。",
+      "citations": [
+        {
+          "sourceId": "weishu-caocao-peizhu",
+          "locator": "卷一・建安二十二年裴注引《魏書》"
+        }
+      ],
+      "fullText": [
+        "昔伊摯、傅說出於賤人，管仲，桓公賊也，皆用之以興。蕭何、曹參，縣吏也；韓信、陳平負污辱之名，有見笑之恥，卒能成就王業，聲著千載。吳起貪將，殺妻自信，散金求官，母死不歸，然在魏，秦人不敢東向，在楚則三晉不敢南謀。",
+        "今天下得無有至德之人放在民間，及果勇不顧，臨敵力戰；若文俗之吏，高才異質，或堪為將守；負污辱之名，見笑之行，或不仁不孝而有治國用兵之術：其各舉所知，勿有所遺。"
+      ]
+    }
+  ],
+  "worksNote": {
+    "paragraphs": [
+      {
+        "text": "本檔收錄四篇傳世樂府、三篇求賢政令及〈讓縣自明本志令〉全文。詩歌主要由《宋書・樂志》《樂府詩集》等後世文獻保存，存在少量字詞異文；本站正文採通行早期傳本字形，不另設異文欄，以免干擾閱讀。",
+        "citations": [
+          {
+            "sourceId": "yuefu-shiji-caocao",
+            "locator": "曹操樂府諸篇"
+          }
+        ]
+      },
+      {
+        "text": "曹操另有〈薤露行〉、〈苦寒行〉、〈度關山〉、〈對酒〉等詩，並傳有《孫子略解》及大量軍令、表章。裴注引《魏書》甚至稱其自作兵書十萬餘言；但傳世軍事著作牽涉輯佚、版本與後人整理問題，本次不把長篇或殘佚文本硬列為完整全文，後續可另設曹操文集專題。",
+        "citations": [
+          {
+            "sourceId": "weishu-caocao-peizhu",
+            "locator": "卷一篇末裴注引《魏書》"
+          },
+          {
+            "sourceId": "yuefu-shiji-caocao",
+            "locator": "曹操作品目錄"
+          }
+        ]
+      }
+    ]
+  }
+}
