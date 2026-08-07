@@ -103,6 +103,10 @@ tw3k/
 │   ├── factions.json           共用勢力目錄（篩選分類／實際效力勢力）
 │   └── characters/
 │       └── {id}.json           各人物的完整資料，一人一份
+├── fonts/
+│   ├── bakudai-watermark.woff2  自己 host 的毛筆字型子集（見上方「浮水印
+│   │                            大字的字型」說明），只有 44 個字，20KB
+│   └── OFL-bakudai.txt          該字型的 SIL Open Font License 全文
 └── images/
     ├── {id}.png                 各人物頭像（AI 生成寫實肖像，PNG 格式），
     │                            人物詳細頁與竹簡列表共用同一張
@@ -163,6 +167,20 @@ tw3k/
 成固定顏色**（例如曾經誤把 `.faction-banner` 漸層終點寫死成
 `#17251f`，導致所有陣營的漸層都收斂到同一個深綠黑，肉眼幾乎分不出來，
 後來全部改成跟 `black` 混合才解決，因為純黑不會搶原本 `--tone` 的色相）。
+
+**浮水印大字的字型是自己 host 的「莫大毛筆字體」（Bakudai），不是 Google
+Fonts**：原本用 Google Fonts 的 Ma Shan Zheng，但那款字型的繁體字集
+不完整——「漢」「吳」這兩個字完全沒被收錄（作者主要照簡體字集做的，
+這兩個字剛好簡繁不同碼位），瀏覽器會自動退回備用字型，導致有些陣營的
+浮水印看起來跟其他陣營風格不一樣。改用莫大毛筆字體解決，這是專門為了
+補足繁體中文缺字問題而做的開源字型（來源：
+https://github.com/max32002/bakudaifont，SIL Open Font License，可
+商用），字集完整涵蓋台灣教育部常用字表。**字型檔已經子集化**只保留
+`fonts/bakudai-watermark.woff2` 裡的 44 個字（五個陣營字 + 常見三國
+人物姓氏用字，共 20KB，原始檔案是 6.5MB），**之後如果要用到子集裡沒有
+的字，不能直接在 CSS 裡多打字了事**，要回頭用 fonttools 的
+`pyftsubset` 重新從 `bakudaifont` 原始 repo 子集化，加進新字後重新
+產生 `bakudai-watermark.woff2`。
 
 **浮水印大字的層級是刻意設計過的**：`.portal-mark` 的 `z-index` 目前是
 `1`，故意放在「陣營色底色」之上、「君主肖像」（`z-index: 2`）之下——
