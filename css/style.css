@@ -43,6 +43,7 @@
   --shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
   --font-display: "Noto Serif TC", serif;
   --font-body: "Noto Sans TC", sans-serif;
+  --font-brush: "Ma Shan Zheng", "Noto Serif TC", serif; /* 勢力浮水印字專用，水墨毛筆風格 */
 
   /* ---- 卷首／勢力總覽頁專用色票（奈奈設計稿沿用） ---- */
   --ink: #17231f;
@@ -386,15 +387,20 @@ summary:focus-visible {
 
 .portal-mark {
   position: absolute;
-  z-index: 0;
-  left: -18px;
-  top: -26px;
-  color: rgba(244, 237, 221, 0.08);
-  font-family: var(--font-display);
-  font-size: clamp(138px, 11vw, 190px);
-  font-weight: 900;
+  /* 疊在底色／暗色遮罩之上，但在君主肖像之下（肖像 z-index:2）——
+     大部分會被不透明的肖像蓋住，只在肖像沒蓋到的縫隙、邊角露出來，
+     不會再直接畫在臉上 */
+  z-index: 1;
+  left: -10px;
+  top: -18px;
+  color: rgba(244, 237, 221, 0.38);
+  font-family: var(--font-brush);
+  font-weight: 400;
+  font-size: clamp(160px, 12.5vw, 215px);
   line-height: 1;
-  transform: rotate(-9deg);
+  transform: rotate(-6deg);
+  text-shadow: 0 2px 12px rgba(10, 15, 13, 0.16);
+  pointer-events: none;
 }
 
 .portal-portrait {
@@ -408,23 +414,30 @@ summary:focus-visible {
 }
 
 .portal-portrait::after {
+  /* 深色只集中在底部（文字所在區塊）才夠對比，往上要快速退乾淨，
+     不然君主的臉跟官帽／髮髻會被一起悶暗掉 */
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(12, 18, 15, 0.42) 0%, transparent 48%), linear-gradient(0deg, rgba(12, 18, 15, 0.94) 0%, rgba(12, 18, 15, 0.06) 62%, transparent 92%);
+  background:
+    linear-gradient(0deg, rgba(9, 15, 13, 0.92) 0%, rgba(9, 15, 13, 0.5) 20%, transparent 44%),
+    linear-gradient(90deg, rgba(9, 15, 13, 0.28) 0%, transparent 38%);
 }
 
 .portal-portrait-img {
+  /* 高度直接吃滿整張卡片、貼齊底部，寬度用 auto 讓比例自己算，
+     這樣官帽／髮髻不會因為圖片被縮小硬塞進固定框而被上緣切掉 */
   position: absolute;
-  right: -7%;
+  right: 0;
   bottom: 0;
-  width: 94%;
-  height: 94%;
+  width: auto;
+  height: 100%;
+  max-width: 100%;
   object-fit: contain;
   object-position: right bottom;
-  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 24%, #000 100%);
-  mask-image: linear-gradient(90deg, transparent 0%, #000 24%, #000 100%);
-  filter: saturate(0.7) contrast(1.03) drop-shadow(0 10px 18px rgba(0, 0, 0, 0.38));
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 30%, #000 100%);
+  mask-image: linear-gradient(90deg, transparent 0%, #000 30%, #000 100%);
+  filter: saturate(0.82) contrast(1.02) drop-shadow(0 10px 18px rgba(0, 0, 0, 0.3));
 }
 
 .portal-portrait-placeholder {
@@ -449,11 +462,16 @@ summary:focus-visible {
   position: absolute;
   z-index: 5;
   left: 18px;
-  right: 14px;
   bottom: 17px;
+  max-width: 56%; /* 絕對不跨到肖像那半邊，避免蓋到臉 */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border-radius: 0;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
 }
 
 .portal-label {
@@ -469,8 +487,8 @@ summary:focus-visible {
   z-index: 5;
   margin-top: 12px;
   padding-top: 8px;
-  border-top: 1px solid rgba(236, 220, 190, 0.2);
-  color: rgba(244, 238, 227, 0.78);
+  border-top: 1px solid rgba(236, 220, 190, 0.35);
+  color: rgba(244, 238, 227, 0.9);
   font-size: 10px;
   letter-spacing: 0.13em;
 }
@@ -614,9 +632,14 @@ summary:focus-visible {
   }
 }
 
-/* ---------- 勢力總覽頁（faction.html）：橫幅 ---------- */
+/* ---------- 勢力總覽頁（faction.html）：整頁陣營色調 ---------- */
 .faction-page {
   --tone: var(--tone-shu);
+  /* 整頁都罩一層很淡的陣營色暈，不只橫幅——但刻意壓得很低調，
+     不能搶竹簡列表本身（頭像／姓名）的視覺重量 */
+  background:
+    radial-gradient(ellipse 1400px 700px at 50% 0%, color-mix(in srgb, var(--tone) 16%, transparent), transparent 70%),
+    var(--ink);
 }
 .faction-page--wei { --tone: var(--tone-wei); }
 .faction-page--shu { --tone: var(--tone-shu); }
@@ -640,8 +663,8 @@ summary:focus-visible {
   justify-content: space-between;
   gap: 30px;
   background:
-    radial-gradient(circle at 82% 20%, color-mix(in srgb, var(--tone) 66%, #b3986b), transparent 34rem),
-    linear-gradient(120deg, color-mix(in srgb, var(--tone) 76%, #101b17), #17251f 72%);
+    radial-gradient(circle at 82% 20%, color-mix(in srgb, var(--tone) 60%, #b3986b), transparent 34rem),
+    linear-gradient(120deg, color-mix(in srgb, var(--tone) 92%, black) 0%, color-mix(in srgb, var(--tone) 42%, black) 100%);
   color: #f3ecdf;
   border: 1px solid rgba(191, 160, 103, 0.3);
   border-radius: 4px;
@@ -658,12 +681,12 @@ summary:focus-visible {
   z-index: 0;
   right: 7%;
   top: -72px;
-  color: rgba(241, 232, 214, 0.06);
-  font-family: var(--font-display);
-  font-size: 280px;
-  font-weight: 900;
+  color: rgba(241, 232, 214, 0.09);
+  font-family: var(--font-brush);
+  font-weight: 400;
+  font-size: 320px;
   line-height: 1;
-  transform: rotate(-7deg);
+  transform: rotate(-4deg);
 }
 
 .banner-copy {
@@ -808,9 +831,9 @@ summary:focus-visible {
   text-decoration: none;
   color: inherit;
   background:
-    linear-gradient(90deg, color-mix(in srgb, var(--tone) 7%, transparent), transparent 40%),
+    linear-gradient(90deg, color-mix(in srgb, var(--tone) 46%, #14100c), color-mix(in srgb, var(--tone) 22%, #14100c) 60%, color-mix(in srgb, var(--tone) 14%, #14100c) 100%),
     linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
-  border: 1px solid rgba(236, 220, 190, 0.08);
+  border: 1px solid color-mix(in srgb, var(--tone) 38%, rgba(236, 220, 190, 0.08));
   overflow: hidden;
   transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
@@ -850,10 +873,10 @@ summary:focus-visible {
   right: -6px;
   top: 50%;
   transform: translateY(-50%);
-  font-family: var(--font-display);
-  font-weight: 900;
-  font-size: 90px;
-  color: color-mix(in srgb, var(--tone) 14%, transparent);
+  font-family: var(--font-brush);
+  font-weight: 400;
+  font-size: 110px;
+  color: color-mix(in srgb, var(--tone) 16%, transparent);
   line-height: 1;
   pointer-events: none;
 }
