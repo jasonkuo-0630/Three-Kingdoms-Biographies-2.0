@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>三國人物誌</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;700;900&family=Noto+Sans+TC:wght@400;500;700&display=swap"
+  rel="stylesheet"
+/>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="home-page">
+  <main>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="index.html" aria-label="回到三國人物誌卷首">
+          <span class="brand-seal" aria-hidden="true">誌</span>
+          <span class="brand-copy">
+            <strong>三國人物誌</strong>
+            <small>史實與演義並陳的三國人物資料庫</small>
+          </span>
+        </a>
+
+        <div class="quick-search">
+          <label class="sr-only" for="quick-search-input">搜尋姓名、字或其他稱呼</label>
+          <div class="topbar-search">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="7"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="quick-search-input" placeholder="搜尋人物，直接跳轉…" autocomplete="off" />
+          </div>
+          <ul class="quick-search-results" id="quick-search-results" hidden></ul>
+        </div>
+      </div>
+    </header>
+
+    <section class="portal-hero" aria-label="三國人物誌卷首">
+      <img class="portal-bg-image" src="images/ink-wash-bg.jpg" alt="" aria-hidden="true" />
+
+      <nav class="portal-factions" aria-label="選擇勢力入口">
+        <div class="homepage-factions" id="faction-portals"></div>
+      </nav>
+
+      <aside class="portal-storyteller-panel" aria-label="卷首說書人">
+        <img class="portal-storyteller-cutout" src="images/storyteller-cutout.png" alt="無名說書客，本站虛構的引路人" />
+      </aside>
+    </section>
+  </main>
+
+
+
+  <script src="js/common.js"></script>
+  <script src="js/faction-portal-meta.js"></script>
+  <script src="js/portal.js"></script>
+</body>
+</html>
