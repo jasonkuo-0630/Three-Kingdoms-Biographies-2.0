@@ -1,0 +1,208 @@
+[
+  {
+    "id": "zhao-yun",
+    "published": true,
+    "name": "趙雲",
+    "courtesyName": "子龍",
+    "searchTerms": [
+      "趙雲",
+      "子龍",
+      "zhao yun",
+      "zilong"
+    ],
+    "avatar": "images/zhao_yun.png",
+    "filterGroup": "shu"
+  },
+  {
+    "id": "liu-bei",
+    "published": true,
+    "name": "劉備",
+    "courtesyName": "玄德",
+    "searchTerms": [
+      "劉備",
+      "玄德",
+      "liu bei",
+      "先主",
+      "昭烈帝"
+    ],
+    "avatar": "images/liu_bei.png",
+    "filterGroup": "shu"
+  },
+  {
+    "id": "zhuge-liang",
+    "published": true,
+    "name": "諸葛亮",
+    "courtesyName": "孔明",
+    "searchTerms": [
+      "諸葛亮",
+      "孔明",
+      "臥龍",
+      "伏龍",
+      "武侯",
+      "zhuge liang"
+    ],
+    "avatar": "images/zhuge_liang.png",
+    "filterGroup": "shu"
+  },
+  {
+    "id": "ma-yunlu",
+    "published": true,
+    "name": "馬雲騄",
+    "searchTerms": [
+      "馬雲騄",
+      "ma yunlu",
+      "反三國演義"
+    ],
+    "avatar": "images/ma_yunlu.png",
+    "filterGroup": "shu"
+  },
+  {
+    "id": "huang-furen",
+    "published": true,
+    "name": "黃夫人",
+    "searchTerms": [
+      "黃夫人",
+      "黃月英",
+      "黃氏",
+      "huang furen",
+      "huang yueying"
+    ],
+    "avatar": "images/huang_furen.png",
+    "filterGroup": "shu"
+  },
+  {
+    "id": "guan-yu",
+    "published": true,
+    "name": "關羽",
+    "courtesyName": "雲長",
+    "searchTerms": [
+      "關羽",
+      "雲長",
+      "關公",
+      "guan yu"
+    ],
+    "avatar": "images/guan_yu.png",
+    "filterGroup": "shu"
+  },
+  {
+    "id": "zhang-fei",
+    "published": true,
+    "name": "張飛",
+    "courtesyName": "益德",
+    "searchTerms": [
+      "張飛",
+      "益德",
+      "張翼德",
+      "zhang fei"
+    ],
+    "avatar": "images/zhang_fei.png",
+    "filterGroup": "shu"
+  },
+  {
+    "id": "zhang-liao",
+    "published": true,
+    "name": "張遼",
+    "courtesyName": "文遠",
+    "searchTerms": [
+      "張遼",
+      "文遠",
+      "zhang liao"
+    ],
+    "avatar": "images/zhang_liao.png",
+    "filterGroup": "wei"
+  },
+  {
+    "id": "zhou-yu",
+    "published": true,
+    "name": "周瑜",
+    "courtesyName": "公瑾",
+    "searchTerms": [
+      "周瑜",
+      "公瑾",
+      "周郎",
+      "zhou yu"
+    ],
+    "avatar": "images/zhou_yu.png",
+    "filterGroup": "wu"
+  },
+  {
+    "id": "fa-zheng",
+    "published": true,
+    "name": "法正",
+    "courtesyName": "孝直",
+    "searchTerms": [
+      "法正",
+      "孝直",
+      "fa zheng"
+    ],
+    "avatar": "images/fa_zheng.png",
+    "filterGroup": "shu"
+  },
+  {
+    "id": "guan-ping",
+    "published": true,
+    "name": "關平",
+    "searchTerms": [
+      "關平",
+      "关平",
+      "guan ping"
+    ],
+    "avatar": "images/guan_ping.png",
+    "filterGroup": "shu"
+  },
+  {
+    "id": "guan-xing",
+    "published": true,
+    "name": "關興",
+    "courtesyName": "安國",
+    "searchTerms": [
+      "關興",
+      "安國",
+      "关兴",
+      "guan xing"
+    ],
+    "avatar": "images/guan_xing.png",
+    "filterGroup": "shu"
+  },
+  {
+    "id": "sun-ce",
+    "published": true,
+    "name": "孫策",
+    "courtesyName": "伯符",
+    "searchTerms": [
+      "孫策",
+      "伯符",
+      "小霸王",
+      "sun ce"
+    ],
+    "avatar": "images/sun_ce.png",
+    "filterGroup": "wu"
+  },
+  {
+    "id": "sun-quan",
+    "published": true,
+    "name": "孫權",
+    "courtesyName": "仲謀",
+    "searchTerms": [
+      "孫權",
+      "仲謀",
+      "吳大帝",
+      "sun quan"
+    ],
+    "avatar": "images/sun_quan.png",
+    "filterGroup": "wu"
+  },
+  {
+    "id": "jiang-wei",
+    "published": true,
+    "name": "姜維",
+    "courtesyName": "伯約",
+    "searchTerms": [
+      "姜維",
+      "伯約",
+      "jiang wei"
+    ],
+    "avatar": "images/jiang_wei.png",
+    "filterGroup": "shu"
+  }
+]
