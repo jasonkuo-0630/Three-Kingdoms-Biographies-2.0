@@ -5,6 +5,22 @@
    細線點綴。避免卷軸竹簡與過度裝飾，維持現代、乾淨、易讀。
    ============================================================ */
 
+/* 浮水印毛筆字型：莫大毛筆字體（Bakudai），自己 host、只子集化了會用到的字。
+   原本用 Google Fonts 的 Ma Shan Zheng，但那款字型的繁體字集不完整——
+   「漢」「吳」這兩個字根本沒被收錄（作者主要照簡體字集做的，這兩個字剛好
+   簡繁不同碼位），瀏覽器會自動退回備用字型，導致五個陣營的浮水印字風格
+   看起來不一致。莫大毛筆字體是專門為了補足繁體中文缺字問題而做的開源
+   字型（SIL 授權，可商用），字集完整涵蓋台灣教育部常用字表，不會有這個
+   問題。子集只保留五個陣營字 + 常見三國人物姓氏用字（共 44 字，20KB），
+   之後如果要用到子集裡沒有的字，需要回頭用 fonttools 的 pyftsubset
+   重新子集化 fonts/ 資料夾裡沒裁切過的原始檔（來源：
+   https://github.com/max32002/bakudaifont），不能單純多加字進現有檔案。 */
+@font-face {
+  font-family: "Bakudai";
+  src: url("fonts/bakudai-watermark.woff2") format("woff2");
+  font-display: swap;
+}
+
 :root {
   /* 背景 */
   --bg: #201b17;
@@ -43,7 +59,7 @@
   --shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
   --font-display: "Noto Serif TC", serif;
   --font-body: "Noto Sans TC", sans-serif;
-  --font-brush: "Ma Shan Zheng", "Noto Serif TC", serif; /* 勢力浮水印字專用，水墨毛筆風格 */
+  --font-brush: "Bakudai", "Noto Serif TC", serif; /* 勢力浮水印字專用，水墨毛筆風格 */
 
   /* ---- 卷首／勢力總覽頁專用色票（奈奈設計稿沿用） ---- */
   --ink: #17231f;
