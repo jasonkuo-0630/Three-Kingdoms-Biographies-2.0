@@ -1272,6 +1272,16 @@ summary:focus-visible {
   border: 1px solid var(--line);
 }
 
+.worksnote-block {
+  margin-bottom: 18px;
+}
+
+.worksnote-block .worksnote-text,
+.worksnote-block p {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+
 .plain-card p {
   margin: 0 0 8px;
 }
