@@ -1,0 +1,1312 @@
+{
+  "schemaVersion": 2,
+  "dataStatus": "reviewed-draft",
+  "published": true,
+  "lastReviewedAt": "2026-08-07",
+  "demoNote": "史料整理初稿。劉協生前依階段稱劉協、陳留王、天子、皇帝或山陽公；後世慣稱的「漢獻帝」源自曹魏在其去世後追諡「孝獻皇帝」，不是生前稱號。衣帶密詔見《三國志》正文，但血書全文與戲劇化傳遞過程屬《三國演義》增寫；伏皇后案另依《後漢書》辨明時間與史料層級。",
+  "id": "liu-xie",
+  "name": "劉協",
+  "courtesyName": "伯和",
+  "childhoodName": null,
+  "artName": null,
+  "otherNames": [
+    "董侯（幼年由董太后撫養時的宮中稱呼）",
+    "漢獻帝（曹魏追諡，非生前稱號）",
+    "漢孝獻皇帝（曹魏於234年追諡）",
+    "漢孝愍皇帝（蜀漢誤聞死訊後追諡，當時劉協仍在世）"
+  ],
+  "lifespan": "光和四年（181年）— 魏青龍二年（234年），年五十四",
+  "birthplace": "史籍未明載；生於東漢宮廷，通常推定在雒陽",
+  "primaryIdentity": "東漢末代皇帝（189—220年）；退位後為曹魏山陽公。",
+  "summary": "劉協九歲時被董卓廢立少帝後擁立，先後受董卓、李傕郭汜及曹氏父子控制；他曾在長安兵亂中被挾持、東歸洛陽，又在許都朝廷中面對衣帶密詔案、董貴人與伏皇后被殺。延康元年在曹丕掌握軍政的局勢下以禪讓形式退位，後以山陽公身分保有部分漢天子禮制，至234年去世。",
+  "avatar": "images/liu_xie.png",
+  "overview": {
+    "intro": {
+      "paragraphs": [
+        {
+          "text": "劉協是漢靈帝劉宏之子，母親王美人在光和四年生下他後，被何皇后毒殺；他由祖母董太后撫養，宮中稱「董侯」。《帝王紀》記其字伯和，但這一字號是由《後漢書》注引保存，並非本紀正文直接記載。",
+          "citations": [
+            {
+              "sourceId": "houhanshu-houfei-xia",
+              "locator": "卷十下・靈思何皇后紀"
+            },
+            {
+              "sourceId": "houhanshu-xiandi",
+              "locator": "卷九・孝獻帝紀開篇注文"
+            }
+          ]
+        },
+        {
+          "text": "中平六年何進與宦官衝突導致京師大亂後，董卓控制禁軍與朝廷，廢少帝劉辯為弘農王，改立時為陳留王的劉協。史書明載他即位時年九歲。此後東漢皇帝名義仍在，實際軍政權力卻先後落入董卓、李傕郭汜及曹操等人手中。",
+          "citations": [
+            {
+              "sourceId": "sgz-dongzhuo-main",
+              "locator": "卷六・董卓傳"
+            },
+            {
+              "sourceId": "houhanshu-xiandi",
+              "locator": "卷九・中平六年"
+            }
+          ]
+        },
+        {
+          "text": "建安元年，劉協從洛陽遷至許縣，曹操錄尚書事並掌握朝政。建安五年董承等受密詔謀誅曹操而事敗；建安十九年，伏皇后早年寫給父親、請其暗圖曹操的書信洩露，曹操逼迫皇帝廢后並將伏壽與兩名皇子處死。這兩案彼此相關於反曹政治氣氛，卻不是同一時間、同一份密謀。",
+          "citations": [
+            {
+              "sourceId": "sgz-liubei-main",
+              "locator": "卷三十二・先主傳・衣帶中密詔"
+            },
+            {
+              "sourceId": "houhanshu-houfei-xia",
+              "locator": "卷十下・獻帝伏皇后紀"
+            }
+          ]
+        },
+        {
+          "text": "延康元年，曹丕繼承曹操的魏王與丞相權位後，完成以魏代漢。形式上由劉協下詔禪位並在繁陽行受禪禮，實際上曹氏已控制軍隊、官僚與政治程序，劉協並無可與曹丕抗衡的權力。退位後他受封山陽公，位在諸侯王之上，奏事不稱臣、受詔不拜，並可用天子車服祭祀天地宗廟；這些優待有史書明文，至於行醫救民則是後世地方傳說，沒有可靠早期史料證明。",
+          "citations": [
+            {
+              "sourceId": "sgz-wendi-yiling",
+              "locator": "卷二・文帝紀・延康元年禪代"
+            },
+            {
+              "sourceId": "houhanshu-xiandi",
+              "locator": "卷九・延康元年及青龍二年"
+            }
+          ]
+        }
+      ]
+    },
+    "factionTimeline": [
+      {
+        "stageName": "董卓專政下的東漢朝廷",
+        "personName": "劉協",
+        "personId": null,
+        "actualFactionId": "dong-zhuo-regime",
+        "period": "中平六年九月（189年）— 初平三年四月（192年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "李傕、郭汜控制下的長安朝廷",
+        "personName": "劉協",
+        "personId": null,
+        "actualFactionId": "li-jue-guo-si-regime",
+        "period": "初平三年（192年）— 興平二年七月（195年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "東遷中的東漢朝廷",
+        "personName": "劉協",
+        "personId": null,
+        "actualFactionId": "eastern-return-han-court",
+        "period": "興平二年七月（195年）— 建安元年八月（196年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "曹操控制下的許都漢廷",
+        "personName": "劉協",
+        "personId": null,
+        "actualFactionId": "cao-cao-han-court",
+        "period": "建安元年八月（196年）— 建安二十五年正月（220年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "曹丕控制下的漢魏禪代過渡",
+        "personName": "劉協",
+        "personId": null,
+        "actualFactionId": "cao-pi-wei-kingdom",
+        "period": "建安二十五年正月—延康元年十月（220年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "曹魏山陽公國",
+        "personName": "劉協",
+        "personId": null,
+        "actualFactionId": "caowei-shanyang-principality",
+        "period": "延康元年十月（220年）— 魏青龍二年三月（234年）",
+        "periodUncertain": false
+      }
+    ],
+    "relatives": [
+      {
+        "personName": "漢靈帝劉宏",
+        "personId": null,
+        "relation": "父",
+        "natureType": "其他史籍記載",
+        "note": "《後漢書》稱劉協為漢靈帝中子。",
+        "citations": [
+          {
+            "sourceId": "houhanshu-xiandi",
+            "locator": "卷九・孝獻帝紀開篇"
+          }
+        ]
+      },
+      {
+        "personName": "王美人",
+        "personId": null,
+        "relation": "母，後追尊靈懷皇后",
+        "natureType": "其他史籍記載",
+        "note": "趙國人，聰敏而能書會計。光和四年生劉協後被何皇后毒殺；興平元年追尊靈懷皇后。",
+        "citations": [
+          {
+            "sourceId": "houhanshu-houfei-xia",
+            "locator": "卷十下・靈思何皇后紀及王美人附傳"
+          }
+        ]
+      },
+      {
+        "personName": "董太后",
+        "personId": null,
+        "relation": "祖母、幼年撫養者",
+        "natureType": "其他史籍記載",
+        "note": "漢靈帝生母。王美人死後撫養劉協，因此宮中稱他為董侯。",
+        "citations": [
+          {
+            "sourceId": "houhanshu-houfei-xia",
+            "locator": "卷十下・孝仁董皇后紀、靈思何皇后紀"
+          }
+        ]
+      },
+      {
+        "personName": "少帝劉辯",
+        "personId": null,
+        "relation": "異母兄",
+        "natureType": "其他史籍記載",
+        "note": "何皇后所生，189年即位；同年被董卓廢為弘農王，次年遭李儒毒殺，死時十八歲。",
+        "citations": [
+          {
+            "sourceId": "houhanshu-houfei-xia",
+            "locator": "卷十下・靈思何皇后紀"
+          },
+          {
+            "sourceId": "sgz-dongzhuo-main",
+            "locator": "卷六・董卓傳"
+          }
+        ]
+      },
+      {
+        "personName": "伏壽",
+        "personId": null,
+        "relation": "皇后",
+        "natureType": "其他史籍記載",
+        "note": "伏完之女。初平元年入掖庭為貴人，興平二年立為皇后。因早年致書父親、請其暗圖曹操的信件在建安十九年洩露，被曹操逼迫廢黜，幽死暴室；所生兩名皇子同遭毒殺。她並非在建安五年衣帶密詔案爆發時立即被害。",
+        "citations": [
+          {
+            "sourceId": "houhanshu-houfei-xia",
+            "locator": "卷十下・獻帝伏皇后紀"
+          }
+        ]
+      },
+      {
+        "personName": "董貴人",
+        "personId": null,
+        "relation": "貴人",
+        "natureType": "其他史籍記載",
+        "note": "董承之女。董承案發後，曹操要求處死已懷孕的董貴人；劉協多次請命仍未能保全。其姓名及胎兒下落均無記載。《三國演義》改寫為董承之妹。",
+        "citations": [
+          {
+            "sourceId": "houhanshu-houfei-xia",
+            "locator": "卷十下・獻帝伏皇后紀"
+          },
+          {
+            "sourceId": "sanguo-yanyi",
+            "locator": "第二十四回"
+          }
+        ]
+      },
+      {
+        "personName": "曹節",
+        "personId": null,
+        "relation": "皇后，退位後為山陽公夫人",
+        "natureType": "其他史籍記載",
+        "note": "曹操之女。建安十九年為貴人，次年伏壽被殺後立為皇后。魏受禪時，《後漢書》記她拒交璽綬、怒斥使者；此事有史籍出處，不是純粹小說，但不見《三國志》正文。退位後降稱山陽公夫人，景初元年去世，後與劉協合葬禪陵。",
+        "citations": [
+          {
+            "sourceId": "houhanshu-houfei-xia",
+            "locator": "卷十下・獻穆曹皇后紀"
+          }
+        ]
+      },
+      {
+        "personName": "曹憲、曹華",
+        "personId": null,
+        "relation": "夫人、後並為貴人",
+        "natureType": "其他史籍記載",
+        "note": "曹操另外兩名女兒，與曹節一同在建安十八年進為夫人，建安十九年並拜貴人；史書沒有記載二人的後續與子女。",
+        "citations": [
+          {
+            "sourceId": "houhanshu-houfei-xia",
+            "locator": "卷十下・獻穆曹皇后紀"
+          }
+        ]
+      },
+      {
+        "personName": "宋都",
+        "personId": null,
+        "relation": "貴人",
+        "natureType": "裴注所引史料及其他史籍記載",
+        "note": "常山太守宋泓之女。李傕挾持天子時與伏皇后同在，東遷渡河時也是少數同行者之一；其他生平不詳。",
+        "citations": [
+          {
+            "sourceId": "houhanshu-dongzhuo-lijue",
+            "locator": "卷七十二・李傕郭汜傳注文引《獻帝起居注》"
+          }
+        ]
+      },
+      {
+        "personName": "劉馮",
+        "personId": null,
+        "relation": "子、南陽王",
+        "natureType": "其他史籍記載",
+        "note": "建安五年七月立為南陽王，同月去世；生母與年齡不詳。",
+        "citations": [
+          {
+            "sourceId": "houhanshu-xiandi",
+            "locator": "卷九・建安五年"
+          }
+        ]
+      },
+      {
+        "personName": "劉熙",
+        "personId": null,
+        "relation": "子、濟陰王",
+        "natureType": "其他史籍記載",
+        "note": "建安十七年封濟陰王；袁宏《後漢紀》異文作「劉臨」。魏受禪後，四名封王皇子皆降為列侯，個別後續不詳。",
+        "citations": [
+          {
+            "sourceId": "houhanshu-xiandi",
+            "locator": "卷九・建安十七年、延康元年"
+          }
+        ]
+      },
+      {
+        "personName": "劉懿",
+        "personId": null,
+        "relation": "子、山陽王",
+        "natureType": "其他史籍記載",
+        "note": "建安十七年封山陽王；魏受禪後降為列侯，生母與後續不詳。",
+        "citations": [
+          {
+            "sourceId": "houhanshu-xiandi",
+            "locator": "卷九・建安十七年、延康元年"
+          }
+        ]
+      },
+      {
+        "personName": "劉邈",
+        "personId": null,
+        "relation": "子、濟北王",
+        "natureType": "其他史籍記載",
+        "note": "建安十七年封濟北王；魏受禪後降為列侯，生母與後續不詳。部分數位古籍字形顯示為異體「𨘷」。",
+        "citations": [
+          {
+            "sourceId": "houhanshu-xiandi",
+            "locator": "卷九・建安十七年、延康元年"
+          }
+        ]
+      },
+      {
+        "personName": "劉敦",
+        "personId": null,
+        "relation": "子、東海王",
+        "natureType": "其他史籍記載",
+        "note": "建安十七年封東海王；魏受禪後降為列侯，生母與後續不詳。",
+        "citations": [
+          {
+            "sourceId": "houhanshu-xiandi",
+            "locator": "卷九・建安十七年、延康元年"
+          }
+        ]
+      },
+      {
+        "personName": "伏皇后所生二皇子（姓名不詳）",
+        "personId": null,
+        "relation": "子",
+        "natureType": "其他史籍記載",
+        "note": "建安十九年伏皇后被收捕時一同遭毒殺。史書沒有姓名，也未說明是否與劉熙、劉懿、劉邈、劉敦四王重合；因此不可直接把已知皇子人數相加後斷言總數。",
+        "citations": [
+          {
+            "sourceId": "houhanshu-houfei-xia",
+            "locator": "卷十下・獻帝伏皇后紀"
+          }
+        ]
+      },
+      {
+        "personName": "山陽公世子（姓名不詳）",
+        "personId": null,
+        "relation": "子、劉康之父",
+        "natureType": "其他史籍記載",
+        "note": "《後漢書》只說「太子早卒，孫康立」，可知劉協有一名先卒的承嗣之子，劉康因而以孫輩繼承山陽公；此人是否就是已知四王之一，史料未明。",
+        "citations": [
+          {
+            "sourceId": "houhanshu-xiandi",
+            "locator": "卷九・孝獻帝紀末"
+          }
+        ]
+      },
+      {
+        "personName": "兩名皇女（姓名不詳）",
+        "personId": null,
+        "relation": "女，後入曹丕後宮",
+        "natureType": "裴松之注引史評記載",
+        "note": "孫盛評論曹丕受禪後「顯納二女」，可知至少兩名皇女被納入曹丕後宮；姓名、生母、位號與後續均不詳。",
+        "citations": [
+          {
+            "sourceId": "sgz-wendi-sunsheng-comment",
+            "locator": "《三國志》卷二・文帝紀裴注引孫盛評"
+          }
+        ]
+      },
+      {
+        "personName": "劉康",
+        "personId": null,
+        "relation": "孫、第二代山陽公",
+        "natureType": "其他史籍記載",
+        "note": "因父親早卒而繼承山陽公，在位五十一年，西晉太康六年去世；其後由子劉瑾、孫劉秋相繼承襲，永嘉之亂中封國滅亡。",
+        "citations": [
+          {
+            "sourceId": "houhanshu-xiandi",
+            "locator": "卷九・孝獻帝紀末"
+          }
+        ]
+      }
+    ],
+    "titlesAndRanks": [
+      {
+        "title": "勃海王",
+        "period": "中平六年四月（189年），少帝即位後受封",
+        "citations": [
+          {
+            "sourceId": "houhanshu-xiandi",
+            "locator": "卷九・中平六年"
+          }
+        ]
+      },
+      {
+        "title": "陳留王",
+        "period": "中平六年（189年），由勃海王徙封；同年九月即皇帝位",
+        "citations": [
+          {
+            "sourceId": "houhanshu-xiandi",
+            "locator": "卷九・中平六年"
+          }
+        ]
+      },
+      {
+        "title": "東漢皇帝",
+        "period": "中平六年九月甲戌（189年）— 延康元年十月乙卯（220年）",
+        "citations": [
+          {
+            "sourceId": "houhanshu-xiandi",
+            "locator": "卷九・中平六年至延康元年"
+          }
+        ]
+      },
+      {
+        "title": "山陽公",
+        "period": "延康元年十月（220年）— 魏青龍二年三月（234年）",
+        "citations": [
+          {
+            "sourceId": "houhanshu-xiandi",
+            "locator": "卷九・遜位之後"
+          }
+        ]
+      }
+    ],
+    "posthumousTitle": {
+      "title": "孝獻皇帝（曹魏追諡）；孝愍皇帝（蜀漢先前誤聞死訊後追諡）",
+      "grantedBy": "魏青龍二年（234年）劉協去世後，曹魏朝廷追諡孝獻皇帝；蜀漢則早在章武元年（221年）因誤聞劉協遇害，遙追諡孝愍皇帝。",
+      "citations": [
+        {
+          "sourceId": "houhanshu-xiandi",
+          "locator": "卷九・青龍二年"
+        },
+        {
+          "sourceId": "sgz-liubei-main",
+          "locator": "卷三十二・先主傳・或傳聞漢帝見害"
+        }
+      ],
+      "paragraphs": [
+        {
+          "text": "「漢獻帝」是後世由曹魏所上「孝獻皇帝」省稱而來的慣稱。劉協在世時不可能以此諡號自稱或被同時人正式稱呼，因此本站只在人物辨識與死後追諡說明中使用。",
+          "citations": [
+            {
+              "sourceId": "houhanshu-xiandi",
+              "locator": "卷九・青龍二年"
+            }
+          ]
+        },
+        {
+          "text": "蜀漢所上「孝愍皇帝」源於曹丕代漢後流傳劉協已被害的錯誤消息；當時劉協實際仍以山陽公身分在世。它確是蜀漢政治上使用過的追諡，卻不能當作其真實死亡時間或曹魏境內正式諡號。",
+          "citations": [
+            {
+              "sourceId": "sgz-liubei-main",
+              "locator": "卷三十二・先主傳"
+            },
+            {
+              "sourceId": "houhanshu-xiandi",
+              "locator": "卷九・遜位後十四年始薨"
+            }
+          ]
+        }
+      ]
+    },
+    "evaluations": {
+      "contemporary": [
+        {
+          "evaluatorName": "董卓主導的廢立策書",
+          "evaluatorEra": "中平六年（189年）",
+          "context": "董卓為合理化廢少帝、改立陳留王而發布的策文；帶有明顯政治目的，不能視為中立評價",
+          "textType": "古籍原文",
+          "originalText": "陳留王協，聖德偉茂，規矩邈然，豐下兌上，有堯圖之表；居喪哀戚，言不及邪，岐嶷之性，有周成之懿。",
+          "citations": [
+            {
+              "sourceId": "xiandi-qijuzhu-peizhu",
+              "locator": "《三國志・董卓傳》裴注引《獻帝起居注》廢立策"
+            }
+          ],
+          "paraphrase": "策書宣稱劉協具備聖德、儀表與周成王般的早慧，以此替董卓的廢立行動提供正當性；其宣傳性必須與人物評價分開看待。"
+        },
+        {
+          "evaluatorName": "袁術",
+          "evaluatorEra": "初平年間",
+          "context": "袁紹等關東諸侯欲另立劉虞，並質疑長安天子的血統時，袁術在回信中反對另立；司馬光編入《資治通鑑》",
+          "textType": "古籍原文",
+          "originalText": "聖主聰叡，有周成之質。",
+          "citations": [
+            {
+              "sourceId": "zztj-juan60",
+              "locator": "卷六十・漢紀五十二・初平二年"
+            }
+          ],
+          "paraphrase": "袁術稱年幼的劉協聰明睿智，具有周成王般的資質；但史書同時指出袁術反對另立也有自身政治算計，因此不能只取讚語而忽略情境。"
+        }
+      ],
+      "later": [
+        {
+          "evaluatorName": "袁山松",
+          "evaluatorEra": "東晉史家",
+          "context": "袁山松《後漢書》評語，原書已佚，由《太平御覽》保存",
+          "textType": "古籍原文",
+          "originalText": "獻帝崎嶇危亂之間，飄薄萬里之衢，萍流蓬轉，險阻備經，自古帝王未之有也。觀其天性慈愛，弱而神惠，若輔之以德，真守文令主也。",
+          "citations": [
+            {
+              "sourceId": "taiping-yulan-yuanshansong-xiandi",
+              "locator": "《太平御覽》卷九十二引袁山松《後漢書》"
+            }
+          ],
+          "paraphrase": "袁山松認為劉協一生流離、艱難前所未有；天性慈愛且聰慧，如果得到有德之臣輔佐，本可成為守成之主。"
+        },
+        {
+          "evaluatorName": "范曄",
+          "evaluatorEra": "南朝宋史家",
+          "context": "《後漢書・孝獻帝紀》卷末論贊",
+          "textType": "古籍原文",
+          "originalText": "天厭漢德久矣，山陽其何誅焉！",
+          "citations": [
+            {
+              "sourceId": "houhanshu-xiandi",
+              "locator": "卷九・論曰"
+            }
+          ],
+          "paraphrase": "范曄把東漢覆亡歸於長期累積的政治衰敗，認為不應把亡國責任單獨歸罪於退位後的山陽公。"
+        },
+        {
+          "evaluatorName": "范曄",
+          "evaluatorEra": "南朝宋史家",
+          "context": "《後漢書・孝獻帝紀》卷末贊語",
+          "textType": "古籍原文",
+          "originalText": "獻生不辰，身播國屯。終我四百，永作虞賓。",
+          "citations": [
+            {
+              "sourceId": "houhanshu-xiandi",
+              "locator": "卷九・贊曰"
+            }
+          ],
+          "paraphrase": "范曄概括劉協生不逢時、身世播遷，親歷漢朝四百年國運終結，最後如同堯後丹朱成為新朝禮遇的前代賓客。"
+        }
+      ]
+    }
+  },
+  "historicalBio": [
+    {
+      "period": "光和四年（181年）— 中平六年（189年）",
+      "periodType": "range",
+      "title": "王美人所生，由董太后撫養",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "光和四年，王美人生下劉協。何皇后妒忌王美人，在產後將她毒殺；漢靈帝震怒但在宦官勸阻下沒有廢后。劉協由祖母董太后撫養，因此宮中稱「董侯」。",
+            "citations": [
+              {
+                "sourceId": "houhanshu-houfei-xia",
+                "locator": "卷十下・靈思何皇后紀"
+              }
+            ]
+          },
+          {
+            "text": "《後漢書》正文沒有記出生月日，今人換算出的公曆生日並非本檔採用的基本史實。其字「伯和」則見於本紀注文所引《帝王紀》。",
+            "citations": [
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・孝獻帝紀開篇注文"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "四年，生皇子協，后遂酖殺美人。帝大怒，欲廢后，諸宦官固請得止。董太后自養協，號曰董侯。",
+            "sourceId": "houhanshu-houfei-xia",
+            "locator": "卷十下・靈思何皇后紀"
+          }
+        ],
+        "uncertaintyNote": "出生地未被早期史籍直接寫明；「生於雒陽」只能依宮廷活動地點推定，不宜寫成確證。"
+      }
+    },
+    {
+      "period": "中平六年四月至九月（189年）",
+      "periodType": "exact",
+      "title": "何進、宦官之亂與董卓強行廢立",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "漢靈帝去世後，劉辯即位，劉協先封勃海王，隨即徙封陳留王。大將軍何進策劃誅殺宦官，卻先被宦官殺害；袁紹等進兵宮禁，張讓、段珪挾持少帝與陳留王出逃。董卓率軍入京並兼併何進、何苗與丁原的部眾，取得京師兵權。",
+            "citations": [
+              {
+                "sourceId": "sgz-dongzhuo-main",
+                "locator": "卷六・董卓傳・何進死後入京"
+              },
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・中平六年"
+              }
+            ]
+          },
+          {
+            "text": "裴注引《獻帝紀》說，董卓迎到兄弟二人後詢問宮變始末，少帝言語不能清楚，九歲的陳留王卻能從頭到尾作答，董卓因此更加喜愛並萌生廢立之意。這段是裴松之注文所引佚史，不是《三國志》正文。",
+            "citations": [
+              {
+                "sourceId": "xiandi-ji-peizhu",
+                "locator": "《三國志・董卓傳》裴注引《獻帝紀》"
+              }
+            ]
+          },
+          {
+            "text": "九月，董卓以少帝年幼軟弱為由，在武力壓制下迫使群臣接受廢立，將劉辯降為弘農王，改立陳留王劉協。劉協即皇帝位時年九歲。這不是正常皇位繼承，而是董卓控制京師後以軍事力量完成的政治廢立。",
+            "citations": [
+              {
+                "sourceId": "sgz-dongzhuo-main",
+                "locator": "卷六・董卓傳・廢少帝立陳留王"
+              },
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・九月甲戌"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "九月甲戌，即皇帝位，年九歲。",
+            "sourceId": "houhanshu-xiandi",
+            "locator": "卷九・中平六年"
+          },
+          {
+            "text": "卓與帝語，語不可了。乃更與陳留王語，問禍亂由起；王答，自初至終，無所遺失。卓大喜，乃有廢立意。",
+            "sourceId": "xiandi-ji-peizhu",
+            "locator": "《三國志・董卓傳》裴注引《獻帝紀》"
+          }
+        ]
+      }
+    },
+    {
+      "period": "初平元年至三年（190—192年）",
+      "periodType": "range",
+      "title": "董卓挾持西遷長安",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "關東諸侯起兵討董卓後，董卓在初平元年強迫天子與朝廷西遷長安，焚毀雒陽宮室、宗廟與民居，並掠奪陵墓財物。天子仍是東漢名義上的最高君主，實際政令與人事均由董卓掌控。",
+            "citations": [
+              {
+                "sourceId": "sgz-dongzhuo-main",
+                "locator": "卷六・董卓傳・初平元年遷都長安"
+              },
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・初平元年"
+              }
+            ]
+          },
+          {
+            "text": "董卓先後進位相國、太師，享受贊拜不名、劍履上殿等超常待遇，並在初平元年毒殺已被廢的弘農王劉辯。年幼的劉協無力制止親族遭害或董卓的專政。",
+            "citations": [
+              {
+                "sourceId": "sgz-dongzhuo-main",
+                "locator": "卷六・董卓傳"
+              },
+              {
+                "sourceId": "houhanshu-houfei-xia",
+                "locator": "卷十下・靈思何皇后紀附弘農王事"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "初平元年二月，乃徙天子都長安。焚燒洛陽宮室，悉發掘陵墓，取寶物。",
+            "sourceId": "sgz-dongzhuo-main",
+            "locator": "卷六・董卓傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "初平三年（192年）— 興平元年（194年）",
+      "periodType": "range",
+      "title": "董卓死後，李傕郭汜攻陷長安",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "初平三年四月，王允與呂布等誅殺董卓。王允執政不久，李傕、郭汜、樊稠、張濟等董卓舊部反攻長安，六月攻陷京城，殺王允並重新控制天子與朝廷。李傕、郭汜等各自取得將軍職位，干預選舉與政令。",
+            "citations": [
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・初平三年"
+              },
+              {
+                "sourceId": "houhanshu-dongzhuo-lijue",
+                "locator": "卷七十二・李傕郭汜傳"
+              }
+            ]
+          },
+          {
+            "text": "這一階段不是東漢朝廷恢復自主，而是由多名董卓舊將共同挾持。李傕、郭汜、樊稠彼此分權，三公所推薦的人選甚至常不被採用；天子名義仍被用來授官封爵。",
+            "citations": [
+              {
+                "sourceId": "houhanshu-dongzhuo-lijue",
+                "locator": "卷七十二・李傕郭汜傳及注文引《獻帝起居注》"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "董卓部曲將李傕、郭汜、樊稠、張濟等反，攻京師。六月戊午，陷長安城……甲子，殺司徒王允，皆滅其族。",
+            "sourceId": "houhanshu-xiandi",
+            "locator": "卷九・初平三年"
+          }
+        ]
+      }
+    },
+    {
+      "period": "興平二年春至七月（195年）",
+      "periodType": "exact",
+      "title": "李傕郭汜內鬥，天子與公卿分遭挾持",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "李傕殺樊稠後，各部將彼此猜忌，李傕與郭汜在長安交戰。李傕派兵包圍宮殿，強行將天子與皇后移至自己營中；郭汜則扣押公卿。戰鬥時箭矢射到天子所在樓閣前，長安城內死者以萬計。",
+            "citations": [
+              {
+                "sourceId": "houhanshu-dongzhuo-lijue",
+                "locator": "卷七十二・李傕郭汜傳"
+              }
+            ]
+          },
+          {
+            "text": "李傕又把劉協移往北塢，隔絕內外。注文所引《獻帝紀》記宮人與侍臣盛夏缺水缺糧，李傕只給腐臭牛骨。這些細節顯示皇帝此時不是可自由裁決政務的統治者，而是被軍閥直接拘禁的人質。",
+            "citations": [
+              {
+                "sourceId": "xiandi-ji-houhanshu-note",
+                "locator": "《後漢書・李傕郭汜傳》章懷注引《獻帝紀》"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "古今帝王，無在人臣家者。",
+            "sourceId": "houhanshu-dongzhuo-lijue",
+            "locator": "卷七十二・楊彪阻諫李暹迎帝入李傕營"
+          },
+          {
+            "text": "一人劫天子，一人質公卿，此可行邪？",
+            "sourceId": "houhanshu-dongzhuo-lijue",
+            "locator": "卷七十二・楊彪責郭汜"
+          }
+        ]
+      }
+    },
+    {
+      "period": "興平二年七月（195年）— 建安元年七月（196年）",
+      "periodType": "range",
+      "title": "離開長安，歷經曹陽、東澗與黃河逃亡後東歸",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "李傕、郭汜一度和解後，同意天子東歸。護送隊伍由楊奉、董承、韓暹等多股力量組成，彼此又互相猜忌；李傕、郭汜後悔放行，與張濟等追擊車駕。東澗、曹陽等地戰敗後，百官士卒死傷極多，符策典籍與輜重幾乎全失。",
+            "citations": [
+              {
+                "sourceId": "houhanshu-dongzhuo-lijue",
+                "locator": "卷七十二・天子東遷"
+              },
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・興平二年"
+              }
+            ]
+          },
+          {
+            "text": "劉協等人夜間渡黃河時，河岸高峻，只能以絹縋下；爭船者眾，死傷與凍溺甚多。抵達安邑後，朝臣饑餓，政令甚至受各營軍士干擾。建安元年七月，車駕終於回到殘破的雒陽，宮室已焚，百官有人採野穀維生、有人餓死牆間。",
+            "citations": [
+              {
+                "sourceId": "houhanshu-dongzhuo-lijue",
+                "locator": "卷七十二・渡河幸安邑"
+              },
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・建安元年七月"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "自東澗兵相連綴四十里中，方得至陝，乃結營自守。時殘破之餘，虎賁羽林不滿百人，皆有離心。",
+            "sourceId": "houhanshu-dongzhuo-lijue",
+            "locator": "卷七十二・李傕郭汜傳"
+          },
+          {
+            "text": "宮室燒盡，百官披荊棘，依牆壁間。州郡各擁強兵，而委輸不至，群僚飢乏。",
+            "sourceId": "houhanshu-xiandi",
+            "locator": "卷九・建安元年"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安元年八月至九月（196年）",
+      "periodType": "exact",
+      "title": "曹操迎奉天子並遷都許縣",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操原先遣曹洪西迎，受到董承等阻擋；車駕回雒陽後，曹操親自前來，領司隸校尉並錄尚書事。八月，朝廷遷往許縣，十一月曹操任司空、行車騎將軍事，百官政務集中聽命於他。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・武帝紀・建安元年"
+              },
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・建安元年"
+              }
+            ]
+          },
+          {
+            "text": "曹操迎奉天子使漢廷擺脫李傕郭汜與流亡困境，也使曹操取得以朝廷名義發布詔令、任免官員和號召諸侯的政治優勢。對劉協而言，控制者由關中軍閥轉為制度與軍力更穩固的曹操，並不等於恢復皇權。",
+            "citations": [
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・武帝紀・迎天子都許"
+              },
+              {
+                "sourceId": "houhanshu-houfei-xia",
+                "locator": "卷十下・獻帝伏皇后紀・自帝都許，守位而已"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "庚申，遷都許。己巳，幸曹操營。",
+            "sourceId": "houhanshu-xiandi",
+            "locator": "卷九・建安元年八月"
+          },
+          {
+            "text": "自帝都許，守位而已，宿衛兵侍，莫非曹氏黨舊姻戚。",
+            "sourceId": "houhanshu-houfei-xia",
+            "locator": "卷十下・獻帝伏皇后紀"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安四年至五年（199—200年）",
+      "periodType": "range",
+      "title": "董承受密詔謀誅曹操與史實中的衣帶詔",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "《三國志・先主傳》正文記載，車騎將軍董承接受藏在皇帝衣帶中的密詔，任務是誅殺曹操；劉備尚未離開許都時，也與董承、种輯、吳子蘭、王子服等共謀。建安五年正月事情洩露，曹操殺董承等並夷三族。",
+            "citations": [
+              {
+                "sourceId": "sgz-liubei-main",
+                "locator": "卷三十二・先主傳・衣帶中密詔"
+              },
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・建安五年"
+              }
+            ]
+          },
+          {
+            "text": "就史料真實性而言，密詔本身同時見於《三國志》正文與《後漢書》本紀，不能簡單判作小說捏造；《三國志》甚至明言藏於衣帶。可是史書沒有保存密詔全文，也沒有詳細交代由誰代筆、劉協參與策劃到何種程度，只有授詔這一核心行動較可確認。",
+            "citations": [
+              {
+                "sourceId": "sgz-liubei-main",
+                "locator": "卷三十二・先主傳"
+              },
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・建安五年"
+              }
+            ]
+          },
+          {
+            "text": "《三國演義》進一步寫成劉協咬破手指血書密詔、把血詔縫入玉帶，董承夜見文字並聯絡馬騰、劉備等人，又加入吉平下毒與義狀被搜出的情節。這些具體場景與血詔全文屬小說敘事，不可反填正史。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第二十至二十四回"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "獻帝舅車騎將軍董承辭受帝衣帶中密詔，當誅曹公。",
+            "sourceId": "sgz-liubei-main",
+            "locator": "卷三十二・先主傳"
+          },
+          {
+            "text": "車騎將軍董承、偏將軍王服、越騎校尉种輯受密詔誅曹操，事洩。",
+            "sourceId": "houhanshu-xiandi",
+            "locator": "卷九・建安五年"
+          }
+        ],
+        "uncertaintyNote": "現存史料足以支持「劉協授董承密詔」的核心記載，但不足以重建密詔全文、製作方式與全部參與者的實際分工。"
+      }
+    },
+    {
+      "period": "建安十八年至二十年（213—215年）",
+      "periodType": "range",
+      "title": "曹氏女入宮、伏皇后被逼廢殺",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "建安十八年，曹操將女兒曹憲、曹節、曹華進為夫人；十九年三人並拜貴人。這使皇帝後宮進一步納入曹氏政治婚姻體系。",
+            "citations": [
+              {
+                "sourceId": "houhanshu-houfei-xia",
+                "locator": "卷十下・獻穆曹皇后紀"
+              }
+            ]
+          },
+          {
+            "text": "董承被殺後，董貴人雖已懷孕，曹操仍要求處死；劉協多次求情無效。伏皇后因而恐懼，寫信給父親伏完，陳述曹操逼迫情狀並要他秘密圖謀；伏完沒有發動，且在建安十四年去世。直到建安十九年，舊信才洩露。",
+            "citations": [
+              {
+                "sourceId": "houhanshu-houfei-xia",
+                "locator": "卷十下・獻帝伏皇后紀"
+              }
+            ]
+          },
+          {
+            "text": "曹操逼迫劉協下策廢后，派郗慮、華歆帶兵入宮。伏壽藏在夾壁中仍被拖出，在暴室幽死，所生兩名皇子被毒殺，伏氏宗族百餘人死亡或流徙。建安二十年，曹節被立為皇后。這不是建安五年衣帶密詔案當場延伸的處決，而是相隔十四年後因另一封書信洩露所造成。",
+            "citations": [
+              {
+                "sourceId": "houhanshu-houfei-xia",
+                "locator": "卷十下・獻帝伏皇后紀、獻穆曹皇后紀"
+              },
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・建安十九年至二十年"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "后被髮徒跣行泣過訣曰：「不能復相活邪？」帝曰：「我亦不知命在何時！」",
+            "sourceId": "houhanshu-houfei-xia",
+            "locator": "卷十下・獻帝伏皇后紀"
+          },
+          {
+            "text": "十一月丁卯，曹操殺皇后伏氏，滅其族及二皇子。",
+            "sourceId": "houhanshu-xiandi",
+            "locator": "卷九・建安十九年"
+          }
+        ],
+        "uncertaintyNote": "《後漢書》距事件較晚，且帶有對曹操專權的鮮明敘事立場；但伏壽被廢殺、兩皇子遇害及曹節繼立等核心事件，也見於本紀記年，不能當作單純小說。"
+      }
+    },
+    {
+      "period": "建安二十五年正月至延康元年十月（220年）",
+      "periodType": "exact",
+      "title": "曹丕繼位與漢魏禪代",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操於建安二十五年正月去世，曹丕繼承丞相、魏王與冀州牧等權位，並改元延康。十月，朝廷以劉協名義召集群臣、告祠高廟，派張音奉璽綬禪位；曹丕在繁陽受禪，改國號魏。形式文書把政權移轉寫成效法堯舜、順應天命與眾望。",
+            "citations": [
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・文帝紀・延康元年"
+              },
+              {
+                "sourceId": "yuanhong-hanji-wendi",
+                "locator": "《三國志・文帝紀》裴注引袁宏《漢紀》禪位詔"
+              },
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・延康元年"
+              }
+            ]
+          },
+          {
+            "text": "這場政權移轉雖具備詔書、告廟、辭讓與登壇等禮制形式，卻不能理解為兩個權力對等者之間的自由選擇。曹氏已長期控制北方軍隊、尚書臺與宿衛，曹丕又承接魏王國全部實力；劉協沒有拒絕後仍能維持統治的現實條件。因此較準確的表述是：形式上禪讓，政治實質上是在曹氏壓倒性權力與制度安排下完成的受迫退位。",
+            "citations": [
+              {
+                "sourceId": "houhanshu-houfei-xia",
+                "locator": "卷十下・獻帝伏皇后紀・自帝都許，守位而已"
+              },
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・文帝紀・受禪程序"
+              }
+            ]
+          },
+          {
+            "text": "《三國志》正文與裴注沒有記載華歆持劍扯袍、曹洪曹休帶劍入宮、祖弼護璽被殺等現場。這些強烈的肉體威脅情節來自《三國演義》第八十回；但小說場面屬虛構，不等於歷史上的政治壓力不存在。兩者必須分開判斷。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第八十回"
+              },
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・文帝紀"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "漢帝以眾望在魏，乃召群公卿士，告祠高廟。使兼御史大夫張音持節奉璽綬禪位。",
+            "sourceId": "sgz-wendi-yiling",
+            "locator": "卷二・文帝紀"
+          },
+          {
+            "text": "皇帝遜位，魏王丕稱天子。",
+            "sourceId": "houhanshu-xiandi",
+            "locator": "卷九・延康元年十月乙卯"
+          }
+        ],
+        "uncertaintyNote": "「受迫」是依權力結構、宿衛控制與整套禪代程序所作的政治性質判斷；早期史書未留下可驗證的宮廷逐字對話，不能把《演義》的持劍逼宮場面當成實錄。"
+      }
+    },
+    {
+      "period": "延康元年十月（220年）— 魏青龍二年三月（234年）",
+      "periodType": "range",
+      "title": "退位為山陽公，保有部分漢制禮遇",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹丕封劉協為山陽公，食邑一萬戶，地位在諸侯王之上；他向魏廷奏事不必稱臣，接受詔命不必下拜，並可使用天子車服祭祀天地、宗廟、祖先與臘祭，封國都於濁鹿城。四名原封王皇子則降為列侯。這些是《後漢書》明載的特殊待遇。",
+            "citations": [
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・延康元年遜位"
+              }
+            ]
+          },
+          {
+            "text": "曹節在魏受禪時拒絕輕易交出璽綬，最後將璽擲到欄板下並哭斥「天不祚爾」；魏建立後她降為山陽公夫人。這段氣節故事確見《後漢書・皇后紀》，不是後世小說無源創作，但仍應標明它屬南朝范曄所修史書，而非《三國志》正文。",
+            "citations": [
+              {
+                "sourceId": "houhanshu-houfei-xia",
+                "locator": "卷十下・獻穆曹皇后紀"
+              }
+            ]
+          },
+          {
+            "text": "關於劉協在山陽公國行醫、與曹節共同懸壺濟世或留下醫藥制度的故事，現存《三國志》《後漢書》等可靠早期史料均沒有記載。本檔只將它視為後世地方傳說，不據此描述其職業、政績或著作。",
+            "citations": [
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・遜位後僅記封國禮遇、卒葬與後嗣"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "邑一萬戶，位在諸侯王上，奏事不稱臣，受詔不拜，以天子車服郊祀天地，宗廟、祖、臘皆如漢制。",
+            "sourceId": "houhanshu-xiandi",
+            "locator": "卷九・延康元年"
+          },
+          {
+            "text": "魏受禪，遣使求璽綬，后怒不與……因涕泣橫流曰：「天不祚爾！」",
+            "sourceId": "houhanshu-houfei-xia",
+            "locator": "卷十下・獻穆曹皇后紀"
+          }
+        ],
+        "uncertaintyNote": "史書明確記載的是禮制與封國待遇，並未詳述劉協十四年間的日常治理、居住自由或醫療活動；不宜用「安逸行醫」補滿空白。"
+      }
+    },
+    {
+      "period": "魏青龍二年三月至八月（234年）",
+      "periodType": "exact",
+      "title": "去世、追諡與以漢天子禮葬禪陵",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "青龍二年三月庚寅，山陽公去世，享年五十四。曹魏朝廷追諡孝獻皇帝；八月壬申，以漢天子禮儀葬於禪陵，並設園邑令、丞管理陵園。後世常稱「漢獻帝」，正由這一死後諡號而來。",
+            "citations": [
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・青龍二年"
+              }
+            ]
+          },
+          {
+            "text": "《後漢書》又記其承嗣之子早卒，孫劉康繼為山陽公；封國歷劉康、劉瑾、劉秋三代，至西晉永嘉之亂時劉秋被殺，山陽公國才告廢除。",
+            "citations": [
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・孝獻帝紀末"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "魏青龍二年三月庚寅，山陽公薨。自遜位至薨，十有四年，年五十四，謚孝獻皇帝。八月壬申，以漢天子禮儀葬於禪陵。",
+            "sourceId": "houhanshu-xiandi",
+            "locator": "卷九・遜位之後"
+          }
+        ]
+      }
+    }
+  ],
+  "romanceBio": [
+    {
+      "chapter": "第三至四回",
+      "eventName": "董卓廢少帝、改立陳留王",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說先以劉協在北邙遇董卓時應答較為明白，鋪陳董卓認為他比少帝聰敏；繼而描寫董卓在朝堂強行廢少帝、立陳留王為帝，反對者遭驅逐或殺害。這段把改立新君寫成董卓建立威權的關鍵場面。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第三回・議溫明董卓叱丁原；第四回・廢漢帝陳留踐位"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "董卓利用兵權廢劉辯、改立九歲的陳留王劉協，基本骨架有《後漢書》與《三國志》支持；北邙問答也見裴注引《獻帝紀》。但小說把朝會爭辯、丁管行刺等細節連成戲劇場景，其中丁管並無可靠正史依據，不能逐項當作實錄。",
+            "citations": [
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・中平六年"
+              },
+              {
+                "sourceId": "sgz-dongzhuo-main",
+                "locator": "卷六・董卓傳"
+              },
+              {
+                "sourceId": "xiandi-ji-peizhu",
+                "locator": "《三國志・董卓傳》裴注引《獻帝紀》"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第六、十至十四回",
+      "eventName": "遷長安、李郭亂政與還都洛陽",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫董卓脅迫皇帝與百官西遷長安；董卓死後，李傕、郭汜攻入長安，後來彼此交兵、爭奪天子。皇帝在楊奉、董承等人護送下東歸，沿途缺糧遇兵，最後回到殘破洛陽，再由曹操迎往許都。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第六回、十至十四回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "遷都、李傕挾持皇帝、郭汜扣留公卿、東歸受阻及曹操迎奉等主幹都有史籍根據；小說則壓縮複雜的議和、渡河、安邑駐蹕與諸將反覆離合，並用英雄敘事重排各人的功過。查證這段時應以《後漢書・董卓列傳》與帝紀的逐月記事為準。",
+            "citations": [
+              {
+                "sourceId": "houhanshu-dongzhuo-lijue",
+                "locator": "卷七十二・董卓列傳・李傕郭汜附傳"
+              },
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・初平三年至建安元年"
+              },
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・武帝紀・建安元年"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第二十至二十四回",
+      "eventName": "血書衣帶詔與董承密謀",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說讓皇帝咬破手指，以血寫詔書縫入玉帶及錦袍，密賜董承；董承邀劉備、王子服、吳子蘭等署名結盟，又與太醫吉平策畫毒殺曹操，最後因家奴告密而敗露。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第二十回・曹阿瞞許田打圍；第二十三至二十四回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "《三國志・先主傳》正文確實記董承自稱受皇帝衣帶中密詔，內容是誅曹操；《後漢書》帝紀也直接記作董承受密詔。因此「董承奉衣帶密詔」並非純小說虛構。然而現存正史沒有保存詔書原文，也沒有血書、縫衣、署名盟狀與吉平下毒等完整細節；董承是否確有皇帝親授原詔，以及劉協實際參與到何種程度，仍不能由現存材料完全坐實。",
+            "citations": [
+              {
+                "sourceId": "sgz-liubei-main",
+                "locator": "卷三十二・先主傳・建安四年至五年"
+              },
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・建安五年"
+              }
+            ]
+          }
+        ],
+        "uncertaintyNote": "可確認的是董承集團以密詔為政治依據；密詔原件、書寫方式與皇帝本人指揮程度均欠缺可交叉驗證的早期材料。"
+      }
+    },
+    {
+      "chapter": "第六十六回",
+      "eventName": "伏皇后密謀敗露並遇害",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說把伏皇后再度聯絡父親伏完、由宦官穆順藏書傳遞寫成一場宮廷密謀；事情敗露後，華歆搜捕皇后，曹操下令誅殺伏氏及其家屬，皇帝只能目睹而無力阻止。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第六十六回・關雲長單刀赴會，伏皇后為國捐生"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "皇后曾寫信給父親伏完、建安十九年事情發露、曹操逼皇帝廢后，以及華歆牽后出壁、皇后與兩名皇子遇害，均見《後漢書》。但伏完早在建安十四年去世，小說讓他在事件爆發時仍主持密謀，年代錯置；穆順傳書與具體對話也屬小說編排。這封信是在董貴人被殺後所寫，至十四年後才被揭出，不能簡化成建安五年衣帶詔案當場未盡的同一波處決。",
+            "citations": [
+              {
+                "sourceId": "houhanshu-houfei-xia",
+                "locator": "卷十下・獻帝伏皇后紀"
+              },
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・建安十四年、十九年"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第八十回",
+      "eventName": "受迫禪位與曹節擲璽",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說將禪代寫成華歆等人帶劍入宮、反覆威逼皇帝，並安排守璽官祖弼被殺；曹皇后怒斥曹氏篡位，最終禪位詔書送出，曹丕建立魏朝，劉協被封山陽公。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第八十回・曹丕廢帝篡炎劉"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "《三國志・文帝紀》保存的是群臣勸進、皇帝下策與曹丕多次辭讓的禪讓儀式文本；在曹氏已控制軍政、宮禁與官僚體系的條件下，這是受政治壓力支配的政權移轉，不能只按文書表面理解為自由退讓。另一方面，現存早期史料沒有小說所寫的拔劍逼宮、祖弼被殺等場面。曹節拒交璽綬並擲地痛罵的故事則見《後漢書》皇后紀，屬史籍記載，不宜一概當成小說創造；但它不是《三國志》正文的記載。",
+            "citations": [
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・文帝紀・延康元年十月至黃初元年十一月"
+              },
+              {
+                "sourceId": "houhanshu-houfei-xia",
+                "locator": "卷十下・獻穆曹皇后紀"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第八十回",
+      "eventName": "誤傳遇害與劉備追諡",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說安排消息傳到蜀中時，眾人誤以為退位的劉協已被殺，劉備為之發喪並追諡孝愍皇帝，並以漢統中絕為稱帝的重要理由。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第八十回・漢王正位續大統"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "這並非全由小說虛構：《三國志・先主傳》也記蜀中盛傳皇帝已遇害，劉備遂發喪並追諡孝愍皇帝。實際上劉協在山陽公位上活到魏青龍二年，死後才由曹魏追諡孝獻皇帝。因此「孝愍」是蜀漢基於錯誤死訊所上的追諡，「孝獻」才是其真實去世後曹魏所上的諡號。",
+            "citations": [
+              {
+                "sourceId": "sgz-liubei-main",
+                "locator": "卷三十二・先主傳・建安二十五年、章武元年"
+              },
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・魏青龍二年"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "works": [],
+  "worksNote": "現存史籍保存許多以皇帝名義發布的詔、策、禪位文書，但東漢末年詔令多由尚書臺或權臣控制的官僚代擬，無法確認為劉協親筆。衣帶密詔的存在見於《三國志》正文，原文卻未可靠傳世；《三國演義》的血詔全文不能當作本人作品。因此本檔不硬列著作，works 保持空陣列。"
+}
