@@ -235,5 +235,26 @@
     ],
     "avatar": "images/cao_cao.png",
     "filterGroup": "wei"
+  },
+  {
+    "id": "xiahou-dun",
+    "published": true,
+    "name": "夏侯惇",
+    "courtesyName": "元讓",
+    "searchTerms": [
+     
+    ],
+    "avatar": "images/xiahou_dun.png",
+    "filterGroup": "wei"
+  },{
+    "id": "xiahou-yuan",
+    "published": true,
+    "name": "夏侯淵",
+    "courtesyName": "妙才",
+    "searchTerms": [
+      
+    ],
+    "avatar": "images/xiahou_yuan.png",
+    "filterGroup": "wei"
   }
 ]
