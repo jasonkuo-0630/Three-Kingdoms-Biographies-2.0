@@ -1,0 +1,192 @@
+{
+  "filterGroups": [
+    {
+      "id": "donghan",
+      "label": "東漢",
+      "order": 1
+    },
+    {
+      "id": "wei",
+      "label": "曹魏",
+      "order": 2
+    },
+    {
+      "id": "shu",
+      "label": "蜀漢",
+      "order": 3
+    },
+    {
+      "id": "wu",
+      "label": "孫吳",
+      "order": 4
+    },
+    {
+      "id": "qunxiong",
+      "label": "群雄",
+      "order": 5
+    },
+    {
+      "id": "jin",
+      "label": "西晉",
+      "order": 6
+    }
+  ],
+  "actualFactions": [
+    {
+      "id": "gongsun-zan-faction",
+      "name": "公孫瓚部",
+      "filterGroup": "qunxiong",
+      "description": "公孫瓚割據幽州的軍事集團，以白馬義從聞名，趙雲、劉備均曾短暫依附。"
+    },
+    {
+      "id": "liubei-group",
+      "name": "劉備集團（蜀漢建立前）",
+      "filterGroup": "qunxiong",
+      "description": "劉備稱帝建立蜀漢以前，輾轉依附公孫瓚、陶謙、曹操、袁紹、劉表等勢力期間所率領的部眾與班底。"
+    },
+    {
+      "id": "shuhan-xianzhu",
+      "name": "蜀漢・先主政權",
+      "filterGroup": "shu",
+      "description": "章武元年（221年）劉備稱帝建立蜀漢，至章武三年（223年）劉備去世為止的政權階段。"
+    },
+    {
+      "id": "shuhan-houzhu",
+      "name": "蜀漢・後主政權",
+      "filterGroup": "shu",
+      "description": "建興元年（223年）劉禪即位起，直至炎興元年（263年）蜀漢滅亡為止的政權階段。"
+    },
+    {
+      "id": "late-han-local-service",
+      "name": "東漢地方義兵與地方官",
+      "filterGroup": "donghan",
+      "description": "劉備早年隨校尉鄒靖討黃巾、歷任安喜尉等地方官職的階段，仍屬東漢地方軍政體系，尚未形成固定割據勢力。"
+    },
+    {
+      "id": "xuzhou-regime",
+      "name": "徐州政權（陶謙麾下／自領徐州）",
+      "filterGroup": "qunxiong",
+      "description": "劉備依附陶謙、其後受迎領有徐州的階段，是他第一次擁有自己地盤的時期。"
+    },
+    {
+      "id": "cao-cao-han-court",
+      "name": "曹操麾下（假東漢朝廷名義）",
+      "filterGroup": "qunxiong",
+      "description": "劉備失徐州後轉投曹操，曹操以東漢朝廷名義表其為豫州牧、左將軍的階段。"
+    },
+    {
+      "id": "yuan-shao-faction",
+      "name": "袁紹勢力",
+      "filterGroup": "qunxiong",
+      "description": "劉備二度背曹後北投袁紹，並數次於汝南一帶活動的階段。"
+    },
+    {
+      "id": "liu-biao-faction",
+      "name": "劉表麾下・荊州寄寓",
+      "filterGroup": "qunxiong",
+      "description": "劉備投奔荊州牧劉表、屯駐新野的寄寓階段，期間延攬徐庶、諸葛亮等人。"
+    },
+    {
+      "id": "liubei-jingzhou-regime",
+      "name": "劉備集團・荊州據地",
+      "filterGroup": "qunxiong",
+      "description": "赤壁之戰後，劉備與孫權結盟並攻取荊州南部四郡，重新成為擁有地盤的獨立勢力領袖。"
+    },
+    {
+      "id": "liubei-yizhou-regime",
+      "name": "劉備集團・益州牧政權",
+      "filterGroup": "qunxiong",
+      "description": "劉備入蜀、攻取成都並領益州牧，建立以益州為核心的政權階段。"
+    },
+    {
+      "id": "hanzhong-kingdom",
+      "name": "漢中王政權",
+      "filterGroup": "qunxiong",
+      "description": "劉備進位漢中王、大司馬，但仍以漢臣身分向漢獻帝上表的階段，尚未稱帝。"
+    },
+    {
+      "id": "ding-yuan-bingzhou-force",
+      "name": "丁原麾下・并州軍",
+      "filterGroup": "donghan",
+      "description": "東漢末年并州刺史丁原統領的地方軍事力量。丁原以張遼武力過人，召為從事並令其帶兵入京；此時丁原仍以東漢地方官身分活動，故歸入『東漢』。"
+    },
+    {
+      "id": "he-jin-han-court",
+      "name": "何進麾下・東漢中央軍",
+      "filterGroup": "donghan",
+      "description": "漢靈帝末年大將軍何進掌握的中央軍政體系。張遼由丁原遣兵入京後，直接奉何進之命赴河北募兵；史書未載張遼另受何進授予正式官名。"
+    },
+    {
+      "id": "dong-zhuo-regime",
+      "name": "董卓政權・挾持東漢朝廷",
+      "filterGroup": "qunxiong",
+      "description": "何進死後，董卓控制京師與東漢朝廷所形成的軍政集團。雖沿用漢廷名義，實際由董卓專政，本站歸入『群雄』。"
+    },
+    {
+      "id": "lu-bu-faction",
+      "name": "呂布勢力",
+      "filterGroup": "qunxiong",
+      "description": "董卓死後，呂布輾轉關中、河北與徐州所統率的軍事集團，至建安三年（198年）下邳敗亡。"
+    },
+    {
+      "id": "cao-cao-wei-kingdom",
+      "name": "曹操魏王國政權",
+      "filterGroup": "wei",
+      "description": "建安二十一年（216年）曹操受封魏王後，以鄴城為中心建立的魏王國體制；名義上仍為漢獻帝藩國，實際已是曹魏建國前身，故歸入『曹魏』。"
+    },
+    {
+      "id": "cao-pi-wei-kingdom",
+      "name": "曹丕魏王國政權",
+      "filterGroup": "wei",
+      "description": "延康元年（220年）曹操死後，曹丕繼承丞相、魏王至同年受禪稱帝前的短暫過渡政權。獨立設項可避免把曹丕即王位與正式建立曹魏混為一談。"
+    },
+    {
+      "id": "caowei-wendi",
+      "name": "曹魏・文帝政權",
+      "filterGroup": "wei",
+      "description": "黃初元年（220年）曹丕受禪稱帝、建立曹魏後，至黃初七年（226年）去世為止的政權階段。"
+    },
+    {
+      "id": "sun-ce-jiangdong-regime",
+      "name": "孫策江東政權",
+      "filterGroup": "wu",
+      "description": "孫策自興平年間渡江經略江東，至建安五年（200年）去世為止的軍政集團。雖孫吳尚未正式建國，此階段已構成其政權前身，故歸入『孫吳』。"
+    },
+    {
+      "id": "yuan-shu-faction",
+      "name": "袁術勢力",
+      "filterGroup": "qunxiong",
+      "description": "袁術以淮南壽春為中心的割據勢力。袁術派袁胤取代周尚為丹楊太守後，周瑜與周尚返回壽春；周瑜曾在其體系內任居巢長，但判斷袁術終無所成，遂藉任職之便東歸孫策。"
+    },
+    {
+      "id": "sun-quan-pre-imperial-regime",
+      "name": "孫權江東政權（稱帝前）",
+      "filterGroup": "wu",
+      "description": "建安五年（200年）孫權承接孫策基業後，至黃龍元年（229年）稱帝前的江東政權；包括以漢朝名號行事及黃武年間稱吳王的階段。周瑜僅經歷其中200至210年。"
+    },
+    {
+      "id": "sun-jian-han-service",
+      "name": "孫堅・東漢官軍與地方官階段",
+      "filterGroup": "donghan",
+      "description": "孫堅以東漢官吏、佐軍司馬、議郎及長沙太守等身分參與平許昌、討黃巾、從張溫西征及平定長沙等事的階段；這些行動屬漢廷官軍體系，不應全併入後來的群雄割據。"
+    },
+    {
+      "id": "sun-jian-anti-dong-force",
+      "name": "孫堅軍事集團・討董卓與荊州戰事",
+      "filterGroup": "qunxiong",
+      "description": "孫堅起兵討董卓、與袁術合作並受其表為破虜將軍、領豫州刺史，後奉袁術命攻劉表而戰死的軍事集團。名義上仍奉漢，實際已是關東群雄聯盟及袁術—孫堅合作體系，本站歸入『群雄』較能反映政治現實。"
+    },
+    {
+      "id": "caowei-tianshui-local-service",
+      "name": "曹魏・天水郡地方軍政體系",
+      "filterGroup": "wei",
+      "description": "姜維早年在天水郡任上計掾、州從事、中郎並參本郡軍事的階段。其正式入仕的確切年份不詳，故不強行限定為曹丕或曹叡單一帝王時期；至太和二年／蜀漢建興六年（228年）因太守猜疑與城門拒納而進入蜀軍。"
+    },
+    {
+      "id": "zhong-hui-chengdu-rebellion",
+      "name": "鍾會成都叛軍",
+      "filterGroup": "qunxiong",
+      "description": "景元四年末蜀漢降魏後，鍾會控制成都並於次年正月起兵反抗司馬昭的短暫軍事集團。姜維表面受鍾會厚待並參與其謀，現存早期史料同時記載他意圖利用亂局奪回兵權、恢復蜀漢，因此此階段不等同真正改變政治忠誠。"
+    }
+  ]
+}
