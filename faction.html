@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>三國人物誌・勢力總覽</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;700;900&family=Noto+Sans+TC:wght@400;500;700&display=swap"
+  rel="stylesheet"
+/>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="faction-page" id="faction-page-body">
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html" aria-label="回到三國人物誌卷首">
+        <span class="brand-seal" aria-hidden="true">誌</span>
+        <span class="brand-copy">
+          <strong>三國人物誌</strong>
+          <small id="topbar-subtitle">返回卷首</small>
+        </span>
+      </a>
+      <a class="top-link" href="index.html">← 回卷首</a>
+    </div>
+  </header>
+
+  <section class="faction-banner" id="faction-banner" hidden>
+    <span class="banner-mark" id="banner-mark" aria-hidden="true"></span>
+    <div class="banner-copy">
+      <p class="banner-eyebrow" id="banner-ruler"></p>
+      <h1 id="banner-label"></h1>
+      <p id="banner-motto"></p>
+    </div>
+    <span class="banner-count" id="banner-count"></span>
+  </section>
+
+  <div class="filter-bar">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="11" cy="11" r="7"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <label class="sr-only" for="search-input">搜尋姓名或字號</label>
+      <input type="text" id="search-input" placeholder="在這個陣營裡搜尋姓名、字或其他稱呼…" autocomplete="off" />
+    </div>
+    <button type="button" class="clear-btn" id="clear-btn">清除搜尋</button>
+  </div>
+
+  <p class="result-count" id="result-count" aria-live="polite"></p>
+
+  <main class="slip-panel" aria-label="人物列表">
+    <div class="slip-list" id="slip-list"></div>
+  </main>
+
+  <p class="empty-state" id="empty-state" hidden>沒有符合條件的人物，換個關鍵字或勢力篩選看看吧。</p>
+
+
+
+  <script src="js/common.js"></script>
+  <script src="js/faction-portal-meta.js"></script>
+  <script src="js/listing.js"></script>
+</body>
+</html>
