@@ -1,0 +1,1214 @@
+{
+  "schemaVersion": 2,
+  "dataStatus": "reviewed-draft",
+  "published": true,
+  "lastReviewedAt": "2026-08-06",
+  "id": "sun-ce",
+  "name": "孫策",
+  "courtesyName": "伯符",
+  "childhoodName": null,
+  "artName": null,
+  "otherNames": [
+    "孫郎",
+    "小霸王（《三國演義》稱號，非正史用語）"
+  ],
+  "lifespan": "175年—200年",
+  "birthplace": "揚州吳郡富春縣（今浙江省杭州市富陽區一帶；依家族籍貫）",
+  "primaryIdentity": "東漢末年江東割據領袖、孫吳政權奠基者；官至討逆將軍、領會稽太守，封吳侯",
+  "summary": "孫策是孫堅長子，與周瑜同年交好。孫堅戰死後，他守喪、依舅吳景募眾，興平元年投袁術取回父親舊部；袁術屢次失信後，孫策於興平二年請兵東渡，以數千人迅速擊走劉繇，進而平定吳郡、會稽等地，建立孫氏江東政權。袁術僭號時，他以書責備並正式斷絕；其後獲漢廷授討逆將軍、吳侯。建安四年攻取皖城後，孫策納大橋、周瑜納小橋，繼而大破劉勳、黃祖。建安五年，孫策遭故吳郡太守許貢之子與門客行刺，重傷後託付孫權，年二十六而卒。『小霸王』及以傳國玉璽向袁術換兵皆是《三國演義》塑造；于吉鬼魂致死不見陳壽正文，但裴注所引《搜神記》已有相近志怪故事，不能說是小說獨創。",
+  "avatar": "images/sun_ce.png",
+  "overview": {
+    "intro": {
+      "paragraphs": [
+        {
+          "text": "孫策字伯符，孫堅長子。其生年可由建安五年（200年）去世時『年二十六』倒推為175年；《周瑜傳》又明記孫策與周瑜同年，與周瑜卒於210年、年三十六相合。史書沒有留下孫策出生月日，出生地則只能依孫氏家族籍貫記作吳郡富春。",
+          "citations": [
+            {
+              "sourceId": "sgz-sunce-main",
+              "locator": "卷四十六・孫策傳末『時年二十六』"
+            },
+            {
+              "sourceId": "sgz-zhouyu-main",
+              "locator": "卷五十四・『堅子策與瑜同年』"
+            }
+          ]
+        },
+        {
+          "text": "正文直接形容孫策容貌俊美、喜歡談笑，性情開朗而能聽取意見，又善於用人，因此士民多願為他盡力效死。陳壽同時肯定他英氣傑出、勇銳冠世、善於延攬奇才，也批評他輕率急躁，最終因缺乏戒備而遇害。孫策的歷史形象不只是勇猛青年，也包括整肅軍令、收攬士人與快速建立地方政權的能力。",
+          "citations": [
+            {
+              "sourceId": "sgz-sunce-main",
+              "locator": "卷四十六・平劉繇後人物評述"
+            },
+            {
+              "sourceId": "sgz-sunjian-sunce-appraisal",
+              "locator": "卷四十六卷末評語"
+            }
+          ]
+        },
+        {
+          "text": "『孫郎』是《三國志》正文及裴注所見的當時稱呼；『小霸王』則不是正史稱號，而是《三國演義》第十五回用挾死于糜、喝死樊能的虛構戰功所作塑造。網站保留『小霸王』作為後世辨識稱號，但必須在名稱旁直接標明其小說性質。",
+          "citations": [
+            {
+              "sourceId": "sgz-sunce-main",
+              "locator": "卷四十六・袁術稱『孫郎』及平江東段"
+            },
+            {
+              "sourceId": "sanguo-yanyi",
+              "locator": "第十五回・太史慈酣鬥小霸王"
+            }
+          ]
+        }
+      ],
+      "originalTexts": [
+        {
+          "text": "策為人，美姿顏，好笑語，性闊達聽受，善於用人。",
+          "sourceId": "sgz-sunce-main",
+          "locator": "卷四十六・孫策傳"
+        },
+        {
+          "text": "策英氣傑濟，猛銳冠世，覽奇取異，志陵中夏。",
+          "sourceId": "sgz-sunjian-sunce-appraisal",
+          "locator": "卷四十六卷末評語"
+        }
+      ],
+      "uncertaintyNote": "175年是依卒年、卒齡及與周瑜同年倒推；出生地依孫氏籍貫，並非《孫策傳》直接記載其出生地點。"
+    },
+    "factionTimeline": [
+      {
+        "stageName": "袁術勢力・取回父兵與受命攻廬江",
+        "personName": "袁術",
+        "personId": null,
+        "actualFactionId": "yuan-shu-faction",
+        "period": "興平元年至興平二年（194—195年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "孫策江東政權・渡江自主經略",
+        "personName": "孫策",
+        "personId": null,
+        "actualFactionId": "sun-ce-jiangdong-regime",
+        "period": "興平二年至建安五年（195—200年）",
+        "periodUncertain": false
+      }
+    ],
+    "relatives": [
+      {
+        "personName": "孫堅",
+        "personId": null,
+        "relation": "父",
+        "natureType": "史籍記載",
+        "note": "東漢長沙太守、破虜將軍。戰死年份有初平二、三、四年異說；本站以191年為主要年表並標注異說。正史沒有明載孫策隨父參加討黃巾、討董卓或攻劉表諸戰。",
+        "citations": [
+          {
+            "sourceId": "sgz-sunjian-main",
+            "locator": "卷四十六・孫堅傳"
+          },
+          {
+            "sourceId": "zztj-kaoyi-sunjian-sunce",
+            "locator": "孫堅戰死年代考"
+          }
+        ]
+      },
+      {
+        "personName": "吳夫人",
+        "personId": null,
+        "relation": "母",
+        "natureType": "史籍記載",
+        "note": "吳郡人，吳景之姊；《三國志》記其與孫堅生四男一女。孫策早年奉母遷居舒縣、曲阿等地。",
+        "citations": [
+          {
+            "sourceId": "sgz-wufuren-main",
+            "locator": "卷五十・孫破虜吳夫人傳"
+          },
+          {
+            "sourceId": "sgz-sunce-main",
+            "locator": "卷四十六・孫策傳開篇"
+          }
+        ]
+      },
+      {
+        "personName": "孫權",
+        "personId": "sun-quan",
+        "relation": "弟",
+        "natureType": "史籍記載",
+        "note": "孫策臨終將印綬交給孫權，認為自己長於臨陣爭衡，孫權長於舉賢任能、保守江東。後來孫權稱帝建立孫吳。",
+        "citations": [
+          {
+            "sourceId": "sgz-sunce-main",
+            "locator": "卷四十六・臨終託付"
+          }
+        ]
+      },
+      {
+        "personName": "孫翊",
+        "personId": null,
+        "relation": "弟",
+        "natureType": "史籍記載",
+        "note": "本名孫儼，字叔弼；孫堅、吳夫人所生四子之一。",
+        "citations": [
+          {
+            "sourceId": "sgz-sunjian-main",
+            "locator": "卷四十六・『堅四子：策、權、翊、匡』"
+          }
+        ]
+      },
+      {
+        "personName": "孫匡",
+        "personId": null,
+        "relation": "弟",
+        "natureType": "史籍記載",
+        "note": "字季佐；孫堅、吳夫人所生四子之一。裴注引《魏書》稱孫策曾把原應承襲的烏程侯爵讓給孫匡，但建安二年漢廷詔書又命孫策襲爵，材料需分層理解。",
+        "citations": [
+          {
+            "sourceId": "sgz-sunjian-main",
+            "locator": "卷四十六・孫堅諸子"
+          },
+          {
+            "sourceId": "sgz-sunce-main",
+            "locator": "卷四十六裴注引《魏書》及《江表傳》詔書"
+          }
+        ]
+      },
+      {
+        "personName": "孫朗（一名孫仁）",
+        "personId": null,
+        "relation": "異母弟",
+        "natureType": "裴注引史籍記載",
+        "note": "正文只列孫堅四子；裴注引《志林》稱孫堅另有庶生少子孫朗，一名孫仁。不可把此『孫仁』與後世傳說中的孫尚香混為一人。",
+        "citations": [
+          {
+            "sourceId": "zhilin-sunce",
+            "locator": "《孫堅傳》注引《志林》"
+          }
+        ]
+      },
+      {
+        "personName": "孫夫人（本名不詳，後世稱孫尚香）",
+        "personId": null,
+        "relation": "妹",
+        "natureType": "史籍記載／後世稱名",
+        "note": "《吳夫人傳》記吳夫人生四男一女，《法正傳》明稱孫權以妹嫁劉備，故可知她也是孫策之妹。正史只稱孫夫人或孫權之妹，沒有『孫尚香』這個本名。",
+        "citations": [
+          {
+            "sourceId": "sgz-wufuren-main",
+            "locator": "卷五十・『生四男一女』"
+          },
+          {
+            "sourceId": "sgz-fazheng-main",
+            "locator": "卷三十七・『孫權以妹妻先主』"
+          }
+        ]
+      },
+      {
+        "personName": "大橋（後世通作大喬）",
+        "personId": null,
+        "relation": "配偶（名分未詳）",
+        "natureType": "三國志正文",
+        "note": "《周瑜傳》正文記攻皖後『策自納大橋，瑜納小橋』。史書未載二橋本名，也未明定大橋是正妻或妾，更沒有說孫紹及孫策諸女由她所生；『大喬』是後世通行寫法。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・攻皖得橋公二女"
+          }
+        ]
+      },
+      {
+        "personName": "孫紹",
+        "personId": null,
+        "relation": "子",
+        "natureType": "史籍記載",
+        "note": "孫策唯一見於本傳的兒子。孫權稱帝後封為吳侯，後改封上虞侯；其母未載，不能直接認定為大橋所生。",
+        "citations": [
+          {
+            "sourceId": "sgz-sunce-main",
+            "locator": "卷四十六・孫策傳末"
+          }
+        ]
+      },
+      {
+        "personName": "孫氏（嫁顧邵）",
+        "personId": null,
+        "relation": "女",
+        "natureType": "史籍記載",
+        "note": "孫權將孫策之女嫁給顧邵；史書未載姓名、生卒與生母。",
+        "citations": [
+          {
+            "sourceId": "sgz-guyong-main",
+            "locator": "卷五十二・顧邵附傳『權妻以策女』"
+          }
+        ]
+      },
+      {
+        "personName": "孫氏（嫁陸遜）",
+        "personId": null,
+        "relation": "女",
+        "natureType": "史籍記載",
+        "note": "孫權將兄孫策之女嫁給陸遜；史書未載姓名、生卒與生母。",
+        "citations": [
+          {
+            "sourceId": "sgz-luxun-main",
+            "locator": "卷五十八・『權以兄策女配遜』"
+          }
+        ]
+      },
+      {
+        "personName": "孫氏（嫁朱紀）",
+        "personId": null,
+        "relation": "女",
+        "natureType": "史籍記載",
+        "note": "孫權將孫策之女嫁給朱治之子朱紀；史書未載姓名、生卒與生母。三處傳文各只寫『策女』，沒有明確排序，也不宜自行指定長幼。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhuzhi-main",
+            "locator": "卷五十六・朱治傳『權以策女妻之』"
+          }
+        ]
+      },
+      {
+        "personName": "孫奉",
+        "personId": null,
+        "relation": "孫（孫紹之子）",
+        "natureType": "史籍記載",
+        "note": "孫紹死後承襲；孫皓時因訛言稱他將被擁立而遭誅。",
+        "citations": [
+          {
+            "sourceId": "sgz-sunce-main",
+            "locator": "卷四十六・孫策傳末"
+          }
+        ]
+      },
+      {
+        "personName": "周瑜",
+        "personId": "zhou-yu",
+        "relation": "情同兄弟（總角之好，骨肉之分）",
+        "natureType": "史籍記載",
+        "note": "正文記兩人同年而特別友善，周瑜讓宅、拜見孫策之母並迎接孫策渡江；『總角之好，骨肉之分』出自裴注引《江表傳》。史書沒有正式結拜儀式。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・與孫策交遊、迎策渡江"
+          },
+          {
+            "sourceId": "jiangbiao-zhuan-sunce",
+            "locator": "裴注引孫策授周瑜建威中郎將時令文"
+          }
+        ],
+        "fictionalRelation": {
+          "label": "結拜弟弟",
+          "natureType": "演義設定",
+          "citations": [
+            {
+              "sourceId": "sanguo-yanyi",
+              "locator": "第十五回",
+              "note": "小說稱兩人結為昆仲，孫策年長兩月，周瑜以兄事策。"
+            }
+          ]
+        }
+      }
+    ],
+    "titlesAndRanks": [
+      {
+        "title": "懷義校尉",
+        "period": "興平元年（194年）前後，太傅馬日磾以禮辟召並上表授任",
+        "citations": [
+          {
+            "sourceId": "sgz-sunce-main",
+            "locator": "卷四十六・從袁術後"
+          }
+        ]
+      },
+      {
+        "title": "折衝校尉、行殄寇將軍",
+        "period": "興平二年（195年）請助吳景平定江東時，由袁術上表／授予",
+        "citations": [
+          {
+            "sourceId": "sgz-sunce-main",
+            "locator": "卷四十六・渡江前"
+          }
+        ]
+      },
+      {
+        "title": "自領會稽太守",
+        "period": "攻取會稽、平嚴白虎與王朗後（約196年）",
+        "citations": [
+          {
+            "sourceId": "sgz-sunce-main",
+            "locator": "卷四十六・平吳會後更置長吏"
+          }
+        ]
+      },
+      {
+        "title": "騎都尉、襲烏程侯、領會稽太守",
+        "period": "建安二年（197年）漢廷詔授",
+        "citations": [
+          {
+            "sourceId": "jiangbiao-zhuan-sunce",
+            "locator": "《孫策傳》裴注引建安二年詔書"
+          }
+        ]
+      },
+      {
+        "title": "明漢將軍（承制假授）",
+        "period": "建安二年（197年），議郎王誧應孫策示意承制假授",
+        "citations": [
+          {
+            "sourceId": "jiangbiao-zhuan-sunce",
+            "locator": "建安二年討袁術詔命段"
+          }
+        ]
+      },
+      {
+        "title": "討逆將軍、吳侯",
+        "period": "建安三年（198年）漢廷轉拜、改封",
+        "citations": [
+          {
+            "sourceId": "sgz-sunce-main",
+            "locator": "卷四十六・曹操表策與裴注引《江表傳》"
+          }
+        ]
+      }
+    ],
+    "posthumousTitle": {
+      "title": "長沙桓王",
+      "grantedBy": "黃龍元年（229年）孫權稱帝後追諡",
+      "citations": [
+        {
+          "sourceId": "sgz-sunce-main",
+          "locator": "卷四十六・『權稱尊號，追諡策曰長沙桓王』"
+        }
+      ],
+      "paragraphs": [
+        {
+          "text": "孫權稱帝後追諡兄長孫策為長沙桓王，但只封孫策之子孫紹為吳侯，後改上虞侯。陳壽認為孫策是割據江東、開創基業之人，這樣的追崇與子爵偏低；孫盛則從防止孫策後裔與孫權帝系發生名分競爭的角度，為孫權的安排辯護。",
+          "citations": [
+            {
+              "sourceId": "sgz-sunce-main",
+              "locator": "卷四十六・孫策傳末"
+            },
+            {
+              "sourceId": "sgz-sunjian-sunce-appraisal",
+              "locator": "卷末陳壽評與裴注引孫盛評"
+            }
+          ]
+        }
+      ]
+    },
+    "evaluations": {
+      "contemporary": [
+        {
+          "evaluatorName": "袁術",
+          "evaluatorEra": "東漢末年群雄",
+          "context": "孫策在袁術麾下時，袁術驚異其才，向左右感嘆",
+          "textType": "古籍原文",
+          "originalText": "使術有子如孫郎，死復何恨！",
+          "paraphrase": "袁術極度欣賞孫策，感嘆若自己有孫策這樣的兒子，即使死去也沒有遺憾。",
+          "citations": [
+            {
+              "sourceId": "sgz-sunce-main",
+              "locator": "卷四十六・孫策從袁術"
+            }
+          ]
+        },
+        {
+          "evaluatorName": "郭嘉",
+          "evaluatorEra": "曹操謀臣",
+          "context": "孫策整合江東、眾人擔心他北進時，郭嘉評估其優勢與致命弱點",
+          "textType": "古籍原文",
+          "originalText": "策輕而無備……若刺客伏起，一人之敵耳。",
+          "paraphrase": "郭嘉承認孫策所誅服者多為能使人效死的豪傑，卻判斷孫策輕率少備，一旦遭刺客突襲便只能以個人武力應對。",
+          "citations": [
+            {
+              "sourceId": "sgz-guojia-main",
+              "locator": "卷十四・郭嘉傳"
+            }
+          ]
+        },
+        {
+          "evaluatorName": "曹操",
+          "evaluatorEra": "東漢司空",
+          "context": "孫策平定江南、曹操正受袁紹壓力而暫無力向南時；裴注引《吳歷》",
+          "textType": "古籍原文",
+          "originalText": "猘兒難與爭鋒也。",
+          "paraphrase": "曹操把孫策視為凶猛難制、當時不宜正面爭鋒的年輕強敵。",
+          "citations": [
+            {
+              "sourceId": "wuli-sunce",
+              "locator": "《孫策傳》裴注引《吳歷》"
+            }
+          ]
+        }
+      ],
+      "later": [
+        {
+          "evaluatorName": "陳壽",
+          "evaluatorEra": "西晉（《三國志》作者）",
+          "context": "《孫破虜討逆傳》卷末評語",
+          "textType": "古籍原文",
+          "originalText": "策英氣傑濟，猛銳冠世……然皆輕佻果躁，隕身致敗。",
+          "paraphrase": "陳壽肯定孫策英氣、勇銳、識人與進取心皆冠絕一時，也指出他輕率急躁，最終因此喪身失敗。",
+          "citations": [
+            {
+              "sourceId": "sgz-sunjian-sunce-appraisal",
+              "locator": "卷四十六卷末評語"
+            }
+          ]
+        },
+        {
+          "evaluatorName": "孫盛",
+          "evaluatorEra": "東晉史家",
+          "context": "評論孫權追崇孫策及其後嗣名分時，先肯定孫策創業之功",
+          "textType": "古籍原文",
+          "originalText": "孫氏兄弟皆明略絕群。創基立事，策之由也。",
+          "paraphrase": "孫盛認為孫策、孫權的明識與謀略都超越群倫，而孫氏基業的真正開創者正是孫策。",
+          "citations": [
+            {
+              "sourceId": "sgz-sunjian-sunce-appraisal",
+              "locator": "卷四十六裴注引孫盛評"
+            }
+          ]
+        },
+        {
+          "evaluatorName": "陸機",
+          "evaluatorEra": "西晉文士、東吳舊臣陸抗之子",
+          "context": "《辨亡論》追論孫吳創業及人才集團",
+          "textType": "古籍原文",
+          "originalText": "長沙桓王逸才命世，弱冠秀發。",
+          "paraphrase": "陸機稱孫策是才華超逸、足以引領一世的人物，年未弱冠便已顯露卓越才器。",
+          "citations": [
+            {
+              "sourceId": "luji-bianwanglun",
+              "locator": "上篇論孫策創業"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "historicalBio": [
+    {
+      "period": "中平末年至初平年間（約189—191年）",
+      "periodType": "approx",
+      "title": "奉母遷舒，與周瑜交好並收合士人",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "孫堅起兵討董卓時，孫策奉母遷居舒縣。他與同年的周瑜特別友善，周瑜讓出道南大宅安置孫氏一家，升堂拜見孫策之母，兩家互通有無。孫策年十餘歲便已交結知名、收合士大夫，江淮間不少人向附；這是他日後能迅速組織江東人脈的重要基礎。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunce-main",
+                "locator": "卷四十六・孫策傳開篇"
+              },
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・周瑜傳開篇"
+              },
+              {
+                "sourceId": "jiangbiao-zhuan-sunce",
+                "locator": "裴注引孫策、周瑜早年交遊"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "策將母徙居舒。與周瑜相友，收合士大夫，江、淮間人咸向之。",
+            "sourceId": "sgz-sunce-main",
+            "locator": "卷四十六・孫策傳開篇"
+          }
+        ]
+      }
+    },
+    {
+      "period": "初平二年（191年；正文另作192年）",
+      "periodType": "approx",
+      "title": "孫堅戰死，孫策守喪並尋求承接舊部",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "孫堅奉袁術命攻劉表，在襄陽附近追擊黃祖時被射殺。孫策將父親歸葬曲阿，之後渡江居江都；他尚未立即接掌父軍，孫堅軍眾先由孫賁率領投袁術。孫策後來與張紘商議，目標是向袁術取回父親餘兵，再依舅吳景於丹楊收合流散、東據吳會。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunjian-main",
+                "locator": "卷四十六・孫堅戰死及孫賁率眾就袁術"
+              },
+              {
+                "sourceId": "sgz-sunce-main",
+                "locator": "卷四十六・父喪、居江都"
+              },
+              {
+                "sourceId": "wuli-sunce",
+                "locator": "裴注引孫策與張紘論世務"
+              }
+            ]
+          },
+          {
+            "text": "死亡年份存在明顯異說：《孫堅傳》正文與《後漢書》作初平三年（192年），《英雄記》作初平四年（193年）；裴松之依孫策建安五年死時年二十六、其上表自稱十七歲喪父，認為《吳歷》《張璠漢紀》所載初平二年（191年）較合。司馬光《資治通鑑考異》採納191年。本站以191年為主年表，但保留192、193年異說，不寫成興平元年。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunjian-main",
+                "locator": "卷四十六・正文及裴注諸說"
+              },
+              {
+                "sourceId": "zztj-kaoyi-sunjian-sunce",
+                "locator": "初平二年・孫堅戰死考"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "堅薨，還葬曲阿。已乃渡江居江都。",
+            "sourceId": "sgz-sunce-main",
+            "locator": "卷四十六・孫策傳"
+          }
+        ],
+        "uncertaintyNote": "本站主採191年是年代考訂選擇，不代表《三國志》正文原本就作初平二年；正文、裴注異說與後世考訂須同時標出。"
+      }
+    },
+    {
+      "period": "興平元年（194年）",
+      "periodType": "exact",
+      "title": "投袁術取回父親舊部",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "陶謙忌憚孫策，孫策便奉母移往曲阿，與呂範、孫河投靠時任丹楊太守的舅父吳景，募集數百人。興平元年，他前往袁術處。正文說袁術欣賞孫策，將孫堅部曲交還；裴注引《江表傳》則補充袁術最初不肯交兵，孫策先赴丹楊募眾、幾乎被祖郎所害，第二次見袁術後才取回千餘人。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunce-main",
+                "locator": "卷四十六・興平元年從袁術"
+              },
+              {
+                "sourceId": "jiangbiao-zhuan-sunce",
+                "locator": "裴注引兩見袁術、取回孫堅餘兵"
+              }
+            ]
+          },
+          {
+            "text": "這段史料只說孫策憑父親舊恩、個人才名與實際募兵成果取得舊部，完全沒有以傳國玉璽作抵押或交換的內容。玉璽換兵屬《三國演義》第十五回改寫。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunce-main",
+                "locator": "卷四十六・袁術還孫堅部曲"
+              },
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第十五回・玉璽質兵"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "興平元年，從袁術。術甚奇之，以堅部曲還策。",
+            "sourceId": "sgz-sunce-main",
+            "locator": "卷四十六・孫策傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "興平元年至二年（194—195年）",
+      "periodType": "range",
+      "title": "袁術屢次失信，孫策由依附轉向自立",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "馬日磾以禮辟孫策並表為懷義校尉，袁術麾下喬蕤、張勳等也敬重他。袁術先許九江太守而改用陳紀，後又使孫策攻廬江太守陸康，承諾破城後以廬江相授；孫策攻下廬江，袁術卻改任劉勳。接連失信使孫策更加失望，也促使他尋找離開袁術、自主經略江東的機會。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunce-main",
+                "locator": "卷四十六・懷義校尉、九江與廬江太守失信"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "術復用其故吏劉勳為太守，策益失望。",
+            "sourceId": "sgz-sunce-main",
+            "locator": "卷四十六・攻陸康後"
+          }
+        ]
+      }
+    },
+    {
+      "period": "興平二年（195年）",
+      "periodType": "exact",
+      "title": "請兵東渡，周瑜帶兵船糧相助",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "劉繇進駐曲阿後驅逐吳景、孫賁，兩人退到歷陽，與劉繇部將相持不下。孫策向袁術請求協助舅父平定江東；袁術以折衝校尉、行殄寇將軍名義給他千餘兵、數十騎。孫策抵達歷陽時已聚五六千人，渡江後連戰取勝。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunce-main",
+                "locator": "卷四十六・請助吳景、渡江轉鬥"
+              },
+              {
+                "sourceId": "zztj-kaoyi-sunjian-sunce",
+                "locator": "興平二年孫策渡江考"
+              }
+            ]
+          },
+          {
+            "text": "孫策到歷陽前後通知周瑜，周瑜帶兵迎接，二人共同攻取橫江、當利、秣陵、湖孰、江乘並進入曲阿。《江表傳》又保存孫策後來稱周瑜與自己有『總角之好，骨肉之分』，並肯定周瑜曾發眾及船糧相助。這些說法與既有周瑜資料一致，但正史沒有兩人正式結拜。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・迎策渡江"
+              },
+              {
+                "sourceId": "jiangbiao-zhuan-sunce",
+                "locator": "裴注引孫策令"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "會策將東渡，到歷陽，馳書報瑜，瑜將兵迎策。",
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・周瑜傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "興平二年至建安元年（195—196年）",
+      "periodType": "range",
+      "title": "擊走劉繇，以軍紀與用人收取江東人心",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "孫策攻牛渚、笮融、薛禮等據點，雖曾中流矢傷股，仍設伏反擊，使敵軍驚怖。正文概括他渡江轉戰所向皆破，而且軍令整肅、百姓歸心；《江表傳》更說軍士不敢掠奪，雞犬菜蔬皆無所犯，孫策又宣布舊部來降不追問、願從軍者免除門戶徭役、不願者不強迫，十日之內便聚兵二萬餘。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunce-main",
+                "locator": "卷四十六・渡江破劉繇"
+              },
+              {
+                "sourceId": "jiangbiao-zhuan-sunce",
+                "locator": "裴注引軍紀、招降令"
+              }
+            ]
+          },
+          {
+            "text": "太史慈原為劉繇部下，曾與孫策在神亭激戰；孫策平定後擒獲太史慈，卻替他解縛、握手詢問往事並委任兵權。太史慈按期帶回劉繇餘眾，孫策的部下原先擔心他不會回來，孫策則相信其守信。這段是孫策識人任人的代表事蹟。",
+            "citations": [
+              {
+                "sourceId": "sgz-taishici-main",
+                "locator": "卷四十九・太史慈歸孫策"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "渡江轉鬥，所向皆破。莫敢當其鋒，而軍令整肅，百姓懷之。",
+            "sourceId": "sgz-sunce-main",
+            "locator": "卷四十六・孫策傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安元年前後（約196年）",
+      "periodType": "approx",
+      "title": "平吳郡、會稽，建立江東軍政架構",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "擊走劉繇後，孫策進攻嚴白虎等江東地方勢力，渡浙江、取會稽，迫使王朗敗走，並重新任命各郡長吏：自己領會稽太守，以吳景領丹楊、朱治領吳郡，孫賁與孫輔分領豫章、廬陵，張昭、張紘、秦松、陳端等為謀主。這已不只是替袁術作戰，而是完整的孫策江東政權。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunce-main",
+                "locator": "卷四十六・平嚴白虎、取會稽、更置長吏"
+              },
+              {
+                "sourceId": "sgz-zhangzhao-main",
+                "locator": "卷五十二・孫策創業任張昭"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "盡更置長吏，策自領會稽太守。",
+            "sourceId": "sgz-sunce-main",
+            "locator": "卷四十六・平吳會後"
+          }
+        ],
+        "uncertaintyNote": "《孫策傳》沒有替平嚴白虎、取會稽逐事標出年月；約置建安元年是依整體戰事次序整理。"
+      }
+    },
+    {
+      "period": "建安二年至三年（197—198年）",
+      "periodType": "range",
+      "title": "袁術僭號後斷絕，接受漢廷官爵",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "袁術僭稱皇帝後，孫策致書責備並與之斷絕。現存長篇責術書由《吳錄》記為孫策使張紘起草，裴松之也認為文字必出張紘，因此可作孫策政治立場的證據，卻不應直接列為孫策親筆著作。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunce-main",
+                "locator": "卷四十六・袁術僭號，策以書責而絕之"
+              },
+              {
+                "sourceId": "wulu-sunce",
+                "locator": "裴注引責袁術書及裴松之案語"
+              }
+            ]
+          },
+          {
+            "text": "建安二年漢廷詔授孫策騎都尉、襲烏程侯、領會稽太守；孫策認為騎都尉不足以統軍，王誧又承制假授明漢將軍。建安三年，曹操再表孫策為討逆將軍、改封吳侯。這些名號使孫策在名義上重新納入漢廷秩序，但江東仍由他實際控制。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunce-main",
+                "locator": "卷四十六・曹操表策及裴注詔書"
+              },
+              {
+                "sourceId": "jiangbiao-zhuan-sunce",
+                "locator": "建安二、三年授官封爵"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "時袁術僭號，策以書責而絕之。",
+            "sourceId": "sgz-sunce-main",
+            "locator": "卷四十六・孫策傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安四年（199年）",
+      "periodType": "exact",
+      "title": "襲皖破劉勳，納大橋並西擊黃祖",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "袁術死後，劉勳吞併袁術餘眾。孫策先假意與劉勳結好，誘使他離開皖城攻上繚，再與周瑜迅速襲取皖城，收降其部眾，並在彭澤等地擊破劉勳。由於此事發生在袁術死後，應置建安四年（199年），不是建安三年；建安三年是周瑜從居巢正式歸吳之年。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunce-main",
+                "locator": "卷四十六・袁術死後破劉勳"
+              },
+              {
+                "sourceId": "jiangbiao-zhuan-sunce",
+                "locator": "裴注引襲皖及西討黃祖"
+              },
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・建安三年歸吳後攻皖"
+              }
+            ]
+          },
+          {
+            "text": "攻皖後，正文記橋公兩女皆有國色，孫策納大橋，周瑜納小橋。裴注引《江表傳》另補孫策以二人同為橋公女婿向周瑜說笑。史料沒有記二橋本名，也沒有交代正妻、妾或子女生母；本站沿用既有周瑜資料的『大橋、小橋』史籍字形與名分警語。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・攻皖得橋公二女"
+              },
+              {
+                "sourceId": "jiangbiao-zhuan-sunce",
+                "locator": "裴注引孫策戲周瑜語"
+              }
+            ]
+          },
+          {
+            "text": "孫策隨後進攻黃祖，在沙羨大破其軍，但黃祖本人逃脫。這次西征帶有報父仇與擴張荊州方向勢力的雙重意義；現存孫策名義上所上戰報保存了參戰將領與戰果敘述。",
+            "citations": [
+              {
+                "sourceId": "wulu-sunce",
+                "locator": "裴注引孫策報破黃祖表"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "時得橋公兩女，皆國色也。策自納大橋，瑜納小橋。",
+            "sourceId": "sgz-zhouyu-main",
+            "locator": "卷五十四・攻皖"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安五年（200年）",
+      "periodType": "exact",
+      "title": "北進目標存在異說：襲許迎帝或先攻陳登",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "《孫策傳》正文說曹操與袁紹在官渡相持時，孫策暗中打算襲擊許都、迎取漢帝，並秘密整軍部署；但裴注引《江表傳》又說他準備再次進攻廣陵太守陳登。孫盛認為襲許說在地理、時勢與年代上有疑，主張伐陳登較有根據；裴松之則認為孫策理應先圖陳登，卻不排除其更大北進企圖。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunce-main",
+                "locator": "卷四十六・建安五年密治兵"
+              },
+              {
+                "sourceId": "jiangbiao-zhuan-sunce",
+                "locator": "裴注引復討陳登"
+              },
+              {
+                "sourceId": "peisongzhi-sunce-assassination-comment",
+                "locator": "孫盛異同評與裴松之案語"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "策陰欲襲許，迎漢帝，密治兵，部署諸將。",
+            "sourceId": "sgz-sunce-main",
+            "locator": "卷四十六・建安五年"
+          }
+        ],
+        "uncertaintyNote": "孫策確有北進整軍，但最直接目標究竟是陳登、許都，或兩者先後相接，史料與後世考辨未能完全統一。"
+      }
+    },
+    {
+      "period": "建安五年以前（確切時間不詳）",
+      "periodType": "approx",
+      "title": "于吉事件只見裴注異聞，不能當作正文死因",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "陳壽正文沒有記載孫策與于吉的衝突。裴注引《江表傳》說孫策見將領賓客多下樓拜于吉，認為他以妖妄惑眾、破壞君臣秩序，因而將其處死；虞喜又從年代與刑罰角度批評此事。裴松之指出《江表傳》所舉張津死亡作例在時間上有誤。",
+            "citations": [
+              {
+                "sourceId": "jiangbiao-zhuan-sunce",
+                "locator": "《孫策傳》裴注引于吉事"
+              },
+              {
+                "sourceId": "zhilin-sunce",
+                "locator": "虞喜論于吉及孫策卒日"
+              }
+            ]
+          },
+          {
+            "text": "裴注另引《搜神記》，版本中不但有于吉求雨、被殺、屍體失蹤，還有孫策傷後在鏡中見于吉而創口崩裂的志怪結局。裴松之明言《江表傳》《搜神記》不同，未詳孰是。因此『鬼魂糾纏』不是《三國演義》才第一次創造，但它仍屬志怪材料，不是陳壽正文所承認的死因。",
+            "citations": [
+              {
+                "sourceId": "soushenji-sunce",
+                "locator": "《孫策傳》裴注引《搜神記》"
+              }
+            ]
+          }
+        ],
+        "uncertaintyNote": "于吉事件本身、發生時間與死亡方式均缺乏正文支持；只能作裴注所收異聞展示，不可與許貢門客行刺的正文敘事等量混寫。"
+      }
+    },
+    {
+      "period": "建安五年四月（200年）",
+      "periodType": "exact",
+      "title": "許貢門客行刺，重傷後託付孫權",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "正文先交代孫策曾殺故吳郡太守許貢，許貢幼子與門客逃亡並隱匿江邊。孫策單騎外出時偶然遇上他們，遭攻擊受傷。這證明許貢門客報仇及行刺是正史正文，不是小說虛構。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunce-main",
+                "locator": "卷四十六・許貢小子與客行刺"
+              }
+            ]
+          },
+          {
+            "text": "更完整的結怨原因出自裴注引《江表傳》：許貢上表漢帝，稱孫策驍雄如項羽，應以尊寵召回京師，否則留在地方必成後患；孫策的候吏截得奏表後，孫策召許貢責問，許貢否認上表，孫策遂命武士將他絞死。許貢門客此後潛伏民間，等待報仇機會。這些細節不是陳壽正文，必須標成裴注引文。",
+            "citations": [
+              {
+                "sourceId": "jiangbiao-zhuan-sunce",
+                "locator": "裴注引許貢上表、被殺與門客潛伏"
+              }
+            ]
+          },
+          {
+            "text": "《江表傳》又說孫策打獵時遠離從騎，遇三名自稱韓當部下的許貢門客；孫策射倒一人，另兩人以弓射中其面頰，後到的騎兵才殺死刺客。孫策傷重，召張昭等託付政權，將印綬交給孫權，指出自己長於臨陣爭衡，孫權長於舉賢任能、保守江東；當夜去世，年二十六。",
+            "citations": [
+              {
+                "sourceId": "jiangbiao-zhuan-sunce",
+                "locator": "裴注引獵日遇刺"
+              },
+              {
+                "sourceId": "sgz-sunce-main",
+                "locator": "卷四十六・重創、託付、卒年"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "先是，策殺貢，貢小子與客亡匿江邊。策單騎出，卒與客遇，客擊傷策。",
+            "sourceId": "sgz-sunce-main",
+            "locator": "卷四十六・孫策傳"
+          },
+          {
+            "text": "舉賢任能，各盡其心，以保江東，我不如卿。",
+            "sourceId": "sgz-sunce-main",
+            "locator": "卷四十六・託付孫權"
+          }
+        ],
+        "uncertaintyNote": "虞喜《志林》推考孫策卒於建安五年四月四日；《資治通鑑考異》亦把遇害置於該年四月。正文只明記建安五年與卒齡，未直接標出月日。"
+      }
+    }
+  ],
+  "romanceBio": [
+    {
+      "chapter": "第十五回",
+      "eventName": "以傳國玉璽向袁術質兵",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫孫策不滿久困袁術之下，採納朱治、呂範之計，以孫堅留下的傳國玉璽作抵押，向袁術借得兵三千、馬五百，並受折衝校尉、殄寇將軍名號，藉機渡江創業。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第十五回"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "吾有亡父留下傳國玉璽，以為質當。",
+            "sourceId": "sanguo-yanyi",
+            "locator": "第十五回"
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "《三國志》正文與裴注所引孫策早年材料都沒有『玉璽換兵』。正文只說袁術欣賞孫策並交還孫堅部曲；《江表傳》補充袁術先拒絕、後因孫策再募數百人才還千餘舊兵。沒有任何早期史料說孫策持有玉璽、以璽質當或事後取回。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunce-main",
+                "locator": "卷四十六・興平元年從袁術"
+              },
+              {
+                "sourceId": "jiangbiao-zhuan-sunce",
+                "locator": "裴注引孫策兩見袁術"
+              }
+            ]
+          },
+          {
+            "text": "孫堅是否得到傳國璽本身就有爭議：《吳書》稱其在洛陽井中得璽，《山陽公載記》卻說袁術後來拘孫堅夫人奪璽，《江表傳》質疑為偽，裴松之也以孫堅忠烈形象與孫皓降晉時未交此璽等理由強烈懷疑。即使接受孫堅得璽傳聞，也不能推導出孫策以璽換兵；小說只是把互相衝突的傳聞改編成完整情節。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunjian-main",
+                "locator": "卷四十六裴注引《吳書》得璽說"
+              },
+              {
+                "sourceId": "shanyang-gong-zaiji-seal",
+                "locator": "袁術拘孫堅夫人奪璽說"
+              },
+              {
+                "sourceId": "peisongzhi-sunjian-seal-comment",
+                "locator": "裴松之案語"
+              }
+            ]
+          }
+        ],
+        "uncertaintyNote": "結論不是『傳國璽必定不存在』，而是孫堅得璽傳聞本就爭議極大，且孫策質璽換兵完全缺乏史籍支持。"
+      }
+    },
+    {
+      "chapter": "第十五回",
+      "eventName": "太史慈酣鬥與『小霸王』稱號",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說大幅擴寫孫策與太史慈在神亭的單挑，並安排孫策生擒于糜、回馬時挾死于糜，又以一聲大喝驚死追來的樊能，因而人人稱他為『小霸王』。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第十五回"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "自此，人皆呼孫策為『小霸王』。",
+            "sourceId": "sanguo-yanyi",
+            "locator": "第十五回"
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "孫策與太史慈在神亭相遇、雙方各只帶少數騎從並親身搏鬥，確有《三國志・太史慈傳》正文根據；但挾死于糜、喝死樊能及由此獲稱『小霸王』都是小說塑造。《三國志》沒有稱孫策為『小霸王』，史籍常見稱呼是『孫郎』。",
+            "citations": [
+              {
+                "sourceId": "sgz-taishici-main",
+                "locator": "卷四十九・神亭與孫策相遇"
+              },
+              {
+                "sourceId": "sgz-sunce-main",
+                "locator": "卷四十六・『孫郎』"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第十五回",
+      "eventName": "與周瑜結為昆仲、周瑜薦二張",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說安排孫策渡江途中遇見周瑜，說兩人同年而孫策年長兩月，正式結為昆仲，周瑜以兄事孫策；周瑜又向孫策推薦張昭、張紘『江東二張』。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第十五回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正文與《江表傳》確定兩人同年、早年交好、讓宅拜母、情同骨肉，周瑜也確實帶兵迎策並提供兵眾船糧；但沒有結拜儀式，也沒有『年長兩月』記載。張紘在孫策居江都時便已受其多次拜訪、參與江東方略，並不是等周瑜渡江時才第一次介紹。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・與孫策交遊、迎策渡江"
+              },
+              {
+                "sourceId": "jiangbiao-zhuan-sunce",
+                "locator": "總角之好、骨肉之分"
+              },
+              {
+                "sourceId": "wuli-sunce",
+                "locator": "孫策在江都訪張紘論世務"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第二十九回",
+      "eventName": "于吉冤魂糾纏，孫策怒發創裂而死",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說先寫孫策因于吉深得百姓與將士敬信而將他處死，之後反覆看見于吉鬼魂。許貢門客行刺使孫策重傷，醫者要求靜養百日；孫策照鏡見自己容貌受損，又看見于吉，怒而摔鏡、創口迸裂，最終身亡。小說把人間復仇與超自然報應合成同一條死亡因果。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第二十九回・小霸王怒斬于吉"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "陳壽正文的死因只有許貢幼子與門客伏匿、孫策單騎出行遇刺受重傷，之後託付孫權而死；正文完全沒有于吉、鬼魂或神罰因果。許貢門客報仇是正史主線。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunce-main",
+                "locator": "卷四十六・許貢客行刺至孫策卒"
+              }
+            ]
+          },
+          {
+            "text": "但『鬼魂糾纏致死』也不能說是《三國演義》獨創：裴松之注已引《搜神記》記孫策殺于吉後屢見其形，傷勢稍癒時又在鏡中見于吉，怒而擊鏡、創口崩裂。這是早於小說的志怪文本；小說承接並擴寫它。正確標示應是『非正文、源自裴注所收志怪異聞、由演義戲劇化』。",
+            "citations": [
+              {
+                "sourceId": "soushenji-sunce",
+                "locator": "《孫策傳》裴注引《搜神記》"
+              }
+            ]
+          }
+        ],
+        "uncertaintyNote": "本站不把志怪故事判作可證實史實；只說明它早於《三國演義》存在，避免誤標為小說獨創。"
+      }
+    },
+    {
+      "chapter": "第二十九回",
+      "eventName": "內事問張昭、外事問周瑜",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫孫策臨終囑咐孫權：內事不決可問張昭，外事不決可問周瑜；又令喬夫人託小喬轉告周瑜盡心輔佐孫權。這組遺命成為後世很有辨識度的孫權承業橋段。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第二十九回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正文確實記孫策召張昭等託付、把印綬交給孫權，並比較兄弟各自長處；《張昭傳》也記孫策臨亡以孫權託昭。可是『內事問張昭、外事問周瑜』及由大小橋轉話，都不是《三國志》原文。周瑜在孫策死後率兵赴喪、留吳與張昭共掌眾事，屬其後實際行動。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunce-main",
+                "locator": "卷四十六・臨終託付"
+              },
+              {
+                "sourceId": "sgz-zhangzhao-main",
+                "locator": "卷五十二・策臨亡以弟權託昭"
+              },
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・孫策死後周瑜赴喪"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": "上表謝襲爵領郡",
+      "type": "表章／謝恩",
+      "extant": "主要文字保存於《三國志・孫策傳》裴注引《吳錄》，未必是原表全文",
+      "attribution": "以孫策名義上奏；官署文書實際執筆者未載，不能斷言逐字出自孫策本人",
+      "summary": "孫策感謝漢廷授予襲爵、領會稽太守等恩命，自述十七歲喪父、未弱冠便領兵，並表示將討伐袁術以報朝廷。裴松之正是依表中『年十七，喪失所怙』與孫策卒年、卒齡，判斷《孫堅傳》所載初平三年戰死不合，支持初平二年說。",
+      "anthology": "《吳錄》佚文；《三國志》卷四十六裴松之注引",
+      "excerpt": "臣年十七，喪失所怙……臣初領兵，年未弱冠。",
+      "citations": [
+        {
+          "sourceId": "wulu-sunce",
+          "locator": "《孫策傳》裴注引孫策上表謝"
+        }
+      ]
+    },
+    {
+      "title": "上表報破黃祖",
+      "type": "表章／軍事戰報",
+      "extant": "大段文字保存於《三國志・孫策傳》裴注引《吳錄》，現存引文是否等同原表全文不能確定",
+      "attribution": "以孫策名義上奏的軍事戰報；實際執筆者未載",
+      "summary": "戰報記孫策在沙羨進攻黃祖，列舉周瑜、呂範、程普、孫權、韓當、黃蓋等參戰將領，敘述火攻、弓弩與突擊戰果，並承認黃祖本人逃走。它是確認建安四年西征部署的重要第一人稱官署文書，但其中斬獲數字仍應視為戰報自述，不宜完全等同客觀統計。",
+      "anthology": "《吳錄》佚文；《三國志》卷四十六裴松之注引",
+      "excerpt": "臣討黃祖，以十二月八日到祖所屯沙羨縣……惟祖迸走。",
+      "citations": [
+        {
+          "sourceId": "wulu-sunce",
+          "locator": "《孫策傳》裴注引討黃祖表"
+        }
+      ]
+    }
+  ],
+  "worksNote": "孫策沒有可確認為私人撰寫、完整傳世的文集。本檔只收兩篇以他名義上奏、由裴注保存主要文字的官署表章，並明標實際執筆者不詳。袁術僭號後的長篇責術書不列入孫策著作，因《吳錄》明載孫策使張紘作書，裴松之也判定文字必出張紘。"
+}
