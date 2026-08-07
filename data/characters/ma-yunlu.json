@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 2,
+  "dataStatus": "reviewed-draft",
+  "published": true,
+  "lastReviewedAt": "2026-08-05",
+  "demoNote": "馬雲騄為周大荒《反三國演義》（又名《反三國志》）原創人物，並非《三國志》或《三國演義》人物。本檔所有人物設定與事件均依《反三國演義》逐回整理；historicalBio 依資料規則保持空陣列，不以其他人物史料拼湊史實生平。",
+  "id": "ma-yunlu",
+  "name": "馬雲騄",
+  "courtesyName": null,
+  "childhoodName": null,
+  "artName": null,
+  "otherNames": [],
+  "lifespan": "《反三國演義》設定：初登場二十二歲，生卒年不詳",
+  "birthplace": "不詳（小說初登場時居於涼州）",
+  "primaryIdentity": "周大荒《反三國演義》原創女將，小說設定為馬騰之女、馬超之妹及趙雲之妻。",
+  "summary": "《反三國演義》安排馬雲騄隨馬超起兵、領西涼兵作戰，後由劉備主婚，嫁給趙雲。婚後她並非只作家屬，而是持續獨立領兵，參與荊州、江漢、中原及江東戰事，小說結尾受封敦煌公主、揚威將軍。",
+  "avatar": "images/ma_yunlu.png",
+  "overview": {
+    "intro": {
+      "paragraphs": [
+        {
+          "text": "馬雲騄是周大荒《反三國演義》原創的虛構人物，正史《三國志》正文、裴松之注與《三國演義》原著均無此人。《反三國演義》第六十回的作者自述明言，作者為馬超增設一名妹妹並安排她嫁給趙雲，人物姓名也是創作過程中商定的。",
+          "citations": [
+            {
+              "sourceId": "fan-sanguo-yanyi",
+              "locator": "第六十回・作者自述馬雲騄的創作與命名"
+            }
+          ]
+        },
+        {
+          "text": "小說第八回稱她是馬騰唯一的女兒、馬超之妹，幼年喪母，初登場時二十二歲，品貌與武藝俱佳。她隨馬氏兄妹為父報仇，曾受命領一萬人守長安；第十回隨馬超入蜀，成都平定後嫁給趙雲。此後她多次統率西涼兵與騎兵，並在小說末段受封敦煌公主、揚威將軍。",
+          "citations": [
+            {
+              "sourceId": "fan-sanguo-yanyi",
+              "locator": "第八回・人物初登場與守長安"
+            },
+            {
+              "sourceId": "fan-sanguo-yanyi",
+              "locator": "第十回・成都之戰與趙馬聯姻"
+            },
+            {
+              "sourceId": "fan-sanguo-yanyi",
+              "locator": "第五十八回・論功封賞"
+            }
+          ]
+        }
+      ]
+    },
+    "factionTimeline": [
+      {
+        "stageName": "《反三國演義》中的蜀漢陣營",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "shuhan-xianzhu",
+        "period": "小說虛構時間線：劉備取得益州後 — 小說結局",
+        "periodUncertain": false
+      }
+    ],
+    "relatives": [
+      {
+        "personName": "馬騰",
+        "personId": null,
+        "relation": "小說設定中的父親",
+        "natureType": "後世文學",
+        "note": "《反三國演義》設定馬騰有三子一女，馬雲騄為其女；此女兒身分為小說虛構。",
+        "citations": [
+          {
+            "sourceId": "fan-sanguo-yanyi",
+            "locator": "第八回・馬氏家世"
+          }
+        ]
+      },
+      {
+        "personName": "馬超",
+        "personId": null,
+        "relation": "小說設定中的兄長",
+        "natureType": "後世文學",
+        "note": "小說安排馬雲騄隨馬超起兵入蜀，兩人此後亦多次在軍中會合。",
+        "citations": [
+          {
+            "sourceId": "fan-sanguo-yanyi",
+            "locator": "第八、十、四十回"
+          }
+        ]
+      },
+      {
+        "personName": "馬鐵",
+        "personId": null,
+        "relation": "小說設定中的兄長",
+        "natureType": "後世文學",
+        "note": "《反三國演義》第八回列為馬騰次子。",
+        "citations": [
+          {
+            "sourceId": "fan-sanguo-yanyi",
+            "locator": "第八回・馬氏家世"
+          }
+        ]
+      },
+      {
+        "personName": "馬休",
+        "personId": null,
+        "relation": "小說設定中的兄長",
+        "natureType": "後世文學",
+        "note": "《反三國演義》第八回列為馬騰三子。",
+        "citations": [
+          {
+            "sourceId": "fan-sanguo-yanyi",
+            "locator": "第八回・馬氏家世"
+          }
+        ]
+      },
+      {
+        "personName": "趙雲",
+        "personId": "zhao-yun",
+        "relation": "小說設定中的丈夫",
+        "natureType": "後世文學",
+        "note": "成都平定後，劉備主婚，諸葛亮作男媒、法正作女媒，趙雲迎娶馬雲騄。此婚姻只見於《反三國演義》，不是《三國演義》或史實。",
+        "citations": [
+          {
+            "sourceId": "fan-sanguo-yanyi",
+            "locator": "第十回・趙馬聯姻"
+          }
+        ]
+      }
+    ],
+    "titlesAndRanks": [
+      {
+        "title": "敦煌公主（小說虛構封號）",
+        "period": "《反三國演義》第五十八回",
+        "citations": [
+          {
+            "sourceId": "fan-sanguo-yanyi",
+            "locator": "第五十八回・論功封賞"
+          }
+        ]
+      },
+      {
+        "title": "揚威將軍（小說虛構官號）",
+        "period": "《反三國演義》第五十八回",
+        "citations": [
+          {
+            "sourceId": "fan-sanguo-yanyi",
+            "locator": "第五十八回・論功封賞"
+          }
+        ]
+      }
+    ],
+    "posthumousTitle": null,
+    "evaluations": {
+      "contemporary": [],
+      "later": []
+    }
+  },
+  "historicalBio": [],
+  "romanceBio": [
+    {
+      "chapter": "第八回",
+      "eventName": "馬氏女將初登場與守衛長安",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說初次正式介紹馬雲騄時，稱她是馬騰三子一女中的女兒，幼年喪母，二十二歲尚未許人，品貌出眾且武藝高強。馬岱帶回馬騰、馬鐵、馬休遇害的消息後，她與馬超一同悲痛暈厥，隨後加入馬氏復仇行動。馬超攻取長安後，命她統領一萬人留守長安，這是她在書中首次獨立掌兵。",
+            "citations": [
+              {
+                "sourceId": "fan-sanguo-yanyi",
+                "locator": "第八回・馬雲騄初登場、馬氏遇害與守長安"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第十回",
+      "eventName": "成都城外初戰與趙雲相遇",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "馬雲騄隨馬超由涼州方向進入益州。成都城外，她主動請戰劉瑰，交戰二十餘合後將其追敗；追至南城時遇見趙雲，又將回馬的劉瑰從馬上摔下。兩人由此第一次見面，小說並以白衣白甲、持槍出戰描寫她的女將形象。",
+            "citations": [
+              {
+                "sourceId": "fan-sanguo-yanyi",
+                "locator": "第十回・馬雲騄戰劉瑰、初遇趙雲"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第十回",
+      "eventName": "劉備主婚，嫁與趙雲",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "益州平定後，劉備向諸葛亮提出，趙雲多年征戰而尚未成婚，馬超之妹又英武類兄，可由諸葛亮出面說合。諸葛亮先徵得馬超同意，再由劉備告知趙雲；最後由劉備主婚，諸葛亮作男媒、法正作女媒，完成聘采與婚禮。婚後三日，趙雲夫婦一同向劉備與媒人謝親。",
+            "citations": [
+              {
+                "sourceId": "fan-sanguo-yanyi",
+                "locator": "第十回・趙馬聯姻"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第二十一、二十四回",
+      "eventName": "隨趙雲守荊州並擊敗甘寧",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "第二十一回中，呂蒙水軍退卻，趙雲命馬雲騄鳴鼓催軍，協助追擊。第二十四回，趙雲又命她率五千西涼兵接應劉封；她得知友軍兩路獲勝後，主動提出由劉封衝營、自己接應並以火箭火彈焚營的辦法，親自出馬援救劉封，最終迫使甘寧敗退。小說並由甘寧感嘆自己竟敗於一名女子，凸顯她獨立指揮與作戰的地位。",
+            "citations": [
+              {
+                "sourceId": "fan-sanguo-yanyi",
+                "locator": "第二十一回・鳴鼓催軍追擊呂蒙"
+              },
+              {
+                "sourceId": "fan-sanguo-yanyi",
+                "locator": "第二十四回・率西涼兵援劉封、火攻甘寧"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第二十九回",
+      "eventName": "處置叛軍並前後夾擊徐盛",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "蔡瑁、張允企圖倒向江東時，馬雲騄奉趙雲命令率五千西涼兵進屯沔陽。她沿河揭露二人通敵，促使水軍反正，並處決被擒的蔡瑁、張允。其後她進攻徐盛營寨，與向寵前後夾擊迫使徐盛敗走；趙雲追擊徐盛時，她又與向寵加入戰鬥，三面合攻使徐盛再敗。",
+            "citations": [
+              {
+                "sourceId": "fan-sanguo-yanyi",
+                "locator": "第二十九回・沔陽戰事"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第三十回",
+      "eventName": "統率後軍與第三軍，連破江東諸將",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "趙雲進攻江東軍時，先令馬雲騄統率後軍，後又將她所部列為第三軍。戰陣中，她先刺落潘璋，又識別江東馬隊揚塵而來，率西涼馬隊迎擊並刺死胡車兒；其後奉命選弓弩手伏擊韓當、周泰，再依徐庶建議攻破蔣欽營寨、縱火擾亂全軍。這一回集中呈現她的騎戰、射術、觀察敵情與獨立領軍能力。",
+            "citations": [
+              {
+                "sourceId": "fan-sanguo-yanyi",
+                "locator": "第三十回・仙桃鎮至蔡甸戰事"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第四十一回",
+      "eventName": "識破襲城之計，守新蔡並助擒徐盛",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "趙雲準備再次全軍出城時，馬雲騄提醒，若敵軍以輕騎襲擊後方，軍隊將失去歸路。趙雲採納意見，留下萬人交她節制守城。徐盛果然繞攻新蔡，她登城指揮抵抗；馬超援軍抵達後，她從城上射中徐盛坐騎，使徐盛墜馬被擒，隨即開城出兵接應。此段明確讓她兼具軍事判斷、守城指揮與臨陣射術。",
+            "citations": [
+              {
+                "sourceId": "fan-sanguo-yanyi",
+                "locator": "第四十一回・新蔡守城與擒徐盛"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第四十三回",
+      "eventName": "許昌尋得馬騰遺骸",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "趙雲攻入許昌後，依馬雲騄先前所述得知華歆與馬騰遇害有關，並追查馬騰遺骸。馬雲騄見到父親遺體後放聲痛哭，為其沐浴、更衣與入棺；馬超、馬岱抵達後，馬氏兄妹共同治喪安葬。這是她在連續戰事以外較完整的家族情節。",
+            "citations": [
+              {
+                "sourceId": "fan-sanguo-yanyi",
+                "locator": "第四十三回・尋獲並安葬馬騰遺骸"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第四十六至四十九回",
+      "eventName": "中原戰場領軍與救援趙雲",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "中原戰事中，馬雲騄多次負責中軍或後軍。第四十六回趙雲陷入危急時，她以箭射中張郃額部，讓趙雲得以趁勢反擊；第四十八回又隨趙雲救援封邱。第四十九回對東吳軍作戰時，她督率中軍突擊，並與黃武、廖化等配合圍攻孫韶。",
+            "citations": [
+              {
+                "sourceId": "fan-sanguo-yanyi",
+                "locator": "第四十六回・射張郃救趙雲"
+              },
+              {
+                "sourceId": "fan-sanguo-yanyi",
+                "locator": "第四十八、四十九回・封邱與濮陽戰事"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第五十三、五十四、五十八回",
+      "eventName": "參與平定江東並受封",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "江東戰事後期，趙雲令馬雲騄率一萬人與水師相輔，屯駐濡須；其後她所領五千馬隊又隨馬超轉屯淮北。至第五十八回論功行賞，小說封趙雲為武成王，並另封馬雲騄為敦煌公主、揚威將軍，准用公主儀仗與鼓吹，作為她在小說結局中的最高封賞。",
+            "citations": [
+              {
+                "sourceId": "fan-sanguo-yanyi",
+                "locator": "第五十三回・領兵屯濡須"
+              },
+              {
+                "sourceId": "fan-sanguo-yanyi",
+                "locator": "第五十四回・所領馬隊轉屯淮北"
+              },
+              {
+                "sourceId": "fan-sanguo-yanyi",
+                "locator": "第五十八回・封敦煌公主、揚威將軍"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "works": []
+}
