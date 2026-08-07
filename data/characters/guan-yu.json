@@ -60,7 +60,7 @@
       {
         "stageName": "曹操麾下・短暫受任",
         "personName": "曹操",
-        "personId": null,
+        "personId": "cao-cao",
         "actualFactionId": "cao-cao-han-court",
         "period": "建安五年（200年）被擒後至斬顏良報效、離曹歸劉",
         "periodUncertain": false
