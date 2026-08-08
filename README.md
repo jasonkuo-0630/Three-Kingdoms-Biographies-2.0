@@ -515,7 +515,15 @@ JSON 會每次重新抓（也因此人物自己的 JSON 故意不用這個快取
 - 頁首欄位：`name` / `courtesyName` / `childhoodName` / `artName` /
   `otherNames` / `commonAlias` / `lifespan` / `birthplace` /
   `primaryIdentity` / `summary` / `avatar`，沒資料的欄位可以刪掉或設
-  `null`
+  `null`。**`summary` 長度上限是 120—160 字**——這是使用者實測後定案的
+  規範，早期人物（趙雲、劉備）大多落在 80—120 字，但中期一度失控飄到
+  270—300 字（周瑜、姜維、孫策、曹操、夏侯惇、夏侯淵都曾超標，後來
+  一次性精簡拉回），會嚴重壓縮到頁首下方（字號、生卒年、籍貫、主要
+  身分）的顯示空間。這個欄位只是頁首濃縮版，早年官職列舉、次要戰役、
+  後世評價引述這類細節不會真的遺失——它們本來就完整記錄在
+  `historicalBio`／`evaluations` 裡，`summary` 沒必要重複塞入。新增
+  人物或請奈奈整理資料時，務必把這個字數上限寫進提示詞裡，不要事後
+  才發現又超標。
 - `schemaVersion`（目前 `2`）／`dataStatus`（`"reviewed-draft"`）／
   `published`／`lastReviewedAt`
 - `overview.intro`：`ContentBlock` 結構
