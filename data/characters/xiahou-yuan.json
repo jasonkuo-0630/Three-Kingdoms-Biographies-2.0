@@ -1,13 +1,962 @@
 {
   "schemaVersion": 2,
+  "dataStatus": "reviewed-draft",
   "published": true,
+  "lastReviewedAt": "2026-08-08",
   "id": "xiahou-yuan",
   "name": "夏侯淵",
   "courtesyName": "妙才",
-  "otherNames": [],
+  "childhoodName": null,
+  "artName": null,
+  "otherNames": [
+    "愍侯（死後諡號）",
+    "白地將軍（曹操〈軍策令〉所述軍中貶稱，非正式官號）"
+  ],
+  "lifespan": "生年不詳—219年",
+  "birthplace": "豫州沛國譙縣（今安徽省亳州市一帶）",
+  "primaryIdentity": "東漢末年曹操麾下宗族核心將領，以快速馳援、軍糧轉運及平定關右著稱，官至征西將軍",
+  "summary": "夏侯淵字妙才，沛國譙人，是夏侯惇族弟。曹操起兵時即以別部司馬、騎都尉隨從，官渡戰後督運兗、豫、徐州軍糧，使缺糧軍隊重新振作；其後平昌豨、徐和、雷緒、梁興及關右諸部，尤以快速馳援和長途奔襲見長。建安十九年，他不待鄴城往返命令即救祁山，繼而擊韓遂、平興國與高平，攻滅割據枹罕三十餘年的宋建。曹操下令稱其『虎步關右，所向無前』，此語見《三國志》正文。建安二十四年正月，劉備軍夜燒鹿角，夏侯淵分兵援助張郃時遭襲戰死；《黃忠傳》並明載黃忠一戰斬淵。曹操〈軍策令〉的輯佚文字另稱他率四百人親自修補距營十五里的鹿角，並批評主帥不應親戰，提到軍中稱他為『白地將軍』。此段由《太平御覽》保存，需與《三國志》正文分層使用。",
   "avatar": "images/xiahou_yuan.png",
-  "overview": {},
-  "historicalBio": [],
-  "romanceBio": [],
+  "overview": {
+    "intro": {
+      "paragraphs": [
+        {
+          "text": "夏侯淵字妙才，沛國譙人。《三國志》稱他為夏侯惇『族弟』，可確定二人同宗，但史書沒有交代足以判定現代精確親等的世系，故不逕寫成已確認的堂兄弟。他與曹操之間既有早年患難、宗族婚姻與長期主從關係；曹嵩是否本出夏侯氏仍只是裴注異說，不能據此斷言曹操與夏侯淵的血緣親等。",
+          "citations": [
+            {
+              "sourceId": "sgz-xiahouyuan-main",
+              "locator": "卷九・夏侯淵傳開篇"
+            },
+            {
+              "sourceId": "sgz-weishu9-appraisal",
+              "locator": "卷九卷末評語"
+            },
+            {
+              "sourceId": "caoman-zhuan-caocao-peizhu",
+              "locator": "《武帝紀》開篇裴注引《曹瞞傳》《世語》"
+            }
+          ]
+        },
+        {
+          "text": "夏侯淵的軍事特色不是單純勇猛，而是急行、補給與在通信不便時自行判斷。他在官渡戰後督運三州軍糧，使軍隊從缺糧中恢復；軍中流傳『三日五百，六日一千』，形容他赴急迅速。建安十九年救祁山時，他認為若等曹操從鄴城批覆，往返四千里，姜敘等早已敗亡，遂立即出兵。",
+          "citations": [
+            {
+              "sourceId": "sgz-xiahouyuan-main",
+              "locator": "卷九・官渡後督糧、建安十九年救祁山"
+            },
+            {
+              "sourceId": "weishu-xiahouyuan-peizhu",
+              "locator": "《夏侯淵傳》裴注引《魏書》軍中語"
+            }
+          ]
+        },
+        {
+          "text": "他在關右的戰果有正文充分記載：擊敗韓遂、招降或擊散氐羌，攻滅宋建，曹操因此稱其『虎步關右，所向無前』。但同一位曹操也曾告誡他，為將不能只依賴勇力，應以勇為根本、以智計運用；夏侯淵最後在定軍山前線戰死，正呈現其快速果決與過度親臨危險的一體兩面。",
+          "citations": [
+            {
+              "sourceId": "sgz-xiahouyuan-main",
+              "locator": "卷九・平隴右令、傳末曹操告誡與定軍山"
+            }
+          ]
+        },
+        {
+          "text": "定軍山事件必須分辨材料層級：《三國志・夏侯淵傳》正文記劉備夜燒圍鹿角、夏侯淵分兵助張郃後遭襲戰死；《黃忠傳》記黃忠推鋒進擊、一戰斬淵。至於夏侯淵帶四百人到十五里外補鹿角，以及『白地將軍』批語，出自《太平御覽》保存的曹操〈軍策令〉輯文，不在陳壽正文中；《演義》又改寫為法正舉旗、黃忠自山上突擊斬殺。",
+          "citations": [
+            {
+              "sourceId": "sgz-xiahouyuan-main",
+              "locator": "卷九・建安二十四年定軍山"
+            },
+            {
+              "sourceId": "sgz-huangzhong-main",
+              "locator": "卷三十六・黃忠傳定軍山"
+            },
+            {
+              "sourceId": "taiping-yulan-337-weiwu-junce",
+              "locator": "《太平御覽》卷三百三十七引〈魏武軍策令〉"
+            },
+            {
+              "sourceId": "sanguo-yanyi",
+              "locator": "第七十一回"
+            }
+          ]
+        }
+      ]
+    },
+    "factionTimeline": [
+      {
+        "stageName": "陳留起兵與關東討董",
+        "personName": "曹操",
+        "personId": "cao-cao",
+        "actualFactionId": "cao-cao-anti-dong-force",
+        "period": "中平六年十二月（189年）—初平二年（191年）",
+        "periodUncertain": false,
+        "hideAvatar": false
+      },
+      {
+        "stageName": "東郡至兗州軍政集團",
+        "personName": "曹操",
+        "personId": "cao-cao",
+        "actualFactionId": "cao-cao-yanzhou-regime",
+        "period": "初平二年（191年）—建安元年八月（196年）",
+        "periodUncertain": false,
+        "hideAvatar": false
+      },
+      {
+        "stageName": "許都漢廷下的曹操軍政集團",
+        "personName": "曹操",
+        "personId": "cao-cao",
+        "actualFactionId": "cao-cao-han-court",
+        "period": "建安元年八月（196年）—建安二十一年四月（216年）",
+        "periodUncertain": false,
+        "hideAvatar": false
+      },
+      {
+        "stageName": "曹操魏王國政權",
+        "personName": "曹操",
+        "personId": "cao-cao",
+        "actualFactionId": "cao-cao-wei-kingdom",
+        "period": "建安二十一年四月（216年）—建安二十四年正月（219年）",
+        "periodUncertain": false,
+        "hideAvatar": false
+      }
+    ],
+    "relatives": [
+      {
+        "personName": "夏侯惇",
+        "personId": "xiahou-dun",
+        "relation": "族兄",
+        "natureType": "三國志正文",
+        "note": "《夏侯淵傳》稱夏侯淵為夏侯惇『族弟』，反向可稱夏侯惇為族兄；具體親等與中間世系不詳，不強行改寫為現代精確堂兄。",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・夏侯淵傳開篇"
+          }
+        ]
+      },
+      {
+        "personName": "曹操",
+        "personId": "cao-cao",
+        "relation": "宗族婚姻共同體中的政治領袖與故交",
+        "natureType": "三國志正文及裴注異說",
+        "note": "夏侯淵曾替曹操承擔重罪，後由曹操營救；又自曹操起兵之初長期隨軍。兩家世為婚姻，但曹嵩本出夏侯氏僅是裴注異說，不能據此確定兩人的血親親等。",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・夏侯淵傳開篇"
+          },
+          {
+            "sourceId": "sgz-weishu9-appraisal",
+            "locator": "卷九卷末評語"
+          },
+          {
+            "sourceId": "caoman-zhuan-caocao-peizhu",
+            "locator": "《武帝紀》開篇裴注引《曹瞞傳》《世語》"
+          }
+        ]
+      },
+      {
+        "personName": "姓名不詳的夏侯淵之妻",
+        "personId": null,
+        "relation": "妻",
+        "natureType": "三國志正文",
+        "note": "《三國志》只稱她為『太祖內妹』；『內妹』通常指曹操妻子的妹妹，屬姻親稱謂，不等同曹操親妹。史書未記其姓名，也未說明她是哪位曹操妻室之妹。",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・子霸等段開頭"
+          }
+        ]
+      },
+      {
+        "personName": "姓名不詳的亡弟",
+        "personId": null,
+        "relation": "弟",
+        "natureType": "裴松之注引《魏略》",
+        "note": "裴注引《魏略》記兗、豫大亂、糧食匱乏時，夏侯淵為保全亡弟留下的孤女，甚至捨棄自己的幼子；亡弟姓名不詳。",
+        "citations": [
+          {
+            "sourceId": "weilue-xiahouyuan-peizhu",
+            "locator": "《夏侯淵傳》裴注引《魏略》饑荒段"
+          }
+        ]
+      },
+      {
+        "personName": "姓名不詳的亡弟孤女",
+        "personId": null,
+        "relation": "侄女",
+        "natureType": "裴松之注引《魏略》",
+        "note": "夏侯淵在兗、豫大亂饑乏時救活的亡弟孤女。史料沒有明說她就是後來被張飛所得的『夏侯霸從妹』，兩者雖可能在親屬關係上相合，仍不可直接合併為同一人。",
+        "citations": [
+          {
+            "sourceId": "weilue-xiahouyuan-peizhu",
+            "locator": "《夏侯淵傳》裴注引《魏略》饑荒段"
+          }
+        ]
+      },
+      {
+        "personName": "夏侯衡",
+        "personId": null,
+        "relation": "長子、嗣子",
+        "natureType": "三國志正文",
+        "note": "娶曹操之弟海陽哀侯之女，恩寵特隆；夏侯淵死後承爵，後轉封安寧亭侯。",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・子霸等"
+          }
+        ]
+      },
+      {
+        "personName": "夏侯霸",
+        "personId": null,
+        "relation": "子",
+        "natureType": "三國志正文及裴注引《魏略》",
+        "note": "字仲權，曹魏將領。因夏侯淵在漢中戰死而長期欲報蜀；正始年間受曹爽親近，曹爽被誅、夏侯玄被召後心懼，遂逃入蜀漢並受劉禪厚待。",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・子霸等"
+          },
+          {
+            "sourceId": "weilue-xiahouyuan-peizhu",
+            "locator": "《夏侯淵傳》裴注引《魏略》夏侯霸事"
+          }
+        ]
+      },
+      {
+        "personName": "張飛夫人夏侯氏",
+        "personId": null,
+        "relation": "夏侯氏族內晚輩；夏侯霸從妹",
+        "natureType": "裴松之注引《魏略》",
+        "note": "《魏略》原文只稱她為夏侯霸『從妹』，建安五年十三四歲時外出樵採，被張飛所得並娶為妻，所生女兒後為劉禪皇后。『從妹』通常表示同宗支系的年輕女性親屬或堂從妹，原文未載其父名，不能寫成夏侯淵親生女兒。她在夏侯淵戰死後請求收葬，仍不足以證明父女關係。",
+        "citations": [
+          {
+            "sourceId": "weilue-xiahouyuan-peizhu",
+            "locator": "《夏侯淵傳》裴注引《魏略》建安五年及夏侯霸入蜀段"
+          }
+        ]
+      },
+      {
+        "personName": "夏侯稱",
+        "personId": null,
+        "relation": "第三子",
+        "natureType": "裴松之注引家傳材料",
+        "note": "字叔權，少年喜好組織童兒模擬軍陣，十六歲射殺奔虎，獲曹操賞識；十八歲早逝。",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・子霸等裴注所引夏侯湛序"
+          }
+        ]
+      },
+      {
+        "personName": "夏侯威",
+        "personId": null,
+        "relation": "子",
+        "natureType": "三國志正文及裴注記載",
+        "note": "字季權，官至荊州、兗州刺史。",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・子霸等"
+          }
+        ]
+      },
+      {
+        "personName": "夏侯榮",
+        "personId": null,
+        "relation": "第五子",
+        "natureType": "裴松之注引家傳材料",
+        "note": "字幼權，幼年聰慧；漢中敗亡時年十三，拒絕逃生，持劍奮戰而死。",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・子霸等裴注所引夏侯湛序"
+          }
+        ]
+      },
+      {
+        "personName": "夏侯惠、夏侯和",
+        "personId": null,
+        "relation": "子",
+        "natureType": "三國志正文及裴注記載",
+        "note": "夏侯惠字稚權，以才學與奏議見稱，官至樂安太守；夏侯和字義權，清辯有才論，官至河南尹、太常。",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・子霸等"
+          }
+        ]
+      }
+    ],
+    "titlesAndRanks": [
+      {
+        "title": "別部司馬、騎都尉",
+        "period": "曹操初起兵時（約189—190年）",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・早期仕歷"
+          }
+        ]
+      },
+      {
+        "title": "陳留太守、潁川太守",
+        "period": "初平至建安初年，確切年月不詳",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・早期仕歷"
+          }
+        ]
+      },
+      {
+        "title": "行督軍校尉",
+        "period": "建安五年（200年）官渡之戰時",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・官渡與督運軍糧"
+          }
+        ]
+      },
+      {
+        "title": "典軍校尉",
+        "period": "平昌豨後，約建安年間",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・昌豨降後"
+          }
+        ]
+      },
+      {
+        "title": "行領軍",
+        "period": "建安十四年（209年）",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・建安十四年"
+          }
+        ]
+      },
+      {
+        "title": "行征西護軍",
+        "period": "建安十四年後，討太原賊及關中戰事期間",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・雷緒、商曜至渭南"
+          }
+        ]
+      },
+      {
+        "title": "行護軍將軍",
+        "period": "建安十七年（212年）",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・屯長安"
+          }
+        ]
+      },
+      {
+        "title": "博昌亭侯",
+        "period": "建安十七年（212年）斬梁興後",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・鄠縣斬梁興"
+          }
+        ]
+      },
+      {
+        "title": "假節",
+        "period": "建安十九年（214年）平隴右後",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・擊韓遂、平興國高平後"
+          }
+        ]
+      },
+      {
+        "title": "行都護將軍",
+        "period": "建安二十年（215年）漢中平定後",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・張魯降後"
+          }
+        ]
+      },
+      {
+        "title": "征西將軍",
+        "period": "建安二十年至二十四年（215—219年）",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・留守漢中至定軍山"
+          }
+        ]
+      }
+    ],
+    "posthumousTitle": {
+      "title": "愍侯",
+      "grantedBy": "建安二十四年（219年）定軍山戰死後；《三國志》未記制諡者與諡詔",
+      "citations": [
+        {
+          "sourceId": "sgz-xiahouyuan-main",
+          "locator": "卷九・定軍山戰死後"
+        }
+      ],
+      "paragraphs": [
+        {
+          "text": "夏侯淵在建安二十四年正月定軍山戰死，諡『愍侯』。正史沒有保存獨立諡詔或選字理由；長子夏侯衡承襲其爵。",
+          "citations": [
+            {
+              "sourceId": "sgz-xiahouyuan-main",
+              "locator": "卷九・『淵遂戰死。諡曰愍侯』及子霸等"
+            }
+          ]
+        }
+      ]
+    },
+    "evaluations": {
+      "contemporary": [
+        {
+          "evaluatorName": "軍中",
+          "evaluatorEra": "東漢末年",
+          "context": "形容夏侯淵赴急迅速的軍中語，見裴注引《魏書》",
+          "textType": "古籍原文",
+          "originalText": "典軍校尉夏侯淵，三日五百，六日一千。",
+          "citations": [
+            {
+              "sourceId": "weishu-xiahouyuan-peizhu",
+              "locator": "《夏侯淵傳》裴注引《魏書》"
+            }
+          ]
+        },
+        {
+          "evaluatorName": "曹操",
+          "evaluatorEra": "東漢末年",
+          "context": "建安十九年夏侯淵攻滅宋建、平定隴右後下令褒獎",
+          "textType": "古籍原文",
+          "originalText": "宋建造爲亂逆三十餘年，淵一舉滅之，虎步關右，所向無前。仲尼有言：『吾與爾不如也。』",
+          "citations": [
+            {
+              "sourceId": "sgz-xiahouyuan-main",
+              "locator": "卷九・平隴右令"
+            }
+          ]
+        },
+        {
+          "evaluatorName": "曹操",
+          "evaluatorEra": "東漢末年",
+          "context": "夏侯淵屢勝後，曹操對其為將風格的告誡",
+          "textType": "古籍原文",
+          "originalText": "爲將當有怯弱時，不可但恃勇也。將當以勇爲本，行之以智計；但知任勇，一匹夫敵耳。",
+          "citations": [
+            {
+              "sourceId": "sgz-xiahouyuan-main",
+              "locator": "卷九・傳末曹操告誡"
+            }
+          ]
+        },
+        {
+          "evaluatorName": "曹操",
+          "evaluatorEra": "東漢末年",
+          "context": "定軍山敗亡後，〈魏武軍策令〉批評夏侯淵親自補鹿角與親戰；文字由《太平御覽》保存",
+          "textType": "古籍原文",
+          "originalText": "淵本非能用兵也，軍中呼爲『白地將軍』，爲督帥尚不當親戰，況補鹿角乎。",
+          "citations": [
+            {
+              "sourceId": "taiping-yulan-337-weiwu-junce",
+              "locator": "《太平御覽》卷三百三十七引〈魏武軍策令〉"
+            }
+          ]
+        }
+      ],
+      "later": [
+        {
+          "evaluatorName": "陳壽",
+          "evaluatorEra": "西晉（《三國志》作者）",
+          "context": "《諸夏侯曹傳》卷末合評",
+          "textType": "古籍原文",
+          "originalText": "夏侯、曹氏，世爲婚姻，故惇、淵、仁、洪、休、尚、真等並以親舊肺腑，貴重於時，左右勳業，咸有効勞。",
+          "citations": [
+            {
+              "sourceId": "sgz-weishu9-appraisal",
+              "locator": "卷九卷末評語"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "historicalBio": [
+    {
+      "period": "曹操起兵前（確切年份不詳）",
+      "periodType": "unknown",
+      "title": "替曹操承擔重罪，後獲曹操營救",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操尚居家時曾牽涉縣官案件，夏侯淵替他承擔重罪，後由曹操設法營救而免。正文沒有說明案件性質、發生地點與具體處置，不能再補成完整故事；但可證二人在曹操起兵前已有深厚患難關係。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahouyuan-main",
+                "locator": "卷九・夏侯淵傳開篇"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "太祖居家，曾有縣官事，淵代引重罪，太祖營救之，得免。",
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・夏侯淵傳"
+          }
+        ]
+      },
+      "uncertaintyNote": "史書沒有記載案件時間與內容。"
+    },
+    {
+      "period": "漢末兗、豫大亂時（確切年份不詳）",
+      "periodType": "approx",
+      "title": "饑荒中保全亡弟孤女",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "裴注引《魏略》記兗州、豫州大亂而糧食匱乏時，夏侯淵捨棄自己的幼子，保全亡弟留下的孤女。這段記載凸顯宗族責任，但沒有交代幼子與孤女的姓名，也沒有明說這名孤女就是後來張飛所娶的夏侯霸從妹。",
+            "citations": [
+              {
+                "sourceId": "weilue-xiahouyuan-peizhu",
+                "locator": "《夏侯淵傳》裴注引《魏略》饑荒段"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "時兗、豫大亂，淵以饑乏，棄其幼子，而活亡弟孤女。",
+            "sourceId": "weilue-xiahouyuan-peizhu",
+            "locator": "《夏侯淵傳》裴注引《魏略》"
+          }
+        ]
+      },
+      "uncertaintyNote": "『兗、豫大亂』未繫明年；孤女與張飛夫人是否同一人，早期史料未明言。"
+    },
+    {
+      "period": "中平六年至建安初年（約189—199年）",
+      "periodType": "range",
+      "title": "曹操起兵時即從軍，任別部司馬、騎都尉",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操起兵後，夏侯淵以別部司馬、騎都尉身分隨從，後遷陳留、潁川太守。正文沒有逐項列出年月，也沒有記載他在討董聯軍中的獨立戰功，但『太祖起兵』足以確認他屬曹操最早期軍事班底。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahouyuan-main",
+                "locator": "卷九・早期仕歷"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "太祖起兵，以別部司馬、騎都尉從，遷陳留、潁川太守。",
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・夏侯淵傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安五年（200年）及其後",
+      "periodType": "range",
+      "title": "官渡督軍並轉運三州軍糧",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操與袁紹在官渡交戰時，夏侯淵行督軍校尉。袁紹敗後，他奉命督運兗州、豫州、徐州軍糧；當時曹軍糧食短缺，夏侯淵使補給接續不斷，軍隊因此重新振作。這是其本傳中極具分量的後勤功績。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahouyuan-main",
+                "locator": "卷九・官渡及督運軍糧"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "紹破，使督兗、豫、徐州軍糧；時軍食少，淵傳饋相繼，軍以復振。",
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・夏侯淵傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安年間至建安十四年（約200年代—209年）",
+      "periodType": "range",
+      "title": "平昌豨、徐和與雷緒，形成赴急疾的將領形象",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "于禁攻昌豨未能拔取後，曹操增派夏侯淵合力，迫使十餘屯投降，昌豨向于禁請降。夏侯淵回軍後拜典軍校尉；其後又率泰山、齊、平原郡兵大破徐和、司馬俱等黃巾勢力，斬徐和、平諸縣，收其糧穀供軍。建安十四年任行領軍，又督諸將擊破廬江叛者雷緒。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahouyuan-main",
+                "locator": "卷九・昌豨、徐和、雷緒諸戰"
+              }
+            ]
+          },
+          {
+            "text": "裴注引《魏書》說夏侯淵為將赴急迅速，常出敵不意，軍中因此流傳『三日五百，六日一千』。這是對其急行奔襲能力的形容，不宜理解成每次行軍都固定達到同一里數。",
+            "citations": [
+              {
+                "sourceId": "weishu-xiahouyuan-peizhu",
+                "locator": "《夏侯淵傳》裴注引《魏書》"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "淵爲將，赴急疾，常出敵之不意，故軍中爲之語曰：『典軍校尉夏侯淵，三日五百，六日一千。』",
+            "sourceId": "weishu-xiahouyuan-peizhu",
+            "locator": "《夏侯淵傳》裴注引《魏書》"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安十七至十八年（212—213年）",
+      "periodType": "range",
+      "title": "屯長安、斬梁興，救韋康失利",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "建安十七年，夏侯淵以行護軍將軍督朱靈、路招等屯長安，擊破劉雄，並在鄠縣圍攻韓遂、馬超餘黨梁興，破城斬梁興，封博昌亭侯。其後馬超圍涼州刺史韋康於冀城，夏侯淵出兵救援但未及到達，韋康已敗；距冀二百餘里時又遭馬超迎擊，軍隊失利，因汧氐反叛而撤回。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahouyuan-main",
+                "locator": "卷九・建安十七年及救韋康"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安十九年（214年）",
+      "periodType": "exact",
+      "title": "不待節度救祁山，擊韓遂並平隴右",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "馬超再圍祁山，姜敘等急求援。諸將主張等待曹操命令，夏侯淵則指出鄴城往返四千里，等回報時姜敘等必已敗亡，於是立即出兵，令張郃率五千步騎為前鋒，自己在後督糧。馬超未戰即走，祁山諸縣相繼降服。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahouyuan-main",
+                "locator": "卷九・建安十九年救祁山"
+              }
+            ]
+          },
+          {
+            "text": "追擊韓遂時，夏侯淵判斷興國城堅、韓遂兵精，轉攻長離諸羌以迫使韓遂野戰。他拒絕長久築營作塹，鼓兵大破韓遂，取得旌旗，後圍興國、擊散高平屠各，收其糧穀牛馬並受假節。這段正文既顯示速度，也保存其戰場判斷。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahouyuan-main",
+                "locator": "卷九・擊韓遂、興國與高平"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "公在鄴，反覆四千里，比報，叙等必敗，非救急也。",
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・夏侯淵傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安十九年（214年）",
+      "periodType": "exact",
+      "title": "攻滅宋建，獲曹操稱『虎步關右』",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "宋建利用涼州動亂，在枹罕自稱河首平漢王三十餘年。曹操命夏侯淵率諸將討伐，夏侯淵圍枹罕一個多月後攻破，斬宋建及其丞相以下官員；又派張郃等平河關、進入小湟中，河西諸羌盡降，隴右平定。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahouyuan-main",
+                "locator": "卷九・討宋建"
+              }
+            ]
+          },
+          {
+            "text": "曹操因而下令稱夏侯淵『虎步關右，所向無前』。這句評語確實見於《三國志・夏侯淵傳》正文，是曹操當時褒獎其平定關右的正式用語，不是後世小說或遊戲稱號。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahouyuan-main",
+                "locator": "卷九・平隴右令"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "宋建造爲亂逆三十餘年，淵一舉滅之，虎步關右，所向無前。仲尼有言：『吾與爾不如也。』",
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・曹操平隴右令"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安二十至二十三年（215—218年）",
+      "periodType": "range",
+      "title": "鎮守漢中，督張郃、徐晃拒劉備",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操西征張魯時，常以夏侯淵引見羌、胡首領，使對方因其威名而畏服。張魯投降、漢中平定後，夏侯淵先以行都護將軍督張郃、徐晃等平巴郡；曹操返回鄴城，留下他守漢中，正式拜征西將軍。建安二十三年，劉備進軍陽平關，雙方相拒延續到次年。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahouyuan-main",
+                "locator": "卷九・漢中平定至建安二十三年"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安二十四年正月（219年）",
+      "periodType": "exact",
+      "title": "定軍山遭襲戰死",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "《夏侯淵傳》正文記劉備夜間焚燒曹軍圍鹿角，夏侯淵令張郃守東圍，自己率輕兵守南圍。劉備挑戰張郃，張郃軍不利，夏侯淵把自己所率兵力分出一半援助張郃，隨後遭劉備軍襲擊而戰死。正文沒有說他是在與黃忠長時間單挑時陣亡。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahouyuan-main",
+                "locator": "卷九・建安二十四年正月"
+              }
+            ]
+          },
+          {
+            "text": "《黃忠傳》則從蜀軍一方記黃忠面對精銳敵軍仍推鋒前進、激勵士卒，金鼓與歡聲震動山谷，一戰斬殺夏侯淵。兩傳可以相互補充：夏侯淵傳交代分兵與遭襲，黃忠傳確認斬淵的主要將領；但都沒有《演義》所寫法正以白紅旗指揮、黃忠自高處俯衝並將夏侯淵連頭帶肩劈開的細節。",
+            "citations": [
+              {
+                "sourceId": "sgz-huangzhong-main",
+                "locator": "卷三十六・黃忠傳定軍山"
+              },
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第七十一回"
+              }
+            ]
+          },
+          {
+            "text": "《太平御覽》保存的曹操〈軍策令〉提供另一細節：鹿角距本營十五里，夏侯淵率四百人前往並令士卒補修，敵軍從山谷突然出擊、繞到後方，軍隊退卻而夏侯淵未能返回。曹操在同段批評身為督帥不應親戰，更不應親自補鹿角，並提到軍中稱其『白地將軍』。這是後世類書保存的曹操文書輯文，不是《三國志》正文，宜列為重要補充而非無條件等同正文。",
+            "citations": [
+              {
+                "sourceId": "taiping-yulan-337-weiwu-junce",
+                "locator": "《太平御覽》卷三百三十七引〈魏武軍策令〉"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "二十四年正月，備夜燒圍鹿角。淵使張郃護東圍，自將輕兵護南圍。備挑郃戰，郃軍不利。淵分所將兵半助郃，爲備所襲，淵遂戰死。",
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・夏侯淵傳"
+          },
+          {
+            "text": "淵眾甚精，忠推鋒必進，勸率士卒，金鼓振天，歡聲動谷，一戰斬淵，淵軍大敗。",
+            "sourceId": "sgz-huangzhong-main",
+            "locator": "卷三十六・黃忠傳"
+          },
+          {
+            "text": "鹿角去本營十五里，淵將四百兵行鹿角，因使士補之。賊山上望見，從谷中卒出，淵使兵與鬥，賊遂繞出其後，兵退而淵未至，甚可傷。淵本非能用兵也，軍中呼爲『白地將軍』，爲督帥尚不當親戰，況補鹿角乎。",
+            "sourceId": "taiping-yulan-337-weiwu-junce",
+            "locator": "《太平御覽》卷三百三十七引〈魏武軍策令〉"
+          }
+        ]
+      }
+    }
+  ],
+  "romanceBio": [
+    {
+      "chapter": "第六回",
+      "eventName": "隨夏侯惇趕到滎陽救曹操",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫曹操在滎陽敗退、被徐榮追及時，夏侯惇與夏侯淵率十餘騎趕到救援；夏侯惇刺死徐榮，夏侯淵亦被列入及時護主的早期宗族將領。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第六回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "夏侯淵自曹操起兵時即隨軍有正文依據，但《武帝紀》所載滎陽脫險重點是曹洪讓馬、負曹操渡水，沒有夏侯淵率騎趕到或徐榮當場被殺的記載。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahouyuan-main",
+                "locator": "卷九・早期仕歷"
+              },
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・初平元年滎陽之敗"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第十二回",
+      "eventName": "列入六將合戰呂布",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說在濮陽戰事安排許褚、典韋、夏侯惇、夏侯淵、李典、樂進六將共同圍攻呂布，迫使呂布退回城中。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第十二回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "此為小說以武將單挑方式重構兗州戰事。《夏侯淵傳》沒有記載夏侯淵在濮陽與呂布交戰，更沒有六將合攻的場面。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahouyuan-main",
+                "note": "夏侯淵本傳無此事"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第五十八至五十九回",
+      "eventName": "潼關戰馬超與關西諸將",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說將夏侯淵編入曹操潼關、渭南對抗馬超、韓遂的主力陣容，並以武將出陣、追擊與分兵場面增強其前線猛將形象。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第五十八至五十九回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "夏侯淵參與渭南之戰及其後關中、隴右作戰確有正史依據，但正史以督軍、救援、攻城與擊羌等軍事行動為主，沒有小說式連續單挑。其真正具體而突出的關右戰功主要發生在建安十七至十九年。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahouyuan-main",
+                "locator": "卷九・渭南至平隴右"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第七十至七十一回",
+      "eventName": "與黃忠對壘、交換俘將",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫夏侯淵在漢中先擒蜀將陳式，後以陳式交換被黃忠擒獲的夏侯尚；交換時黃忠又射傷夏侯尚，激怒夏侯淵出戰。法正利用其性急，安排步步為營、反客為主與據高觀敵等計策。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第七十至七十一回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "夏侯淵鎮守漢中、黃忠參與定軍山斬淵均有正史依據，但陳式與夏侯尚交換、黃忠箭傷夏侯尚、法正以旗號調度等完整情節不見《三國志》。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahouyuan-main",
+                "locator": "卷九・守漢中與定軍山"
+              },
+              {
+                "sourceId": "sgz-huangzhong-main",
+                "locator": "卷三十六・定軍山"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第七十一回",
+      "eventName": "法正舉旗、黃忠斬夏侯淵",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫法正在高處以白旗示意黃忠按兵、紅旗示意出擊；待夏侯淵軍隊疲倦後，黃忠自山上衝下，在麾蓋之下將措手不及的夏侯淵連頭帶肩砍成兩段。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第七十一回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "歷史核心是確實的：劉備軍在定軍山襲擊夏侯淵，黃忠一戰斬淵。但《夏侯淵傳》記載的戰局重點是夜燒鹿角、夏侯淵分兵助張郃後遭襲；《黃忠傳》只概述黃忠推鋒進擊、一戰斬淵。白紅旗、午后疲兵與具體斬擊畫面均為小說增寫。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahouyuan-main",
+                "locator": "卷九・建安二十四年正月"
+              },
+              {
+                "sourceId": "sgz-huangzhong-main",
+                "locator": "卷三十六・黃忠傳"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
   "works": []
 }
