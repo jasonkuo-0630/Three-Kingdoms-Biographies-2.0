@@ -1,13 +1,902 @@
 {
   "schemaVersion": 2,
+  "dataStatus": "reviewed-draft",
   "published": true,
+  "lastReviewedAt": "2026-08-08",
   "id": "xiahou-dun",
   "name": "夏侯惇",
   "courtesyName": "元讓",
-  "otherNames": [],
+  "childhoodName": null,
+  "artName": null,
+  "otherNames": [
+    "盲夏侯（軍中稱呼，見裴注引《魏略》；本人厭惡此稱）",
+    "忠侯（死後諡號）"
+  ],
+  "lifespan": "生年不詳—220年",
+  "birthplace": "豫州沛國譙縣（今安徽省亳州市一帶）",
+  "primaryIdentity": "東漢末年曹操麾下宗族核心將領，官至大將軍，兼具軍事統率、地方行政與後方鎮守職能",
+  "summary": "夏侯惇字元讓，沛國譙人，《三國志》稱其為西漢夏侯嬰之後。曹操起兵之初，他即以裨將隨從征伐，歷任司馬、折衝校尉、東郡太守、河南尹、伏波將軍與前將軍，長期負責留守、後拒及統督諸軍。濮陽變亂時，他曾被呂布方面以詐降方式挾持；其後征呂布時左眼中流矢而失明。裴注引《魏略》確有軍中稱他為『盲夏侯』的記載，但『拔矢啖睛』只見《三國演義》。正史對其直接破敵戰績記載不多，卻明載他治理旱蝗、興修水利、勸種稻作，並因與曹操關係極為親密而可同車、出入臥內。其人清儉好學，餘財分施、不治產業。曹操死後，曹丕即魏王位，拜他為大將軍；延康元年四月去世，諡忠侯。",
   "avatar": "images/xiahou_dun.png",
-  "overview": {},
-  "historicalBio": [],
-  "romanceBio": [],
+  "overview": {
+    "intro": {
+      "paragraphs": [
+        {
+          "text": "夏侯惇字元讓，沛國譙人。《三國志》正文稱他為西漢功臣夏侯嬰之後，十四歲時因有人侮辱其老師而殺人，自此以性情剛烈聞名。史書沒有記載其生年，也沒有留下可確定其年齡的材料。",
+          "citations": [
+            {
+              "sourceId": "sgz-xiahoudun-main",
+              "locator": "卷九・夏侯惇傳開篇"
+            }
+          ]
+        },
+        {
+          "text": "曹操起兵之初，夏侯惇便長期跟隨。兩家的關係在《三國志》卷末被概括為世代婚姻與『親舊肺腑』；至於曹操之父曹嵩是否本出夏侯氏，陳壽正文只說曹嵩本生來歷無法查清，裴注引《曹瞞傳》《世語》才提出夏侯氏異說。因此本站把夏侯惇與曹操寫成同里宗族、婚姻與政治共同體中的親信，不斷言二人已有可證實的血親關係。",
+          "citations": [
+            {
+              "sourceId": "sgz-weishu9-appraisal",
+              "locator": "卷九卷末評語"
+            },
+            {
+              "sourceId": "sgz-wudi-main",
+              "locator": "卷一・武帝紀開篇"
+            },
+            {
+              "sourceId": "caoman-zhuan-caocao-peizhu",
+              "locator": "《武帝紀》開篇裴注引《曹瞞傳》《世語》"
+            }
+          ]
+        },
+        {
+          "text": "夏侯惇在曹操集團中的重要性，主要表現在早期隨軍、危急時留守、地方治理、後方統率與高度政治信任，不能只用個人斬將數量衡量。《三國志》沒有替他安排大量耀眼的單場戰功，反而如實保留濮陽遭挾持、左目受創等挫折；同時也記錄他治理旱蝗、興修陂塘、親自負土與勸種稻作的行政事蹟。",
+          "citations": [
+            {
+              "sourceId": "sgz-xiahoudun-main",
+              "locator": "卷九・濮陽、傷目與治旱蝗諸段"
+            }
+          ]
+        },
+        {
+          "text": "他在軍旅中仍主動延請老師受業，生活清儉；有餘財便分給他人，不足時才由官府供給，自己不經營產業。建安二十四年，曹操甚至讓他常與自己同車，准其出入臥內，史書說其他將領沒有能與之相比者。這些記載共同說明，其核心形象更接近長期受信任的軍政重臣，而非小說中只靠獨眼與勇鬥辨識的猛將。",
+          "citations": [
+            {
+              "sourceId": "sgz-xiahoudun-main",
+              "locator": "卷九・建安二十四年及傳末性格段"
+            }
+          ]
+        }
+      ]
+    },
+    "factionTimeline": [
+      {
+        "stageName": "陳留起兵與關東討董",
+        "personName": "曹操",
+        "personId": "cao-cao",
+        "actualFactionId": "cao-cao-anti-dong-force",
+        "period": "中平六年十二月（189年）—初平二年（191年）",
+        "periodUncertain": false,
+        "hideAvatar": false
+      },
+      {
+        "stageName": "東郡至兗州軍政集團",
+        "personName": "曹操",
+        "personId": "cao-cao",
+        "actualFactionId": "cao-cao-yanzhou-regime",
+        "period": "初平二年（191年）—建安元年八月（196年）",
+        "periodUncertain": false,
+        "hideAvatar": false
+      },
+      {
+        "stageName": "許都漢廷下的曹操軍政集團",
+        "personName": "曹操",
+        "personId": "cao-cao",
+        "actualFactionId": "cao-cao-han-court",
+        "period": "建安元年八月（196年）—建安二十一年四月（216年）",
+        "periodUncertain": false,
+        "hideAvatar": false
+      },
+      {
+        "stageName": "曹操魏王國政權",
+        "personName": "曹操",
+        "personId": "cao-cao",
+        "actualFactionId": "cao-cao-wei-kingdom",
+        "period": "建安二十一年四月（216年）—建安二十五年正月（220年）",
+        "periodUncertain": false,
+        "hideAvatar": false
+      },
+      {
+        "stageName": "曹丕魏王國過渡政權",
+        "personName": "曹丕",
+        "personId": null,
+        "actualFactionId": "cao-pi-wei-kingdom",
+        "period": "延康元年正月—四月（220年）",
+        "periodUncertain": false,
+        "hideAvatar": false
+      }
+    ],
+    "relatives": [
+      {
+        "personName": "夏侯嬰",
+        "personId": null,
+        "relation": "遠祖",
+        "natureType": "三國志正文所載世系",
+        "note": "《夏侯惇傳》稱夏侯惇為西漢開國功臣夏侯嬰之後，但未列中間世系。",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・夏侯惇傳開篇"
+          }
+        ]
+      },
+      {
+        "personName": "曹操",
+        "personId": "cao-cao",
+        "relation": "宗族婚姻共同體中的政治領袖與親舊",
+        "natureType": "三國志正文及裴注異說",
+        "note": "《三國志》卷末稱夏侯、曹氏世為婚姻，夏侯惇等以『親舊肺腑』受重用；曹嵩本出夏侯氏只見裴注異說，不能據此斷言夏侯惇與曹操的確切血親親等。",
+        "citations": [
+          {
+            "sourceId": "sgz-weishu9-appraisal",
+            "locator": "卷九卷末評語"
+          },
+          {
+            "sourceId": "caoman-zhuan-caocao-peizhu",
+            "locator": "《武帝紀》開篇裴注引《曹瞞傳》《世語》"
+          }
+        ]
+      },
+      {
+        "personName": "夏侯淵",
+        "personId": "xiahou-yuan",
+        "relation": "族弟",
+        "natureType": "三國志正文",
+        "note": "《夏侯淵傳》明稱夏侯淵為夏侯惇『族弟』，可確定二人是同宗男性親屬，且淵在稱謂上為弟；正史沒有提供足以改寫為現代『堂兄弟』的精確世系。",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・夏侯淵傳開篇"
+          }
+        ]
+      },
+      {
+        "personName": "夏侯廉",
+        "personId": null,
+        "relation": "弟",
+        "natureType": "三國志正文",
+        "note": "《夏侯惇傳》只記其弟夏侯廉本已封列侯，沒有保存更多生平。",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・傳末家族段"
+          }
+        ]
+      },
+      {
+        "personName": "夏侯充",
+        "personId": null,
+        "relation": "子、嗣子",
+        "natureType": "三國志正文",
+        "note": "夏侯惇去世後承襲高安鄉侯，後由子夏侯廙、孫夏侯劭相繼承爵。",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・夏侯惇傳末"
+          }
+        ]
+      },
+      {
+        "personName": "夏侯楙",
+        "personId": null,
+        "relation": "中子",
+        "natureType": "三國志正文及裴注引《魏略》",
+        "note": "字子林，娶曹操之女清河公主。曹丕即位後任安西將軍、持節，接替夏侯淵都督關中；《魏略》評其缺乏武略而好治生，後因與公主及諸弟不和一度遭誣告。",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・傳末夏侯楙段"
+          },
+          {
+            "sourceId": "weilue-xiahoudun-peizhu",
+            "locator": "《夏侯惇傳》裴注引《魏略》夏侯楙事"
+          }
+        ]
+      },
+      {
+        "personName": "清河公主",
+        "personId": null,
+        "relation": "媳婦",
+        "natureType": "三國志正文及裴注記載",
+        "note": "曹操之女，嫁夏侯楙。裴注引《魏略》記二人後因夏侯楙多置伎妾而失和。",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・傳末夏侯楙段"
+          }
+        ]
+      },
+      {
+        "personName": "其餘子孫",
+        "personId": null,
+        "relation": "家族總述",
+        "natureType": "三國志正文",
+        "note": "曹丕追念夏侯惇功勞，分其封邑一千戶，封夏侯惇七子、二孫皆為關內侯；除夏侯充、夏侯楙及部分承爵後代外，多數姓名與事蹟未詳。",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・傳末追封子孫段"
+          }
+        ]
+      }
+    ],
+    "titlesAndRanks": [
+      {
+        "title": "裨將",
+        "period": "曹操初起兵時（約189—190年）",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・『太祖初起，惇常為裨將』"
+          }
+        ]
+      },
+      {
+        "title": "司馬",
+        "period": "初平元年（190年）曹操行奮武將軍時",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・早期仕歷"
+          }
+        ]
+      },
+      {
+        "title": "折衝校尉、領東郡太守",
+        "period": "初平年間，確切授任年月不詳",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・早期仕歷"
+          }
+        ]
+      },
+      {
+        "title": "領陳留、濟陰太守",
+        "period": "征呂布傷左目後，約興平年間",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・傷目後仕歷"
+          }
+        ]
+      },
+      {
+        "title": "建武將軍、高安鄉侯",
+        "period": "興平至建安初年，確切年月不詳",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・傷目後仕歷"
+          }
+        ]
+      },
+      {
+        "title": "河南尹",
+        "period": "建安年間，曹操平河北以前後",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・治旱蝗後"
+          }
+        ]
+      },
+      {
+        "title": "伏波將軍、領河南尹",
+        "period": "建安九年（204年）鄴城攻克後",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・鄴破後"
+          }
+        ]
+      },
+      {
+        "title": "都督二十六軍",
+        "period": "建安二十一年（216年），留居巢",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・建安二十一年"
+          }
+        ]
+      },
+      {
+        "title": "前將軍",
+        "period": "建安二十四年（219年）",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・摩陂受拜前將軍"
+          }
+        ]
+      },
+      {
+        "title": "大將軍",
+        "period": "延康元年三月至四月（220年）",
+        "citations": [
+          {
+            "sourceId": "sgz-wendi-yiling",
+            "locator": "卷二・延康元年三月至四月"
+          }
+        ]
+      }
+    ],
+    "posthumousTitle": {
+      "title": "忠侯",
+      "grantedBy": "延康元年（220年）夏侯惇去世後；《三國志》未記制諡者，當時仍為曹丕魏王國過渡期",
+      "citations": [
+        {
+          "sourceId": "sgz-xiahoudun-main",
+          "locator": "卷九・夏侯惇傳末"
+        }
+      ],
+      "paragraphs": [
+        {
+          "text": "夏侯惇在延康元年四月以大將軍身分去世，諡『忠侯』，由子夏侯充承爵。《三國志》未保存獨立諡詔或選字理由；此時曹丕仍是魏王，尚未於同年十月正式受禪稱帝。",
+          "citations": [
+            {
+              "sourceId": "sgz-wendi-yiling",
+              "locator": "卷二・延康元年四月庚午"
+            },
+            {
+              "sourceId": "sgz-xiahoudun-main",
+              "locator": "卷九・傳末"
+            }
+          ]
+        }
+      ]
+    },
+    "evaluations": {
+      "contemporary": [
+        {
+          "evaluatorName": "曹操",
+          "evaluatorEra": "東漢末年",
+          "context": "建安二十一年夏侯惇都督二十六軍留居巢，受賜伎樂名倡時",
+          "textType": "古籍原文",
+          "originalText": "魏絳以和戎之功，猶受金石之樂，況將軍乎！",
+          "citations": [
+            {
+              "sourceId": "sgz-xiahoudun-main",
+              "locator": "卷九・建安二十一年曹操令"
+            }
+          ]
+        },
+        {
+          "evaluatorName": "曹操",
+          "evaluatorEra": "東漢末年",
+          "context": "夏侯惇因諸將皆受魏官號而自陳不宜獨居漢官，曹操先以師友之禮回應",
+          "textType": "古籍原文",
+          "originalText": "吾聞太上師臣，其次友臣。夫臣者，貴德之人也，區區之魏，而臣足以屈君乎？",
+          "citations": [
+            {
+              "sourceId": "weishu-xiahoudun-peizhu",
+              "locator": "《夏侯惇傳》裴注引《魏書》"
+            }
+          ]
+        },
+        {
+          "evaluatorName": "曹丕",
+          "evaluatorEra": "魏王國過渡期",
+          "context": "延康元年夏侯惇去世後",
+          "textType": "白話轉述",
+          "paraphrase": "曹丕穿素服親至鄴城東門為夏侯惇發哀，顯示其在曹氏政權中的特殊地位；孫盛則從禮制角度批評哭同姓者地點不當。",
+          "citations": [
+            {
+              "sourceId": "sgz-wendi-yiling",
+              "locator": "卷二・延康元年四月裴注引《魏書》及孫盛評"
+            }
+          ]
+        }
+      ],
+      "later": [
+        {
+          "evaluatorName": "陳壽",
+          "evaluatorEra": "西晉（《三國志》作者）",
+          "context": "《諸夏侯曹傳》卷末合評",
+          "textType": "古籍原文",
+          "originalText": "夏侯、曹氏，世爲婚姻，故惇、淵、仁、洪、休、尚、真等並以親舊肺腑，貴重於時，左右勳業，咸有効勞。",
+          "citations": [
+            {
+              "sourceId": "sgz-weishu9-appraisal",
+              "locator": "卷九卷末評語"
+            }
+          ]
+        },
+        {
+          "evaluatorName": "晉武帝司馬炎",
+          "evaluatorEra": "西晉",
+          "context": "泰始二年夏侯惇後嗣一度斷絕，詔擇近屬續封",
+          "textType": "古籍原文",
+          "originalText": "惇，魏之元功，勳書竹帛。",
+          "citations": [
+            {
+              "sourceId": "sgz-xiahoudun-main",
+              "locator": "卷九裴注引《晉陽秋》泰始二年詔"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "historicalBio": [
+    {
+      "period": "十四歲時（確切年份不詳）",
+      "periodType": "unknown",
+      "title": "因師受辱殺人，以剛烈聞名",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "夏侯惇十四歲時從師學習，有人侮辱其老師，他便將對方殺死，因而以剛烈之氣聞名。史書沒有說明案件後續，也沒有提供可據此反推其出生年的紀年。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahoudun-main",
+                "locator": "卷九・夏侯惇傳開篇"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "年十四，就師學，人有辱其師者，惇殺之，由是以烈氣聞。",
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・夏侯惇傳"
+          }
+        ]
+      },
+      "uncertaintyNote": "夏侯惇生年與此事年份皆不詳。"
+    },
+    {
+      "period": "中平六年至初平初年（約189—191年）",
+      "periodType": "range",
+      "title": "曹操起兵之初即隨軍，歷任裨將、司馬",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操在陳留起兵後，夏侯惇常任裨將隨從征伐。曹操行奮武將軍時，任命他為司馬；其後夏侯惇別屯白馬，遷折衝校尉並領東郡太守。正文沒有列出每次授官的確切年月，但可確定他屬最早期班底。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahoudun-main",
+                "locator": "卷九・早期仕歷"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "太祖初起，惇常爲裨將，從征伐。太祖行奮武將軍，以惇爲司馬，別屯白馬，遷折衝校尉，領東郡太守。",
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・夏侯惇傳"
+          }
+        ]
+      },
+      "uncertaintyNote": "『太祖初起』可對應曹操189年底至190年起兵，但折衝校尉、東郡太守的逐項授任年月未載。"
+    },
+    {
+      "period": "興平元年（194年）",
+      "periodType": "exact",
+      "title": "兗州叛亂中赴援鄄城，遭詐降者挾持",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操攻陶謙時留夏侯惇守濮陽。張邈、陳宮迎呂布入兗州後，曹操家屬在鄄城，夏侯惇以輕裝部隊急赴救援，途中與呂布交戰。呂布退回濮陽後奪取夏侯惇軍輜重，又派將領詐降，趁機挾持夏侯惇索取財物。這是正史明載的重大挫折，並非演義虛構。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahoudun-main",
+                "locator": "卷九・濮陽遭挾持段"
+              }
+            ]
+          },
+          {
+            "text": "部將韓浩先穩定軍營，再表明不會因一名主將遭挾持而放縱賊人，命兵進擊，最終斬殺挾持者、救出夏侯惇。曹操稱讚此舉可為萬世之法，並下令此後遇到挾持人質者一律連同賊人攻擊，不因人質停止。這段主要突出韓浩的臨機處置，也反映夏侯惇當時確曾失去行動自由。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahoudun-main",
+                "locator": "卷九・韓浩解救夏侯惇"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "遣將僞降，共執持惇，責以寶貨，惇軍中震恐。",
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・夏侯惇傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "興平年間（約194—195年）",
+      "periodType": "approx",
+      "title": "征呂布時左目中流矢失明",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操自徐州撤回後，夏侯惇隨軍征討呂布，被流矢射中左眼而失明。《三國志》正文只寫受創結果，沒有記載射箭者姓名，也沒有拔箭、眼珠脫出、吞眼或反殺射手。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahoudun-main",
+                "locator": "卷九・傷左目段"
+              }
+            ]
+          },
+          {
+            "text": "裴注引《魏略》記載，當時夏侯淵與夏侯惇都任將軍，軍中稱夏侯惇為『盲夏侯』；夏侯惇厭惡此稱，每次照鏡見到傷目便憤怒把鏡子摔在地上。因此『盲夏侯』有早期史料依據，不是純小說稱號，但它是軍中綽號而非正式官號。",
+            "citations": [
+              {
+                "sourceId": "weilue-xiahoudun-peizhu",
+                "locator": "《夏侯惇傳》裴注引《魏略》"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "太祖自徐州還，惇從征呂布，爲流矢所中，傷左目。",
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・夏侯惇傳"
+          },
+          {
+            "text": "時夏侯淵與惇俱爲將軍，軍中號惇爲盲夏侯。惇惡之，每照鏡恚怒，輒撲鏡於地。",
+            "sourceId": "weilue-xiahoudun-peizhu",
+            "locator": "《夏侯惇傳》裴注引《魏略》"
+          }
+        ]
+      },
+      "uncertaintyNote": "本傳將傷目置於曹操自徐州還、轉征呂布之後，未標確切月日；常繫於194至195年的兗州戰事。"
+    },
+    {
+      "period": "興平末至建安初年（確切年份不詳）",
+      "periodType": "approx",
+      "title": "治理旱蝗，築陂勸種稻作",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "夏侯惇領陳留、濟陰太守期間遭逢大旱與蝗災。他截斷太壽水築成陂塘，親自背土，帶領將士勸民種稻，史書說百姓依靠這項措施獲利。這是其本傳少數具體記載的地方治理事蹟。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahoudun-main",
+                "locator": "卷九・治旱蝗段"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "時大旱，蝗蟲起，惇乃斷太壽水作陂，身自負土，率將士勸種稻，民賴其利。",
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・夏侯惇傳"
+          }
+        ]
+      },
+      "uncertaintyNote": "正文沒有標明旱蝗及築陂的年份，只能依仕歷置於傷目後、轉任河南尹前。"
+    },
+    {
+      "period": "建安年間至建安十二年（約200—207年）",
+      "periodType": "range",
+      "title": "領河南尹、伏波將軍，負責後拒與地方軍政",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "夏侯惇轉領河南尹。曹操平定河北期間，他擔任大軍後拒；鄴城攻克後升伏波將軍，仍領河南尹，並獲准便宜從事、不受一般制度拘束。建安十二年，曹操錄其前後功勞，增封一千八百戶，合計二千五百戶。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahoudun-main",
+                "locator": "卷九・河南尹至建安十二年"
+              }
+            ]
+          },
+          {
+            "text": "《先主傳》另記曹操曾派夏侯惇、于禁等在博望抵禦劉備，劉備自燒營屯、假裝退走，引夏侯惇追擊後以伏兵擊破。此役有正史依據，但發生於諸葛亮出山前，不能照《演義》寫成諸葛亮初次用兵。",
+            "citations": [
+              {
+                "sourceId": "sgz-liubei-main",
+                "locator": "卷三十二・博望設伏"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安二十一年（216年）",
+      "periodType": "exact",
+      "title": "都督二十六軍留居巢，受賜伎樂",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操征孫權還軍後，令夏侯惇都督二十六軍留駐居巢，並以魏絳和戎受金石之樂作比，賜予伎樂名倡。這項安排顯示夏侯惇晚年仍承擔大規模部隊統督，而非退出軍事核心。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahoudun-main",
+                "locator": "卷九・建安二十一年"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "二十一年，從征孫權還，使惇都督二十六軍，留居巢。",
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・夏侯惇傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安二十四年（219年）",
+      "periodType": "exact",
+      "title": "與曹操同車、出入臥內，受拜前將軍",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操駐軍摩陂時，召夏侯惇常與自己同車，對他格外親重，准其出入臥內，其他將領無人能比。當時諸將多已受魏國官號，夏侯惇仍居漢官；裴注引《魏書》說他上疏自陳不宜受『不臣之禮』，曹操先以師友之辭推讓，夏侯惇固請後才拜前將軍。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahoudun-main",
+                "locator": "卷九・建安二十四年"
+              },
+              {
+                "sourceId": "weishu-xiahoudun-peizhu",
+                "locator": "《夏侯惇傳》裴注引《魏書》"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "召惇常與同載，特見親重，出入臥內，諸將莫得比也。",
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・夏侯惇傳"
+          }
+        ]
+      }
+    },
+    {
+      "period": "延康元年三月至四月（220年）",
+      "periodType": "exact",
+      "title": "曹丕拜為大將軍，四月去世",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操於建安二十五年正月去世後，曹丕繼承丞相與魏王，改元延康。三月己卯，曹丕以前將軍夏侯惇為大將軍；夏四月庚午，夏侯惇去世。這個時間點明確落在曹丕已為魏王、但尚未受禪稱帝的過渡政權。",
+            "citations": [
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・延康元年三月己卯、四月庚午"
+              }
+            ]
+          },
+          {
+            "text": "他死後諡忠侯。曹丕追念其功，分封其七子、二孫為關內侯；這些身後待遇與其長期親信地位相符，但史書沒有交代直接死因。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahoudun-main",
+                "locator": "卷九・傳末"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "夏四月丁巳，饒安縣言白雉見。庚午，大將軍夏侯惇薨。",
+            "sourceId": "sgz-wendi-yiling",
+            "locator": "卷二・文帝紀延康元年"
+          }
+        ]
+      }
+    },
+    {
+      "period": "生平總述",
+      "periodType": "unknown",
+      "title": "軍旅中受業，清儉而不治產業",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "夏侯惇身在軍旅仍親自延請老師學習。其性格清廉節儉，有多餘財物便分送他人，自己不足時才向官府支取，不購置或經營產業。這些都是《三國志》正文記載，不是後世為忠臣形象追加的美談。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahoudun-main",
+                "locator": "卷九・傳末性格段"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "惇雖在軍旅，親迎師受業。性清儉，有餘財輒以分施，不足資之於官，不治產業。",
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・夏侯惇傳"
+          }
+        ]
+      }
+    }
+  ],
+  "romanceBio": [
+    {
+      "chapter": "第六回",
+      "eventName": "滎陽敗退時斬徐榮救曹操",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫曹操討董兵敗滎陽、遭徐榮追擊，夏侯惇與夏侯淵率十餘騎趕到；夏侯惇數合刺死徐榮，與曹洪等共同救曹操脫險。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第六回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史確記夏侯惇在曹操初起時即為裨將，但《武帝紀》所載滎陽之敗主要記曹洪讓馬、負曹操渡水，沒有夏侯惇斬徐榮；徐榮也未在此役被記為戰死。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahoudun-main",
+                "locator": "卷九・早期仕歷"
+              },
+              {
+                "sourceId": "sgz-wudi-main",
+                "locator": "卷一・初平元年滎陽之敗"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第十二回",
+      "eventName": "與五將合戰呂布",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說安排許褚先戰呂布，典韋加入後，夏侯惇、夏侯淵、李典、樂進又從兩翼齊到，六將合攻迫使呂布退回濮陽。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第十二回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "此種六將輪番合戰的場面不見正史。夏侯惇確曾在兗州戰事與呂布軍交鋒，也確在後續征呂布時傷左目，但史書保留的是軍政事件與挫折，不是小說式武將單挑。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahoudun-main",
+                "locator": "卷九・濮陽及傷目段"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第十八回",
+      "eventName": "拔矢啖睛並刺死曹性",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫夏侯惇追擊高順時，被曹性一箭射中左眼；他拔箭時連眼珠一同拔出，高呼『父精母血，不可棄也』，把眼珠吞下，隨即挺槍刺死曹性。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第十八回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史只有夏侯惇從征呂布、被流矢射傷左目的核心事實，沒有曹性姓名、拔出眼珠、吞食或反殺射手。『盲夏侯』倒確實見於裴注引《魏略》，但不能因此把啖睛情節也視為史實。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahoudun-main",
+                "locator": "卷九・傷左目段"
+              },
+              {
+                "sourceId": "weilue-xiahoudun-peizhu",
+                "locator": "《夏侯惇傳》裴注引《魏略》"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "太祖自徐州還，惇從征呂布，爲流矢所中，傷左目。",
+            "sourceId": "sgz-xiahoudun-main",
+            "locator": "卷九・夏侯惇傳"
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第二十七至二十八回",
+      "eventName": "追阻過五關後的關羽",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說在關羽過五關斬六將後，安排夏侯惇率軍追來，指責關羽無丞相文憑、連殺守關將領，並與關羽交戰；直到張遼與使者帶來曹操放行命令，衝突才停止。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第二十七至二十八回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "關羽離開曹操、歸劉備的核心事實見正史，但五關六將、夏侯惇追戰及張遼傳令均屬小說敘事；《夏侯惇傳》沒有此事。",
+            "citations": [
+              {
+                "sourceId": "sgz-xiahoudun-main",
+                "note": "夏侯惇本傳無此事"
+              },
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・辭曹歸劉備"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第三十九回",
+      "eventName": "博望坡輕敵中火攻",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫曹操命夏侯惇率十萬軍進攻新野。夏侯惇輕視剛出山的諸葛亮，不聽于禁、李典等人警告，追擊趙雲、劉備進入博望坡，遭諸葛亮預設的火攻與伏兵擊敗。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第三十九回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "博望遭伏並非全然虛構：《三國志・先主傳》確載劉備自燒營屯、偽裝退走，引夏侯惇等追擊後以伏兵擊破。但事件發生在諸葛亮加入劉備之前，正史也沒有十萬大軍、趙雲誘敵或諸葛亮火攻的完整配置；小說將劉備本人的用兵改寫成軍師初出茅廬的代表作。",
+            "citations": [
+              {
+                "sourceId": "sgz-liubei-main",
+                "locator": "卷三十二・博望設伏"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "使拒夏侯惇、于禁等於博望。久之，先主設伏兵，一旦自燒屯偽遁，惇等追之，爲伏兵所破。",
+            "sourceId": "sgz-liubei-main",
+            "locator": "卷三十二・先主傳"
+          }
+        ]
+      }
+    }
+  ],
   "works": []
 }
