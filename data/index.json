@@ -158,7 +158,6 @@
     "searchTerms": [
       "關興",
       "安國",
-      "关兴",
       "guan xing"
     ],
     "avatar": "images/guan_xing.png",
@@ -242,17 +241,24 @@
     "name": "夏侯惇",
     "courtesyName": "元讓",
     "searchTerms": [
-     
+      "夏侯惇",
+      "元讓",
+      "盲夏侯",
+      "xiahou dun"
     ],
     "avatar": "images/xiahou_dun.png",
     "filterGroup": "wei"
-  },{
+  },
+  {
     "id": "xiahou-yuan",
     "published": true,
     "name": "夏侯淵",
     "courtesyName": "妙才",
     "searchTerms": [
-      
+      "夏侯淵",
+      "妙才",
+      "虎步關右",
+      "xiahou yuan"
     ],
     "avatar": "images/xiahou_yuan.png",
     "filterGroup": "wei"
