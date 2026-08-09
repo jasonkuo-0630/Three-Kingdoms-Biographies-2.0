@@ -102,7 +102,7 @@
       {
         "stageName": "曹丕魏王國過渡政權",
         "personName": "曹丕",
-        "personId": null,
+        "personId": "cao-pi",
         "actualFactionId": "cao-pi-wei-kingdom",
         "period": "延康元年（220年）曹丕繼魏王位 — 同年受禪稱帝",
         "periodUncertain": false
@@ -110,7 +110,7 @@
       {
         "stageName": "曹魏・文帝政權",
         "personName": "曹丕",
-        "personId": null,
+        "personId": "cao-pi",
         "actualFactionId": "caowei-wendi",
         "period": "黃初元年（220年）— 黃初三年（222年）病逝",
         "periodUncertain": false
