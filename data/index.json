@@ -7,8 +7,7 @@
     "searchTerms": [
       "趙雲",
       "子龍",
-      "zhao yun",
-      "zilong"
+      "zhao yun"
     ],
     "avatar": "images/zhao_yun.png",
     "filterGroup": "shu"
@@ -21,9 +20,7 @@
     "searchTerms": [
       "劉備",
       "玄德",
-      "liu bei",
-      "先主",
-      "昭烈帝"
+      "liu bei"
     ],
     "avatar": "images/liu_bei.png",
     "filterGroup": "shu"
@@ -36,9 +33,6 @@
     "searchTerms": [
       "諸葛亮",
       "孔明",
-      "臥龍",
-      "伏龍",
-      "武侯",
       "zhuge liang"
     ],
     "avatar": "images/zhuge_liang.png",
@@ -50,8 +44,7 @@
     "name": "馬雲騄",
     "searchTerms": [
       "馬雲騄",
-      "ma yunlu",
-      "反三國演義"
+      "ma yunlu"
     ],
     "avatar": "images/ma_yunlu.png",
     "filterGroup": "shu"
@@ -78,7 +71,6 @@
     "searchTerms": [
       "關羽",
       "雲長",
-      "關公",
       "guan yu"
     ],
     "avatar": "images/guan_yu.png",
@@ -92,7 +84,7 @@
     "searchTerms": [
       "張飛",
       "益德",
-      "張翼德",
+      "翼德",
       "zhang fei"
     ],
     "avatar": "images/zhang_fei.png",
@@ -119,7 +111,6 @@
     "searchTerms": [
       "周瑜",
       "公瑾",
-      "周郎",
       "zhou yu"
     ],
     "avatar": "images/zhou_yu.png",
@@ -144,7 +135,6 @@
     "name": "關平",
     "searchTerms": [
       "關平",
-      "关平",
       "guan ping"
     ],
     "avatar": "images/guan_ping.png",
@@ -171,7 +161,6 @@
     "searchTerms": [
       "孫策",
       "伯符",
-      "小霸王",
       "sun ce"
     ],
     "avatar": "images/sun_ce.png",
@@ -185,7 +174,6 @@
     "searchTerms": [
       "孫權",
       "仲謀",
-      "吳大帝",
       "sun quan"
     ],
     "avatar": "images/sun_quan.png",
@@ -212,8 +200,6 @@
     "searchTerms": [
       "劉協",
       "伯和",
-      "漢獻帝",
-      "山陽公",
       "liu xie"
     ],
     "avatar": "images/liu_xie.png",
@@ -227,12 +213,22 @@
     "searchTerms": [
       "曹操",
       "孟德",
-      "阿瞞",
-      "魏武帝",
-      "魏太祖",
       "cao cao"
     ],
     "avatar": "images/cao_cao.png",
+    "filterGroup": "wei"
+  },
+  {
+    "id": "cao-pi",
+    "published": true,
+    "name": "曹丕",
+    "courtesyName": "子桓",
+    "searchTerms": [
+      "曹丕",
+      "子桓",
+      "cao pi"
+    ],
+    "avatar": "images/cao_pi.png",
     "filterGroup": "wei"
   },
   {
@@ -243,7 +239,6 @@
     "searchTerms": [
       "夏侯惇",
       "元讓",
-      "盲夏侯",
       "xiahou dun"
     ],
     "avatar": "images/xiahou_dun.png",
@@ -257,7 +252,6 @@
     "searchTerms": [
       "夏侯淵",
       "妙才",
-      "虎步關右",
       "xiahou yuan"
     ],
     "avatar": "images/xiahou_yuan.png",
