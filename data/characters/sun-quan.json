@@ -1,13 +1,1471 @@
 {
   "schemaVersion": 2,
+  "dataStatus": "reviewed-draft",
   "published": true,
+  "lastReviewedAt": "2026-08-09",
   "id": "sun-quan",
   "name": "孫權",
   "courtesyName": "仲謀",
-  "otherNames": [],
+  "childhoodName": null,
+  "artName": null,
+  "otherNames": [
+    "吳大帝（死後諡號的通稱）",
+    "孫會稽（早年以所領會稽太守稱）",
+    "孫車騎（任車騎將軍時的稱呼）"
+  ],
+  "lifespan": "光和五年（182年）—太元二年（252年），年七十一",
+  "birthplace": "徐州下邳郡下邳縣（依裴注引《江表傳》孫堅任下邳丞時出生）；家族籍貫為揚州吳郡富春縣",
+  "primaryIdentity": "孫吳開國皇帝、江東政權第二代領袖，在位統事五十二年",
+  "summary": "孫權承接孫策江東基業，任用周瑜、魯肅、呂蒙、陸遜等人，在赤壁拒曹、襲取荊州並於夷陵擊敗劉備；他曾向曹魏稱臣受封吳王，229年於武昌稱帝建吳。其長期統治穩固江東，也有遠征失策、校事酷政與晚年二宮之爭，最終廢孫和、賜死孫霸，使朝局與繼承秩序受創。",
   "avatar": "images/sun_quan.png",
-  "overview": {},
-  "historicalBio": [],
-  "romanceBio": [],
-  "works": []
+  "overview": {
+    "intro": {
+      "paragraphs": [
+        {
+          "text": "孫權字仲謀，是孫堅之子、孫策之弟。《吳主傳》記他十五歲時已任陽羨長，後被察孝廉、舉茂才；建安五年孫策遇刺重傷，把江東軍政交給孫權。孫權當時年十九左右，接手的並非穩固帝國，而是五郡為主、深險地區尚未完全服從、賓旅將士去留未定的政權。",
+          "citations": [
+            {
+              "sourceId": "sgz-wuzhu-main",
+              "locator": "卷四十七・吳主傳開篇及建安五年"
+            },
+            {
+              "sourceId": "sgz-sunce-main",
+              "locator": "卷四十六・孫策臨終託權"
+            }
+          ]
+        },
+        {
+          "text": "孫權的主要能力在於長期用人、權衡與承受屈辱以換取戰略空間。赤壁前他採納魯肅、周瑜的拒曹意見，219年任呂蒙、陸遜襲取荊州，222年再以陸遜抵禦劉備；同時他能在蜀、魏之間調整外交，先向曹魏稱臣受封吳王，解除劉備東征壓力，再拒送質子、改元黃武，最後於229年稱帝。",
+          "citations": [
+            {
+              "sourceId": "sgz-zhouyu-main",
+              "locator": "卷五十四・赤壁戰前議"
+            },
+            {
+              "sourceId": "sgz-lvmeng-main",
+              "locator": "卷五十四・襲取荊州"
+            },
+            {
+              "sourceId": "sgz-luxun-main",
+              "locator": "卷五十八・夷陵之戰"
+            },
+            {
+              "sourceId": "sgz-wuzhu-main",
+              "locator": "卷四十七・黃初二年至黃龍元年"
+            }
+          ]
+        },
+        {
+          "text": "孫權晚年並非單純延續早期英主形象。孫登死後，他同時厚待太子孫和與魯王孫霸，使朝臣分裂成兩派；在猜疑、讒言與反覆處置中，陸遜憤死，多名大臣被誅、流放或杖責，最後孫和被廢、孫霸賜死，改立幼子孫亮。陳壽因此將『任才尚計』與『性多嫌忌、果於殺戮』放在同一篇總評中。",
+          "citations": [
+            {
+              "sourceId": "sgz-sunhe-sunba-main",
+              "locator": "卷五十九・孫和、孫霸傳"
+            },
+            {
+              "sourceId": "sgz-wuzhu-main",
+              "locator": "卷四十七・卷末評曰"
+            }
+          ]
+        },
+        {
+          "text": "『生子當如孫仲謀』確有早期材料依據，但出自《吳主傳》裴注引《吳歷》，不是陳壽正文；『碧眼紫髯』則主要由《三國演義》普及。本站保留這些高辨識度稱語，並直接標示史料層級，不把後世外貌設定倒寫成正史容貌。",
+          "citations": [
+            {
+              "sourceId": "wuli-sunquan",
+              "locator": "《吳主傳》裴注引《吳歷》・建安十八年濡須"
+            },
+            {
+              "sourceId": "sanguo-yanyi",
+              "locator": "第三十八回等・碧眼紫髯形象"
+            }
+          ]
+        }
+      ],
+      "uncertaintyNote": "孫權生年依252年去世、年七十一倒推為182年；《三國志》沒有記出生月日。下邳出生出自裴注引《江表傳》，家族籍貫則為吳郡富春。"
+    },
+    "factionTimeline": [
+      {
+        "stageName": "孫權江東政權・稱帝前",
+        "personName": "孫權",
+        "personId": null,
+        "actualFactionId": "sun-quan-pre-imperial-regime",
+        "period": "建安五年（200年）—黃龍元年四月（229年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "孫吳大帝政權",
+        "personName": "孫權",
+        "personId": null,
+        "actualFactionId": "sunwu-dadi",
+        "period": "黃龍元年四月（229年）—太元二年四月（252年）",
+        "periodUncertain": false
+      }
+    ],
+    "relatives": [
+      {
+        "personName": "孫堅",
+        "personId": null,
+        "relation": "父",
+        "natureType": "三國志正文記載",
+        "note": "東漢破虜將軍、烏程侯，孫氏軍事基業的開創者。孫權稱帝後追尊為武烈皇帝。",
+        "citations": [
+          {
+            "sourceId": "sgz-sunjian-main",
+            "locator": "卷四十六・孫堅傳"
+          }
+        ]
+      },
+      {
+        "personName": "吳夫人",
+        "personId": null,
+        "relation": "母",
+        "natureType": "三國志正文記載",
+        "note": "吳郡吳縣人，生孫策、孫權等。孫權初統江東時曾參與軍政諮詢，建安七年去世；孫權稱帝後追尊武烈皇后。",
+        "citations": [
+          {
+            "sourceId": "sgz-wufuren-main",
+            "locator": "卷五十・孫破虜吳夫人傳"
+          }
+        ]
+      },
+      {
+        "personName": "孫策",
+        "personId": "sun-ce",
+        "relation": "兄",
+        "natureType": "三國志正文記載",
+        "note": "江東政權奠基者。建安五年遇刺重傷後將印綬與軍政託付孫權，並指出孫權在保江東、任用人才方面勝過自己。",
+        "citations": [
+          {
+            "sourceId": "sgz-sunce-main",
+            "locator": "卷四十六・孫策傳末"
+          },
+          {
+            "sourceId": "sgz-wuzhu-main",
+            "locator": "卷四十七・建安五年"
+          }
+        ]
+      },
+      {
+        "personName": "孫翊",
+        "personId": null,
+        "relation": "弟",
+        "natureType": "三國志正文記載",
+        "note": "字叔弼，一名儼，任丹楊太守，建安九年被身邊人殺害。",
+        "citations": [
+          {
+            "sourceId": "sgz-wu-zongshi-main",
+            "locator": "卷五十一・孫翊傳"
+          }
+        ]
+      },
+      {
+        "personName": "孫匡",
+        "personId": null,
+        "relation": "弟",
+        "natureType": "三國志正文記載",
+        "note": "孫堅幼子，早卒；其子孫泰、孫秀後見於孫吳宗室傳。",
+        "citations": [
+          {
+            "sourceId": "sgz-wu-zongshi-main",
+            "locator": "卷五十一・孫匡條"
+          }
+        ]
+      },
+      {
+        "personName": "孫夫人",
+        "personId": null,
+        "relation": "妹",
+        "natureType": "三國志正文記載與演義形象有別",
+        "note": "史書未載本名，建安十四年後嫁劉備，後返吳。『孫尚香』是後世通稱，甘露寺招親、女兵與投江殉夫多屬小說增寫。",
+        "citations": [
+          {
+            "sourceId": "sgz-liubei-main",
+            "locator": "卷三十二・先主傳・孫權進妹"
+          },
+          {
+            "sourceId": "sgz-fazheng-main",
+            "locator": "卷三十七・法正論孫夫人"
+          }
+        ]
+      },
+      {
+        "personName": "謝夫人",
+        "personId": null,
+        "relation": "妻室",
+        "natureType": "三國志正文記載",
+        "note": "會稽山陰謝氏女，孫權早年納為妃；後因孫權欲令其接納徐夫人而失意早卒。",
+        "citations": [
+          {
+            "sourceId": "sgz-wufei-main",
+            "locator": "卷五十・吳主謝夫人傳"
+          }
+        ]
+      },
+      {
+        "personName": "徐夫人",
+        "personId": null,
+        "relation": "妻室",
+        "natureType": "三國志正文記載",
+        "note": "吳郡富春徐氏女，先嫁陸尚，後嫁孫權；曾撫養孫登。孫權遷建業時令她留在吳，後因嫉妒被廢。",
+        "citations": [
+          {
+            "sourceId": "sgz-wufei-main",
+            "locator": "卷五十・吳主徐夫人傳"
+          }
+        ]
+      },
+      {
+        "personName": "步練師",
+        "personId": null,
+        "relation": "妻室、追封皇后",
+        "natureType": "三國志正文記載",
+        "note": "臨淮淮陰人，長期最受孫權寵愛，生孫魯班、孫魯育。赤烏元年去世後追贈皇后；史書稱她不妒忌，常推薦其他女子。",
+        "citations": [
+          {
+            "sourceId": "sgz-wufei-main",
+            "locator": "卷五十・吳主步夫人傳"
+          }
+        ]
+      },
+      {
+        "personName": "王夫人（琅邪）",
+        "personId": null,
+        "relation": "妻室、孫和之母",
+        "natureType": "三國志正文記載",
+        "note": "生孫和，孫和立太子後受重。她與全公主孫魯班不合，在二宮之爭中被誣稱見孫權病重而有喜色，憂懼而死。",
+        "citations": [
+          {
+            "sourceId": "sgz-wufei-main",
+            "locator": "卷五十・吳主王夫人傳"
+          },
+          {
+            "sourceId": "sgz-sunhe-sunba-main",
+            "locator": "卷五十九・孫和傳"
+          }
+        ]
+      },
+      {
+        "personName": "潘淑",
+        "personId": null,
+        "relation": "皇后、孫亮之母",
+        "natureType": "三國志正文記載",
+        "note": "會稽句章人，生孫亮，太元元年立為皇后。孫權病重時，她詢問呂后臨朝故事；後被宮人縊殺，孫權不久亦去世。",
+        "citations": [
+          {
+            "sourceId": "sgz-wufei-main",
+            "locator": "卷五十・吳主潘夫人傳"
+          }
+        ]
+      },
+      {
+        "personName": "孫登",
+        "personId": null,
+        "relation": "長子、皇太子",
+        "natureType": "三國志正文記載",
+        "note": "字子高，受徐夫人撫養。黃龍元年立皇太子，赤烏四年早於孫權去世；臨終上疏推薦賢臣並勸孫權減輕刑政。",
+        "citations": [
+          {
+            "sourceId": "sgz-sunhe-sunba-main",
+            "locator": "卷五十九・孫登傳"
+          }
+        ]
+      },
+      {
+        "personName": "孫慮",
+        "personId": null,
+        "relation": "子",
+        "natureType": "三國志正文記載",
+        "note": "字子智，封建昌侯，黃龍三年任鎮軍大將軍，嘉禾元年早卒。",
+        "citations": [
+          {
+            "sourceId": "sgz-sunhe-sunba-main",
+            "locator": "卷五十九・孫慮傳"
+          }
+        ]
+      },
+      {
+        "personName": "孫和",
+        "personId": null,
+        "relation": "子、曾為皇太子",
+        "natureType": "三國志正文記載",
+        "note": "字子孝，孫登死後於赤烏五年立為太子。與魯王孫霸的二宮之爭使朝臣分裂，赤烏十三年被廢，後封南陽王。",
+        "citations": [
+          {
+            "sourceId": "sgz-sunhe-sunba-main",
+            "locator": "卷五十九・孫和傳"
+          }
+        ]
+      },
+      {
+        "personName": "孫霸",
+        "personId": null,
+        "relation": "子、魯王",
+        "natureType": "三國志正文記載",
+        "note": "字子威，受寵待遇一度與太子孫和無異，支持者形成魯王黨。赤烏十三年孫和被廢後，孫權同時賜孫霸死。",
+        "citations": [
+          {
+            "sourceId": "sgz-sunhe-sunba-main",
+            "locator": "卷五十九・孫霸傳"
+          }
+        ]
+      },
+      {
+        "personName": "孫奮",
+        "personId": null,
+        "relation": "子",
+        "natureType": "三國志正文記載",
+        "note": "字子揚，孫權末年封齊王；後在孫皓時因流言遭誅。",
+        "citations": [
+          {
+            "sourceId": "sgz-sunhe-sunba-main",
+            "locator": "卷五十九・孫奮傳"
+          }
+        ]
+      },
+      {
+        "personName": "孫休",
+        "personId": null,
+        "relation": "子",
+        "natureType": "三國志正文記載",
+        "note": "字子烈，母為南陽王夫人，後即位為吳景帝。",
+        "citations": [
+          {
+            "sourceId": "sgz-wu-three-rulers",
+            "locator": "卷四十八・孫休傳"
+          }
+        ]
+      },
+      {
+        "personName": "孫亮",
+        "personId": null,
+        "relation": "少子、皇太子、繼承人",
+        "natureType": "三國志正文記載",
+        "note": "潘皇后所生，赤烏十三年在孫和被廢、孫霸賜死後立為太子，十歲左右繼位為吳帝。",
+        "citations": [
+          {
+            "sourceId": "sgz-wu-three-rulers",
+            "locator": "卷四十八・孫亮傳"
+          }
+        ]
+      },
+      {
+        "personName": "孫魯班",
+        "personId": null,
+        "relation": "女",
+        "natureType": "三國志正文記載",
+        "note": "字大虎，全公主，步夫人所生。先嫁周循，後嫁全琮；她與孫和母子不合，在二宮之爭及廢立過程中影響甚大。",
+        "citations": [
+          {
+            "sourceId": "sgz-sunhe-sunba-main",
+            "locator": "卷五十九・孫和傳"
+          }
+        ]
+      },
+      {
+        "personName": "孫魯育",
+        "personId": null,
+        "relation": "女",
+        "natureType": "三國志正文記載",
+        "note": "字小虎，步夫人所生，先嫁朱據，後嫁劉纂；她與姊孫魯班政治立場不同，後在孫亮時期遇害。",
+        "citations": [
+          {
+            "sourceId": "sgz-wufei-main",
+            "locator": "卷五十・步夫人傳及相關裴注"
+          }
+        ]
+      }
+    ],
+    "titlesAndRanks": [
+      {
+        "title": "陽羨長",
+        "period": "約建安元年前後，年十五",
+        "citations": [
+          {
+            "sourceId": "sgz-wuzhu-main",
+            "locator": "卷四十七・開篇"
+          }
+        ]
+      },
+      {
+        "title": "孝廉、茂才、行奉義校尉",
+        "period": "孫策在世時",
+        "citations": [
+          {
+            "sourceId": "sgz-wuzhu-main",
+            "locator": "卷四十七・開篇"
+          }
+        ]
+      },
+      {
+        "title": "討虜將軍、領會稽太守",
+        "period": "建安五年（200年）起",
+        "citations": [
+          {
+            "sourceId": "sgz-wuzhu-main",
+            "locator": "卷四十七・承接孫策後"
+          }
+        ]
+      },
+      {
+        "title": "行車騎將軍、領徐州牧",
+        "period": "建安十四年（209年）起；劉備表授",
+        "citations": [
+          {
+            "sourceId": "sgz-wuzhu-main",
+            "locator": "卷四十七・建安十四年"
+          }
+        ]
+      },
+      {
+        "title": "驃騎將軍、假節、領荊州牧、南昌侯",
+        "period": "建安二十四年（219年）",
+        "citations": [
+          {
+            "sourceId": "sgz-wuzhu-main",
+            "locator": "卷四十七・取荊州後曹操表授"
+          }
+        ]
+      },
+      {
+        "title": "吳王、大將軍、使持節督交州、領荊州牧、九錫",
+        "period": "魏黃初二年十一月（221年）—黃龍元年四月（229年）",
+        "citations": [
+          {
+            "sourceId": "sgz-wuzhu-main",
+            "locator": "卷四十七・曹魏策封吳王"
+          }
+        ]
+      },
+      {
+        "title": "孫吳皇帝",
+        "period": "黃龍元年四月（229年）—太元二年四月（252年）",
+        "citations": [
+          {
+            "sourceId": "sgz-wuzhu-main",
+            "locator": "卷四十七・黃龍元年至太元二年"
+          }
+        ]
+      }
+    ],
+    "posthumousTitle": {
+      "title": "大皇帝；廟號太祖",
+      "grantedBy": "太元二年（252年）孫亮即位後上諡並奉廟號",
+      "citations": [
+        {
+          "sourceId": "sgz-wuzhu-main",
+          "locator": "卷四十七・太元二年四月"
+        }
+      ],
+      "paragraphs": [
+        {
+          "text": "孫權去世後諡大皇帝，後世常稱吳大帝；廟號太祖，反映孫吳把他定位為正式建國稱帝、建立帝統的祖主。父孫堅只追尊武烈皇帝，兄孫策則追諡長沙桓王。",
+          "citations": [
+            {
+              "sourceId": "sgz-wuzhu-main",
+              "locator": "卷四十七・黃龍元年追尊父兄及太元二年"
+            }
+          ]
+        }
+      ]
+    },
+    "evaluations": {
+      "contemporary": [
+        {
+          "evaluatorName": "孫策",
+          "evaluatorEra": "建安五年（200年）",
+          "context": "臨終把江東事業交給孫權時，對兩人能力所作比較",
+          "textType": "古籍原文",
+          "originalText": "舉江東之眾，決機於兩陣之間，與天下爭衡，卿不如我；舉賢任能，各盡其心，以保江東，我不如卿。",
+          "citations": [
+            {
+              "sourceId": "sgz-sunce-main",
+              "locator": "卷四十六・孫策傳末"
+            }
+          ],
+          "paraphrase": "孫策認為自己更擅長臨陣決斷與對外爭雄，但孫權在延攬人才、使眾人盡力與長期守成方面勝過自己，因此把江東交給他。"
+        },
+        {
+          "evaluatorName": "曹操",
+          "evaluatorEra": "建安十八年（213年）",
+          "context": "濡須對峙時見孫權舟船、器仗與軍伍整肅，《吳歷》所載感嘆",
+          "textType": "裴注引古籍原文",
+          "originalText": "生子當如孫仲謀，劉景升兒子若豚犬耳！",
+          "citations": [
+            {
+              "sourceId": "wuli-sunquan",
+              "locator": "《吳主傳》裴注引《吳歷》・建安十八年"
+            }
+          ],
+          "paraphrase": "曹操以孫權治軍嚴整、能守江東為理想後輩的典型，並反襯劉表之子未能守住父業；這句出自裴注引《吳歷》，不是陳壽正文。"
+        },
+        {
+          "evaluatorName": "趙咨",
+          "evaluatorEra": "黃武元年（222年）",
+          "context": "奉使曹魏時回答魏文帝『吳王何等主』",
+          "textType": "古籍原文",
+          "originalText": "聰明仁智，雄略之主也。",
+          "citations": [
+            {
+              "sourceId": "sgz-wuzhu-main",
+              "locator": "卷四十七・黃武元年趙咨使魏"
+            }
+          ],
+          "paraphrase": "趙咨從納魯肅、拔呂蒙、善待于禁、取荊州、據三州與暫向魏屈身等事，將孫權概括為兼具識人、決斷、寬仁與戰略權變的君主；這也是吳使對外宣傳性很強的回答。"
+        },
+        {
+          "evaluatorName": "陸遜",
+          "evaluatorEra": "孫權稱帝後",
+          "context": "勸阻孫權輕率跨海與遠征遼東時，先總結其既有功業",
+          "textType": "古籍原文",
+          "originalText": "陛下承運，拓定江表。破操烏林，敗備西陵，禽羽荊州，斯三虜者當世雄傑，皆摧其鋒。",
+          "citations": [
+            {
+              "sourceId": "sgz-luxun-main",
+              "locator": "卷五十八・陸遜勸止征遼東疏"
+            }
+          ],
+          "paraphrase": "陸遜肯定孫權政權先後在赤壁、夷陵與荊州擊挫曹操、劉備、關羽三方強敵，同時藉此勸他珍惜既有根基，不要因遼東小忿而親冒海上風險。"
+        }
+      ],
+      "later": [
+        {
+          "evaluatorName": "陳壽",
+          "evaluatorEra": "西晉史家",
+          "context": "《三國志・吳主傳》卷末總評",
+          "textType": "古籍原文",
+          "originalText": "孫權屈身忍辱，任才尚計，有句踐之奇，英人之傑矣。故能自擅江表，成鼎峙之業。然性多嫌忌，果於殺戮，暨臻末年，彌以滋甚。至於讒說殄行，胤嗣廢斃，豈所謂貽厥孫謀以燕翼子者哉！",
+          "citations": [
+            {
+              "sourceId": "sgz-wuzhu-main",
+              "locator": "卷四十七・卷末評曰"
+            }
+          ],
+          "paraphrase": "陳壽高度肯定孫權能忍辱權變、任用人才並建立三國鼎立的一方基業，同時嚴厲批評他猜忌好殺，晚年受讒言影響而廢黜、逼死子嗣，破壞了留給後代的政治安排。"
+        },
+        {
+          "evaluatorName": "裴松之",
+          "evaluatorEra": "南朝宋史家",
+          "context": "評論孫權既立孫和為太子，又使孫霸受寵待遇相近，主動造成二宮之爭",
+          "textType": "古籍原文",
+          "originalText": "孫權既以立和而復寵霸，坐生亂階，自構家禍，方之袁、劉，昏悖甚矣。",
+          "citations": [
+            {
+              "sourceId": "peisongzhi-er-gong-comment",
+              "locator": "卷五十九・孫和傳裴松之案"
+            }
+          ],
+          "paraphrase": "裴松之認為二宮之爭不是臣下自行鬧事，而是孫權在已立太子的情況下又抬高庶子孫霸，親手製造名分混亂與家族災禍，其錯誤甚至比袁紹、劉表的繼承問題更嚴重。"
+        },
+        {
+          "evaluatorName": "傅玄",
+          "evaluatorEra": "西晉思想家",
+          "context": "《傅子》總結孫權用人與江南守成",
+          "textType": "裴注引古籍原文",
+          "originalText": "權繼其業，有張子布以為腹心，有陸議、諸葛瑾、步騭以為股肱，有呂範、朱然以為爪牙，分任授職，乘間伺隙，兵不妄動，故戰少敗而江南安。",
+          "citations": [
+            {
+              "sourceId": "fuzi-sunquan-appraisal",
+              "locator": "《吳主傳》末裴注引《傅子》"
+            }
+          ],
+          "paraphrase": "傅玄把孫權的核心成就歸於分任文武、依靠張昭等腹心與陸遜等重臣，並避免無謂出兵，因此在多方強敵之間仍能維持江南安定。"
+        }
+      ]
+    }
+  },
+  "historicalBio": [
+    {
+      "period": "約光和五年（182年）—建安四年（199年）",
+      "periodType": "approx",
+      "title": "出身、早年任官與隨兄征戰",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "孫權生年可由252年去世時年七十一倒推為182年。裴注引《江表傳》稱孫堅任下邳丞時孫權出生，故出生地可記下邳；孫氏家族本籍則是吳郡富春，兩者不可混為一處。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・卒年卒齡"
+              },
+              {
+                "sourceId": "jiangbiao-zhuan-sunquan",
+                "locator": "《吳主傳》開篇裴注"
+              }
+            ]
+          },
+          {
+            "text": "孫策平定江東諸郡時，十五歲的孫權任陽羨長，後被察孝廉、舉茂才，行奉義校尉。建安四年他隨孫策攻劉勳、黃祖，已有參與軍事與地方治理的經驗。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・建安四年前"
+              }
+            ]
+          }
+        ],
+        "uncertaintyNote": "182年為依虛歲倒推；《江表傳》的出生地與相貌敘述屬裴注引材料，不是陳壽正文。"
+      }
+    },
+    {
+      "period": "建安五年（200年）",
+      "periodType": "exact",
+      "title": "孫策託孤與接掌江東",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "孫策遇刺重傷後，把印綬交給孫權，指出自己長於臨陣爭衡，孫權則長於舉賢任能、保守江東。孫策死後，孫權沉浸悲痛，張昭勸他在政局未穩時不能只守喪，遂更換服裝、巡行軍隊。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunce-main",
+                "locator": "卷四十六・孫策傳末"
+              },
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・建安五年"
+              }
+            ]
+          },
+          {
+            "text": "當時江東只有會稽、吳郡、丹楊、豫章、廬陵等核心地區，山越與深險之地未盡服，賓旅士人也未建立牢固君臣關係。張昭、周瑜認為孫權可共成大業，曹操則以漢廷名義表他為討虜將軍、領會稽太守。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・承統初局勢"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "舉賢任能，各盡其心，以保江東，我不如卿。",
+            "sourceId": "sgz-sunce-main",
+            "locator": "卷四十六・孫策臨終語"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安五年至十二年（200—207年）",
+      "periodType": "range",
+      "title": "鞏固江東與招攬人才",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "孫權以張昭為師傅，周瑜、程普、呂範等統兵，招納魯肅、諸葛瑾等外來士人，分派諸將鎮撫山越、討伐不服。李術拒絕承認孫權並收納叛亡，孫權攻破皖城、誅李術，遷其部眾，逐步穩住孫策死後的權力真空。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・建安五年承統後"
+              }
+            ]
+          },
+          {
+            "text": "此階段的主要成就不是一次決戰，而是讓寄寓士人、地方豪族與部曲將領承認新領袖。孫權後來能在赤壁作出拒曹決定，正以這套人事與軍政結構為基礎。",
+            "citations": [
+              {
+                "sourceId": "fuzi-sunquan-appraisal",
+                "locator": "《吳主傳》末裴注引《傅子》"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安十三年（208年）",
+      "periodType": "exact",
+      "title": "攻滅黃祖與控制江夏部分地區",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "孫權再征黃祖，呂蒙破水軍前鋒，凌統、董襲等強攻江夏，黃祖逃走後被馮則斬首。此役既是延續孫堅與黃祖的舊仇，也是孫氏向長江中游擴張的重要一步；正文並記城破後俘獲男女數萬，顯示戰爭伴隨大規模人口掠奪。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・建安十三年征黃祖"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安十三年至十四年（208—209年）",
+      "periodType": "range",
+      "title": "赤壁決策與孫劉聯軍",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操取得荊州、劉琮投降後，大軍沿江東進。孫權集議時，多數臣僚傾向迎降，魯肅先勸孫權召回周瑜，周瑜分析北軍不習水戰、疾病與後方不穩，主張出兵。孫權採納拒曹方針，命周瑜、程普各領萬人，與劉備軍會合。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・建安十三年赤壁戰前"
+              },
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・周瑜拒曹議"
+              },
+              {
+                "sourceId": "sgz-lusu-main",
+                "locator": "卷五十四・魯肅傳"
+              }
+            ]
+          },
+          {
+            "text": "赤壁前線由周瑜、程普統率，黃蓋詐降火攻破曹操船艦，曹軍又受疾病、補給與水戰不利影響而退。孫權的關鍵作用在決定拒降、授權統帥與維持聯盟，不應把周瑜的前線指揮功勞改寫成孫權親自火攻。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・赤壁火攻"
+              },
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・赤壁大破曹公"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "惟瑜、肅執拒之儀，意與權同。",
+            "sourceId": "sgz-wuzhu-main",
+            "locator": "卷四十七・赤壁戰前"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安十四年至十七年（209—212年）",
+      "periodType": "range",
+      "title": "南郡戰後與建業建置",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "赤壁後周瑜與曹仁相持一年多，終使曹仁退出江陵，孫權任周瑜為南郡太守；劉備表孫權行車騎將軍、領徐州牧，孫劉聯盟在合作與荊州利益衝突間並存。建安十六年孫權把治所移至秣陵，翌年築石頭城並改名建業。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・建安十四年至十七年"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安十八年（213年）",
+      "periodType": "exact",
+      "title": "濡須對峙與『生子當如孫仲謀』",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操進攻濡須，孫權依托水軍與濡須塢相拒一月有餘。陳壽正文只說曹操遠望孫權軍伍整肅而退；裴注引《吳歷》進一步寫孫權乘輕船觀曹營，曹操約束弓弩，見其舟船器仗整齊而感嘆『生子當如孫仲謀』。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・建安十八年正文"
+              },
+              {
+                "sourceId": "wuli-sunquan",
+                "locator": "同段裴注引《吳歷》"
+              }
+            ]
+          },
+          {
+            "text": "同段裴注另引《魏略》箭射船側、孫權轉船使受箭平衡的故事，與《吳歷》所記曹操禁射互相衝突。後世『草船借箭』的具體敘事不能同時當作兩套材料都已證實。",
+            "citations": [
+              {
+                "sourceId": "weilue-sunquan-ruxu",
+                "locator": "《吳主傳》建安十八年裴注引《魏略》"
+              }
+            ]
+          }
+        ],
+        "uncertaintyNote": "軍容整肅、曹操退軍見正文；名句與輕舟觀軍見《吳歷》；箭均船平見《魏略》，三層須分開。"
+      }
+    },
+    {
+      "period": "建安十九年至二十年（214—215年）",
+      "periodType": "range",
+      "title": "皖城、湘水分界與合肥之敗",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "孫權攻克皖城後，因劉備已取益州而再索荊州。劉備拖延，孫權自行任命長沙、零陵、桂陽官員，遭關羽驅逐；雙方於益陽對峙。因曹操進入漢中、劉備擔心益州，孫劉議和，以湘水為界分領荊州諸郡。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・建安十九至二十年"
+              }
+            ]
+          },
+          {
+            "text": "同年孫權進攻合肥不克，撤軍時張遼突襲逍遙津。孫權在凌統、甘寧等掩護下越過斷橋逃生，損失慘重。這是其軍旅生涯最危險的失敗之一，也說明他親臨前線有時過於冒險。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・建安二十年合肥"
+              },
+              {
+                "sourceId": "sgz-zhangliao-main",
+                "locator": "卷十七・張遼傳・合肥守戰"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安二十四年（219年）",
+      "periodType": "exact",
+      "title": "呂蒙襲荊州與關羽敗亡",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "關羽北攻襄樊並俘于禁後，孫權決定趁其主力在北方時奪取荊州。呂蒙稱病返建業，使年輕的陸遜以謙辭書信降低關羽警戒；正式進軍時，呂蒙把精兵藏在舟艙，使士兵穿白衣搖櫓、扮商人，沿江擒收關羽哨所，因此關羽未能及時得知。",
+            "citations": [
+              {
+                "sourceId": "sgz-lvmeng-main",
+                "locator": "卷五十四・呂蒙傳・白衣搖櫓"
+              },
+              {
+                "sourceId": "sgz-luxun-main",
+                "locator": "卷五十八・陸遜代蒙及取宜都"
+              }
+            ]
+          },
+          {
+            "text": "公安守將士仁、南郡太守糜芳先後向孫權軍投降，呂蒙入江陵後安撫關羽部眾家屬、嚴禁侵擾。關羽軍心離散，退保麥城，偽降後突圍；孫權預先命朱然、潘璋斷路，潘璋司馬馬忠在章鄉擒獲關羽、關平與趙累，關羽於臨沮一帶被殺。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・建安二十四年"
+              },
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・關羽傳末"
+              },
+              {
+                "sourceId": "sgz-lvmeng-main",
+                "locator": "卷五十四・取南郡撫家屬"
+              }
+            ]
+          },
+          {
+            "text": "正史記錄的是情報欺敵、守將投降、安撫家屬與斷截退路，不使用『大意失荊州』作史家判語。『白衣渡江』有正文依據，但並不是所有士兵穿喪服或單靠一艘商船奇襲的簡化版本。",
+            "citations": [
+              {
+                "sourceId": "sgz-lvmeng-main",
+                "locator": "卷五十四・圖取關羽"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "延康元年至魏黃初二年（220—221年）",
+      "periodType": "range",
+      "title": "向曹魏稱臣與受封吳王",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "取得荊州後，孫權一度向曹操、曹丕奉貢。劉備於221年稱帝並準備東征，孫權為免魏蜀夾擊，向曹魏稱藩、送還于禁，接受曹丕冊封為吳王、大將軍、督交州、領荊州牧並加九錫。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・建安二十四年至黃初二年"
+              }
+            ]
+          },
+          {
+            "text": "吳臣曾主張自稱上將軍、九州伯而不受魏封，孫權則以劉邦曾暫受項羽封漢王為例，說明這是權宜措施。他利用魏的承認抬高江東君臣名分、爭取對蜀作戰空間，卻始終沒有真正準備把太子孫登入魏為質。",
+            "citations": [
+              {
+                "sourceId": "jiangbiao-zhuan-sunquan",
+                "locator": "《吳主傳》黃初二年裴注引《江表傳》"
+              },
+              {
+                "sourceId": "fuzi-liuye-sunquan",
+                "locator": "《劉曄傳》裴注引《傅子》"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "昔沛公亦受項羽拜為漢王，此蓋時宜耳，復何損邪？",
+            "sourceId": "jiangbiao-zhuan-sunquan",
+            "locator": "《吳主傳》裴注引《江表傳》"
+          }
+        ]
+      }
+    },
+    {
+      "period": "蜀章武元年至二年／吳黃武元年（221—222年）",
+      "periodType": "range",
+      "title": "夷陵之戰的決策與陸遜統帥",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "劉備為奪回荊州與報關羽之仇東征，孫權先遣使求和而未果，轉而任命陸遜為大都督、假節，統率朱然、潘璋、韓當、徐盛、孫桓等五萬人迎戰。諸將多資歷較深，孫權仍把統一指揮權交給陸遜，這是其用人決斷的關鍵。",
+            "citations": [
+              {
+                "sourceId": "sgz-luxun-main",
+                "locator": "卷五十八・黃武元年夷陵"
+              },
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・劉備來伐"
+              }
+            ]
+          },
+          {
+            "text": "陸遜拒絕在劉備銳氣正盛、據險連營時出擊，等待數月使蜀軍疲憊，再以火攻破一營後全線進攻，斬馮習、張南、沙摩柯等，破四十餘營，劉備退入白帝城。戰役勝利主要出自孫權任將與後方支持、陸遜的前線判斷，以及吳軍諸將協同。",
+            "citations": [
+              {
+                "sourceId": "sgz-luxun-main",
+                "locator": "卷五十八・夷陵火攻與追擊"
+              }
+            ]
+          },
+          {
+            "text": "陸遜認為曹丕已在後方聚兵，不宜越過險要深入追擊；孫權不久果然面對魏軍三路南下。孫權一面在夷陵抵禦劉備，一面向魏屈身換取時間的政治操作，至此完成階段性目標。",
+            "citations": [
+              {
+                "sourceId": "sgz-luxun-main",
+                "locator": "卷五十八・諸將請追備及遜答"
+              },
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・黃武元年魏軍來攻"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "黃武元年至二年（222—223年）",
+      "periodType": "range",
+      "title": "拒送質子、與魏決裂及守住三路進攻",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "夷陵勝後，曹丕要求孫權送太子孫登入魏為質，孫權屢次推辭。黃初三年秋魏軍分三路進攻洞口、濡須、江陵，孫權改元黃武，正式以獨立年號行事，命呂範、朱桓、諸葛瑾等分路迎擊。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・黃武元年"
+              }
+            ]
+          },
+          {
+            "text": "洞口吳軍先受風災損失，仍阻住曹休；朱桓在濡須擊退曹仁一路；朱然等守江陵，在疫病與援軍配合下迫使曹真、夏侯尚等撤退。至黃武二年魏軍皆退，孫權也恢復與蜀漢通使，三國對峙格局逐步固定。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・黃武元年至二年"
+              },
+              {
+                "sourceId": "sgz-zhuhuan-main",
+                "locator": "卷五十六・朱桓守濡須"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "黃龍元年（229年）",
+      "periodType": "exact",
+      "title": "武昌稱帝、建國號吳與遷都建業",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "黃龍元年四月，公卿百司勸進，孫權在武昌南郊即皇帝位，改元黃龍，正式以吳為國號；追尊孫堅為武烈皇帝、吳夫人為武烈皇后，追諡孫策為長沙桓王，立孫登為皇太子。孫權因此成為魏、蜀之後三國最後一位正式稱帝的君主。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・黃龍元年四月"
+              }
+            ]
+          },
+          {
+            "text": "六月蜀漢派陳震祝賀，吳蜀重訂盟約並以文字約分天下，九月孫權遷都建業，留陸遜輔太子孫登、掌武昌事。這表示他在稱帝後仍以聯蜀抗魏為基本外交架構。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・黃龍元年六月盟蜀及九月遷都"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "黃龍元年春，公卿百司皆勸權正尊號。夏四月，夏口、武昌並言黃龍、鳳凰見。丙申，南郊即皇帝位。",
+            "sourceId": "sgz-wuzhu-main",
+            "locator": "卷四十七・黃龍元年"
+          }
+        ]
+      }
+    },
+    {
+      "period": "黃龍二年至嘉禾二年（230—233年）",
+      "periodType": "range",
+      "title": "海上遠征與遼東決策失誤",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "黃龍二年孫權命衛溫、諸葛直率甲士萬人出海尋求夷洲、亶洲，希望取得人口與拓展海上控制；軍隊因遠航、疾病等損失嚴重，只帶回夷洲數千人，兩將後因違詔無功下獄處死。陸遜等事前曾反對，認為得不償失。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・黃龍二年至三年"
+              },
+              {
+                "sourceId": "sgz-luxun-main",
+                "locator": "卷五十八・諫取夷州朱崖"
+              }
+            ]
+          },
+          {
+            "text": "嘉禾年間遼東公孫淵遣使稱藩，孫權不顧張昭等強諫，授其燕王、九錫並派使者攜重寶出海；公孫淵轉而殺吳使、向魏稱臣。孫權震怒欲親征，後接受陸遜勸止。這是其晚年以前一項明顯的外交與判斷失誤。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・嘉禾二年公孫淵事件"
+              },
+              {
+                "sourceId": "sgz-luxun-main",
+                "locator": "卷五十八・諫親征遼東"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "嘉禾六年至赤烏元年（237—238年）",
+      "periodType": "range",
+      "title": "呂壹校事案與公開引咎",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "孫權任用校事呂壹，呂壹用法苛刻、羅織罪名，太子孫登與大臣多次勸諫未被採納，官員因而不敢直言。呂壹罪行後來暴露伏誅，孫權承認自己受蒙蔽，派袁禮向諸葛瑾、步騭、朱然、呂岱等重臣道歉並詢問政務得失。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・赤烏元年呂壹伏誅"
+              }
+            ]
+          },
+          {
+            "text": "這件事顯示孫權仍能在錯誤揭露後引咎、恢復與重臣溝通，但也暴露其猜忌與依賴秘密監察的傾向；陳壽對他『性多嫌忌』的批評並非只針對二宮之爭。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・呂壹案及卷末評"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "赤烏四年至十三年（241—250年）",
+      "periodType": "range",
+      "title": "孫登早逝與二宮之爭形成",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "赤烏四年皇太子孫登病逝，翌年孫權立孫和為太子、封孫霸為魯王。孫權給予兩人近似的宮室、禮秩與寵愛，後雖分宮別僚，太子與魯王的賓客、親族已逐漸形成敵對陣營。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunhe-sunba-main",
+                "locator": "卷五十九・孫登、孫和、孫霸傳"
+              }
+            ]
+          },
+          {
+            "text": "全公主孫魯班與孫和母王夫人有隙，利用孫權病中祭廟等事進讒；孫霸支持者亦不斷攻擊太子。陸遜、吾粲、顧譚等主張嫡庶名分不可動搖，另一批重臣則依附孫霸，朝廷出現『舉國中分』。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunhe-sunba-main",
+                "locator": "卷五十九・孫和傳"
+              },
+              {
+                "sourceId": "tongyu-er-gong",
+                "locator": "孫和傳裴注引殷基《通語》"
+              }
+            ]
+          },
+          {
+            "text": "孫權禁絕兩宮賓客往來、反覆調查並斥責進諫者，卻沒有及早明確維持太子名分。吾粲被殺、顧譚流放，陸遜屢遭使者責問而憤死，二宮之爭由皇室私爭擴大成中央政治清洗。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunhe-sunba-main",
+                "locator": "卷五十九・孫和傳"
+              },
+              {
+                "sourceId": "sgz-luxun-main",
+                "locator": "卷五十八・陸遜傳末"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "初權既立和為太子，而封霸為魯王，初拜猶同宮室，禮秩未分。",
+            "sourceId": "tongyu-er-gong",
+            "locator": "孫和傳裴注引《通語》"
+          },
+          {
+            "text": "自侍御賓客造為二端，仇黨疑貳，滋延大臣。",
+            "sourceId": "tongyu-er-gong",
+            "locator": "同上"
+          }
+        ]
+      }
+    },
+    {
+      "period": "赤烏十三年（250年）",
+      "periodType": "exact",
+      "title": "廢孫和、賜死孫霸與改立孫亮",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "孫權先幽閉孫和，朱據、屈晃等泥頭自縛、連日請命，孫權不納，並杖責、誅殺或流放多名諫臣。赤烏十三年他廢孫和為庶人，賜孫霸死，同時誅殺孫霸黨羽全寄、吳安、孫奇、楊竺等，另立幼子孫亮為太子。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunhe-sunba-main",
+                "locator": "卷五十九・孫和、孫霸傳"
+              }
+            ]
+          },
+          {
+            "text": "處死孫霸並未恢復原太子孫和，反而以幼子接班，使孫權死後必須依賴諸葛恪等輔政。二宮之爭造成大量官員死徙、皇室互不信任與繼承人年幼，是孫權晚年統治最具破壞性的決策。",
+            "citations": [
+              {
+                "sourceId": "sgz-sunhe-sunba-main",
+                "locator": "卷五十九・二宮結局"
+              },
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・赤烏十三年"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "太元元年至二年（251—252年）",
+      "periodType": "range",
+      "title": "晚年託孤與去世",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "太元元年孫權立潘氏為皇后，不久病重。十二月徵諸葛恪為太子太傅，與孫弘、滕胤、呂據、孫峻等共同受託輔佐孫亮；孫權雖擔心諸葛恪剛愎自用，仍因朝臣無人能及而採用。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・太元元年"
+              },
+              {
+                "sourceId": "sgz-zhugeke-main",
+                "locator": "卷六十四・諸葛恪傳・受遺"
+              }
+            ]
+          },
+          {
+            "text": "太元二年四月孫權去世，年七十一，諡大皇帝，七月葬蔣陵。其自200年統事至252年達五十二年，既完成江東地方政權到皇帝國家的轉型，也把二宮之爭、幼主與權臣輔政的難題留給後繼者。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・太元二年四月至七月"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "夏四月，權薨，時年七十一，謚曰大皇帝。秋七月，葬蔣陵。",
+            "sourceId": "sgz-wuzhu-main",
+            "locator": "卷四十七・太元二年"
+          }
+        ]
+      }
+    }
+  ],
+  "romanceBio": [
+    {
+      "chapter": "第三十八回",
+      "eventName": "碧眼紫髯的江東之主",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說透過魯肅、諸葛亮等人物視角塑造孫權『碧眼紫髯』、有帝王之相的外貌，並以孫仲謀稱之，形成後世最具辨識度的形象。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第三十八回及赤壁前後相關回目"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "裴注引《江表傳》只說孫權方頤大口、目有精光，另有材料稱紫髯；『碧眼』與整套異相經小說整合、強化，不能直接當作正史容貌。",
+            "citations": [
+              {
+                "sourceId": "jiangbiao-zhuan-sunquan",
+                "locator": "《吳主傳》開篇裴注"
+              },
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第三十八回"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第四十三至四十九回",
+      "eventName": "舌戰群儒、斫案拒曹與赤壁鏖兵",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫諸葛亮舌戰江東群儒，周瑜與魯肅主戰，孫權拔劍斫斷奏案，宣示再言降曹者如同此案，最後授周瑜兵權迎戰。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第四十三至四十九回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "孫權集議、群臣多主降、魯肅與周瑜力主拒曹都有正史依據；諸葛亮舌戰群儒、斫案立威及大量鬥智細節是小說安排。赤壁火攻前線功勞仍應歸周瑜、黃蓋等。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・赤壁戰前"
+              },
+              {
+                "sourceId": "sgz-zhouyu-main",
+                "locator": "卷五十四・赤壁"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第五十四至五十五回",
+      "eventName": "甘露寺招親與賠了夫人又折兵",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫周瑜設計以孫權之妹招親誘劉備入吳，吳國太在甘露寺相看後弄假成真，劉備帶孫夫人逃回荊州，吳軍遭諸葛亮伏兵並被嘲『賠了夫人又折兵』。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第五十四至五十五回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "孫權把妹妹嫁給劉備有正史依據，但甘露寺相親、吳國太主婚、美人計失敗與追兵受辱不見正史。史書也沒有記孫夫人本名為孫尚香。",
+            "citations": [
+              {
+                "sourceId": "sgz-liubei-main",
+                "locator": "卷三十二・孫權進妹"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第六十七至六十八回",
+      "eventName": "逍遙津遇張遼",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說突出張遼威震逍遙津，孫權兵敗奔逃，在凌統等護衛下躍過斷橋，幾乎被擒。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第六十七至六十八回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "孫權撤軍時遭張遼突襲、凌統死戰掩護及孫權越橋脫險均有《三國志》正文與裴注根據；小說在兵力、單挑與追逐上加強戲劇效果。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・建安二十年"
+              },
+              {
+                "sourceId": "sgz-zhangliao-main",
+                "locator": "卷十七・合肥"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第七十五至七十七回",
+      "eventName": "白衣渡江與關羽之死",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫呂蒙裝病、陸遜以卑辭麻痺關羽，吳軍白衣渡江奪取荊州；關羽敗走麥城、突圍被擒，孫權勸降不成後將其處死，再把首級送給曹操。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第七十五至七十七回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "裝病換將、陸遜卑辭、白衣搖櫓、糜芳士仁投降、安撫家屬與馬忠擒羽都有史料依據；但正史只記孫權遣將逆擊、臨沮斬羽，沒有完整勸降對話。把首級送曹操見其他材料與小說敘事，不能凌駕正文。",
+            "citations": [
+              {
+                "sourceId": "sgz-lvmeng-main",
+                "locator": "卷五十四・襲荊州"
+              },
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・關羽傳末"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第八十二至八十四回",
+      "eventName": "向魏稱臣與迎戰劉備",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫孫權因劉備大軍壓境而向曹丕稱臣受封吳王，先後換將，最終採納闞澤推薦，拜年輕的陸遜為大都督。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第八十二至八十四回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "稱臣、受封吳王及任陸遜為大都督皆見正史；小說把人事爭論集中於闞澤力保陸遜，實際上孫權早已長期任用陸遜，並非臨戰才首次識才。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・黃初二年至黃武元年"
+              },
+              {
+                "sourceId": "sgz-luxun-main",
+                "locator": "卷五十八・陸遜傳"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第八十四至八十五回",
+      "eventName": "夷陵火攻大破劉備",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說描寫陸遜長期忍受諸將質疑，待蜀軍連營疲憊後發動火攻，劉備大敗逃往白帝城；孫權在後方接受捷報並重新與蜀修好。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第八十四至八十五回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "等待敵疲、識破伏兵、火攻破四十餘營與劉備退白帝均有正史依據；諸葛亮八陣圖阻陸遜、黃承彥引路等則屬小說神奇化內容。孫權的史實作用主要是任命與支持陸遜。",
+            "citations": [
+              {
+                "sourceId": "sgz-luxun-main",
+                "locator": "卷五十八・夷陵之戰"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第九十八回以後",
+      "eventName": "孫權稱帝與後期吳魏戰事",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說在諸葛亮北伐的主線中簡述孫權於武昌稱帝、國號大吳，並以陸遜等持續配合蜀漢抗魏。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第九十八回及後續相關回目"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "229年稱帝、吳蜀使節互賀與重訂盟約皆有正史記載；《演義》重蜀漢主線，對孫權稱帝後二十餘年治理、呂壹案與二宮之爭大幅省略，因此小說讀者容易低估其晚年政治危機。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・黃龍元年至太元二年"
+              },
+              {
+                "sourceId": "sgz-sunhe-sunba-main",
+                "locator": "卷五十九・二宮之爭"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "works": [],
+  "worksNote": "孫權有多篇詔令、書信與談論由《三國志》正文、裴注保存，但未見可確認由他整理成集、且適合依本站規則作為獨立完整著作收錄的傳世作品。本檔將相關原文放在生平與評價段落，不以後人輯佚文本硬湊 works。"
 }
