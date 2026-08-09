@@ -106,7 +106,7 @@
       {
         "stageName": "曹丕魏王國過渡政權",
         "personName": "曹丕",
-        "personId": null,
+        "personId": "cao-pi",
         "actualFactionId": "cao-pi-wei-kingdom",
         "period": "延康元年正月—四月（220年）",
         "periodUncertain": false,
