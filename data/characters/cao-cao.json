@@ -229,7 +229,7 @@
       },
       {
         "personName": "曹丕",
-        "personId": "cao-pi",
+        "personId": null,
         "relation": "子、繼承人",
         "natureType": "三國志正文",
         "note": "字子桓，卞夫人長子。建安二十二年立為魏王太子，曹操死後繼承丞相、魏王，同年受漢禪建立曹魏；追尊曹操為太祖武皇帝。",
@@ -319,6 +319,40 @@
           {
             "sourceId": "sgz-wudi-sons",
             "locator": "卷二十・武帝諸子總敘"
+          }
+        ]
+      },
+      {
+        "personName": "夏侯惇",
+        "personId": "xiahou-dun",
+        "relation": "宗族婚姻共同體中的核心將領，長期隨從征伐",
+        "natureType": "三國志正文及裴注異說",
+        "note": "《三國志》卷末稱夏侯、曹氏世為婚姻，夏侯惇以『親舊肺腑』受重用；建安二十四年曹操更讓他常與自己同車、出入臥內，其他將領無人能比。曹嵩本出夏侯氏只見裴注異說，不逕自斷言二人確切血親親等。",
+        "citations": [
+          {
+            "sourceId": "sgz-weishu9-appraisal",
+            "locator": "卷九卷末評語"
+          },
+          {
+            "sourceId": "caoman-zhuan-caocao-peizhu",
+            "locator": "《武帝紀》開篇裴注引《曹瞞傳》《世語》"
+          }
+        ]
+      },
+      {
+        "personName": "夏侯淵",
+        "personId": "xiahou-yuan",
+        "relation": "宗族婚姻共同體中的核心將領，早年患難之交",
+        "natureType": "三國志正文及裴注異說",
+        "note": "曹操居家時曾牽涉縣官事，夏侯淵代引重罪，後由曹操設法營救得免，二人在曹操起兵前已有深厚患難關係；兩家世為婚姻。曹嵩本出夏侯氏只見裴注異說，不逕自斷言確切血親親等。",
+        "citations": [
+          {
+            "sourceId": "sgz-xiahouyuan-main",
+            "locator": "卷九・夏侯淵傳開篇"
+          },
+          {
+            "sourceId": "sgz-weishu9-appraisal",
+            "locator": "卷九卷末評語"
           }
         ]
       }
