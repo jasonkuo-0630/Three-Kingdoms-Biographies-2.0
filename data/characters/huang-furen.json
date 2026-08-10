@@ -48,22 +48,13 @@
         }
       ]
     },
-    "factionTimeline": [
-      {
-        "stageName": "家庭關係・隨諸葛亮出仕蜀漢",
-        "personName": "劉備",
-        "personId": "liu-bei",
-        "actualFactionId": "liubei-group",
-        "period": "婚年不詳 — 卒年不詳",
-        "periodUncertain": true
-      }
-    ],
+    "factionTimeline": [],
     "relatives": [
       {
         "personName": "黃承彥",
         "personId": null,
         "relation": "父",
-        "natureType": "裴松之注引記載",
+        "natureType": "裴松之注引《襄陽記》記載",
         "note": "《襄陽記》稱黃承彥高爽開列，為沔南名士，並記載他主動向諸葛亮提議婚配。",
         "citations": [
           {
@@ -78,7 +69,7 @@
         "personName": "諸葛亮",
         "personId": "zhuge-liang",
         "relation": "夫",
-        "natureType": "裴松之注引記載",
+        "natureType": "裴松之注引《襄陽記》記載",
         "note": "《襄陽記》記載黃承彥向諸葛亮提親，諸葛亮允婚；史料未記婚年。",
         "citations": [
           {
