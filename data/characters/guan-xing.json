@@ -53,16 +53,7 @@
         }
       ]
     },
-    "factionTimeline": [
-      {
-        "stageName": "蜀漢・後主政權",
-        "personName": "劉禪",
-        "personId": null,
-        "actualFactionId": "shuhan-houzhu",
-        "period": "約建興初年（223年後；弱冠任侍中、中監軍至數年後去世）",
-        "periodUncertain": true
-      }
-    ],
+    "factionTimeline": [],
     "relatives": [
       {
         "personName": "關羽",
@@ -172,7 +163,7 @@
       },
       {
         "title": "侍中",
-        "period": "弱冠時，約建興初年，確切年份不詳",
+        "period": "弱冠時，確切年份不詳",
         "citations": [
           {
             "sourceId": "sgz-guanyu-main",
@@ -182,7 +173,7 @@
       },
       {
         "title": "中監軍",
-        "period": "弱冠時，約建興初年，確切年份不詳",
+        "period": "弱冠時，確切年份不詳",
         "citations": [
           {
             "sourceId": "sgz-guanyu-main",
@@ -295,7 +286,7 @@
           }
         ]
       },
-      "uncertaintyNote": "正文沒有明繫年號；本站依諸葛亮輔政脈絡約置於建興初年，但保留不確定標記。"
+      "uncertaintyNote": "正文沒有明繫年號，只知在關羽死後、弱冠時任官；本站不將此逕自繫於建興初年或劉禪即位後，避免暗示比史料允許的更確定的時間點。"
     },
     {
       "period": "任官數年後，確切年份不詳",
