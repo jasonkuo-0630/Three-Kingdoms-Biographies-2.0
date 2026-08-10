@@ -70,7 +70,9 @@
             "sourceId": "xiangyang-ji-zhuge",
             "locator": "《諸葛亮傳》裴松之注引《襄陽記》・黃承彥嫁女"
           }
-        ]
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
       },
       {
         "personName": "諸葛亮",
@@ -83,7 +85,9 @@
             "sourceId": "xiangyang-ji-zhuge",
             "locator": "《諸葛亮傳》裴松之注引《襄陽記》・黃承彥嫁女"
           }
-        ]
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
       },
       {
         "personName": "諸葛瞻",
@@ -100,7 +104,9 @@
             "sourceId": "sgz-zhuge-main",
             "locator": "卷三十五・諸葛瞻附傳，未記生母姓名"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "literary"
       }
     ],
     "titlesAndRanks": [],
