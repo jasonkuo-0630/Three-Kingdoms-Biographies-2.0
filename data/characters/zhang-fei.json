@@ -122,8 +122,11 @@
               "sourceId": "sanguo-yanyi",
               "locator": "第一回"
             }
-          ]
-        }
+          ],
+          "natureCategory": "literary"
+        },
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       },
       {
         "personName": "關羽",
@@ -145,8 +148,11 @@
               "sourceId": "sanguo-yanyi",
               "locator": "第一回"
             }
-          ]
-        }
+          ],
+          "natureCategory": "literary"
+        },
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       },
       {
         "personName": "夏侯氏（本名不詳）",
@@ -159,7 +165,9 @@
             "sourceId": "weilu-xiahoushi",
             "locator": "《三國志》卷九夏侯淵傳裴注引《魏略》"
           }
-        ]
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
       },
       {
         "personName": "張氏（敬哀皇后）",
@@ -175,7 +183,9 @@
           {
             "sourceId": "zhang-xingcai-koei"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "張氏（劉禪繼后）",
@@ -191,7 +201,9 @@
           {
             "sourceId": "zhang-xingcai-koei"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "張苞",
@@ -204,7 +216,9 @@
             "sourceId": "sgz-zhangfei-main",
             "locator": "卷三十六・張飛傳末"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "張紹",
@@ -221,7 +235,9 @@
             "sourceId": "sgz-houzhu",
             "locator": "卷三十三・炎興元年"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "張遵",
@@ -234,7 +250,9 @@
             "sourceId": "sgz-zhangfei-main",
             "locator": "卷三十六・張飛傳末"
           }
-        ]
+        ],
+        "relationGroup": "grandchild",
+        "natureCategory": "historical"
       }
     ],
     "titlesAndRanks": [
