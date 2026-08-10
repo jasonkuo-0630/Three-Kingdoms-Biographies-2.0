@@ -48,11 +48,19 @@
     },
     "factionTimeline": [
       {
-        "stageName": "《反三國演義》中的蜀漢陣營",
+        "stageName": "《反三國演義》馬氏涼州軍",
+        "personName": "馬超",
+        "personId": null,
+        "actualFactionId": "fan-sanguo-ma-liangzhou-army",
+        "period": "小說虛構時間線：第八回隨馬超起兵並留守長安—第十回進入益州、劉備主婚前",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "《反三國演義》劉備陣營",
         "personName": "劉備",
         "personId": "liu-bei",
-        "actualFactionId": "shuhan-xianzhu",
-        "period": "小說虛構時間線：劉備取得益州後 — 小說結局",
+        "actualFactionId": "fan-sanguo-liubei-faction",
+        "period": "小說虛構時間線：第十回劉備主婚、嫁與趙雲後—第五十八回小說結局",
         "periodUncertain": false
       }
     ],
