@@ -73,8 +73,7 @@
         "personId": "cao-cao",
         "actualFactionId": "cao-cao-anti-dong-force",
         "period": "中平六年十二月（189年）—初平二年（191年）",
-        "periodUncertain": false,
-        "hideAvatar": false
+        "periodUncertain": false
       },
       {
         "stageName": "東郡至兗州軍政集團",
@@ -82,8 +81,7 @@
         "personId": "cao-cao",
         "actualFactionId": "cao-cao-yanzhou-regime",
         "period": "初平二年（191年）—建安元年八月（196年）",
-        "periodUncertain": false,
-        "hideAvatar": false
+        "periodUncertain": false
       },
       {
         "stageName": "許都漢廷下的曹操軍政集團",
@@ -91,8 +89,7 @@
         "personId": "cao-cao",
         "actualFactionId": "cao-cao-han-court",
         "period": "建安元年八月（196年）—建安二十一年四月（216年）",
-        "periodUncertain": false,
-        "hideAvatar": false
+        "periodUncertain": false
       },
       {
         "stageName": "曹操魏王國政權",
@@ -100,8 +97,7 @@
         "personId": "cao-cao",
         "actualFactionId": "cao-cao-wei-kingdom",
         "period": "建安二十一年四月（216年）—建安二十五年正月（220年）",
-        "periodUncertain": false,
-        "hideAvatar": false
+        "periodUncertain": false
       },
       {
         "stageName": "曹丕魏王國過渡政權",
@@ -109,8 +105,7 @@
         "personId": null,
         "actualFactionId": "cao-pi-wei-kingdom",
         "period": "延康元年正月—四月（220年）",
-        "periodUncertain": false,
-        "hideAvatar": false
+        "periodUncertain": false
       }
     ],
     "relatives": [
