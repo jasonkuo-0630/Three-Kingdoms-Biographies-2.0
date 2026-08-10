@@ -149,7 +149,9 @@
             "sourceId": "sgz-liubei-main",
             "locator": "卷三十二・先主傳"
           }
-        ]
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
       },
       {
         "personName": "劉備之母（姓名不詳）",
@@ -162,7 +164,9 @@
             "sourceId": "sgz-liubei-main",
             "locator": "卷三十二・先主傳"
           }
-        ]
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
       },
       {
         "personName": "麋夫人（姓名不詳）",
@@ -175,7 +179,9 @@
             "sourceId": "sgz-mizhu-main",
             "locator": "卷三十八・麋竺傳"
           }
-        ]
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
       },
       {
         "personName": "甘夫人",
@@ -188,7 +194,9 @@
             "sourceId": "sgz-shu-consorts",
             "locator": "卷三十四・先主甘皇后傳"
           }
-        ]
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫夫人（正史姓名不詳）",
@@ -213,7 +221,9 @@
             "sourceId": "sanguo-yanyi",
             "locator": "第五十四、五十五、六十一、八十四回"
           }
-        ]
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
       },
       {
         "personName": "吳皇后",
@@ -226,7 +236,9 @@
             "sourceId": "sgz-shu-consorts",
             "locator": "卷三十四・先主穆皇后傳"
           }
-        ]
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
       },
       {
         "personName": "劉封",
@@ -239,7 +251,9 @@
             "sourceId": "sgz-liufeng-main",
             "locator": "卷四十・劉封傳"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "劉禪",
@@ -256,7 +270,9 @@
             "sourceId": "sgz-liubei-main",
             "locator": "卷三十二・先主傳"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "劉永",
@@ -269,7 +285,9 @@
             "sourceId": "sgz-shu-consorts",
             "locator": "卷三十四・先主子永傳"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "劉理",
@@ -282,7 +300,9 @@
             "sourceId": "sgz-shu-consorts",
             "locator": "卷三十四・先主子理傳"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "關羽",
@@ -305,8 +325,11 @@
               "locator": "第一回",
               "note": "「桃園結義」情節"
             }
-          ]
-        }
+          ],
+          "natureCategory": "literary"
+        },
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       },
       {
         "personName": "張飛",
@@ -333,8 +356,11 @@
               "locator": "第一回",
               "note": "「桃園結義」情節"
             }
-          ]
-        }
+          ],
+          "natureCategory": "literary"
+        },
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       }
     ],
     "titlesAndRanks": [
