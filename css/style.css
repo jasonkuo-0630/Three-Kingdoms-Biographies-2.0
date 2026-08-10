@@ -15,11 +15,18 @@
    之後如果要用到子集裡沒有的字，需要回頭用 fonttools 的 pyftsubset
    重新子集化 fonts/ 資料夾裡沒裁切過的原始檔（來源：
    https://github.com/max32002/bakudaifont），不能單純多加字進現有檔案。 */
+/* 浮水印毛筆字型：曾經嘗試自己 host「莫大毛筆字體」（Bakudai）解決
+   Ma Shan Zheng 缺字問題（詳見下方 --font-brush 的說明），字型檔還留在
+   fonts/ 資料夾裡，但實測比對後使用者覺得備援字體（Noto Serif TC 粗體）
+   看起來反而更好看，所以刻意停用，不載入這個字型檔。如果之後想重新
+   試試看，把下面這個 @font-face 區塊取消註解、並把 --font-brush 改回
+   包含 "Bakudai" 即可，不需要重新子集化字型檔。
 @font-face {
   font-family: "Bakudai";
   src: url("../fonts/bakudai-watermark.woff2") format("woff2");
   font-display: swap;
 }
+*/
 
 :root {
   /* 背景 */
@@ -59,7 +66,11 @@
   --shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
   --font-display: "Noto Serif TC", serif;
   --font-body: "Noto Sans TC", sans-serif;
-  --font-brush: "Bakudai", "Noto Serif TC", serif; /* 勢力浮水印字專用，水墨毛筆風格 */
+  --font-brush: "Noto Serif TC", serif; /* 勢力浮水印字專用。曾經自己
+    host 莫大毛筆字體（Bakudai）想做水墨毛筆風格，但實測比對後使用者
+    覺得備援的 Noto Serif TC 粗體看起來反而更好看，所以刻意不放
+    "Bakudai" 進這個清單——不是忘記寫，是比較過兩種效果後的選擇。
+    字型檔跟 @font-face 宣告都還留著（見上方），想改回去隨時可以。 */
 
   /* ---- 卷首／勢力總覽頁專用色票（奈奈設計稿沿用） ---- */
   --ink: #17231f;
