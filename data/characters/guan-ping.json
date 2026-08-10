@@ -78,14 +78,21 @@
           {
             "sourceId": "sgz-guanyu-main",
             "locator": "卷三十六・『斬羽及子平於臨沮』"
-          },
-          {
-            "sourceId": "sanguo-yanyi",
-            "locator": "第二十八回"
           }
         ],
         "relationGroup": "ancestor",
-        "natureCategory": "historical"
+        "natureCategory": "historical",
+        "fictionalRelation": {
+          "label": "義父",
+          "natureType": "演義設定",
+          "natureCategory": "literary",
+          "citations": [
+            {
+              "sourceId": "sanguo-yanyi",
+              "locator": "第二十八回"
+            }
+          ]
+        }
       },
       {
         "personName": "關興",
