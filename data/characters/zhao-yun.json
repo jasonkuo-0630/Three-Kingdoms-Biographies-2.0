@@ -84,7 +84,9 @@
           {
             "sourceId": "fan-sanguo-yanyi"
           }
-        ]
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "literary"
       },
       {
         "personName": "趙統",
@@ -97,7 +99,9 @@
             "sourceId": "sgz-zhaoyun-main",
             "note": "「雲子統嗣，官至虎賁中郎，督行領軍」"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "趙廣",
@@ -110,7 +114,9 @@
             "sourceId": "sgz-zhaoyun-main",
             "note": "「次子廣，牙門將，隨姜維遝中，臨陳戰死」"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       }
     ],
     "titlesAndRanks": [
