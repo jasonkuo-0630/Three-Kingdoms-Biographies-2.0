@@ -1,0 +1,3 @@
+# 開發用工具的相依套件，不進版控（見 package.json 的說明：
+# 這些工具只用來跑 scripts/validate-data.js，不是網站執行時依賴）
+node_modules/
