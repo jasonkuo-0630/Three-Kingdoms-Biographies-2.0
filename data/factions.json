@@ -229,6 +229,12 @@
       "name": "孫吳・大帝政權",
       "filterGroup": "wu",
       "description": "黃龍元年四月（229年）孫權在武昌稱帝、正式建立孫吳帝國後，至太元二年四月（252年）去世為止的政權階段；同年九月遷都建業。"
+    },
+    {
+      "id": "liu-zhang-yizhou-regime",
+      "name": "劉璋益州政權",
+      "filterGroup": "qunxiong",
+      "description": "劉璋領益州牧期間的政權，法正、張松等曾效力於此，後因劉璋懦弱、暗中轉而迎奉劉備入蜀。"
     }
   ]
 }
