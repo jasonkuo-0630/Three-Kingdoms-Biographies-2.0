@@ -49,15 +49,55 @@
         "periodUncertain": true
       },
       {
-        "stageName": "劉備集團（蜀漢建立前）",
+        "stageName": "鄴城重逢，隨劉備",
         "personName": "劉備",
         "personId": "liu-bei",
         "actualFactionId": "liubei-group",
-        "period": "初平年間曾短暫隨劉備；約建安五年（200年）後長期追隨 — 章武元年（221年）",
+        "period": "約建安五年（200年）前後鄴城重逢 — 建安六年（201年）前後",
+        "periodUncertain": true
+      },
+      {
+        "stageName": "劉表麾下・荊州寄寓",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "liu-biao-faction",
+        "period": "約建安六年（201年）前後 — 建安十三年（208年）",
+        "periodUncertain": true
+      },
+      {
+        "stageName": "劉備集團・荊州據地",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "liubei-jingzhou-regime",
+        "period": "建安十三年（208年）— 建安十六年（211年）",
         "periodUncertain": false
       },
       {
-        "stageName": "蜀漢・先主時期",
+        "stageName": "劉備集團・入蜀作戰",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "liubei-yizhou-regime",
+        "period": "建安十六年（211年）— 建安十九年（214年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "劉備集團・益州牧政權",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "liubei-yizhou-regime",
+        "period": "建安十九年（214年）— 建安二十四年（219年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "漢中王政權",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "hanzhong-kingdom",
+        "period": "建安二十四年（219年）— 章武元年（221年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "蜀漢・先主政權",
         "personName": "劉備",
         "personId": "liu-bei",
         "actualFactionId": "shuhan-xianzhu",
@@ -65,7 +105,7 @@
         "periodUncertain": false
       },
       {
-        "stageName": "蜀漢・後主時期",
+        "stageName": "蜀漢・後主政權",
         "personName": "劉禪",
         "personId": null,
         "actualFactionId": "shuhan-houzhu",
@@ -405,9 +445,9 @@
               }
             ]
           }
-        ],
-        "uncertaintyNote": "《雲別傳》原書已佚，具體年月與行動細節僅能依裴注保存的片段記載，不能確知更完整的過程。"
-      }
+        ]
+      },
+      "uncertaintyNote": "《雲別傳》原書已佚，具體年月與行動細節僅能依裴注保存的片段記載，不能確知更完整的過程。"
     },
     {
       "period": "建安十九年（214年）",
