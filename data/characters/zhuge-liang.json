@@ -121,7 +121,9 @@
             "sourceId": "sgz-zhuge-main",
             "locator": "卷三十五・諸葛亮傳開篇"
           }
-        ]
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
       },
       {
         "personName": "諸葛玄",
@@ -138,7 +140,9 @@
             "sourceId": "xiandi-chunqiu-zhuge",
             "locator": "《諸葛亮傳》裴注引《獻帝春秋》"
           }
-        ]
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
       },
       {
         "personName": "諸葛瑾",
@@ -155,7 +159,9 @@
             "sourceId": "sgz-zhuge-main",
             "locator": "卷三十五・諸葛喬傳"
           }
-        ]
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       },
       {
         "personName": "諸葛均",
@@ -168,13 +174,15 @@
             "sourceId": "sgz-zhuge-main",
             "locator": "卷三十五・諸葛亮傳開篇及身後親屬段"
           }
-        ]
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       },
       {
         "personName": "黃夫人",
         "personId": "huang-furen",
         "relation": "妻",
-        "natureType": "後世傳說",
+        "natureType": "裴松之注引《襄陽記》記載",
         "note": "婚姻關係見裴松之注引《襄陽記》：沔南名士黃承彥將女兒許配給諸葛亮，但史料沒有記載她的本名。《三國演義》第一百十七回仍只稱她為黃氏，也沒有使用黃月英。黃月英是後世說書與大眾文化流傳的名字；2003年光榮《真・三國無雙3》以月英塑造角色後更為普及，不能倒推為歷史本名。",
         "citations": [
           {
@@ -189,7 +197,9 @@
             "sourceId": "shin-sangokumusou-3-yueying",
             "locator": "月英角色設定"
           }
-        ]
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
       },
       {
         "personName": "諸葛喬",
@@ -202,7 +212,9 @@
             "sourceId": "sgz-zhuge-main",
             "locator": "卷三十五・諸葛喬傳"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "諸葛瞻",
@@ -215,7 +227,9 @@
             "sourceId": "sgz-zhuge-main",
             "locator": "卷三十五・諸葛瞻傳"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "諸葛尚",
@@ -228,7 +242,9 @@
             "sourceId": "sgz-zhuge-main",
             "locator": "卷三十五・諸葛瞻傳"
           }
-        ]
+        ],
+        "relationGroup": "grandchild",
+        "natureCategory": "historical"
       },
       {
         "personName": "諸葛京",
@@ -241,7 +257,9 @@
             "sourceId": "sgz-zhuge-main",
             "locator": "卷三十五・諸葛瞻傳及裴注"
           }
-        ]
+        ],
+        "relationGroup": "grandchild",
+        "natureCategory": "historical"
       }
     ],
     "titlesAndRanks": [
