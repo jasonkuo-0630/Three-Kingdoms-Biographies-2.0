@@ -132,7 +132,9 @@
             "sourceId": "sgz-xiahouyuan-main",
             "locator": "卷九・夏侯淵傳開篇"
           }
-        ]
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       },
       {
         "personName": "曹操",
@@ -153,7 +155,9 @@
             "sourceId": "caoman-zhuan-caocao-peizhu",
             "locator": "《武帝紀》開篇裴注引《曹瞞傳》《世語》"
           }
-        ]
+        ],
+        "relationGroup": "other",
+        "natureCategory": "historical"
       },
       {
         "personName": "姓名不詳的夏侯淵之妻",
@@ -166,7 +170,9 @@
             "sourceId": "sgz-xiahouyuan-main",
             "locator": "卷九・子霸等段開頭"
           }
-        ]
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
       },
       {
         "personName": "姓名不詳的亡弟",
@@ -179,7 +185,9 @@
             "sourceId": "weilue-xiahouyuan-peizhu",
             "locator": "《夏侯淵傳》裴注引《魏略》饑荒段"
           }
-        ]
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       },
       {
         "personName": "姓名不詳的亡弟孤女",
@@ -192,7 +200,9 @@
             "sourceId": "weilue-xiahouyuan-peizhu",
             "locator": "《夏侯淵傳》裴注引《魏略》饑荒段"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "夏侯衡",
@@ -205,7 +215,9 @@
             "sourceId": "sgz-xiahouyuan-main",
             "locator": "卷九・子霸等"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "夏侯霸",
@@ -222,7 +234,9 @@
             "sourceId": "weilue-xiahouyuan-peizhu",
             "locator": "《夏侯淵傳》裴注引《魏略》夏侯霸事"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "張飛夫人夏侯氏",
@@ -235,7 +249,9 @@
             "sourceId": "weilue-xiahouyuan-peizhu",
             "locator": "《夏侯淵傳》裴注引《魏略》建安五年及夏侯霸入蜀段"
           }
-        ]
+        ],
+        "relationGroup": "other",
+        "natureCategory": "historical"
       },
       {
         "personName": "夏侯稱",
@@ -248,7 +264,9 @@
             "sourceId": "sgz-xiahouyuan-main",
             "locator": "卷九・子霸等裴注所引夏侯湛序"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "夏侯威",
@@ -261,7 +279,9 @@
             "sourceId": "sgz-xiahouyuan-main",
             "locator": "卷九・子霸等"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "夏侯榮",
@@ -274,7 +294,9 @@
             "sourceId": "sgz-xiahouyuan-main",
             "locator": "卷九・子霸等裴注所引夏侯湛序"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "夏侯惠、夏侯和",
@@ -287,7 +309,9 @@
             "sourceId": "sgz-xiahouyuan-main",
             "locator": "卷九・子霸等"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       }
     ],
     "titlesAndRanks": [
@@ -431,7 +455,6 @@
           "context": "形容夏侯淵赴急迅速的軍中語，見裴注引《魏書》",
           "textType": "古籍原文",
           "originalText": "典軍校尉夏侯淵，三日五百，六日一千。",
-          "paraphrase": "軍中以三日行五百里、六日行一千里的說法，形容夏侯淵行軍迅速、善於長途奔襲與及時赴援。",
           "citations": [
             {
               "sourceId": "weishu-xiahouyuan-peizhu",
@@ -445,7 +468,6 @@
           "context": "建安十九年夏侯淵攻滅宋建、平定隴右後下令褒獎",
           "textType": "古籍原文",
           "originalText": "宋建造爲亂逆三十餘年，淵一舉滅之，虎步關右，所向無前。仲尼有言：『吾與爾不如也。』",
-          "paraphrase": "曹操稱讚夏侯淵一舉消滅盤踞三十餘年的宋建勢力，威震關右、所向無敵，並借用孔子的話高度肯定其功績與能力。",
           "citations": [
             {
               "sourceId": "sgz-xiahouyuan-main",
@@ -459,7 +481,6 @@
           "context": "夏侯淵屢勝後，曹操對其為將風格的告誡",
           "textType": "古籍原文",
           "originalText": "爲將當有怯弱時，不可但恃勇也。將當以勇爲本，行之以智計；但知任勇，一匹夫敵耳。",
-          "paraphrase": "曹操告誡夏侯淵，將領雖應以勇敢為根本，也必須懂得示弱並運用智謀；若只憑血氣之勇，最多只能成為匹夫之敵，不能真正統御全軍。",
           "citations": [
             {
               "sourceId": "sgz-xiahouyuan-main",
@@ -473,7 +494,6 @@
           "context": "定軍山敗亡後，〈魏武軍策令〉批評夏侯淵親自補鹿角與親戰；文字由《太平御覽》保存",
           "textType": "古籍原文",
           "originalText": "淵本非能用兵也，軍中呼爲『白地將軍』，爲督帥尚不當親戰，況補鹿角乎。",
-          "paraphrase": "曹操批評夏侯淵並不擅長統兵，軍中甚至稱他為「白地將軍」；身為統帥本就不該親自上陣作戰，更不應親自前往修補鹿角而置身險地。",
           "citations": [
             {
               "sourceId": "taiping-yulan-337-weiwu-junce",
@@ -489,7 +509,6 @@
           "context": "《諸夏侯曹傳》卷末合評",
           "textType": "古籍原文",
           "originalText": "夏侯、曹氏，世爲婚姻，故惇、淵、仁、洪、休、尚、真等並以親舊肺腑，貴重於時，左右勳業，咸有効勞。",
-          "paraphrase": "陳壽認為夏侯淵等夏侯、曹氏將領因世代婚姻與親舊關係成為曹氏政權的核心腹心，既顯貴於當時，也在征戰與輔政方面立下實際功勞。",
           "citations": [
             {
               "sourceId": "sgz-weishu9-appraisal",
