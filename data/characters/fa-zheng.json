@@ -1,13 +1,122 @@
 {
   "schemaVersion": 2,
+  "dataStatus": "reviewed-draft",
   "published": true,
+  "lastReviewedAt": "2026-08-10",
   "id": "fa-zheng",
   "name": "法正",
   "courtesyName": "孝直",
-  "otherNames": [],
+  "childhoodName": null,
+  "artName": null,
+  "otherNames": [
+    "翼侯（死後諡號）"
+  ],
+  "lifespan": "約176年（依220年卒時四十五歲逆推）—220年",
+  "birthplace": "右扶風郿縣（今陝西省眉縣一帶）",
+  "primaryIdentity": "東漢末年劉備重要謀臣，官至尚書令、護軍將軍，封翼侯",
+  "summary": "法正字孝直，扶風郿人，早年與孟達入蜀依劉璋，久不得志。後奉命迎劉備入蜀，與張松密謀轉奉劉備，參與奪取益州；又判斷曹操北返後漢中可圖，促成劉備進軍並於定軍山掌握戰機。其智術深受劉備、諸葛亮重視，卻也因得勢後報復私怨、擅殺毀傷己者而受批評。建安二十五年卒，年四十五，諡翼侯。",
   "avatar": "images/fa_zheng.png",
-  "overview": {},
-  "historicalBio": [],
-  "romanceBio": [],
-  "works": []
+  "overview": {
+    "intro": {
+      "paragraphs": [
+        {
+          "text": "法正字孝直，右扶風郿縣人。祖父法真以清節高名著稱；法正的生年不見直接紀年，依建安二十五年去世、享年四十五逆推，約生於176年。",
+          "citations": [
+            { "sourceId": "sgz-fazheng-main", "locator": "卷三十七・法正傳開篇及傳末" }
+          ]
+        },
+        {
+          "text": "他在劉璋政權內長期不得志，卻能判斷政治強弱與戰場時機。其主要功績包括與張松迎劉備入蜀、協助奪取益州、建議進攻漢中，以及在定軍山判斷夏侯淵軍可擊；陳壽稱其能看出事情成敗、具有奇策謀算。",
+          "citations": [
+            { "sourceId": "sgz-fazheng-main", "locator": "卷三十七・迎劉備、取益州、漢中策及卷末評語" }
+          ]
+        },
+        {
+          "text": "法正並非被史書單純塑造成正面謀士。《三國志》明載他出任蜀郡太守、揚武將軍後，連小恩小怨都加以報答或報復，且擅自殺死數名曾毀傷自己的人。諸葛亮雖與他志趣作風不同，仍基於公義相互取重，並高度肯定其智術。",
+          "citations": [
+            { "sourceId": "sgz-fazheng-main", "locator": "卷三十七・蜀郡太守、性格爭議與傳末" }
+          ]
+        }
+      ],
+      "originalTexts": [
+        {
+          "text": "法正字孝直，右扶風郿人也。祖父真，有清節高名。",
+          "sourceId": "sgz-fazheng-main",
+          "locator": "卷三十七・法正傳開篇"
+        }
+      ]
+    },
+    "factionTimeline": [
+      { "stageName": "劉備集團・益州牧政權", "personName": "劉備", "personId": "liu-bei", "actualFactionId": "liubei-yizhou-regime", "period": "建安十九年（214年）成都平定—建安二十四年（219年）劉備進位漢中王", "periodUncertain": false },
+      { "stageName": "漢中王政權", "personName": "劉備", "personId": "liu-bei", "actualFactionId": "hanzhong-kingdom", "period": "建安二十四年（219年）—建安二十五年（220年）去世", "periodUncertain": false }
+    ],
+    "relatives": [
+      { "personName": "法真", "personId": null, "relation": "祖父", "natureType": "三國志正文記載", "note": "《法正傳》稱法真有清節高名；本傳正文沒有交代其官職與法正父輩世系。", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・法正傳開篇" }] },
+      { "personName": "法衍", "personId": null, "relation": "父", "natureType": "裴注引《三輔決錄注》記載", "note": "字季謀，曾任司徒掾、廷尉左監。此項世系與官職出自《法正傳》裴松之注引《三輔決錄注》，不是陳壽正文。", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・法正傳開篇裴注引《三輔決錄注》" }] },
+      { "personName": "法邈", "personId": null, "relation": "子", "natureType": "三國志正文記載", "note": "法正去世後受賜關內侯爵，後官至奉車都尉、漢陽太守；本傳未載其後嗣。", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・法正傳末" }] }
+    ],
+    "titlesAndRanks": [
+      { "title": "新都令", "period": "依附劉璋後，確切年份不詳", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・早年仕劉璋" }] },
+      { "title": "軍議校尉", "period": "由新都令召署，確切年份不詳", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・早年仕劉璋" }] },
+      { "title": "蜀郡太守、揚武將軍", "period": "建安十九年（214年）劉備平定成都後", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・『外統都畿，內為謀主』" }] },
+      { "title": "尚書令、護軍將軍", "period": "建安二十四年（219年）劉備進位漢中王後", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・漢中王時期" }] }
+    ],
+    "posthumousTitle": {
+      "title": "翼侯",
+      "grantedBy": "建安二十五年（220年）法正去世後，由劉備追諡",
+      "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・法正傳末" }],
+      "paragraphs": [
+        { "text": "法正於劉備進位漢中王的次年去世，劉備為他流淚多日，追諡翼侯。史書沒有保存更完整的諡議文字。", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・法正傳末" }] }
+      ]
+    },
+    "evaluations": {
+      "contemporary": [
+        { "evaluatorName": "曹操", "evaluatorEra": "建安二十四年（219年）", "context": "得知定軍山戰機出自法正謀畫後的評語", "textType": "古籍原文", "originalText": "吾故知玄德不辦有此，必為人所教也。", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・定軍山戰後" }], "paraphrase": "曹操認為劉備自己不會作出這樣的部署，必定受到他人指點；此話雖帶有戰敗後貶抑劉備的語氣，也從敵方角度反映法正之策受到注意。" },
+        { "evaluatorName": "諸葛亮", "evaluatorEra": "蜀漢初年", "context": "《法正傳》總述二人關係", "textType": "史家記述", "originalText": "諸葛亮與正，雖好尚不同，以公義相取。亮每奇正智術。", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・法正傳末" }], "paraphrase": "諸葛亮與法正的志趣和作風並不相同，仍能以公共事業為重而彼此取重；諸葛亮尤其佩服法正的智謀與權變能力。" },
+        { "evaluatorName": "諸葛亮", "evaluatorEra": "章武二年（222年）夷陵戰敗後", "context": "劉備不聽群臣勸阻東征、戰敗退至白帝後的感嘆", "textType": "古籍原文", "originalText": "法孝直若在，則能制主上，令不東行；就復東行，必不傾危矣。", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・法正傳末" }], "paraphrase": "諸葛亮認為法正若仍在世，可能有能力勸止劉備東征；即使劉備仍然出兵，法正也應能使戰局不至於發展成傾覆性的敗局。" }
+      ],
+      "later": [
+        { "evaluatorName": "陳壽", "evaluatorEra": "西晉史家", "context": "《三國志・龐統法正傳》卷末評語", "textType": "古籍原文", "originalText": "法正著見成敗，有奇畫策算，然不以德素稱也。儗之魏臣，正其程、郭之儔儷邪？", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・卷末評曰" }], "paraphrase": "陳壽肯定法正善於判斷成敗並提出奇策，將他比作曹魏的程昱、郭嘉一類謀臣；同時直言法正並不以一貫德行受到稱譽。" }
+      ]
+    }
+  },
+  "historicalBio": [
+    { "period": "建安初年（約196年以後）", "periodType": "approx", "title": "因饑荒入蜀，仕劉璋而長期不得志", "content": { "paragraphs": [ { "text": "天下饑荒時，法正與同郡孟達一同入蜀依附劉璋，先任新都令，後被召署軍議校尉。他既未獲重用，又遭同為僑居益州的州邑人士批評品行，因而志意不得。", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・法正傳開篇" }] } ], "originalTexts": [ { "text": "建安初，天下饑荒，正與同郡孟達俱入蜀依劉璋，久之為新都令，後召署軍議校尉。既不任用，又為其州邑俱僑客者所謗無行，志意不得。", "sourceId": "sgz-fazheng-main", "locator": "卷三十七・法正傳" } ] }, "uncertaintyNote": "史書只稱建安初，未載入蜀確年。" },
+    { "period": "建安年間，約211年前", "periodType": "approx", "title": "奉使接觸劉備，與張松密謀轉奉", "content": { "paragraphs": [ { "text": "益州別駕張松與法正交好，二人都認為劉璋不足以成事。張松勸劉璋與曹操斷絕、改結劉備，並推薦法正出使；法正起初推辭，奉命見過劉備後，回蜀稱說劉備具有雄略，與張松秘密規畫共同奉戴劉備。", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・張松薦法正出使" }] } ] }, "uncertaintyNote": "本傳未為法正第一次出使標出確切年份。" },
+    { "period": "建安十六年（211年）前後", "periodType": "approx", "title": "迎劉備入蜀並直接提出奪取益州", "content": { "paragraphs": [ { "text": "劉璋因畏懼曹操將討張魯，再依張松之議迎劉備入蜀，由法正奉命傳達。法正完成公開使命後，私下向劉備指出：可以劉備之才乘劉璋懦弱，以張松在內呼應，再憑益州富庶與險固成就大業。劉備採納，沿江入蜀，與劉璋會於涪，後由葭萌轉而攻取益州。", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・再使迎劉備與陰獻策" }, { "sourceId": "sgz-liubei-main", "locator": "卷三十二・建安十六年入蜀" }] } ], "originalTexts": [ { "text": "以明將軍之英才，乘劉牧之懦弱；張松，州之股肱，以響應於內；然後資益州之殷富，馮天府之險阻，以此成業，猶反掌也。", "sourceId": "sgz-fazheng-main", "locator": "卷三十七・陰獻策於先主" } ] }, "uncertaintyNote": "《先主傳》繫劉備入蜀於建安十六年；法正本傳未另標月份。" },
+    { "period": "建安十七年至十九年（212—214年）", "periodType": "range", "title": "隨軍取益州，判斷劉璋不會採用焦土之策", "content": { "paragraphs": [ { "text": "劉備與劉璋決裂後，廣漢從事鄭度建議劉璋遷民、焚毀倉穀並堅壁待敵。劉備得知後憂慮，法正判斷劉璋終究不會採用；結果劉璋果然以不能驅民避敵為由棄而不用。這段顯示法正不只分析軍事方案，也熟悉劉璋的性格與決策方式。", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・鄭度之策" }] } ], "originalTexts": [ { "text": "先主聞而惡之，以問正。正曰：『終不能用，無可憂也。』", "sourceId": "sgz-fazheng-main", "locator": "卷三十七・鄭度之策" } ] } },
+    { "period": "圍雒城期間（約213—214年）", "periodType": "approx", "title": "致箋劉璋，分析益州敗勢並勸其轉變", "content": { "paragraphs": [ { "text": "劉備軍圍雒城時，法正致長箋給劉璋，一方面承認自己已留在外軍、可能遭受不忠之譏，另一方面逐項分析劉璋軍隊屢敗、土地日削、補給與民心惡化，以及荊州援軍道路已通等形勢，勸劉璋及早改變以保全家門。這篇箋文完整保存在本傳。", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・『及軍圍雒城，正箋與璋』" }] } ] }, "uncertaintyNote": "箋文作於雒城被圍期間，史書未標月日。" },
+    { "period": "建安十九年（214年）", "periodType": "year", "title": "勸劉備厚待許靖，維護新政權名望", "content": { "paragraphs": [ { "text": "成都將破時，許靖曾試圖越城投降，劉備因此輕視他。法正承認許靖名過其實，卻指出其聲名流布天下；新創政權若不禮遇他，遠方人士可能誤以為劉備輕賤賢者，故建議仿效燕昭王待郭隗，以政治象徵穩定輿論。劉備遂厚待許靖。", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・許靖事" }] } ] } },
+    { "period": "建安十九年（214年）以後", "periodType": "range", "title": "外統都畿、內為謀主，亦報復私怨擅殺數人", "content": { "paragraphs": [ { "text": "劉備任法正為蜀郡太守、揚武將軍，使他在外統理成都周邊，在內擔任主要謀臣。法正得勢後，連一頓飯的小恩與瞪眼般的小怨都一一回報，並擅自殺死數名曾批評、傷害自己的人；這是《三國志》正文的明確負面記載。", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・蜀郡太守性格爭議" }] }, { "text": "有人請諸葛亮上啟劉備壓制法正。諸葛亮回答，劉備在公安時受曹操、孫權與孫夫人多重牽制，正是法正輔助他擺脫困局；加上劉備素來信愛法正，因此難以禁止他行其意。這段說明法正受倚重，也如實保留權力失衡的問題，不能解讀成諸葛亮認可其擅殺。", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・諸葛亮答或人" }] } ], "originalTexts": [ { "text": "一餐之德，睚眥之怨，無不報復，擅殺毀傷己者數人。", "sourceId": "sgz-fazheng-main", "locator": "卷三十七・法正傳" } ] } },
+    { "period": "建安二十二年（217年）", "periodType": "year", "title": "判斷曹操北返有內憂，提出進取漢中整體策略", "content": { "paragraphs": [ { "text": "法正指出，曹操降張魯、平漢中後沒有乘勢進攻巴蜀，反而只留夏侯淵、張郃守備而匆忙北返，並非智力或兵力不足，應是內部另有急迫憂患。他判斷夏侯淵、張郃才略不及劉備諸將，主張舉眾攻漢中。", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・建安二十二年漢中策" }] }, { "text": "法正規畫的後續並不止於奪取一地：克漢中後應廣泛屯田積穀、觀察時機；上可傾覆曹氏、尊奉漢室，中可逐步進取雍涼，下可固守要害作長久之計。劉備稱善，率諸將進兵漢中，法正隨軍。", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・漢中策" }, { "sourceId": "sgz-liubei-main", "locator": "卷三十二・建安二十二年進兵漢中" }] } ], "originalTexts": [ { "text": "今策淵、郃才略，不勝國之將帥，舉眾往討，則必可克。克之之日，廣農積穀，觀釁伺隙，上可以傾覆寇敵，尊獎王室，中可以蠶食雍、涼，廣拓境土，下可以固守要害，為持久之計。此蓋天以與我，時不可失也。", "sourceId": "sgz-fazheng-main", "locator": "卷三十七・漢中策" } ] } },
+    { "period": "建安二十四年（219年）", "periodType": "year", "title": "定軍山判斷戰機，黃忠擊破並斬夏侯淵", "content": { "paragraphs": [ { "text": "劉備由陽平南渡沔水，沿山推進，在定軍山、興勢一帶立營。夏侯淵率軍爭奪陣地時，法正判斷『可以攻擊了』；劉備命黃忠居高鼓譟進攻，大破夏侯淵軍，夏侯淵等被殺。正史只保存法正的臨陣判斷，沒有小說中白旗、紅旗指揮黃忠進退的細節。", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・建安二十四年定軍山" }, { "sourceId": "sgz-huangzhong-main", "locator": "卷三十六・黃忠傳定軍山" }] } ], "originalTexts": [ { "text": "淵將兵來爭其地。正曰：『可擊矣。』先主命黃忠乘高鼓譟攻之，大破淵軍，淵等授首。", "sourceId": "sgz-fazheng-main", "locator": "卷三十七・定軍山" } ] } },
+    { "period": "建安二十四年至二十五年（219—220年）", "periodType": "range", "title": "任尚書令、護軍將軍，去世後劉備流涕累日", "content": { "paragraphs": [ { "text": "劉備進位漢中王後，任法正為尚書令、護軍將軍。次年法正去世，享年四十五；劉備為他流淚多日，追諡翼侯，並賜其子法邈關內侯爵。", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・法正傳末" }] } ], "originalTexts": [ { "text": "先主立為漢中王，以正為尚書令、護軍將軍。明年卒，時年四十五。先主為之流涕者累日。諡曰翼侯。", "sourceId": "sgz-fazheng-main", "locator": "卷三十七・法正傳末" } ] } }
+  ],
+  "romanceBio": [
+    { "chapter": "第六十回", "eventName": "與張松、孟達共謀獻益州，奉使勸劉備入蜀", "content": { "paragraphs": [ { "text": "小說安排張松先訪曹操、轉向劉備並獻出西川地圖，回蜀後與法正、孟達密議；法正隨即奉劉璋之命出使荊州，私下勸劉備把握機會取得益州。", "citations": [{ "sourceId": "sanguo-yanyi", "locator": "第六十回" }] } ] }, "historicalDifference": { "paragraphs": [ { "text": "張松與法正認為劉璋不足成事、法正奉使迎劉備並陰獻取蜀之策，皆有《三國志》依據；張松過目背誦《孟德新書》、獻出精密西川地圖等則是小說集中鋪陳。正史並稱法正第一次出使後已與張松密謀，並非到這一刻才突然加入。", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・張松薦使與陰獻策" }] } ] } },
+    { "chapter": "第六十五回前後", "eventName": "隨劉備取成都並成為蜀中謀臣", "content": { "paragraphs": [ { "text": "小說把法正編入劉備取成都的軍政幕僚群，與諸葛亮等人共同處理平蜀後的人事與政務，使他成為劉備在益州的重要謀臣。", "citations": [{ "sourceId": "sanguo-yanyi", "locator": "第六十五回前後" }] } ] }, "historicalDifference": { "paragraphs": [ { "text": "劉備平定成都後任法正為蜀郡太守、揚武將軍，『外統都畿，內為謀主』確見正史；但小說較少正面呈現他得勢後睚眥必報、擅殺數人的負面記載，不能用小說形象取代正文。", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・平成都後任官與性格爭議" }] } ] } },
+    { "chapter": "第七十一回", "eventName": "定軍山以旗號指揮黃忠把握戰機", "content": { "paragraphs": [ { "text": "小說大幅具象化法正的定軍山指揮：他與黃忠登高觀察夏侯淵軍，約定白旗時按兵、紅旗時突擊，使老將黃忠乘敵軍懈怠斬殺夏侯淵。", "citations": [{ "sourceId": "sanguo-yanyi", "locator": "第七十一回" }] } ] }, "historicalDifference": { "paragraphs": [ { "text": "正史確記法正判斷夏侯淵軍『可擊』，劉備隨即命黃忠乘高鼓譟而破敵；但白旗、紅旗的明確指揮流程不見《三國志》，屬小說把一句臨陣判斷改寫成可視化戰術。", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・定軍山" }] } ] } },
+    { "chapter": "第八十一回", "eventName": "諸葛亮嘆其若在必能阻止東征", "content": { "paragraphs": [ { "text": "小說在劉備堅持伐吳時，讓諸葛亮感嘆法正若仍在世，必能制止主上東行，用以凸顯法正對劉備獨特的勸止能力。", "citations": [{ "sourceId": "sanguo-yanyi", "locator": "第八十一回" }] } ] }, "historicalDifference": { "paragraphs": [ { "text": "這項評語有正史核心，但史實發言時間是在章武二年夷陵戰敗、劉備退住白帝之後；《三國志》原文還補充，即使劉備仍然東征，法正也應能避免傾危。小說將感嘆提前到出師之際並縮短語意。", "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・法正傳末" }] } ] } }
+  ],
+  "works": [
+    {
+      "title": "與劉璋箋",
+      "type": "書箋／政治勸告",
+      "extant": "全文保存於《三國志・法正傳》",
+      "attribution": "法正",
+      "summary": "作於劉備軍圍雒城期間，向劉璋說明雙方兵力、土地、補給與民心形勢已經逆轉，勸其及早改變以保全家門。",
+      "anthology": "《三國志》卷三十七・法正傳",
+      "excerpt": "今國事已危，禍害在速……愚以為可圖變化，以保尊門。",
+      "citations": [{ "sourceId": "sgz-fazheng-main", "locator": "卷三十七・『及軍圍雒城，正箋與璋曰』" }],
+      "fullText": [
+        "正受性無術，盟好違損，懼左右不明本末，必並歸咎，蒙恥沒身，辱及執事，是以損身於外，不敢反命。恐聖聽穢惡其聲，故中間不有箋敬，顧念宿遇，瞻望悢悢。然惟前後披露腹心，自從始初以至於終，實不藏情，有所不盡，但愚闇策薄，精誠不感，以致於此耳。",
+        "今國事已危，禍害在速，雖捐放於外，言足憎尤，猶貪極所懷，以盡餘忠。明將軍本心，正之所知也，實為區區不欲失左將軍之意，而卒至於是者，左右不達英雄從事之道，謂可違信黷誓，而以意氣相致，日月相遷，趨求順耳悅目，隨阿遂指，不圖遠慮為國深計故也。",
+        "事變既成，又不量強弱之勢，以為左將軍縣遠之眾，糧谷無儲，欲得以多擊少，曠日相持。而從關至此，所歷輒破，離宮別屯，日自零落。雒下雖有萬兵，皆壞陳之卒，破軍之將，若欲爭一旦之戰，則兵將勢力，實不相當。各欲遠期計糧者，今此營守已固，谷米已積，而明將軍土地日削，百姓日困，敵對遂多，所供遠曠。愚意計之，謂必先竭，將不復以持久也。",
+        "空爾相守，猶不相堪，今張益德數萬之眾，已定巴東，入犍為界，分平資中、德陽，三邈道侵，將何以御之？本為明將軍計者，必謂此軍縣遠無糧，饋運不及，兵少無繼。今荊州道通，眾數十倍，加孫車騎遣弟及李異、甘寧等為其後繼。若爭客主之勢，以土地相勝者，今此全有巴東，廣漢、犍為，過半已定，巴西一郡，復非明將軍之有也。",
+        "計益州所仰惟蜀，蜀亦破壞；三分亡二，吏民疲睏，思為亂者十戶而八；若敵遠則百姓不能堪役，敵近則一旦易主矣。廣漢諸縣，是明比也。又魚復與關頭實為益州福禍之門，今二門悉開，堅城皆下，諸軍並破，兵將俱盡，而敵家數道併進，已入心腹，坐守都、雒，存亡之勢，昭然可見。斯乃大略，其外較耳，其餘屈曲，難以辭極也。",
+        "以正下愚，猶知此事不可覆成，況明將軍左右明智用謀之士，豈當不見此數哉？旦夕偷幸，求容取媚，不慮遠圖，莫肯盡心獻良計耳。若事窮勢迫，將各索生，求濟門戶，展轉反覆，與今計異，不為明將軍盡死難也。而尊門猶當受其憂。正雖獲不忠之謗，然心自謂不負聖德，顧惟分義，實竊痛心。左將軍從本舉來，舊心依依，實無薄意。愚以為可圖變化，以保尊門。"
+      ]
+    }
+  ],
+  "worksNote": "《三國志・法正傳》完整保存法正寫給劉璋的一篇長箋，故不將 works 留空；其餘進策多以史家轉述或對話形式保存，未另作獨立篇目收錄。"
 }
