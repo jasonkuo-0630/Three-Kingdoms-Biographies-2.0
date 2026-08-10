@@ -68,7 +68,9 @@
             "sourceId": "fan-sanguo-yanyi",
             "locator": "第八回・馬氏家世"
           }
-        ]
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "literary"
       },
       {
         "personName": "馬超",
@@ -81,7 +83,9 @@
             "sourceId": "fan-sanguo-yanyi",
             "locator": "第八、十、四十回"
           }
-        ]
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "literary"
       },
       {
         "personName": "馬鐵",
@@ -94,7 +98,9 @@
             "sourceId": "fan-sanguo-yanyi",
             "locator": "第八回・馬氏家世"
           }
-        ]
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "literary"
       },
       {
         "personName": "馬休",
@@ -107,7 +113,9 @@
             "sourceId": "fan-sanguo-yanyi",
             "locator": "第八回・馬氏家世"
           }
-        ]
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "literary"
       },
       {
         "personName": "趙雲",
@@ -120,7 +128,9 @@
             "sourceId": "fan-sanguo-yanyi",
             "locator": "第十回・趙馬聯姻"
           }
-        ]
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "literary"
       }
     ],
     "titlesAndRanks": [
