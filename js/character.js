@@ -157,7 +157,15 @@ function renderFactionTimeline(entries) {
       const segmentsHtml = g.segments
         .map((f, i) => {
           const actualFaction = actualFactionsMap.get(f.actualFactionId);
-          const factionLabel = actualFaction ? actualFaction.name : f.stageName || "";
+          // 顯示名稱要優先用這個階段自己的 stageName，不能優先用
+          // actualFactionId 對應的官方勢力名稱——這是剛發現的真實 bug：
+          // 之前反過來寫，導致「同一個 actualFactionId、但拆成兩個不同
+          // 階段名稱」的寫法（例如劉備集團的入蜀作戰／益州牧政權兩個
+          // 階段，共用同一個 liubei-yizhou-regime）永遠只會顯示同一個
+          // 官方名稱，自訂的 stageName 完全被蓋掉、悄悄失效，張飛的資料
+          // 也一直受影響卻沒被發現。只有在完全沒填 stageName 時才退回
+          // 用官方勢力名稱。
+          const factionLabel = f.stageName || (actualFaction ? actualFaction.name : "");
           const uncertainFlag = f.periodUncertain
             ? `<span class="uncertain-flag" title="年代為推定，非確定記載">年代推定</span>`
             : "";
@@ -463,8 +471,13 @@ function historicalTimelineHtml(entries) {
 }
 
 function diffNoteHtml(contentBlock) {
-  if (!contentBlock || !contentBlock.paragraphs) return "";
-  return contentBlock.paragraphs.map((p) => `<p class="paraphrase-text">${escapeHtml(p.text)}</p>`).join("");
+  // 原本這裡只手動處理 paragraphs、完全沒讀 uncertaintyNote（甚至也沒讀
+  // originalTexts），導致「史實差異」區塊裡寫的年代／記載說明永遠不會
+  // 顯示出來。historicalDifference 本身就是跟其他地方一樣的 ContentBlock
+  // 結構（paragraphs + 可選 uncertaintyNote），直接沿用 contentBlockHtml
+  // 處理就好，不用自己重複一套邏輯、也不會漏接新欄位。
+  if (!contentBlock) return "";
+  return contentBlockHtml(contentBlock, sourceMap, contentBlock.uncertaintyNote);
 }
 
 function romanceTimelineHtml(entries) {
