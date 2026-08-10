@@ -229,27 +229,51 @@ function renderPosthumousTitle(pt) {
 /**
  * 親屬排序：父母及以上尊親屬 → 兄弟姊妹 → 配偶 → 子女 → 孫輩，
  * 同一層再依「男先女後」排，最後用長／次／三…等排行字樣當次要依據。
- * 判斷全部靠 relation 欄位裡的關鍵字比對，抓不到關係就歸在最後一層、
- * 並維持原本在資料裡的先後順序（穩定排序），不會亂跳。
+ *
+ * 排序層級改成優先讀取結構化欄位 relationGroup（ancestor / sibling /
+ * spouse / child / grandchild / other），不再靠猜測 relation 自由文字。
+ * 這是因為純文字判斷這條路已經踩過好幾次坑（劉禪生母被誤判成父母輩、
+ * 元配因為沒有「妻」字被排到最後、劉協之子因為「之父」被誤判成尊親屬……
+ * 每次都是新增一條規則補洞，永遠補不完）。relationGroup 由撰寫資料時
+ * 直接指定，不會有語意歧義的問題。
+ *
+ * 只有在 relationGroup 缺漏時（例如未來新增資料忘記填），才退回舊的
+ * 文字猜測邏輯當保底，確保漏填也不會直接讓排序整個爛掉、至少還有
+ * 一個大致合理的結果。
  */
-function relativeSortRank(relation) {
-  const rel = relation || "";
-  // 姪輩稱呼（兄子＝姪子、弟子＝姪子、姪／侄）要先判斷，避免被底下的
-  // 「兄」「弟」關鍵字誤判成兄弟姊妹層——這跟「劉禪生母」被誤判成父母輩
-  // 是同一種陷阱，字面上剛好帶到「兄」「弟」但實際上是在講下一輩。
-  if (/兄子|弟子|姪|侄/.test(rel)) return { tier: 4, gender: /女/.test(rel) ? 1 : 0 };
-  // 配偶類關鍵字放在最前面判斷。這是刻意的順序：像「夫人、劉禪生母，後追諡
-  // 昭烈皇后」這種描述，裡面的「母」其實是在講她是劉禪的母親，不是在講她是
-  // 主角自己的母親；如果先判斷父母那組關鍵字，會被這個「母」字誤觸發、
-  // 誤判成尊親屬。先比對配偶的專屬稱謂（夫人／皇后／王后／妃）就能避開這個陷阱。
-  if (/妻|夫人|皇后|王后|妃/.test(rel)) return { tier: 3, gender: 1 };
-  if (/夫/.test(rel)) return { tier: 3, gender: 0 };
-  if (/父|祖|叔|伯|舅/.test(rel)) return { tier: 1, gender: 0 };
-  if (/母|姑/.test(rel)) return { tier: 1, gender: 1 };
-  if (/兄|弟/.test(rel)) return { tier: 2, gender: 0 };
-  if (/姊|姐|妹/.test(rel)) return { tier: 2, gender: 1 };
-  if (/孫/.test(rel)) return { tier: 5, gender: /女/.test(rel) ? 1 : 0 };
-  if (/子|女|甥|姪/.test(rel)) return { tier: 4, gender: /女/.test(rel) && !/子/.test(rel) ? 1 : 0 };
+const RELATION_GROUP_TIER = { ancestor: 1, sibling: 2, spouse: 3, child: 4, grandchild: 5, other: 6 };
+
+function relativeSortRank(r) {
+  const relation = (typeof r === "string" ? r : r.relation) || "";
+  const group = typeof r === "object" ? r.relationGroup : null;
+  const primary = relation.split(/[、，（]/)[0];
+  const genderGuess = () => {
+    if (/兄子|弟子|姪|侄/.test(primary)) return /女/.test(primary) ? 1 : 0;
+    if (/媳/.test(primary)) return 1;
+    if (/婿|夫(?!人)/.test(primary)) return 0;
+    if (/妻|夫人|皇后|王后|妃|元配|繼室|配偶|妾/.test(primary)) return 1;
+    if (/父|祖|叔|伯|舅|兄|弟/.test(primary)) return 0;
+    if (/母|姑|姊|姐|妹/.test(primary)) return 1;
+    if (/孫/.test(primary)) return /女/.test(primary) ? 1 : 0;
+    if (/女/.test(primary) && !/子/.test(primary)) return 1;
+    return 0;
+  };
+
+  if (group && RELATION_GROUP_TIER[group]) {
+    return { tier: RELATION_GROUP_TIER[group], gender: genderGuess() };
+  }
+
+  // ---- 保底：relationGroup 缺漏時的舊版文字猜測邏輯 ----
+  if (/兄子|弟子|姪|侄/.test(primary)) return { tier: 4, gender: /女/.test(primary) ? 1 : 0 };
+  if (/媳|婿/.test(primary)) return { tier: 4, gender: /媳/.test(primary) ? 1 : 0 };
+  if (/妻|夫人|皇后|王后|妃|元配|繼室|配偶|妾/.test(primary)) return { tier: 3, gender: 1 };
+  if (/夫/.test(primary)) return { tier: 3, gender: 0 };
+  if (/父|祖|叔|伯|舅/.test(primary)) return { tier: 1, gender: 0 };
+  if (/母|姑/.test(primary)) return { tier: 1, gender: 1 };
+  if (/兄|弟/.test(primary)) return { tier: 2, gender: 0 };
+  if (/姊|姐|妹/.test(primary)) return { tier: 2, gender: 1 };
+  if (/孫/.test(primary)) return { tier: 5, gender: /女/.test(primary) ? 1 : 0 };
+  if (/子|女|甥|姪/.test(primary)) return { tier: 4, gender: /女/.test(primary) && !/子/.test(primary) ? 1 : 0 };
   return { tier: 6, gender: 1 };
 }
 
@@ -263,7 +287,7 @@ function relativeBirthOrderRank(relation) {
 
 function sortRelatives(list) {
   return list
-    .map((r, i) => ({ r, i, rank: relativeSortRank(r.relation), order: relativeBirthOrderRank(r.relation) }))
+    .map((r, i) => ({ r, i, rank: relativeSortRank(r), order: relativeBirthOrderRank(r.relation) }))
     .sort((a, b) => {
       if (a.rank.tier !== b.rank.tier) return a.rank.tier - b.rank.tier;
       if (a.rank.gender !== b.rank.gender) return a.rank.gender - b.rank.gender;
@@ -290,13 +314,21 @@ function renderRelatives(list) {
           "rel-person-cell"
         );
       }
-      // 資料性質徽章：只要文字含「文學」「虛構」「戲曲」或「傳說」就當作非正史來源，
-      // 其餘（史籍記載、三國志正文記載、正文及裴注記載…等寫法皆可）都算 record。
-      // 「傳說」是為了涵蓋像黃月英這種連《三國演義》本身都沒用過、
-      // 純粹後世說書／電玩流傳開來的名字。
-      const isFictionType = (text) => /文學|虛構|戲曲|傳說|設定/.test(text || "");
-      const natureBadgeHtml = (text) =>
-        `<span class="nature-badge" data-nature="${isFictionType(text) ? "fiction" : "record"}">${escapeHtml(
+      // 資料性質徽章：改成直接讀取結構化欄位 natureCategory（historical /
+      // literary / mixed / uncertain）來決定顯示成正史還是虛構樣式，不再
+      // 用 natureType 的文字內容去猜。natureType 這個欄位保留下來，但它
+      // 現在只負責顯示給讀者看的來源層級說明文字，不再兼職當程式判斷依據——
+      // 這兩件事之前混在同一個欄位裡，已經造成好幾次誤判（黃夫人婚姻被
+      // 「後世傳說」四個字誤標成虛構、孫夫人因為 natureType 提到「演義」
+      // 兩個字反而被舊邏輯放過）。uncertain／mixed 目前先當作 record 樣式
+      // 處理（不特別標示成虛構），因為徽章目前只有正史／虛構兩種視覺樣式，
+      // 如果之後要細分出第三種樣式，這裡要一併調整 CSS。
+      // natureCategory 缺漏時（保底）才退回舊的文字猜測。
+      const legacyIsFictionType = (text) => /^(演義|後世文學|後世傳說|小說)/.test(text || "");
+      const isFiction = (category, text) =>
+        category ? category === "literary" : legacyIsFictionType(text);
+      const natureBadgeHtml = (text, category) =>
+        `<span class="nature-badge" data-nature="${isFiction(category, text) ? "fiction" : "record"}">${escapeHtml(
           text
         )}</span>`;
 
@@ -311,8 +343,11 @@ function renderRelatives(list) {
         : escapeHtml(r.relation);
 
       const natureHtml = r.fictionalRelation
-        ? `<div>${natureBadgeHtml(r.natureType)}</div><div>${natureBadgeHtml(r.fictionalRelation.natureType)}</div>`
-        : natureBadgeHtml(r.natureType);
+        ? `<div>${natureBadgeHtml(r.natureType, r.natureCategory)}</div><div>${natureBadgeHtml(
+            r.fictionalRelation.natureType,
+            r.fictionalRelation.natureCategory
+          )}</div>`
+        : natureBadgeHtml(r.natureType, r.natureCategory);
 
       const supplementHtml = r.fictionalRelation
         ? `${escapeHtml(r.note || "")}${citationsHtml(r.citations, sourceMap)}${citationsHtml(
@@ -499,9 +534,12 @@ function worksNoteHtml(worksNote) {
 }
 
 function worksTabHtml(works, worksNote) {
-  if (!works || !works.length) return "";
   const noteHtml = worksNoteHtml(worksNote);
   const noteBlock = noteHtml ? `<div class="plain-card worksnote-block">${noteHtml}</div>` : "";
+  // works 可能是空陣列（例如孫權、劉協這種只有 worksNote 說明「為什麼
+  // 沒有列著作」的人物）——這種情況不要提前 return 空字串，要讓上面
+  // 這段 noteBlock 正常顯示，只是底下不會再接著跑出任何著作卡片。
+  if (!works || !works.length) return noteBlock;
   return (
     noteBlock +
     works
@@ -538,7 +576,10 @@ function worksTabHtml(works, worksNote) {
 /* ---------- 頁籤切換（hash 路由 + 鍵盤方向鍵 + 瀏覽器上一頁/下一頁） ---------- */
 
 function renderTabs(c) {
-  const hasWorks = c.works && c.works.length > 0;
+  // hasWorks 決定「著作」頁籤要不要出現：即使 works 是空陣列，只要有
+  // worksNote（說明為什麼沒有列著作），也要讓頁籤出現，不然這段說明
+  // 文字永遠沒有地方顯示——孫權、劉協、關平、關興都是這種情況。
+  const hasWorks = (c.works && c.works.length > 0) || Boolean(c.worksNote);
   const tabs = TAB_DEFS.filter((t) => t.key !== "works" || hasWorks);
   const availableKeys = tabs.map((t) => t.key);
 
