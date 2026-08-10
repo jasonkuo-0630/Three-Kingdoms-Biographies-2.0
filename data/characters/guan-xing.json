@@ -80,14 +80,21 @@
           {
             "sourceId": "sgz-guanyu-main",
             "locator": "卷三十六・『斬羽及子平』與『子興嗣』"
-          },
-          {
-            "sourceId": "sanguo-yanyi",
-            "locator": "第二十八回"
           }
         ],
         "relationGroup": "sibling",
-        "natureCategory": "historical"
+        "natureCategory": "historical",
+        "fictionalRelation": {
+          "label": "義兄",
+          "natureType": "演義設定",
+          "natureCategory": "literary",
+          "citations": [
+            {
+              "sourceId": "sanguo-yanyi",
+              "locator": "第二十八回"
+            }
+          ]
+        }
       },
       {
         "personName": "關氏（名不詳）",
