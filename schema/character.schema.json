@@ -1,0 +1,391 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://three-kingdoms-biographies.local/schema/character.schema.json",
+  "title": "data/characters/{id}.json",
+  "description": "單一人物的完整資料檔。欄位定義依 README.md 的「人物 JSON」章節；本 schema 依 2026-08 對全部 20 份既有人物檔的實際欄位使用情況校準，避免因為單一人物沒用到某個選填欄位就誤判其他人物合法。\n本檔案允許兩種合法型態（見下方 allOf 的 if/then）：\n  1. 完整人物：有 dataStatus（一律是 \"reviewed-draft\"），此時 schemaVersion、summary 為必填，overview 必須包含全部六個子欄位（intro/factionTimeline/relatives/titlesAndRanks/evaluations/posthumousTitle 這個 key 本身，但值可以是 null）。\n  2. 空檔佔位人物：完全沒有 dataStatus 欄位，此時 overview 必須是空物件 {}，historicalBio/romanceBio/works 必須是空陣列，schemaVersion 與 summary 不強制。\n這個區分對應 README「如何新增人物」段落說明的空檔策略。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "published",
+    "id",
+    "name",
+    "avatar",
+    "overview",
+    "historicalBio",
+    "romanceBio",
+    "works"
+  ],
+  "definitions": {
+    "citation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceId"],
+      "properties": {
+        "sourceId": { "type": "string" },
+        "locator": { "type": "string" },
+        "note": { "type": "string" }
+      }
+    },
+    "citationsArray": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/citation" }
+    },
+    "originalText": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "sourceId"],
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "sourceId": { "type": "string" },
+        "locator": { "type": "string" }
+      }
+    },
+    "paragraph": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text"],
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "citations": { "$ref": "#/definitions/citationsArray" }
+      }
+    },
+    "contentBlock": {
+      "description": "白話段落 + 選填的逐字原文，人物簡介、生平事件、史實差異共用此結構。部分脈絡（如 overview.intro）會在這個結構本身附上 uncertaintyNote。",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["paragraphs"],
+      "properties": {
+        "paragraphs": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/paragraph" }
+        },
+        "originalTexts": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/originalText" }
+        },
+        "uncertaintyNote": { "type": "string" }
+      }
+    },
+    "contentBlockOrEmptyStrict": {
+      "description": "給 historicalBio[].content 與 romanceBio[].content 用。部分事件的 content 目前允許空物件 {}（尚未填入內容的佔位），因此不強制 required。\n刻意不允許 uncertaintyNote：js/character.js 的 historicalTimelineHtml／romanceTimelineHtml 只會讀事件本身（跟 period/title/content 或 chapter/eventName/content 同層）的 uncertaintyNote，不會讀 content 內部的 uncertaintyNote——寫在這裡的話資料存得進去，但畫面上永遠不會顯示，是一個死欄位。年代／記載說明請寫在事件層級的 uncertaintyNote（見下方 historicalBio／romanceBio 定義），不要寫進 content。",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "paragraphs": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/paragraph" }
+        },
+        "originalTexts": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/originalText" }
+        }
+      }
+    },
+    "contentBlockOrEmptyWithUncertainty": {
+      "description": "給 romanceBio[].historicalDifference 用。js/character.js 的 diffNoteHtml 會讀取這個結構內部的 uncertaintyNote 並顯示出來，跟 contentBlockOrEmptyStrict 不同，這裡巢狀寫 uncertaintyNote 是會真的渲染出來的合法用法。",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "paragraphs": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/paragraph" }
+        },
+        "originalTexts": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/originalText" }
+        },
+        "uncertaintyNote": { "type": "string" }
+      }
+    },
+    "evaluationItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["evaluatorName", "evaluatorEra", "context", "textType", "citations"],
+      "properties": {
+        "evaluatorName": { "type": "string", "minLength": 1 },
+        "evaluatorEra": { "type": "string", "minLength": 1 },
+        "context": { "type": "string", "minLength": 1 },
+        "textType": { "type": "string", "minLength": 1 },
+        "originalText": { "type": "string" },
+        "paraphrase": { "type": "string" },
+        "citations": { "$ref": "#/definitions/citationsArray" }
+      }
+    }
+  },
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "description": "資料規格版本，不是人物 ID。"
+    },
+    "dataStatus": {
+      "type": "string",
+      "enum": ["reviewed-draft"],
+      "description": "完整資料一律為 reviewed-draft；空檔佔位人物則完全不應出現這個欄位（見 README「如何新增人物」）。"
+    },
+    "published": {
+      "type": "boolean"
+    },
+    "lastReviewedAt": {
+      "type": "string",
+      "description": "最近一次內容複核日期，目前資料以自由文字字串記錄（非強制 ISO 格式）。"
+    },
+    "demoNote": {
+      "type": "string",
+      "description": "選填，給編輯者看的整檔備註，不顯示於前端頁面。"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "必須與檔名（不含副檔名）及 data/index.json 中的 id 一致，由交叉引用驗證器檢查，schema 本身不知道檔名。"
+    },
+    "name": { "type": "string", "minLength": 1 },
+    "courtesyName": { "type": ["string", "null"] },
+    "childhoodName": { "type": ["string", "null"] },
+    "artName": { "type": ["string", "null"] },
+    "otherNames": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "commonAlias": {
+      "type": "string",
+      "description": "後世常見但非史實本名的醒目別稱，例如黃夫人條目下的「黃月英」。"
+    },
+    "lifespan": { "type": "string" },
+    "birthplace": { "type": "string" },
+    "primaryIdentity": { "type": "string" },
+    "summary": {
+      "type": "string",
+      "minLength": 1,
+      "description": "建議約 120–160 字，較短不是錯誤，schema 不強制字數上限。"
+    },
+    "avatar": {
+      "type": "string",
+      "pattern": "^images/.+\\.(png|jpg|jpeg|svg)$"
+    },
+    "overview": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "intro": { "$ref": "#/definitions/contentBlock" },
+        "factionTimeline": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["stageName", "period"],
+            "properties": {
+              "stageName": { "type": "string", "minLength": 1 },
+              "personName": { "type": "string" },
+              "personId": { "type": ["string", "null"] },
+              "actualFactionId": { "type": "string" },
+              "period": { "type": "string", "minLength": 1 },
+              "periodUncertain": { "type": "boolean" },
+              "hideAvatar": {
+                "type": "boolean",
+                "description": "只有條目本身不是人物時才允許 true（例如「東漢朝廷」）；交叉引用驗證器會額外檢查是否誤用在未建檔的真實人物身上。"
+              }
+            }
+          }
+        },
+        "relatives": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["personName", "relation", "relationGroup", "natureType", "natureCategory"],
+            "properties": {
+              "personName": { "type": "string", "minLength": 1 },
+              "personId": { "type": ["string", "null"] },
+              "relation": { "type": "string", "minLength": 1 },
+              "relationGroup": {
+                "type": "string",
+                "enum": ["ancestor", "sibling", "spouse", "child", "grandchild", "other"]
+              },
+              "natureType": { "type": "string", "minLength": 1 },
+              "natureCategory": {
+                "type": "string",
+                "enum": ["historical", "literary", "mixed", "uncertain"]
+              },
+              "note": { "type": "string" },
+              "citations": { "$ref": "#/definitions/citationsArray" },
+              "fictionalRelation": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["label", "natureType", "natureCategory"],
+                "properties": {
+                  "label": { "type": "string", "minLength": 1 },
+                  "natureType": { "type": "string", "minLength": 1 },
+                  "natureCategory": {
+                    "type": "string",
+                    "enum": ["historical", "literary", "mixed", "uncertain"]
+                  },
+                  "citations": { "$ref": "#/definitions/citationsArray" }
+                }
+              }
+            }
+          }
+        },
+        "titlesAndRanks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["title", "period", "citations"],
+            "properties": {
+              "title": { "type": "string", "minLength": 1 },
+              "period": { "type": "string", "minLength": 1 },
+              "citations": { "$ref": "#/definitions/citationsArray" }
+            }
+          }
+        },
+        "posthumousTitle": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "properties": {
+            "title": { "type": "string", "minLength": 1 },
+            "grantedBy": { "type": "string" },
+            "citations": { "$ref": "#/definitions/citationsArray" },
+            "paragraphs": {
+              "type": "array",
+              "items": { "$ref": "#/definitions/paragraph" }
+            }
+          },
+          "if": { "type": "object" },
+          "then": {
+            "required": ["title"],
+            "description": "posthumousTitle 若填了物件，至少要有 title（諡號本身）；不可以是只帶 grantedBy/citations 卻沒有諡號的空殼。"
+          }
+        },
+        "evaluations": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "contemporary": {
+              "type": "array",
+              "items": { "$ref": "#/definitions/evaluationItem" }
+            },
+            "later": {
+              "type": "array",
+              "items": { "$ref": "#/definitions/evaluationItem" }
+            }
+          }
+        }
+      }
+    },
+    "historicalBio": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["period", "periodType", "title", "content"],
+        "properties": {
+          "period": { "type": "string", "minLength": 1 },
+          "periodType": {
+            "type": "string",
+            "enum": ["exact", "range", "approx", "year", "unknown"]
+          },
+          "title": { "type": "string", "minLength": 1 },
+          "content": { "$ref": "#/definitions/contentBlockOrEmptyStrict" },
+          "uncertaintyNote": {
+            "type": "string",
+            "description": "必須跟 period/title/content 平行，不可放進 content 內部——放進 content 內部的話 js/character.js 不會讀取，等於寫了也不會顯示。"
+          }
+        }
+      }
+    },
+    "romanceBio": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["chapter", "eventName", "content"],
+        "properties": {
+          "chapter": { "type": "string", "minLength": 1 },
+          "eventName": { "type": "string", "minLength": 1 },
+          "content": { "$ref": "#/definitions/contentBlockOrEmptyStrict" },
+          "historicalDifference": { "$ref": "#/definitions/contentBlockOrEmptyWithUncertainty" },
+          "uncertaintyNote": {
+            "type": "string",
+            "description": "必須跟 chapter/eventName/content 平行；跟 historicalBio 的規則相同，放進 content 內部不會顯示。"
+          }
+        }
+      }
+    },
+    "works": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title"],
+        "properties": {
+          "title": { "type": "string", "minLength": 1 },
+          "type": { "type": "string" },
+          "extant": { "type": "string" },
+          "attribution": { "type": "string" },
+          "summary": { "type": "string" },
+          "anthology": { "type": "string" },
+          "excerpt": { "type": "string" },
+          "fullText": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "逐行／逐句保存的完整文本，不是單一長字串。"
+          },
+          "citations": { "$ref": "#/definitions/citationsArray" }
+        }
+      }
+    },
+    "worksNote": {
+      "description": "只有 works 至少一筆時才允許出現；works 為空陣列時不得存在。這條規則無法完全用 JSON Schema 的 field-level 檢查表達（需要看 works 陣列長度做條件判斷），已用下方 allOf 的 if/then 實作，並在 scripts/validate-data.js 額外覆核一次。",
+      "oneOf": [
+        { "type": "string", "minLength": 1 },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["paragraphs"],
+          "properties": {
+            "paragraphs": {
+              "type": "array",
+              "items": { "$ref": "#/definitions/paragraph" }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "works": { "type": "array", "maxItems": 0 }
+        }
+      },
+      "then": {
+        "not": { "required": ["worksNote"] }
+      }
+    },
+    {
+      "description": "完整人物（有 dataStatus）：schemaVersion、summary 必填，overview 必須包含全部六個子欄位的 key（值可以是空陣列/null，但 key 本身要在，這樣才符合 README 說明的固定結構）。",
+      "if": { "required": ["dataStatus"] },
+      "then": {
+        "required": ["schemaVersion", "summary"],
+        "properties": {
+          "overview": {
+            "required": ["intro", "factionTimeline", "relatives", "titlesAndRanks", "posthumousTitle", "evaluations"]
+          }
+        }
+      }
+    },
+    {
+      "description": "空檔佔位人物（沒有 dataStatus）：overview 必須是空物件，historicalBio/romanceBio/works 必須是空陣列，對應 README「如何新增人物」的空檔策略——先佔位建立連結，之後補資料時記得同時補上 dataStatus。",
+      "if": { "not": { "required": ["dataStatus"] } },
+      "then": {
+        "properties": {
+          "overview": { "maxProperties": 0 },
+          "historicalBio": { "maxItems": 0 },
+          "romanceBio": { "maxItems": 0 },
+          "works": { "maxItems": 0 }
+        }
+      }
+    }
+  ]
+}
