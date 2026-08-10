@@ -102,7 +102,7 @@
       {
         "stageName": "曹丕魏王國過渡政權",
         "personName": "曹丕",
-        "personId": "cao-pi",
+        "personId": null,
         "actualFactionId": "cao-pi-wei-kingdom",
         "period": "延康元年（220年）曹丕繼魏王位 — 同年受禪稱帝",
         "periodUncertain": false
@@ -110,7 +110,7 @@
       {
         "stageName": "曹魏・文帝政權",
         "personName": "曹丕",
-        "personId": "cao-pi",
+        "personId": null,
         "actualFactionId": "caowei-wendi",
         "period": "黃初元年（220年）— 黃初三年（222年）病逝",
         "periodUncertain": false
@@ -128,7 +128,9 @@
             "sourceId": "sgz-zhangliao-main",
             "locator": "卷十七・張遼傳開篇"
           }
-        ]
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
       },
       {
         "personName": "張氏（名不詳）",
@@ -141,7 +143,9 @@
             "sourceId": "sgz-zhangliao-main",
             "locator": "卷十七・曹丕即王位及黃初二年"
           }
-        ]
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
       },
       {
         "personName": "張汎",
@@ -154,7 +158,9 @@
             "sourceId": "sgz-zhangliao-main",
             "locator": "卷十七・『分封兄汎及一子列侯』"
           }
-        ]
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       },
       {
         "personName": "張虎",
@@ -167,7 +173,9 @@
             "sourceId": "sgz-zhangliao-main",
             "locator": "卷十七・張遼傳末"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "張氏（名不詳）",
@@ -180,7 +188,9 @@
             "sourceId": "sgz-zhangliao-main",
             "locator": "卷十七・延康元年與黃初六年"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "張統",
@@ -193,7 +203,9 @@
             "sourceId": "sgz-zhangliao-main",
             "locator": "卷十七・張遼傳末"
           }
-        ]
+        ],
+        "relationGroup": "grandchild",
+        "natureCategory": "historical"
       }
     ],
     "titlesAndRanks": [
