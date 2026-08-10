@@ -57,6 +57,22 @@
     },
     "factionTimeline": [
       {
+        "stageName": "劉璋益州政權",
+        "personName": "劉璋",
+        "personId": null,
+        "actualFactionId": "liu-zhang-yizhou-regime",
+        "period": "建安初年—建安十六年（211年）前後，效力起點確切年份不詳",
+        "periodUncertain": true
+      },
+      {
+        "stageName": "轉奉劉備・迎入蜀中",
+        "personName": "劉備",
+        "personId": "liu-bei",
+        "actualFactionId": "liu-zhang-yizhou-regime",
+        "period": "建安十六年（211年）奉使迎劉備、陰獻取蜀之策—建安十九年（214年）成都平定",
+        "periodUncertain": false
+      },
+      {
         "stageName": "劉備集團・益州牧政權",
         "personName": "劉備",
         "personId": "liu-bei",
