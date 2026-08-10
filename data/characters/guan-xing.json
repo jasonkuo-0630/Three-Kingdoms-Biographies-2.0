@@ -19,60 +19,530 @@
       "paragraphs": [
         {
           "text": "關興字安國，是關羽之子。關羽死後由關興承襲爵位；《三國志》沒有記載他的生年，但稱他『弱冠』任侍中、中監軍，可知任官時約二十歲。",
-          "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽傳末" }]
+          "citations": [
+            {
+              "sourceId": "sgz-guanyu-main",
+              "locator": "卷三十六・關羽傳末"
+            }
+          ]
         },
         {
           "text": "關興年少已有好名聲，丞相諸葛亮非常器重並看重其不凡之處。可是本傳只記他任官數年後去世，沒有列出任何戰役、出鎮、封賞或為父報仇事蹟；其歷史形象應以受期待的年輕近臣與中軍官員為核心，而不是小說中的青年猛將。",
-          "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・『少有令問，丞相諸葛亮深器異之』" }]
+          "citations": [
+            {
+              "sourceId": "sgz-guanyu-main",
+              "locator": "卷三十六・『少有令問，丞相諸葛亮深器異之』"
+            }
+          ]
         },
         {
           "text": "關興死後，子關統承爵、娶蜀漢公主，官至虎賁中郎將，卻無子早逝；其後改由關興庶子關彝續封。這些家族記載均見正史，與小說另造的長期征戰生涯無關。",
-          "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽傳末關統、關彝段" }]
+          "citations": [
+            {
+              "sourceId": "sgz-guanyu-main",
+              "locator": "卷三十六・關羽傳末關統、關彝段"
+            }
+          ]
         }
       ],
       "originalTexts": [
-        { "text": "子興嗣。興字安國，少有令問，丞相諸葛亮深器異之。弱冠為侍中、中監軍，數歲卒。", "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽傳末" }
+        {
+          "text": "子興嗣。興字安國，少有令問，丞相諸葛亮深器異之。弱冠為侍中、中監軍，數歲卒。",
+          "sourceId": "sgz-guanyu-main",
+          "locator": "卷三十六・關羽傳末"
+        }
       ]
     },
     "factionTimeline": [
-      { "stageName": "蜀漢・後主政權", "personName": "劉禪", "personId": null, "actualFactionId": "shuhan-houzhu", "period": "約建興初年（223年後；弱冠任侍中、中監軍至數年後去世）", "periodUncertain": true }
+      {
+        "stageName": "蜀漢・後主政權",
+        "personName": "劉禪",
+        "personId": null,
+        "actualFactionId": "shuhan-houzhu",
+        "period": "約建興初年（223年後；弱冠任侍中、中監軍至數年後去世）",
+        "periodUncertain": true
+      }
     ],
     "relatives": [
-      { "personName": "關羽", "personId": "guan-yu", "relation": "父", "natureType": "三國志正文記載", "note": "蜀漢前將軍、漢壽亭侯。建安二十四年敗亡後，關興承襲其爵；正史沒有記載關興親自參與父親最後一役。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽傳末" }] },
-      { "personName": "關平", "personId": "guan-ping", "relation": "兄弟（長幼未詳）", "natureType": "三國志正文記載", "note": "關平同為關羽之子，建安二十四年與關羽同被孫權軍殺害。正文沒有明說關平、關興的長幼次序；《三國演義》所稱關平為義兄不能用來補正史親等。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・『斬羽及子平』與『子興嗣』" }, { "sourceId": "sanguo-yanyi", "locator": "第二十八回" }] },
-      { "personName": "關氏（名不詳）", "personId": null, "relation": "姊妹（長幼未詳）", "natureType": "三國志正文記載", "note": "關羽之女，孫權曾為其子求婚而遭拒。史書未載姓名、排行及其與關興是否同母。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・孫權為子索羽女" }] },
-      { "personName": "關統", "personId": null, "relation": "子、嗣子", "natureType": "三國志正文記載", "note": "關興去世後承襲爵位，娶蜀漢公主，官至虎賁中郎將；去世時沒有兒子。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽傳末" }] },
-      { "personName": "關彝", "personId": null, "relation": "庶子", "natureType": "三國志正文記載", "note": "關統無子去世後，由關興庶子關彝續封。正史沒有記載其母、官職與生卒。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・『以興庶子彝續封』" }] },
-      { "personName": "蜀漢公主（姓名不詳）", "personId": null, "relation": "媳婦（關統之妻）", "natureType": "三國志正文記載", "note": "《關羽傳》只稱關統『尚公主』，沒有記載公主姓名、生母與婚年。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關統段" }] }
+      {
+        "personName": "關羽",
+        "personId": "guan-yu",
+        "relation": "父",
+        "natureType": "三國志正文記載",
+        "note": "蜀漢前將軍、漢壽亭侯。建安二十四年敗亡後，關興承襲其爵；正史沒有記載關興親自參與父親最後一役。",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・關羽傳末"
+          }
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
+      },
+      {
+        "personName": "關平",
+        "personId": "guan-ping",
+        "relation": "兄弟（長幼未詳）",
+        "natureType": "三國志正文記載",
+        "note": "關平同為關羽之子，建安二十四年與關羽同被孫權軍殺害。正文沒有明說關平、關興的長幼次序；《三國演義》所稱關平為義兄不能用來補正史親等。",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・『斬羽及子平』與『子興嗣』"
+          },
+          {
+            "sourceId": "sanguo-yanyi",
+            "locator": "第二十八回"
+          }
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
+      },
+      {
+        "personName": "關氏（名不詳）",
+        "personId": null,
+        "relation": "姊妹（長幼未詳）",
+        "natureType": "三國志正文記載",
+        "note": "關羽之女，孫權曾為其子求婚而遭拒。史書未載姓名、排行及其與關興是否同母。",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・孫權為子索羽女"
+          }
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
+      },
+      {
+        "personName": "關統",
+        "personId": null,
+        "relation": "子、嗣子",
+        "natureType": "三國志正文記載",
+        "note": "關興去世後承襲爵位，娶蜀漢公主，官至虎賁中郎將；去世時沒有兒子。",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・關羽傳末"
+          }
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
+      },
+      {
+        "personName": "關彝",
+        "personId": null,
+        "relation": "庶子",
+        "natureType": "三國志正文記載",
+        "note": "關統無子去世後，由關興庶子關彝續封。正史沒有記載其母、官職與生卒。",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・『以興庶子彝續封』"
+          }
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
+      },
+      {
+        "personName": "蜀漢公主（姓名不詳）",
+        "personId": null,
+        "relation": "媳婦（關統之妻）",
+        "natureType": "三國志正文記載",
+        "note": "《關羽傳》只稱關統『尚公主』，沒有記載公主姓名、生母與婚年。",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・關統段"
+          }
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
+      }
     ],
     "titlesAndRanks": [
-      { "title": "漢壽亭侯（承襲）", "period": "關羽去世後，確切承襲年份不詳", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・『子興嗣』" }] },
-      { "title": "侍中", "period": "弱冠時，約建興初年，確切年份不詳", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽傳末" }] },
-      { "title": "中監軍", "period": "弱冠時，約建興初年，確切年份不詳", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽傳末" }] }
+      {
+        "title": "漢壽亭侯（承襲）",
+        "period": "關羽去世後，確切承襲年份不詳",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・『子興嗣』"
+          }
+        ]
+      },
+      {
+        "title": "侍中",
+        "period": "弱冠時，約建興初年，確切年份不詳",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・關羽傳末"
+          }
+        ]
+      },
+      {
+        "title": "中監軍",
+        "period": "弱冠時，約建興初年，確切年份不詳",
+        "citations": [
+          {
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・關羽傳末"
+          }
+        ]
+      }
     ],
     "posthumousTitle": null,
     "evaluations": {
       "contemporary": [
-        { "evaluatorName": "時人", "evaluatorEra": "蜀漢初年", "context": "《關羽傳》總述關興年少聲譽", "textType": "史家記述", "originalText": "少有令問。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽傳末" }], "paraphrase": "關興年少時便已有良好名聲，顯示其受重視並不只因父親關羽的地位；但史書沒有保存這項聲譽所依據的具體事例。" },
-        { "evaluatorName": "諸葛亮", "evaluatorEra": "蜀漢初年", "context": "《關羽傳》記諸葛亮對關興的賞識", "textType": "史家記述", "originalText": "丞相諸葛亮深器異之。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽傳末" }], "paraphrase": "諸葛亮十分器重關興，認為他具有不同尋常的才質；正文沒有進一步說明賞識的是軍事、行政或其他能力。" }
+        {
+          "evaluatorName": "時人",
+          "evaluatorEra": "蜀漢初年",
+          "context": "《關羽傳》總述關興年少聲譽",
+          "textType": "史家記述",
+          "originalText": "少有令問。",
+          "citations": [
+            {
+              "sourceId": "sgz-guanyu-main",
+              "locator": "卷三十六・關羽傳末"
+            }
+          ],
+          "paraphrase": "關興年少時便已有良好名聲，顯示其受重視並不只因父親關羽的地位；但史書沒有保存這項聲譽所依據的具體事例。"
+        },
+        {
+          "evaluatorName": "諸葛亮",
+          "evaluatorEra": "蜀漢初年",
+          "context": "《關羽傳》記諸葛亮對關興的賞識",
+          "textType": "史家記述",
+          "originalText": "丞相諸葛亮深器異之。",
+          "citations": [
+            {
+              "sourceId": "sgz-guanyu-main",
+              "locator": "卷三十六・關羽傳末"
+            }
+          ],
+          "paraphrase": "諸葛亮十分器重關興，認為他具有不同尋常的才質；正文沒有進一步說明賞識的是軍事、行政或其他能力。"
+        }
       ],
       "later": []
     }
   },
   "historicalBio": [
-    { "period": "建安二十四年（219年）以後", "periodType": "approx", "title": "關羽身後承襲爵位", "content": { "paragraphs": [ { "text": "關羽與關平在荊州敗亡後，關興承襲關羽的爵位。正文以『子興嗣』簡記此事，沒有標明承襲詔令的年份，也沒有說關興在父兄最後一役中身在何處。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽傳末" }] } ], "originalTexts": [ { "text": "子興嗣。", "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽傳末" } ] }, "uncertaintyNote": "承爵時間只可確定在關羽去世之後，史書未載確年。" },
-    { "period": "少年時，確切年份不詳", "periodType": "unknown", "title": "少有令問，受諸葛亮深加器重", "content": { "paragraphs": [ { "text": "關興年少時已有好名聲，丞相諸葛亮對他非常器重，認為其才質不凡。史書沒有留下關興受賞識的具體言論、文章或功績，因此不能進一步推定他以武勇、文才或政務能力見長。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽傳末" }] } ], "originalTexts": [ { "text": "興字安國，少有令問，丞相諸葛亮深器異之。", "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽傳末" } ] } },
-    { "period": "約弱冠時，確切年份不詳", "periodType": "approx", "title": "任侍中、中監軍", "content": { "paragraphs": [ { "text": "關興約二十歲時出任侍中與中監軍。侍中屬近侍顧問官，中監軍則與中軍監督職務相關；然而本傳沒有記錄他實際承辦的政務、所監之軍或參與戰役，不能僅憑官名擴寫為長期前線統帥。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・『弱冠為侍中、中監軍』" }] } ] }, "uncertaintyNote": "正文沒有明繫年號；本站依諸葛亮輔政脈絡約置於建興初年，但保留不確定標記。" },
-    { "period": "任官數年後，確切年份不詳", "periodType": "unknown", "title": "英年早逝，子關統承爵", "content": { "paragraphs": [ { "text": "關興任侍中、中監軍數年後去世，死因、卒年與享年都沒有記載。其子關統承爵，娶蜀漢公主並官至虎賁中郎將；關統無子去世後，改由關興庶子關彝續封。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽傳末關興後嗣段" }] } ], "originalTexts": [ { "text": "數歲卒。子統嗣，尚公主，官至虎賁中郎將。卒，無子，以興庶子彝續封。", "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽傳末" } ] }, "uncertaintyNote": "『數歲卒』只能表示任官數年後去世，無法換算成確切卒年。" }
+    {
+      "period": "建安二十四年（219年）以後",
+      "periodType": "approx",
+      "title": "關羽身後承襲爵位",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "關羽與關平在荊州敗亡後，關興承襲關羽的爵位。正文以『子興嗣』簡記此事，沒有標明承襲詔令的年份，也沒有說關興在父兄最後一役中身在何處。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・關羽傳末"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "子興嗣。",
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・關羽傳末"
+          }
+        ]
+      },
+      "uncertaintyNote": "承爵時間只可確定在關羽去世之後，史書未載確年。"
+    },
+    {
+      "period": "少年時，確切年份不詳",
+      "periodType": "unknown",
+      "title": "少有令問，受諸葛亮深加器重",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "關興年少時已有好名聲，丞相諸葛亮對他非常器重，認為其才質不凡。史書沒有留下關興受賞識的具體言論、文章或功績，因此不能進一步推定他以武勇、文才或政務能力見長。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・關羽傳末"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "興字安國，少有令問，丞相諸葛亮深器異之。",
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・關羽傳末"
+          }
+        ]
+      }
+    },
+    {
+      "period": "約弱冠時，確切年份不詳",
+      "periodType": "approx",
+      "title": "任侍中、中監軍",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "關興約二十歲時出任侍中與中監軍。侍中屬近侍顧問官，中監軍則與中軍監督職務相關；然而本傳沒有記錄他實際承辦的政務、所監之軍或參與戰役，不能僅憑官名擴寫為長期前線統帥。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・『弱冠為侍中、中監軍』"
+              }
+            ]
+          }
+        ]
+      },
+      "uncertaintyNote": "正文沒有明繫年號；本站依諸葛亮輔政脈絡約置於建興初年，但保留不確定標記。"
+    },
+    {
+      "period": "任官數年後，確切年份不詳",
+      "periodType": "unknown",
+      "title": "英年早逝，子關統承爵",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "關興任侍中、中監軍數年後去世，死因、卒年與享年都沒有記載。其子關統承爵，娶蜀漢公主並官至虎賁中郎將；關統無子去世後，改由關興庶子關彝續封。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・關羽傳末關興後嗣段"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "數歲卒。子統嗣，尚公主，官至虎賁中郎將。卒，無子，以興庶子彝續封。",
+            "sourceId": "sgz-guanyu-main",
+            "locator": "卷三十六・關羽傳末"
+          }
+        ]
+      },
+      "uncertaintyNote": "『數歲卒』只能表示任官數年後去世，無法換算成確切卒年。"
+    }
   ],
   "romanceBio": [
-    { "chapter": "第七十八回", "eventName": "得知關羽父子遇害後號慟入見劉備", "content": { "paragraphs": [ { "text": "小說在劉備得知關羽、關平遇害後，安排關興號慟而來，使劉備再度哭絕，並以此銜接關氏下一代的復仇敘事。", "citations": [{ "sourceId": "sanguo-yanyi", "locator": "第七十八回" }] } ] }, "historicalDifference": { "paragraphs": [ { "text": "關興確為關羽之子並在其後承爵，但《三國志》沒有記錄他聞喪入見劉備或當時言行。這段是小說為後續復仇主線所作的情感鋪陳。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽傳末" }] } ] } },
-    { "chapter": "第八十一回", "eventName": "與張苞比武爭先鋒，折箭結為兄弟", "content": { "paragraphs": [ { "text": "小說寫關興、張苞同著白袍銀鎧赴軍，為爭先鋒先後展示射術並幾乎比武。劉備以兩人父輩情義勸止，因張苞年長一歲，命關興拜其為兄，二人折箭為誓、約定永相救護。", "citations": [{ "sourceId": "sanguo-yanyi", "locator": "第八十一回" }] } ] }, "historicalDifference": { "paragraphs": [ { "text": "正史沒有關興與張苞結拜、比箭、爭先鋒或同赴伐吳的記載。張苞在《三國志・張飛傳》中甚至只見『長子苞，早夭』，小說將兩位史料簡略的將門子弟重塑為搭檔。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關興段" }, { "sourceId": "sgz-zhangfei-main", "locator": "卷三十六・張飛傳末" }] } ] } },
-    { "chapter": "第八十二回", "eventName": "隨劉備伐吳，多次陣前交戰建功", "content": { "paragraphs": [ { "text": "小說讓關興與張苞隨劉備東征：關興與孫桓戰三十餘合，生擒譚雄，又與張苞分路伏擊吳軍；兩人屢被劉備稱作可接續老將的新一代。", "citations": [{ "sourceId": "sanguo-yanyi", "locator": "第八十二回" }] } ] }, "historicalDifference": { "paragraphs": [ { "text": "關興參加夷陵之戰、與孫桓交鋒、生擒譚雄及伏擊朱然援軍等均不見正史。《關羽傳》只記他受諸葛亮器重、弱冠任侍中與中監軍，沒有一筆前線戰功。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關興段" }] } ] } },
-    { "chapter": "第八十三回", "eventName": "關羽顯聖助斬潘璋，奪回青龍偃月刀", "content": { "paragraphs": [ { "text": "小說寫關興追擊潘璋至供奉關公神像的莊院，關羽顯聖驚住潘璋，關興將其斬殺、取心祭父，並奪回青龍偃月刀；其後又持刀迎戰馬忠。", "citations": [{ "sourceId": "sanguo-yanyi", "locator": "第八十三回" }] } ] }, "historicalDifference": { "paragraphs": [ { "text": "潘璋並未在夷陵之戰被關興殺死，正史仍記他在孫吳後續任官，嘉禾三年（234年）才去世；關興為父復仇、關羽顯聖與奪回青龍刀全屬小說。正史也沒有把青龍偃月刀記作關羽兵器。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽及關興本傳記載範圍" }] } ] } },
-    { "chapter": "第九十一至九十四回", "eventName": "隨諸葛亮北伐，與張苞並肩作戰", "content": { "paragraphs": [ { "text": "小說把關興列入諸葛亮北伐將領，讓他與張苞多次領兵、伏擊及迎戰羌兵；第九十四回又寫關羽顯靈救關興脫離鐵車兵，關興最後斬殺越吉元帥。", "citations": [{ "sourceId": "sanguo-yanyi", "locator": "第九十一至九十四回" }] } ] }, "historicalDifference": { "paragraphs": [ { "text": "正史沒有關興參加任何一次諸葛亮北伐的記錄，也沒有羌兵鐵車、關羽顯靈救子或斬越吉等事。『中監軍』官名不能單獨證明他曾在北伐前線統兵。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關興段" }, { "sourceId": "sgz-zhuge-main", "locator": "卷三十五・諸葛亮北伐段" }] } ] } },
-    { "chapter": "第九十八回", "eventName": "奉密計先取陳倉", "content": { "paragraphs": [ { "text": "小說寫諸葛亮得知郝昭病重後，表面命魏延、姜維三日內攻陳倉，實際暗令關興、張苞提前出漢中，自己藏於軍中倍道趕路，趁守軍無備先取城池。", "citations": [{ "sourceId": "sanguo-yanyi", "locator": "第九十八回" }] } ] }, "historicalDifference": { "paragraphs": [ { "text": "關興、張苞參與奇襲陳倉不見《三國志》。正史所載陳倉戰以郝昭守城拒諸葛亮著名，也沒有郝昭病重、蜀軍趁亂一舉奪城的結果。", "citations": [{ "sourceId": "sgz-zhuge-main", "locator": "卷三十五・北伐相關記載" }] } ] } },
-    { "chapter": "第一百零二回", "eventName": "出師前病亡，諸葛亮痛哭昏倒", "content": { "paragraphs": [ { "text": "小說在諸葛亮青龍二年再出祁山前，忽報關興病亡；諸葛亮放聲大哭、昏倒，醒後感嘆忠義之人不得長壽，軍中又少一員大將。", "citations": [{ "sourceId": "sanguo-yanyi", "locator": "第一百零二回" }] } ] }, "historicalDifference": { "paragraphs": [ { "text": "正史只說關興弱冠任官、數年後去世，沒有病因、卒年、死亡地點或諸葛亮哭倒的記載。小說把他的死亡繫於青龍二年（234年）出師前，不能據此確定歷史卒年。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・『數歲卒』" }] } ] } }
+    {
+      "chapter": "第七十八回",
+      "eventName": "得知關羽父子遇害後號慟入見劉備",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說在劉備得知關羽、關平遇害後，安排關興號慟而來，使劉備再度哭絕，並以此銜接關氏下一代的復仇敘事。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第七十八回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "關興確為關羽之子並在其後承爵，但《三國志》沒有記錄他聞喪入見劉備或當時言行。這段是小說為後續復仇主線所作的情感鋪陳。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・關羽傳末"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第八十一回",
+      "eventName": "與張苞比武爭先鋒，折箭結為兄弟",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫關興、張苞同著白袍銀鎧赴軍，為爭先鋒先後展示射術並幾乎比武。劉備以兩人父輩情義勸止，因張苞年長一歲，命關興拜其為兄，二人折箭為誓、約定永相救護。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第八十一回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史沒有關興與張苞結拜、比箭、爭先鋒或同赴伐吳的記載。張苞在《三國志・張飛傳》中甚至只見『長子苞，早夭』，小說將兩位史料簡略的將門子弟重塑為搭檔。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・關興段"
+              },
+              {
+                "sourceId": "sgz-zhangfei-main",
+                "locator": "卷三十六・張飛傳末"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第八十二回",
+      "eventName": "隨劉備伐吳，多次陣前交戰建功",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說讓關興與張苞隨劉備東征：關興與孫桓戰三十餘合，生擒譚雄，又與張苞分路伏擊吳軍；兩人屢被劉備稱作可接續老將的新一代。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第八十二回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "關興參加夷陵之戰、與孫桓交鋒、生擒譚雄及伏擊朱然援軍等均不見正史。《關羽傳》只記他受諸葛亮器重、弱冠任侍中與中監軍，沒有一筆前線戰功。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・關興段"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第八十三回",
+      "eventName": "關羽顯聖助斬潘璋，奪回青龍偃月刀",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫關興追擊潘璋至供奉關公神像的莊院，關羽顯聖驚住潘璋，關興將其斬殺、取心祭父，並奪回青龍偃月刀；其後又持刀迎戰馬忠。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第八十三回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "潘璋並未在夷陵之戰被關興殺死，正史仍記他在孫吳後續任官，嘉禾三年（234年）才去世；關興為父復仇、關羽顯聖與奪回青龍刀全屬小說。正史也沒有把青龍偃月刀記作關羽兵器。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・關羽及關興本傳記載範圍"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第九十一至九十四回",
+      "eventName": "隨諸葛亮北伐，與張苞並肩作戰",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說把關興列入諸葛亮北伐將領，讓他與張苞多次領兵、伏擊及迎戰羌兵；第九十四回又寫關羽顯靈救關興脫離鐵車兵，關興最後斬殺越吉元帥。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第九十一至九十四回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史沒有關興參加任何一次諸葛亮北伐的記錄，也沒有羌兵鐵車、關羽顯靈救子或斬越吉等事。『中監軍』官名不能單獨證明他曾在北伐前線統兵。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・關興段"
+              },
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・諸葛亮北伐段"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第九十八回",
+      "eventName": "奉密計先取陳倉",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫諸葛亮得知郝昭病重後，表面命魏延、姜維三日內攻陳倉，實際暗令關興、張苞提前出漢中，自己藏於軍中倍道趕路，趁守軍無備先取城池。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第九十八回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "關興、張苞參與奇襲陳倉不見《三國志》。正史所載陳倉戰以郝昭守城拒諸葛亮著名，也沒有郝昭病重、蜀軍趁亂一舉奪城的結果。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuge-main",
+                "locator": "卷三十五・北伐相關記載"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第一百零二回",
+      "eventName": "出師前病亡，諸葛亮痛哭昏倒",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說在諸葛亮青龍二年再出祁山前，忽報關興病亡；諸葛亮放聲大哭、昏倒，醒後感嘆忠義之人不得長壽，軍中又少一員大將。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第一百零二回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "正史只說關興弱冠任官、數年後去世，沒有病因、卒年、死亡地點或諸葛亮哭倒的記載。小說把他的死亡繫於青龍二年（234年）出師前，不能據此確定歷史卒年。",
+            "citations": [
+              {
+                "sourceId": "sgz-guanyu-main",
+                "locator": "卷三十六・『數歲卒』"
+              }
+            ]
+          }
+        ]
+      }
+    }
   ],
   "works": [],
   "worksNote": "現存史籍沒有保存可確定為關興所作的奏表、書信或其他文字。"
