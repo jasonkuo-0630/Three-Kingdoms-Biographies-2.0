@@ -139,7 +139,9 @@
             "sourceId": "houhanshu-xiandi",
             "locator": "卷九・孝獻帝紀開篇"
           }
-        ]
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
       },
       {
         "personName": "王美人",
@@ -152,7 +154,9 @@
             "sourceId": "houhanshu-houfei-xia",
             "locator": "卷十下・靈思何皇后紀及王美人附傳"
           }
-        ]
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
       },
       {
         "personName": "董太后",
@@ -165,7 +169,9 @@
             "sourceId": "houhanshu-houfei-xia",
             "locator": "卷十下・孝仁董皇后紀、靈思何皇后紀"
           }
-        ]
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
       },
       {
         "personName": "少帝劉辯",
@@ -182,7 +188,9 @@
             "sourceId": "sgz-dongzhuo-main",
             "locator": "卷六・董卓傳"
           }
-        ]
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       },
       {
         "personName": "伏壽",
@@ -195,7 +203,9 @@
             "sourceId": "houhanshu-houfei-xia",
             "locator": "卷十下・獻帝伏皇后紀"
           }
-        ]
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
       },
       {
         "personName": "董貴人",
@@ -212,7 +222,9 @@
             "sourceId": "sanguo-yanyi",
             "locator": "第二十四回"
           }
-        ]
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
       },
       {
         "personName": "曹節",
@@ -225,7 +237,9 @@
             "sourceId": "houhanshu-houfei-xia",
             "locator": "卷十下・獻穆曹皇后紀"
           }
-        ]
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
       },
       {
         "personName": "曹憲、曹華",
@@ -238,7 +252,9 @@
             "sourceId": "houhanshu-houfei-xia",
             "locator": "卷十下・獻穆曹皇后紀"
           }
-        ]
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
       },
       {
         "personName": "宋都",
@@ -251,7 +267,9 @@
             "sourceId": "houhanshu-dongzhuo-lijue",
             "locator": "卷七十二・李傕郭汜傳注文引《獻帝起居注》"
           }
-        ]
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
       },
       {
         "personName": "劉馮",
@@ -264,7 +282,9 @@
             "sourceId": "houhanshu-xiandi",
             "locator": "卷九・建安五年"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "劉熙",
@@ -277,7 +297,9 @@
             "sourceId": "houhanshu-xiandi",
             "locator": "卷九・建安十七年、延康元年"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "劉懿",
@@ -290,7 +312,9 @@
             "sourceId": "houhanshu-xiandi",
             "locator": "卷九・建安十七年、延康元年"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "劉邈",
@@ -303,7 +327,9 @@
             "sourceId": "houhanshu-xiandi",
             "locator": "卷九・建安十七年、延康元年"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "劉敦",
@@ -316,7 +342,9 @@
             "sourceId": "houhanshu-xiandi",
             "locator": "卷九・建安十七年、延康元年"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "伏皇后所生二皇子（姓名不詳）",
@@ -329,7 +357,9 @@
             "sourceId": "houhanshu-houfei-xia",
             "locator": "卷十下・獻帝伏皇后紀"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "山陽公世子（姓名不詳）",
@@ -342,7 +372,9 @@
             "sourceId": "houhanshu-xiandi",
             "locator": "卷九・孝獻帝紀末"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "兩名皇女（姓名不詳）",
@@ -355,7 +387,9 @@
             "sourceId": "sgz-wendi-sunsheng-comment",
             "locator": "《三國志》卷二・文帝紀裴注引孫盛評"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "劉康",
@@ -368,7 +402,9 @@
             "sourceId": "houhanshu-xiandi",
             "locator": "卷九・孝獻帝紀末"
           }
-        ]
+        ],
+        "relationGroup": "grandchild",
+        "natureCategory": "historical"
       }
     ],
     "titlesAndRanks": [
