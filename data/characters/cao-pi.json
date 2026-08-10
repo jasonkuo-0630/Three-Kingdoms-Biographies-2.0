@@ -23,72 +23,354 @@
         {
           "text": "曹丕字子桓，是曹操與卞夫人之子，生於中平四年冬。《文帝紀》記他八歲能作文，博覽經傳諸子，又善騎射、擊劍；這些才藝記載多出自本紀裴注引王沈《魏書》及曹丕《典論》自敘，能反映曹魏官方保存的自我形象，但仍應與陳壽正文分層閱讀。",
           "citations": [
-            { "sourceId": "sgz-wendi-yiling", "locator": "卷二・文帝紀開篇及裴注引《魏書》《典論》" }
+            {
+              "sourceId": "sgz-wendi-yiling",
+              "locator": "卷二・文帝紀開篇及裴注引《魏書》《典論》"
+            }
           ]
         },
         {
           "text": "曹昂於宛城戰死後，曹丕成為卞夫人諸子中的年長者。曹操一度在曹丕、曹植之間遲疑，曹植文才出眾且受寵，曹丕則經由官僚支持、行事自飾與維持嫡長秩序逐步取得優勢，終於建安二十二年被立為魏太子。這場競爭有正史依據，但後來的七步詩故事並非正史所載。",
           "citations": [
-            { "sourceId": "sgz-caozhi-main", "locator": "卷十九・陳思王植傳・立嗣競爭" },
-            { "sourceId": "sgz-wendi-yiling", "locator": "卷二・建安十六年至二十二年" }
+            {
+              "sourceId": "sgz-caozhi-main",
+              "locator": "卷十九・陳思王植傳・立嗣競爭"
+            },
+            {
+              "sourceId": "sgz-wendi-yiling",
+              "locator": "卷二・建安十六年至二十二年"
+            }
           ]
         },
         {
           "text": "延康元年曹操去世後，曹丕繼任丞相、魏王，十月在曹氏已掌握軍隊與官僚的局勢下接受漢獻帝禪讓，建立魏朝。禪代有完整詔策與儀式，但形式上的多次辭讓不能掩蓋雙方權力不對等；本站沿用劉協檔案的表述，不把它寫成漢帝自由選擇的和平交接。",
           "citations": [
-            { "sourceId": "sgz-wendi-yiling", "locator": "卷二・延康元年受禪" },
-            { "sourceId": "houhanshu-xiandi", "locator": "卷九・延康元年" }
+            {
+              "sourceId": "sgz-wendi-yiling",
+              "locator": "卷二・延康元年受禪"
+            },
+            {
+              "sourceId": "houhanshu-xiandi",
+              "locator": "卷九・延康元年"
+            }
           ]
         },
         {
           "text": "曹丕既是新王朝建立者，也是建安文學核心人物之一。〈典論・論文〉按文體、才性與作家個性討論文學，提出『文以氣為主』『文章經國之大業，不朽之盛事』；〈燕歌行〉兩首則是現存最早一批通篇七言的完整作品。其政治與文學形象應並列呈現，不能只剩下逼漢、妒弟的通俗敘事。",
           "citations": [
-            { "sourceId": "wenxuan-dianlun-lunwen", "locator": "《昭明文選》卷五十二・〈典論論文〉" },
-            { "sourceId": "yuefu-shiji-caopi", "locator": "《樂府詩集》平調曲・〈燕歌行〉二首" }
+            {
+              "sourceId": "wenxuan-dianlun-lunwen",
+              "locator": "《昭明文選》卷五十二・〈典論論文〉"
+            },
+            {
+              "sourceId": "yuefu-shiji-caopi",
+              "locator": "《樂府詩集》平調曲・〈燕歌行〉二首"
+            }
           ]
         }
       ]
     },
     "factionTimeline": [
-      { "stageName": "曹操控制下的漢廷", "personName": "曹操", "personId": "cao-cao", "actualFactionId": "cao-cao-han-court", "period": "建安十六年（211年）—建安二十一年四月（216年）", "periodUncertain": false },
-      { "stageName": "曹操魏王國", "personName": "曹操", "personId": "cao-cao", "actualFactionId": "cao-cao-wei-kingdom", "period": "建安二十一年四月（216年）—建安二十五年正月（220年）", "periodUncertain": false },
-      { "stageName": "繼承魏王的過渡政權", "personName": "曹丕", "personId": null, "actualFactionId": "cao-pi-wei-kingdom", "period": "延康元年正月（220年）—十月（220年）", "periodUncertain": false },
-      { "stageName": "曹魏文帝政權", "personName": "曹丕", "personId": null, "actualFactionId": "caowei-wendi", "period": "黃初元年十月（220年）—黃初七年五月（226年）", "periodUncertain": false }
+      {
+        "stageName": "曹操控制下的漢廷",
+        "personName": "曹操",
+        "personId": "cao-cao",
+        "actualFactionId": "cao-cao-han-court",
+        "period": "建安十六年（211年）—建安二十一年四月（216年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "曹操魏王國",
+        "personName": "曹操",
+        "personId": "cao-cao",
+        "actualFactionId": "cao-cao-wei-kingdom",
+        "period": "建安二十一年四月（216年）—建安二十五年正月（220年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "繼承魏王的過渡政權",
+        "personName": "曹丕",
+        "personId": null,
+        "actualFactionId": "cao-pi-wei-kingdom",
+        "period": "延康元年正月（220年）—十月（220年）",
+        "periodUncertain": false
+      },
+      {
+        "stageName": "曹魏文帝政權",
+        "personName": "曹丕",
+        "personId": null,
+        "actualFactionId": "caowei-wendi",
+        "period": "黃初元年十月（220年）—黃初七年五月（226年）",
+        "periodUncertain": false
+      }
     ],
     "relatives": [
-      { "personName": "曹操", "personId": "cao-cao", "relation": "父", "natureType": "三國志正文記載", "note": "曹魏政權奠基者。曹丕於220年繼承其魏王、丞相權位，隨後代漢稱帝，追尊曹操為太祖武皇帝。", "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二・文帝紀開篇及延康元年" }] },
-      { "personName": "卞夫人", "personId": null, "relation": "母", "natureType": "三國志正文記載", "note": "曹操繼室，生曹丕、曹彰、曹植、曹熊。曹丕稱帝後尊為皇太后，後追諡武宣皇后。", "citations": [{ "sourceId": "sgz-bianhou-main", "locator": "卷五・武宣卞皇后傳" }] },
-      { "personName": "曹昂", "personId": null, "relation": "異母兄", "natureType": "三國志正文記載", "note": "劉夫人所生、丁夫人所養，建安二年宛城之戰陣亡。其死後曹丕成為卞夫人諸子中的年長者。", "citations": [{ "sourceId": "sgz-wudi-main", "locator": "卷一・建安二年宛城" }] },
-      { "personName": "曹彰", "personId": null, "relation": "同母弟", "natureType": "三國志正文及後世軼事分層記載", "note": "任城威王，以武勇著稱，黃初四年赴洛陽後去世。正史未記死因；曹丕毒棗殺弟的故事最早見南朝《世說新語》，不可當成定論。", "citations": [{ "sourceId": "sgz-rencheng-chenxiao-main", "locator": "卷十九・任城威王彰傳" }, { "sourceId": "shishuo-youhui-caozhang", "locator": "《世說新語・尤悔》毒棗故事" }] },
-      { "personName": "曹植", "personId": null, "relation": "同母弟", "natureType": "三國志正文及後世文學分層記載", "note": "陳思王，曾與曹丕競爭繼承人。曹丕即位後屢改其封國並約束諸侯；七步詩故事見《世說新語》，不是《三國志》所載。", "citations": [{ "sourceId": "sgz-caozhi-main", "locator": "卷十九・陳思王植傳" }, { "sourceId": "shishuo-wenxue-qibu", "locator": "《世說新語・文學》七步詩" }] },
-      { "personName": "曹沖", "personId": null, "relation": "異母弟", "natureType": "三國志正文記載", "note": "環夫人所生，以聰慧著稱，建安十三年早逝。曹操曾流露立嗣之意，曹丕稱帝後追贈鄧哀王。", "citations": [{ "sourceId": "sgz-caochong-main", "locator": "卷二十・鄧哀王沖傳" }] },
-      { "personName": "甄氏", "personId": null, "relation": "妻、文昭皇后", "natureType": "三國志正文及裴注異說", "note": "原為袁熙妻，鄴城陷落後嫁曹丕，生曹叡與東鄉公主。黃初二年因失寵並有怨言，被曹丕遣使賜死；『甄宓』不是正史所載本名，與曹植〈洛神賦〉的戀情說屬後世附會。", "citations": [{ "sourceId": "sgz-zhenhou-main", "locator": "卷五・文昭甄皇后傳" }] },
-      { "personName": "郭女王", "personId": null, "relation": "妻、文德皇后", "natureType": "三國志正文記載", "note": "字女王，早年受曹丕寵信並參與謀議，黃初三年立為皇后。她無親生子，後奉詔撫養曹叡；甄氏之死是否由其進讒，正文與裴注材料互有不同。", "citations": [{ "sourceId": "sgz-guohou-main", "locator": "卷五・文德郭皇后傳" }] },
-      { "personName": "任氏", "personId": null, "relation": "早期妻室", "natureType": "三國志正文記載", "note": "曹丕早年正妻，性情不合，後被休遣；甄氏曾勸曹丕留下任氏而未被採納。", "citations": [{ "sourceId": "sgz-zhenhou-main", "locator": "卷五・甄后傳" }] },
-      { "personName": "曹叡", "personId": null, "relation": "子", "natureType": "三國志正文記載", "note": "甄氏所生，初封平原王。曹丕臨終前立為皇太子，繼位為魏明帝。", "citations": [{ "sourceId": "sgz-mingdi-main", "locator": "卷三・明帝紀開篇" }] },
-      { "personName": "曹協", "personId": null, "relation": "子", "natureType": "三國志正文記載", "note": "早逝，追諡贊哀王；其後由曹叡之子曹尋奉後。", "citations": [{ "sourceId": "sgz-wendi-sons-main", "locator": "卷二十・文帝諸子傳" }] },
-      { "personName": "東鄉公主", "personId": null, "relation": "女", "natureType": "三國志正文記載", "note": "甄氏所生；史書未詳其本名與生平。", "citations": [{ "sourceId": "sgz-zhenhou-main", "locator": "卷五・甄后傳" }] }
+      {
+        "personName": "曹操",
+        "personId": "cao-cao",
+        "relation": "父",
+        "natureType": "三國志正文記載",
+        "note": "曹魏政權奠基者。曹丕於220年繼承其魏王、丞相權位，隨後代漢稱帝，追尊曹操為太祖武皇帝。",
+        "citations": [
+          {
+            "sourceId": "sgz-wendi-yiling",
+            "locator": "卷二・文帝紀開篇及延康元年"
+          }
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
+      },
+      {
+        "personName": "卞夫人",
+        "personId": null,
+        "relation": "母",
+        "natureType": "三國志正文記載",
+        "note": "曹操繼室，生曹丕、曹彰、曹植、曹熊。曹丕稱帝後尊為皇太后，後追諡武宣皇后。",
+        "citations": [
+          {
+            "sourceId": "sgz-weishu-consorts",
+            "locator": "卷五・武宣卞皇后傳"
+          }
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
+      },
+      {
+        "personName": "曹昂",
+        "personId": null,
+        "relation": "異母兄",
+        "natureType": "三國志正文記載",
+        "note": "劉夫人所生、丁夫人所養，建安二年宛城之戰陣亡。其死後曹丕成為卞夫人諸子中的年長者。",
+        "citations": [
+          {
+            "sourceId": "sgz-wudi-main",
+            "locator": "卷一・建安二年宛城"
+          }
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
+      },
+      {
+        "personName": "曹彰",
+        "personId": null,
+        "relation": "同母弟",
+        "natureType": "三國志正文及後世軼事分層記載",
+        "note": "任城威王，以武勇著稱，黃初四年赴洛陽後去世。正史未記死因；曹丕毒棗殺弟的故事最早見南朝《世說新語》，不可當成定論。",
+        "citations": [
+          {
+            "sourceId": "sgz-rencheng-chensi",
+            "locator": "卷十九・任城威王彰傳"
+          },
+          {
+            "sourceId": "shishuo-youhui-caozhang",
+            "locator": "《世說新語・尤悔》毒棗故事"
+          }
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
+      },
+      {
+        "personName": "曹植",
+        "personId": null,
+        "relation": "同母弟",
+        "natureType": "三國志正文及後世文學分層記載",
+        "note": "陳思王，曾與曹丕競爭繼承人。曹丕即位後屢改其封國並約束諸侯；七步詩故事見《世說新語》，不是《三國志》所載。",
+        "citations": [
+          {
+            "sourceId": "sgz-caozhi-main",
+            "locator": "卷十九・陳思王植傳"
+          },
+          {
+            "sourceId": "shishuo-wenxue-qibu",
+            "locator": "《世說新語・文學》七步詩"
+          }
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
+      },
+      {
+        "personName": "曹沖",
+        "personId": null,
+        "relation": "異母弟",
+        "natureType": "三國志正文記載",
+        "note": "環夫人所生，以聰慧著稱，建安十三年早逝。曹操曾流露立嗣之意，曹丕稱帝後追贈鄧哀王。",
+        "citations": [
+          {
+            "sourceId": "sgz-caochong-main",
+            "locator": "卷二十・鄧哀王沖傳"
+          }
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
+      },
+      {
+        "personName": "甄氏",
+        "personId": null,
+        "relation": "妻、文昭皇后",
+        "natureType": "三國志正文及裴注異說",
+        "note": "原為袁熙妻，鄴城陷落後嫁曹丕，生曹叡與東鄉公主。黃初二年因失寵並有怨言，被曹丕遣使賜死；『甄宓』不是正史所載本名，與曹植〈洛神賦〉的戀情說屬後世附會。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhenhou-main",
+            "locator": "卷五・文昭甄皇后傳"
+          }
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
+      },
+      {
+        "personName": "郭女王",
+        "personId": null,
+        "relation": "妻、文德皇后",
+        "natureType": "三國志正文記載",
+        "note": "字女王，早年受曹丕寵信並參與謀議，黃初三年立為皇后。她無親生子，後奉詔撫養曹叡；甄氏之死是否由其進讒，正文與裴注材料互有不同。",
+        "citations": [
+          {
+            "sourceId": "sgz-guohou-main",
+            "locator": "卷五・文德郭皇后傳"
+          }
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
+      },
+      {
+        "personName": "任氏",
+        "personId": null,
+        "relation": "早期妻室",
+        "natureType": "三國志正文記載",
+        "note": "曹丕早年正妻，性情不合，後被休遣；甄氏曾勸曹丕留下任氏而未被採納。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhenhou-main",
+            "locator": "卷五・甄后傳"
+          }
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
+      },
+      {
+        "personName": "曹叡",
+        "personId": null,
+        "relation": "子",
+        "natureType": "三國志正文記載",
+        "note": "甄氏所生，初封平原王。曹丕臨終前立為皇太子，繼位為魏明帝。",
+        "citations": [
+          {
+            "sourceId": "sgz-mingdi-main",
+            "locator": "卷三・明帝紀開篇"
+          }
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
+      },
+      {
+        "personName": "曹協",
+        "personId": null,
+        "relation": "子",
+        "natureType": "三國志正文記載",
+        "note": "早逝，追諡贊哀王；其後由曹叡之子曹尋奉後。",
+        "citations": [
+          {
+            "sourceId": "sgz-wendi-sons-main",
+            "locator": "卷二十・文帝諸子傳"
+          }
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
+      },
+      {
+        "personName": "東鄉公主",
+        "personId": null,
+        "relation": "女",
+        "natureType": "三國志正文記載",
+        "note": "甄氏所生；史書未詳其本名與生平。",
+        "citations": [
+          {
+            "sourceId": "sgz-zhenhou-main",
+            "locator": "卷五・甄后傳"
+          }
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
+      }
     ],
     "titlesAndRanks": [
-      { "title": "茂才（舉而不行）", "period": "建安年間早期", "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二・文帝紀開篇裴注引《魏書》" }] },
-      { "title": "五官中郎將、副丞相", "period": "建安十六年（211年）", "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二・建安十六年" }] },
-      { "title": "魏太子", "period": "建安二十二年（217年）—建安二十五年正月（220年）", "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二・建安二十二年" }] },
-      { "title": "丞相、魏王、領冀州牧", "period": "延康元年正月—十月（220年）", "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二・延康元年" }] },
-      { "title": "曹魏皇帝", "period": "黃初元年十月（220年）—黃初七年五月（226年）", "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二・受禪至崩" }] }
+      {
+        "title": "茂才（舉而不行）",
+        "period": "建安年間早期",
+        "citations": [
+          {
+            "sourceId": "sgz-wendi-yiling",
+            "locator": "卷二・文帝紀開篇裴注引《魏書》"
+          }
+        ]
+      },
+      {
+        "title": "五官中郎將、副丞相",
+        "period": "建安十六年（211年）",
+        "citations": [
+          {
+            "sourceId": "sgz-wendi-yiling",
+            "locator": "卷二・建安十六年"
+          }
+        ]
+      },
+      {
+        "title": "魏太子",
+        "period": "建安二十二年（217年）—建安二十五年正月（220年）",
+        "citations": [
+          {
+            "sourceId": "sgz-wendi-yiling",
+            "locator": "卷二・建安二十二年"
+          }
+        ]
+      },
+      {
+        "title": "丞相、魏王、領冀州牧",
+        "period": "延康元年正月—十月（220年）",
+        "citations": [
+          {
+            "sourceId": "sgz-wendi-yiling",
+            "locator": "卷二・延康元年"
+          }
+        ]
+      },
+      {
+        "title": "曹魏皇帝",
+        "period": "黃初元年十月（220年）—黃初七年五月（226年）",
+        "citations": [
+          {
+            "sourceId": "sgz-wendi-yiling",
+            "locator": "卷二・受禪至崩"
+          }
+        ]
+      }
     ],
     "posthumousTitle": {
       "title": "文皇帝；廟號高祖",
       "grantedBy": "黃初七年（226年）曹叡即位後上諡文皇帝；青龍五年（237年）定廟號高祖",
       "citations": [
-        { "sourceId": "sgz-wendi-yiling", "locator": "卷二・黃初七年五月" },
-        { "sourceId": "sgz-mingdi-main", "locator": "卷三・青龍五年三祖廟議" }
+        {
+          "sourceId": "sgz-wendi-yiling",
+          "locator": "卷二・黃初七年五月"
+        },
+        {
+          "sourceId": "sgz-mingdi-main",
+          "locator": "卷三・青龍五年三祖廟議"
+        }
       ],
       "paragraphs": [
         {
           "text": "後世常稱『魏文帝』，源自其諡號文皇帝；廟號則為高祖。『世祖』等稱法不屬《三國志》記錄的曹魏正式廟號。",
           "citations": [
-            { "sourceId": "sgz-wendi-yiling", "locator": "卷二・卷末" },
-            { "sourceId": "sgz-mingdi-main", "locator": "卷三・青龍五年" }
+            {
+              "sourceId": "sgz-wendi-yiling",
+              "locator": "卷二・卷末"
+            },
+            {
+              "sourceId": "sgz-mingdi-main",
+              "locator": "卷三・青龍五年"
+            }
           ]
         }
       ]
@@ -101,7 +383,12 @@
           "context": "曹丕在曹操出征時克制悲泣、表現沉著後，《魏略》所載曹操評語",
           "textType": "裴注引古籍原文",
           "originalText": "此定吾基業者也。",
-          "citations": [{ "sourceId": "weilue-caopi-heir", "locator": "《文帝紀》裴注引《魏略》" }],
+          "citations": [
+            {
+              "sourceId": "weilue-caopi-heir",
+              "locator": "《文帝紀》裴注引《魏略》"
+            }
+          ],
           "paraphrase": "曹操認為曹丕能在公開場合控制情緒、顧全政治形象，具有穩定並繼承曹氏基業的能力。"
         },
         {
@@ -110,7 +397,12 @@
           "context": "曹操問立嗣之事，賈詡以袁紹、劉表廢長立幼的後果作含蓄回答",
           "textType": "古籍原文",
           "originalText": "思袁本初、劉景升父子也。",
-          "citations": [{ "sourceId": "sgz-jiaxu-main", "locator": "卷十・賈詡傳・立嗣問答" }],
+          "citations": [
+            {
+              "sourceId": "sgz-jiaxu-main",
+              "locator": "卷十・賈詡傳・立嗣問答"
+            }
+          ],
           "paraphrase": "賈詡沒有直接稱讚曹丕才德，而是以袁紹、劉表家族因繼承安排失當而敗亡為戒，實際支持遵循年長與既定名分立曹丕。"
         },
         {
@@ -119,7 +411,12 @@
           "context": "反對曹丕立即封孫權為吳王時，評估孫權與魏廷的關係",
           "textType": "裴注引古籍意見",
           "originalText": "彼直為侯，江南士民未有君臣之義也。我信其偽降，就封殖之，崇其位號，定其君臣，是為虎傅翼也。",
-          "citations": [{ "sourceId": "fuzi-liuye-sunquan", "locator": "《三國志・劉曄傳》裴注引《傅子》" }],
+          "citations": [
+            {
+              "sourceId": "fuzi-liuye-sunquan",
+              "locator": "《三國志・劉曄傳》裴注引《傅子》"
+            }
+          ],
           "paraphrase": "劉曄警告曹丕，孫權的稱臣只是權宜之計；若魏廷授予王號，反而會替孫權建立江東君臣名分、增強其統治。後來孫權拒送質子並與魏決裂，使這項批評更受後世重視。"
         }
       ],
@@ -130,7 +427,12 @@
           "context": "《三國志・文帝紀》卷末評語",
           "textType": "古籍原文",
           "originalText": "文帝天資文藻，下筆成章，博聞彊識，才藝兼該；若加之曠大之度，勵以公平之誠，邁志存道，克廣德心，則古之賢主，何遠之有哉！",
-          "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二・卷末評曰" }],
+          "citations": [
+            {
+              "sourceId": "sgz-wendi-yiling",
+              "locator": "卷二・卷末評曰"
+            }
+          ],
           "paraphrase": "陳壽肯定曹丕文采、學識與多方面才藝，同時以反事實語氣指出其氣度、公平與德心仍有不足；這是一則既高度肯定能力、又保留明確政治批評的總評。"
         },
         {
@@ -139,7 +441,12 @@
           "context": "《詩品》論魏文帝詩",
           "textType": "後世文學評語",
           "originalText": "其源出於李陵，頗有仲宣之體，則所計百許篇，率皆鄙直如偶語。惟『西北有浮雲』十餘首，殊美贍可翫，始見其工矣。",
-          "citations": [{ "sourceId": "shipin-caopi", "locator": "《詩品》中品・魏文帝" }],
+          "citations": [
+            {
+              "sourceId": "shipin-caopi",
+              "locator": "《詩品》中品・魏文帝"
+            }
+          ],
           "paraphrase": "鍾嶸認為曹丕詩受李陵與王粲一路風格影響，整體水準並不齊一，但肯定〈雜詩〉等十餘首辭采豐美、確能顯示其創作功力。"
         },
         {
@@ -148,40 +455,776 @@
           "context": "《南齊書・文學傳論》追論七言詩發展",
           "textType": "古籍原文",
           "originalText": "桂林湘水，平子之華篇；飛館玉池，魏文之麗篆；七言之作，非此誰先。",
-          "citations": [{ "sourceId": "nanqishu-wenxue-lun", "locator": "《南齊書・文學傳論》" }],
+          "citations": [
+            {
+              "sourceId": "nanqishu-wenxue-lun",
+              "locator": "《南齊書・文學傳論》"
+            }
+          ],
           "paraphrase": "蕭子顯把曹丕作品放在早期七言詩發展脈絡中，視其為這一詩體的重要先驅；後世因此常以〈燕歌行〉討論完整七言歌行的成熟。"
         }
       ]
     }
   },
   "historicalBio": [
-    { "period": "中平四年（187年）—建安初年", "periodType": "range", "title": "生於譙縣與成長於軍旅", "content": { "paragraphs": [ { "text": "曹丕生於中平四年冬。曹丕自述幼年適逢董卓之亂與群雄戰爭，曹操教他騎射，他常隨軍行動；建安二年張繡在宛城反叛時，曹昂、曹安民與典韋遇害，十歲的曹丕騎馬逃出。", "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二開篇裴注引《魏書》《典論》" }] }, { "text": "『八歲能屬文』與精於騎射、擊劍的細節主要由曹魏官修《魏書》及曹丕自敘保存；它們並非全都出自陳壽正文，但與曹丕存世文章及後來文學活動相互吻合。", "citations": [{ "sourceId": "weishu-caopi-peizhu", "locator": "《文帝紀》開篇裴注" }] } ], "originalTexts": [ { "text": "文皇帝諱丕，字子桓，武帝太子也。中平四年冬，生於譙。", "sourceId": "sgz-wendi-yiling", "locator": "卷二・文帝紀開篇" }, { "text": "余時年十歲，乘馬得脫。", "sourceId": "sgz-wendi-yiling", "locator": "卷二裴注引《典論》自敘" } ] } },
-    { "period": "建安十五年至十六年（210—211年）", "periodType": "range", "title": "受辟與任五官中郎將、副丞相", "content": { "paragraphs": [ { "text": "建安十五年司徒趙溫徵辟曹丕，曹操認為趙溫選舉不實而罷免趙溫。翌年曹丕任五官中郎將、副丞相，正式成為曹操幕府中地位最高的諸子之一，也進入繼承競爭的核心。", "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二・建安十五、十六年" }] } ] } },
-    { "period": "建安年間—建安二十二年（217年）", "periodType": "approx", "title": "與曹植的繼承競爭", "content": { "paragraphs": [ { "text": "曹植以文才受曹操寵愛，曹操曾遲疑是否立他為嗣。曹丕與曹植各有支持者，曹丕得到賈詡、桓階等人從嫡長秩序與政局穩定角度支持；曹植則因任性、飲酒失節與擅開司馬門等事逐漸失去信任。", "citations": [{ "sourceId": "sgz-caozhi-main", "locator": "卷十九・陳思王植傳" }, { "sourceId": "sgz-jiaxu-main", "locator": "卷十・賈詡傳" }] }, { "text": "建安二十二年曹丕被立為魏太子。正史足以證明兄弟間確有政治競爭，也記曹丕即位後嚴格約束曹植；但七步限時作詩、作不成即處死的場面，最早見於約二百年後的《世說新語》。", "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二・建安二十二年" }, { "sourceId": "shishuo-wenxue-qibu", "locator": "《世說新語・文學》" }] } ], "uncertaintyNote": "繼承競爭本身有正史依據；個別心理描寫、哭泣對策與七步詩須按正文、裴注、南朝軼事分層。" } },
-    { "period": "建安二十二年至二十五年（217—220年）", "periodType": "range", "title": "魏太子時期", "content": { "paragraphs": [ { "text": "被立為魏太子後，曹丕成為魏王國法定繼承人。他與陳群、司馬懿、吳質等文臣往來密切，也持續從事詩文創作。《典論》大致形成於即位前後，其中〈論文〉對建安七子逐一品評，顯示他不只以君主身分庇護文學，也嘗試建立文體與作家批評標準。", "citations": [{ "sourceId": "sgz-chenqun-main", "locator": "卷二十二・陳群傳" }, { "sourceId": "wenxuan-dianlun-lunwen", "locator": "〈典論論文〉" }] } ] } },
-    { "period": "延康元年正月至十月（220年）", "periodType": "range", "title": "繼魏王與建立過渡政權", "content": { "paragraphs": [ { "text": "曹操於建安二十五年正月去世後，曹丕繼任丞相、魏王，改元延康，尊卞氏為王太后。他迅速承接印璽、官僚與軍權，封賞舊臣並處理邊地降叛，形成受禪前約九個月的魏王國過渡政權。", "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二・延康元年" }] } ], "originalTexts": [ { "text": "太祖崩，嗣位為丞相、魏王。尊王后曰王太后。改建安二十五年為延康元年。", "sourceId": "sgz-wendi-yiling", "locator": "卷二・延康元年" } ] } },
-    { "period": "延康元年（220年）", "periodType": "exact", "title": "陳群建立九品官人法", "content": { "paragraphs": [ { "text": "曹丕即魏王位後，陳群提出九品官人法：由州郡中正評定人物品第，作為中央選官依據，用以在戰亂後重建人才評議與仕進秩序。制度將人分為九品，最初目標包括統整地方品評、改善察舉失序，並非一開始就明文規定只按門第選官。", "citations": [{ "sourceId": "sgz-chenqun-main", "locator": "卷二十二・陳群傳・制九品官人之法" }, { "sourceId": "fuzi-jiupin", "locator": "《傅子》所述郡州中正評次人才" }] }, { "text": "九品法深刻影響魏晉南北朝選官。隨中正職權與士族網絡結合，品評日益受家世左右，後來出現『上品無寒門，下品無勢族』式批評；這是制度長期演變的結果，不能把後世門閥化的全部樣貌直接當作曹丕、陳群創制當日的明文內容。", "citations": [{ "sourceId": "jinshu-liuyi-jiupin", "locator": "《晉書・劉毅傳》論九品中正弊端" }] } ] } },
-    { "period": "延康元年十月（220年）", "periodType": "exact", "title": "受禪稱帝與建立曹魏", "content": { "paragraphs": [ { "text": "漢獻帝在曹氏控制朝廷的局勢下下詔禪位，曹丕經過多次形式辭讓後，在繁陽築壇即皇帝位，改元黃初，國號魏。翌月封劉協為山陽公，准其行漢正朔、以天子禮祭祀，上書不稱臣、受詔不拜。", "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二・延康元年十月至十一月" }, { "sourceId": "houhanshu-xiandi", "locator": "卷九・禪位及山陽公" }] }, { "text": "受禪文本以祥瑞、群臣勸進與漢帝授命建構合法性，但實際軍政資源皆在曹丕手中。本站把禮儀程序與權力現實並列，不採《演義》中華歆等人單場持劍逼宮的戲劇化敘事。", "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二・受禪策命" }] } ] } },
-    { "period": "黃初元年至二年（220—221年）", "periodType": "range", "title": "新朝制度與宗室控制", "content": { "paragraphs": [ { "text": "曹丕定都洛陽，調整封爵與官制，限制宦官最高只能任諸署令，並禁止太后家族干預政事。他也把曹氏諸王分封各地，限制兵權與往來，使宗室難以形成獨立軍政力量；此舉有助於避免漢末外戚、宗室與地方勢力干政，也使曹魏宗室在後來權臣壓迫下缺乏有效支援。", "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二・黃初元年至二年諸令" }, { "sourceId": "sgz-wendi-sons-main", "locator": "卷二十・文帝諸子傳" }] } ] } },
-    { "period": "黃初二年六月（221年）", "periodType": "exact", "title": "甄氏失寵與被賜死", "content": { "paragraphs": [ { "text": "曹丕稱帝後，郭氏、李氏、陰氏等受寵，甄氏留在鄴城而有怨言。黃初二年六月，曹丕遣使賜死甄氏，葬於鄴。陳壽正文清楚記載『有怨言』『遣使賜死』，但沒有記下她說了什麼，也沒有說明完整政治程序。", "citations": [{ "sourceId": "sgz-zhenhou-main", "locator": "卷五・文昭甄皇后傳" }] }, { "text": "裴注引《魏書》為甄氏塑造謙讓賢德、主動推薦郭氏的形象，裴松之認為這與正文因怨獲罪難以相合；《漢晉春秋》又載死後披髮覆面、以糠塞口等情節。各材料立場與成書背景不同，本站不把所有細節合併為同一套確定經過。", "citations": [{ "sourceId": "weishu-zhenhou-peizhu", "locator": "卷五甄后傳裴注引《魏書》" }, { "sourceId": "hanjin-chunqiu-zhenhou", "locator": "卷五裴注引《漢晉春秋》" }] } ], "uncertaintyNote": "賜死本身見正文；進讒者、葬殮細節及曹叡後來報復郭后，主要見裴注異說，不能視為全部已確證。" } },
-    { "period": "黃初二年（221年）", "periodType": "exact", "title": "受孫權稱藩並封為吳王", "content": { "paragraphs": [ { "text": "劉備東征孫權時，孫權為避免兩線受敵而向曹魏稱臣，送還于禁等人。曹丕接受其稱藩，冊封孫權為吳王、大將軍、使持節督交州、領荊州牧並加九錫，希望以藩臣名義約束江東。", "citations": [{ "sourceId": "sgz-wuzhu-main", "locator": "卷四十七・黃初二年受封吳王" }, { "sourceId": "sgz-wendi-yiling", "locator": "卷二・黃初二年" }] }, { "text": "劉曄認為孫權是假降，封王反而替其鞏固江東君臣名分；曹丕沒有採納。孫權擊退劉備後仍拒絕送太子孫登入魏為質，魏吳關係很快破裂，顯示冊封未能把孫權變成可控制的藩王。", "citations": [{ "sourceId": "fuzi-liuye-sunquan", "locator": "《劉曄傳》裴注引《傅子》" }, { "sourceId": "sgz-wuzhu-main", "locator": "卷四十七・拒遣任子" }] } ] } },
-    { "period": "黃初三年（222年）", "periodType": "exact", "title": "判斷夷陵戰局", "content": { "paragraphs": [ { "text": "劉備連營深入吳境時，曹丕認為其沿險連營數百里犯兵家大忌，預言將敗；七日後收到陸遜擊破劉備的消息。這段見《文帝紀》正文，顯示曹丕能從部署判讀戰局，但他並未參與夷陵之戰的實際指揮。", "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二・黃初三年閏月" }] } ] } },
-    { "period": "黃初三年至四年（222—223年）", "periodType": "range", "title": "第一次伐吳：三路進軍", "content": { "paragraphs": [ { "text": "孫權拒送質子後，曹丕於黃初三年秋命曹休、張遼、臧霸出洞口，曹仁攻濡須，曹真、夏侯尚、張郃、徐晃圍江陵，自己南行至宛督軍。魏軍在洞口與江陵一度取得進展，江陵圍攻尤其持久。", "citations": [{ "sourceId": "sgz-wuzhu-main", "locator": "卷四十七・黃武元年魏三路進軍" }, { "sourceId": "sgz-wendi-yiling", "locator": "卷二・黃初三年十月南征" }] }, { "text": "吳軍分路抵抗：呂範拒洞口，朱桓守濡須，諸葛瑾、潘璋等救江陵。曹仁一路被朱桓擊退，江陵久攻不克，疫情與江水上漲又增加困難；至黃初四年春夏魏軍先後撤退。這是一場跨年度的三線大戰，不宜簡化成曹丕本人在江上一戰即敗。", "citations": [{ "sourceId": "sgz-zhuhuan-main", "locator": "卷五十六・朱桓傳・濡須守戰" }, { "sourceId": "sgz-wuzhu-main", "locator": "卷四十七・黃武元年至二年" }] } ] } },
-    { "period": "黃初四年六月（223年）", "periodType": "exact", "title": "曹彰去世與毒棗傳說", "content": { "paragraphs": [ { "text": "任城王曹彰在黃初四年入朝洛陽，六月去世。《三國志》只記『薨於京都』，沒有說明病因、中毒或曹丕下手。兄弟間確有兵權與繼承疑慮，但不能以此補寫死因。", "citations": [{ "sourceId": "sgz-rencheng-chenxiao-main", "locator": "卷十九・任城威王彰傳" }, { "sourceId": "sgz-wendi-yiling", "locator": "卷二・黃初四年六月" }] }, { "text": "《世說新語・尤悔》稱曹丕在卞太后閣與曹彰下棋吃棗，預先把毒置於棗蒂，並毀掉取水器具，使曹彰中毒而死。這是南朝軼事筆記中的道德化宮廷故事，成書遠晚於曹魏，本站保留為後世傳說，不列入確定史實。", "citations": [{ "sourceId": "shishuo-youhui-caozhang", "locator": "《世說新語・尤悔》" }] } ], "uncertaintyNote": "曹彰於223年在洛陽去世可確定；具體死因不可考，毒棗說僅屬後世軼事。" } },
-    { "period": "黃初五年（224年）", "periodType": "exact", "title": "第二次南征：首次至廣陵", "content": { "paragraphs": [ { "text": "曹丕於黃初五年秋整備水軍，從許昌東巡，乘龍舟經蔡水、潁水入淮，九月至廣陵。魏軍隔江臨望吳境，但未形成成功渡江攻勢，十月便返回許昌。", "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二・黃初五年八月至十月" }] }, { "text": "《資治通鑑》綜合吳方材料記徐盛沿江設置疑城假樓，曹丕又因江水盛長、騎兵無從施展而撤退。這些細節不全見《文帝紀》正文，應以其他史籍補充，不把小說的火燒龍舟直接套回。", "citations": [{ "sourceId": "zztj-wei70-guangling", "locator": "卷七十・黃初五年" }] } ] } },
-    { "period": "黃初六年（225年）", "periodType": "exact", "title": "第三次南征：再至廣陵而還", "content": { "paragraphs": [ { "text": "黃初六年曹丕再率舟師東行，十月到廣陵故城臨江觀兵，號稱士卒十餘萬、旌旗數百里。當年嚴寒，水道結冰，船艦不能入江，魏軍再次撤還。這次行動規模龐大，但仍沒有突破長江防線。", "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二・黃初六年八月至十月及裴注引《魏書》" }] }, { "text": "曹丕222—223年的三路戰爭、224年廣陵行軍與225年再幸廣陵，常合稱三次伐吳。後兩次更接近大規模臨江示威與尋求渡江機會，不能都描述成已展開同等強度的會戰。", "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二・黃初三年至六年" }, { "sourceId": "sgz-wuzhu-main", "locator": "卷四十七・黃武元年至四年" }] } ] } },
-    { "period": "年代不可確定；作品約成於建安末至黃初年間", "periodType": "approx", "title": "〈典論・論文〉與〈燕歌行〉", "content": { "paragraphs": [ { "text": "〈典論・論文〉完整傳入《昭明文選》，論及文人相輕、建安七子、四種文體標準、才氣差異與文章不朽價值，被視為中國現存最早的系統性文學專論之一。原書《典論》大部已佚，不能把後人輯佚內容一律視為原貌完整保存。", "citations": [{ "sourceId": "wenxuan-dianlun-lunwen", "locator": "《昭明文選》卷五十二" }] }, { "text": "〈燕歌行〉二首全文傳世，第一首『秋風蕭瑟天氣涼』最著名，以思婦口吻寫客遊、秋夜與離愁。它們是現存最早一批通篇七言、句句用韻的完整七言詩，文學史地位不應被宮廷政治故事遮蔽。", "citations": [{ "sourceId": "yuefu-shiji-caopi", "locator": "《樂府詩集》平調曲・〈燕歌行〉" }] } ], "uncertaintyNote": "兩篇作品可確認傳世，但精確作年皆缺乏同時材料，本站不強繫於某次宮廷或戰爭場景。" } },
-    { "period": "黃初七年五月（226年）", "periodType": "exact", "title": "臨終託孤與去世", "content": { "paragraphs": [ { "text": "黃初七年五月曹丕病重，立平原王曹叡為皇太子，命曹真、曹休、陳群、司馬懿共同受遺詔輔政。五月丁巳，他在洛陽嘉福殿去世，年四十，六月葬首陽陵。", "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二・黃初七年五月至六月" }] }, { "text": "曹丕預作終制，主張因山為陵、不封不樹、不建寢殿與園邑，隨葬不用金銀珠玉，以漢代陵墓遭盜為戒。這份文本反映他對王朝更替、厚葬危害與身後名聲的清醒認識。", "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二・黃初三年首陽陵終制" }] } ], "originalTexts": [ { "text": "丁巳，帝崩于嘉福殿，時年四十。", "sourceId": "sgz-wendi-yiling", "locator": "卷二・黃初七年五月" } ] } },
-    { "period": "後世傳說；最遲南朝宋成書", "periodType": "unknown", "title": "七步詩的史料層級", "content": { "paragraphs": [ { "text": "《世說新語・文學》記曹丕命東阿王曹植在七步內作詩，否則處以重刑；曹植作『煮豆持作羹』六句，曹丕面有慚色。這是目前可見最早的完整七步詩故事，成書約在五世紀，不見《三國志》正文與裴注。", "citations": [{ "sourceId": "shishuo-wenxue-qibu", "locator": "《世說新語・文學》第六十六則" }] }, { "text": "後來《三國演義》採用並改寫成更通行的四句版本。曹植確受曹丕防範、封國屢遷，足以解釋故事為何具有說服力；但政治背景真實不等於限步逼詩與詩句本身必然真實。", "citations": [{ "sourceId": "sgz-caozhi-main", "locator": "卷十九・陳思王植傳" }, { "sourceId": "sanguo-yanyi", "locator": "第七十九回" }] } ], "uncertaintyNote": "七步詩歸屬與事件真實性均存疑；本站不收入曹丕 works，也不當作歷史事件定論。" } },
-    { "period": "後世附會；相關注本最遲唐宋以後流傳", "periodType": "unknown", "title": "甄氏與〈洛神賦〉附會", "content": { "paragraphs": [ { "text": "曹植〈洛神賦〉序自稱黃初三年朝京師、還封地途中經洛水而作，正文以宓妃、洛神為文學想像，沒有提到甄氏。曹植愛慕嫂甄氏、曹丕把甄氏玉枕送給曹植、作品原名〈感甄賦〉等說法，均不見《三國志》早期材料。", "citations": [{ "sourceId": "wenxuan-luoshenfu", "locator": "《昭明文選》卷十九・〈洛神賦〉正文與序" }, { "sourceId": "wenxuan-luoshen-kaoyi", "locator": "卷十九李善注校勘・感甄故事" }] }, { "text": "現存《文選》校勘指出，『感甄』二百餘字在袁本、茶陵本中沒有，疑為世傳小說誤入注本，甚至未必是李善原注。因此它只能作為後世文學接受史，不可拿來解釋曹丕賜死甄氏或曹植作賦的真實動機。", "citations": [{ "sourceId": "wenxuan-luoshen-kaoyi", "locator": "〈洛神賦〉文選考異" }] } ], "uncertaintyNote": "〈洛神賦〉為曹植真作；它與甄氏的戀情連結缺乏早期可靠依據。" } }
+    {
+      "period": "中平四年（187年）—建安初年",
+      "periodType": "range",
+      "title": "生於譙縣與成長於軍旅",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹丕生於中平四年冬。曹丕自述幼年適逢董卓之亂與群雄戰爭，曹操教他騎射，他常隨軍行動；建安二年張繡在宛城反叛時，曹昂、曹安民與典韋遇害，十歲的曹丕騎馬逃出。",
+            "citations": [
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二開篇裴注引《魏書》《典論》"
+              }
+            ]
+          },
+          {
+            "text": "『八歲能屬文』與精於騎射、擊劍的細節主要由曹魏官修《魏書》及曹丕自敘保存；它們並非全都出自陳壽正文，但與曹丕存世文章及後來文學活動相互吻合。",
+            "citations": [
+              {
+                "sourceId": "weishu-caopi-peizhu",
+                "locator": "《文帝紀》開篇裴注"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "文皇帝諱丕，字子桓，武帝太子也。中平四年冬，生於譙。",
+            "sourceId": "sgz-wendi-yiling",
+            "locator": "卷二・文帝紀開篇"
+          },
+          {
+            "text": "余時年十歲，乘馬得脫。",
+            "sourceId": "sgz-wendi-yiling",
+            "locator": "卷二裴注引《典論》自敘"
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安十五年至十六年（210—211年）",
+      "periodType": "range",
+      "title": "受辟與任五官中郎將、副丞相",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "建安十五年司徒趙溫徵辟曹丕，曹操認為趙溫選舉不實而罷免趙溫。翌年曹丕任五官中郎將、副丞相，正式成為曹操幕府中地位最高的諸子之一，也進入繼承競爭的核心。",
+            "citations": [
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・建安十五、十六年"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "建安年間—建安二十二年（217年）",
+      "periodType": "approx",
+      "title": "與曹植的繼承競爭",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹植以文才受曹操寵愛，曹操曾遲疑是否立他為嗣。曹丕與曹植各有支持者，曹丕得到賈詡、桓階等人從嫡長秩序與政局穩定角度支持；曹植則因任性、飲酒失節與擅開司馬門等事逐漸失去信任。",
+            "citations": [
+              {
+                "sourceId": "sgz-caozhi-main",
+                "locator": "卷十九・陳思王植傳"
+              },
+              {
+                "sourceId": "sgz-jiaxu-main",
+                "locator": "卷十・賈詡傳"
+              }
+            ]
+          },
+          {
+            "text": "建安二十二年曹丕被立為魏太子。正史足以證明兄弟間確有政治競爭，也記曹丕即位後嚴格約束曹植；但七步限時作詩、作不成即處死的場面，最早見於約二百年後的《世說新語》。",
+            "citations": [
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・建安二十二年"
+              },
+              {
+                "sourceId": "shishuo-wenxue-qibu",
+                "locator": "《世說新語・文學》"
+              }
+            ]
+          }
+        ],
+        "uncertaintyNote": "繼承競爭本身有正史依據；個別心理描寫、哭泣對策與七步詩須按正文、裴注、南朝軼事分層。"
+      }
+    },
+    {
+      "period": "建安二十二年至二十五年（217—220年）",
+      "periodType": "range",
+      "title": "魏太子時期",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "被立為魏太子後，曹丕成為魏王國法定繼承人。他與陳群、司馬懿、吳質等文臣往來密切，也持續從事詩文創作。《典論》大致形成於即位前後，其中〈論文〉對建安七子逐一品評，顯示他不只以君主身分庇護文學，也嘗試建立文體與作家批評標準。",
+            "citations": [
+              {
+                "sourceId": "sgz-chenqun-main",
+                "locator": "卷二十二・陳群傳"
+              },
+              {
+                "sourceId": "wenxuan-dianlun-lunwen",
+                "locator": "〈典論論文〉"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "延康元年正月至十月（220年）",
+      "periodType": "range",
+      "title": "繼魏王與建立過渡政權",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹操於建安二十五年正月去世後，曹丕繼任丞相、魏王，改元延康，尊卞氏為王太后。他迅速承接印璽、官僚與軍權，封賞舊臣並處理邊地降叛，形成受禪前約九個月的魏王國過渡政權。",
+            "citations": [
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・延康元年"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "太祖崩，嗣位為丞相、魏王。尊王后曰王太后。改建安二十五年為延康元年。",
+            "sourceId": "sgz-wendi-yiling",
+            "locator": "卷二・延康元年"
+          }
+        ]
+      }
+    },
+    {
+      "period": "延康元年（220年）",
+      "periodType": "exact",
+      "title": "陳群建立九品官人法",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹丕即魏王位後，陳群提出九品官人法：由州郡中正評定人物品第，作為中央選官依據，用以在戰亂後重建人才評議與仕進秩序。制度將人分為九品，最初目標包括統整地方品評、改善察舉失序，並非一開始就明文規定只按門第選官。",
+            "citations": [
+              {
+                "sourceId": "sgz-chenqun-main",
+                "locator": "卷二十二・陳群傳・制九品官人之法"
+              },
+              {
+                "sourceId": "fuzi-jiupin",
+                "locator": "《傅子》所述郡州中正評次人才"
+              }
+            ]
+          },
+          {
+            "text": "九品法深刻影響魏晉南北朝選官。隨中正職權與士族網絡結合，品評日益受家世左右，後來出現『上品無寒門，下品無勢族』式批評；這是制度長期演變的結果，不能把後世門閥化的全部樣貌直接當作曹丕、陳群創制當日的明文內容。",
+            "citations": [
+              {
+                "sourceId": "jinshu-liuyi-jiupin",
+                "locator": "《晉書・劉毅傳》論九品中正弊端"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "延康元年十月（220年）",
+      "periodType": "exact",
+      "title": "受禪稱帝與建立曹魏",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "漢獻帝在曹氏控制朝廷的局勢下下詔禪位，曹丕經過多次形式辭讓後，在繁陽築壇即皇帝位，改元黃初，國號魏。翌月封劉協為山陽公，准其行漢正朔、以天子禮祭祀，上書不稱臣、受詔不拜。",
+            "citations": [
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・延康元年十月至十一月"
+              },
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・禪位及山陽公"
+              }
+            ]
+          },
+          {
+            "text": "受禪文本以祥瑞、群臣勸進與漢帝授命建構合法性，但實際軍政資源皆在曹丕手中。本站把禮儀程序與權力現實並列，不採《演義》中華歆等人單場持劍逼宮的戲劇化敘事。",
+            "citations": [
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・受禪策命"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "黃初元年至二年（220—221年）",
+      "periodType": "range",
+      "title": "新朝制度與宗室控制",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹丕定都洛陽，調整封爵與官制，限制宦官最高只能任諸署令，並禁止太后家族干預政事。他也把曹氏諸王分封各地，限制兵權與往來，使宗室難以形成獨立軍政力量；此舉有助於避免漢末外戚、宗室與地方勢力干政，也使曹魏宗室在後來權臣壓迫下缺乏有效支援。",
+            "citations": [
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・黃初元年至二年諸令"
+              },
+              {
+                "sourceId": "sgz-wendi-sons-main",
+                "locator": "卷二十・文帝諸子傳"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "黃初二年六月（221年）",
+      "periodType": "exact",
+      "title": "甄氏失寵與被賜死",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹丕稱帝後，郭氏、李氏、陰氏等受寵，甄氏留在鄴城而有怨言。黃初二年六月，曹丕遣使賜死甄氏，葬於鄴。陳壽正文清楚記載『有怨言』『遣使賜死』，但沒有記下她說了什麼，也沒有說明完整政治程序。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhenhou-main",
+                "locator": "卷五・文昭甄皇后傳"
+              }
+            ]
+          },
+          {
+            "text": "裴注引《魏書》為甄氏塑造謙讓賢德、主動推薦郭氏的形象，裴松之認為這與正文因怨獲罪難以相合；《漢晉春秋》又載死後披髮覆面、以糠塞口等情節。各材料立場與成書背景不同，本站不把所有細節合併為同一套確定經過。",
+            "citations": [
+              {
+                "sourceId": "weishu-zhenhou-peizhu",
+                "locator": "卷五甄后傳裴注引《魏書》"
+              },
+              {
+                "sourceId": "hanjin-chunqiu-zhenhou",
+                "locator": "卷五裴注引《漢晉春秋》"
+              }
+            ]
+          }
+        ],
+        "uncertaintyNote": "賜死本身見正文；進讒者、葬殮細節及曹叡後來報復郭后，主要見裴注異說，不能視為全部已確證。"
+      }
+    },
+    {
+      "period": "黃初二年（221年）",
+      "periodType": "exact",
+      "title": "受孫權稱藩並封為吳王",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "劉備東征孫權時，孫權為避免兩線受敵而向曹魏稱臣，送還于禁等人。曹丕接受其稱藩，冊封孫權為吳王、大將軍、使持節督交州、領荊州牧並加九錫，希望以藩臣名義約束江東。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・黃初二年受封吳王"
+              },
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・黃初二年"
+              }
+            ]
+          },
+          {
+            "text": "劉曄認為孫權是假降，封王反而替其鞏固江東君臣名分；曹丕沒有採納。孫權擊退劉備後仍拒絕送太子孫登入魏為質，魏吳關係很快破裂，顯示冊封未能把孫權變成可控制的藩王。",
+            "citations": [
+              {
+                "sourceId": "fuzi-liuye-sunquan",
+                "locator": "《劉曄傳》裴注引《傅子》"
+              },
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・拒遣任子"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "黃初三年（222年）",
+      "periodType": "exact",
+      "title": "判斷夷陵戰局",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "劉備連營深入吳境時，曹丕認為其沿險連營數百里犯兵家大忌，預言將敗；七日後收到陸遜擊破劉備的消息。這段見《文帝紀》正文，顯示曹丕能從部署判讀戰局，但他並未參與夷陵之戰的實際指揮。",
+            "citations": [
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・黃初三年閏月"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "黃初三年至四年（222—223年）",
+      "periodType": "range",
+      "title": "第一次伐吳：三路進軍",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "孫權拒送質子後，曹丕於黃初三年秋命曹休、張遼、臧霸出洞口，曹仁攻濡須，曹真、夏侯尚、張郃、徐晃圍江陵，自己南行至宛督軍。魏軍在洞口與江陵一度取得進展，江陵圍攻尤其持久。",
+            "citations": [
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・黃武元年魏三路進軍"
+              },
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・黃初三年十月南征"
+              }
+            ]
+          },
+          {
+            "text": "吳軍分路抵抗：呂範拒洞口，朱桓守濡須，諸葛瑾、潘璋等救江陵。曹仁一路被朱桓擊退，江陵久攻不克，疫情與江水上漲又增加困難；至黃初四年春夏魏軍先後撤退。這是一場跨年度的三線大戰，不宜簡化成曹丕本人在江上一戰即敗。",
+            "citations": [
+              {
+                "sourceId": "sgz-zhuhuan-main",
+                "locator": "卷五十六・朱桓傳・濡須守戰"
+              },
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・黃武元年至二年"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "黃初四年六月（223年）",
+      "periodType": "exact",
+      "title": "曹彰去世與毒棗傳說",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "任城王曹彰在黃初四年入朝洛陽，六月去世。《三國志》只記『薨於京都』，沒有說明病因、中毒或曹丕下手。兄弟間確有兵權與繼承疑慮，但不能以此補寫死因。",
+            "citations": [
+              {
+                "sourceId": "sgz-rencheng-chensi",
+                "locator": "卷十九・任城威王彰傳"
+              },
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・黃初四年六月"
+              }
+            ]
+          },
+          {
+            "text": "《世說新語・尤悔》稱曹丕在卞太后閣與曹彰下棋吃棗，預先把毒置於棗蒂，並毀掉取水器具，使曹彰中毒而死。這是南朝軼事筆記中的道德化宮廷故事，成書遠晚於曹魏，本站保留為後世傳說，不列入確定史實。",
+            "citations": [
+              {
+                "sourceId": "shishuo-youhui-caozhang",
+                "locator": "《世說新語・尤悔》"
+              }
+            ]
+          }
+        ],
+        "uncertaintyNote": "曹彰於223年在洛陽去世可確定；具體死因不可考，毒棗說僅屬後世軼事。"
+      }
+    },
+    {
+      "period": "黃初五年（224年）",
+      "periodType": "exact",
+      "title": "第二次南征：首次至廣陵",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹丕於黃初五年秋整備水軍，從許昌東巡，乘龍舟經蔡水、潁水入淮，九月至廣陵。魏軍隔江臨望吳境，但未形成成功渡江攻勢，十月便返回許昌。",
+            "citations": [
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・黃初五年八月至十月"
+              }
+            ]
+          },
+          {
+            "text": "《資治通鑑》綜合吳方材料記徐盛沿江設置疑城假樓，曹丕又因江水盛長、騎兵無從施展而撤退。這些細節不全見《文帝紀》正文，應以其他史籍補充，不把小說的火燒龍舟直接套回。",
+            "citations": [
+              {
+                "sourceId": "zztj-wei70-guangling",
+                "locator": "卷七十・黃初五年"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "黃初六年（225年）",
+      "periodType": "exact",
+      "title": "第三次南征：再至廣陵而還",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "黃初六年曹丕再率舟師東行，十月到廣陵故城臨江觀兵，號稱士卒十餘萬、旌旗數百里。當年嚴寒，水道結冰，船艦不能入江，魏軍再次撤還。這次行動規模龐大，但仍沒有突破長江防線。",
+            "citations": [
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・黃初六年八月至十月及裴注引《魏書》"
+              }
+            ]
+          },
+          {
+            "text": "曹丕222—223年的三路戰爭、224年廣陵行軍與225年再幸廣陵，常合稱三次伐吳。後兩次更接近大規模臨江示威與尋求渡江機會，不能都描述成已展開同等強度的會戰。",
+            "citations": [
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・黃初三年至六年"
+              },
+              {
+                "sourceId": "sgz-wuzhu-main",
+                "locator": "卷四十七・黃武元年至四年"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "period": "年代不可確定；作品約成於建安末至黃初年間",
+      "periodType": "approx",
+      "title": "〈典論・論文〉與〈燕歌行〉",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "〈典論・論文〉完整傳入《昭明文選》，論及文人相輕、建安七子、四種文體標準、才氣差異與文章不朽價值，被視為中國現存最早的系統性文學專論之一。原書《典論》大部已佚，不能把後人輯佚內容一律視為原貌完整保存。",
+            "citations": [
+              {
+                "sourceId": "wenxuan-dianlun-lunwen",
+                "locator": "《昭明文選》卷五十二"
+              }
+            ]
+          },
+          {
+            "text": "〈燕歌行〉二首全文傳世，第一首『秋風蕭瑟天氣涼』最著名，以思婦口吻寫客遊、秋夜與離愁。它們是現存最早一批通篇七言、句句用韻的完整七言詩，文學史地位不應被宮廷政治故事遮蔽。",
+            "citations": [
+              {
+                "sourceId": "yuefu-shiji-caopi",
+                "locator": "《樂府詩集》平調曲・〈燕歌行〉"
+              }
+            ]
+          }
+        ],
+        "uncertaintyNote": "兩篇作品可確認傳世，但精確作年皆缺乏同時材料，本站不強繫於某次宮廷或戰爭場景。"
+      }
+    },
+    {
+      "period": "黃初七年五月（226年）",
+      "periodType": "exact",
+      "title": "臨終託孤與去世",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "黃初七年五月曹丕病重，立平原王曹叡為皇太子，命曹真、曹休、陳群、司馬懿共同受遺詔輔政。五月丁巳，他在洛陽嘉福殿去世，年四十，六月葬首陽陵。",
+            "citations": [
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・黃初七年五月至六月"
+              }
+            ]
+          },
+          {
+            "text": "曹丕預作終制，主張因山為陵、不封不樹、不建寢殿與園邑，隨葬不用金銀珠玉，以漢代陵墓遭盜為戒。這份文本反映他對王朝更替、厚葬危害與身後名聲的清醒認識。",
+            "citations": [
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・黃初三年首陽陵終制"
+              }
+            ]
+          }
+        ],
+        "originalTexts": [
+          {
+            "text": "丁巳，帝崩于嘉福殿，時年四十。",
+            "sourceId": "sgz-wendi-yiling",
+            "locator": "卷二・黃初七年五月"
+          }
+        ]
+      }
+    },
+    {
+      "period": "後世傳說；最遲南朝宋成書",
+      "periodType": "unknown",
+      "title": "七步詩的史料層級",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "《世說新語・文學》記曹丕命東阿王曹植在七步內作詩，否則處以重刑；曹植作『煮豆持作羹』六句，曹丕面有慚色。這是目前可見最早的完整七步詩故事，成書約在五世紀，不見《三國志》正文與裴注。",
+            "citations": [
+              {
+                "sourceId": "shishuo-wenxue-qibu",
+                "locator": "《世說新語・文學》第六十六則"
+              }
+            ]
+          },
+          {
+            "text": "後來《三國演義》採用並改寫成更通行的四句版本。曹植確受曹丕防範、封國屢遷，足以解釋故事為何具有說服力；但政治背景真實不等於限步逼詩與詩句本身必然真實。",
+            "citations": [
+              {
+                "sourceId": "sgz-caozhi-main",
+                "locator": "卷十九・陳思王植傳"
+              },
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第七十九回"
+              }
+            ]
+          }
+        ],
+        "uncertaintyNote": "七步詩歸屬與事件真實性均存疑；本站不收入曹丕 works，也不當作歷史事件定論。"
+      }
+    },
+    {
+      "period": "後世附會；相關注本最遲唐宋以後流傳",
+      "periodType": "unknown",
+      "title": "甄氏與〈洛神賦〉附會",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "曹植〈洛神賦〉序自稱黃初三年朝京師、還封地途中經洛水而作，正文以宓妃、洛神為文學想像，沒有提到甄氏。曹植愛慕嫂甄氏、曹丕把甄氏玉枕送給曹植、作品原名〈感甄賦〉等說法，均不見《三國志》早期材料。",
+            "citations": [
+              {
+                "sourceId": "wenxuan-luoshenfu",
+                "locator": "《昭明文選》卷十九・〈洛神賦〉正文與序"
+              },
+              {
+                "sourceId": "wenxuan-luoshen-kaoyi",
+                "locator": "卷十九李善注校勘・感甄故事"
+              }
+            ]
+          },
+          {
+            "text": "現存《文選》校勘指出，『感甄』二百餘字在袁本、茶陵本中沒有，疑為世傳小說誤入注本，甚至未必是李善原注。因此它只能作為後世文學接受史，不可拿來解釋曹丕賜死甄氏或曹植作賦的真實動機。",
+            "citations": [
+              {
+                "sourceId": "wenxuan-luoshen-kaoyi",
+                "locator": "〈洛神賦〉文選考異"
+              }
+            ]
+          }
+        ],
+        "uncertaintyNote": "〈洛神賦〉為曹植真作；它與甄氏的戀情連結缺乏早期可靠依據。"
+      }
+    }
   ],
   "romanceBio": [
-    { "chapter": "第七十八回", "eventName": "曹操臨終與曹丕繼位", "content": { "paragraphs": [{ "text": "小說寫曹操臨終囑咐後事，曹丕由鄴郡趕赴洛陽，在賈逵、華歆等人協助下嗣魏王與丞相位，並處理曹彰帶兵來問璽綬的危機。", "citations": [{ "sourceId": "sanguo-yanyi", "locator": "第七十八回" }] }] }, "historicalDifference": { "paragraphs": [{ "text": "曹丕繼位、曹彰曾率軍而來都有早期材料背景，但小說把宮廷對話、曹彰交兵與服從過程集中戲劇化；正史未記曹彰當場企圖奪位。", "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二・延康元年" }, { "sourceId": "sgz-rencheng-chenxiao-main", "locator": "卷十九・曹彰傳" }] }] } },
-    { "chapter": "第七十九回", "eventName": "七步成詩", "content": { "paragraphs": [{ "text": "小說寫曹丕以曹植未及奔喪為罪，命他七步內作兄弟詩；曹植吟出四句『煮豆燃豆萁』，卞太后又出面求情，曹丕遂貶曹植為安鄉侯。", "citations": [{ "sourceId": "sanguo-yanyi", "locator": "第七十九回" }] }] }, "historicalDifference": { "paragraphs": [{ "text": "七步詩六句版本最早見《世說新語》，小說加以縮寫並嵌入喪禮衝突。《三國志》記曹植遭監控、貶徙，卻沒有七步作詩與死刑威脅。", "citations": [{ "sourceId": "shishuo-wenxue-qibu", "locator": "《世說新語・文學》" }, { "sourceId": "sgz-caozhi-main", "locator": "卷十九・曹植傳" }] }] } },
-    { "chapter": "第八十回", "eventName": "逼迫漢獻帝禪位", "content": { "paragraphs": [{ "text": "小說以華歆等群臣反覆威逼、曹洪曹休帶劍入宮、獻帝哭泣退位等場面，塑造曹丕篡漢；曹丕三次上表辭讓後登壇稱帝。", "citations": [{ "sourceId": "sanguo-yanyi", "locator": "第八十回" }] }] }, "historicalDifference": { "paragraphs": [{ "text": "漢魏禪代的詔策、勸進、辭讓與繁陽儀式均有史籍記載，權力不對等也確實存在；但持劍逼宮與逐句對罵屬小說場景，不能當作實錄。", "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二・延康元年受禪" }, { "sourceId": "houhanshu-xiandi", "locator": "卷九・禪位" }] }] } },
-    { "chapter": "第八十二回", "eventName": "封孫權為吳王", "content": { "paragraphs": [{ "text": "小說寫孫權為抵禦劉備而向魏稱臣，曹丕採納劉曄等議，封孫權為吳王，使其專力對蜀。", "citations": [{ "sourceId": "sanguo-yanyi", "locator": "第八十二回" }] }] }, "historicalDifference": { "paragraphs": [{ "text": "稱臣、封王與共同牽制劉備皆有正史根據；但史實中的劉曄其實反對立即封王，認為此舉將為孫權『傅翼』，小說弱化了這項政策爭論。", "citations": [{ "sourceId": "fuzi-liuye-sunquan", "locator": "《劉曄傳》裴注引《傅子》" }] }] } },
-    { "chapter": "第八十五至八十六回", "eventName": "大舉伐吳與徐盛疑城", "content": { "paragraphs": [{ "text": "小說把曹丕南征集中描寫為御駕至廣陵，徐盛沿江設假城、火攻魏軍，曹丕龍舟遇險後大敗撤退。", "citations": [{ "sourceId": "sanguo-yanyi", "locator": "第八十五至八十六回" }] }] }, "historicalDifference": { "paragraphs": [{ "text": "史實至少有222—223、224、225年三次行動。徐盛疑城見後來史籍整合，水勢、風浪與結冰分屬不同年份；小說把多次南征及不同材料壓縮成一場戲劇性慘敗。", "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二・黃初三年至六年" }, { "sourceId": "zztj-wei70-guangling", "locator": "卷七十" }] }] } },
-    { "chapter": "第九十一回", "eventName": "曹丕病逝與託孤", "content": { "paragraphs": [{ "text": "小說簡述曹丕在位七年病重，託曹真、陳群、司馬懿等輔佐曹叡後去世，曹叡即位。", "citations": [{ "sourceId": "sanguo-yanyi", "locator": "第九十一回" }] }] }, "historicalDifference": { "paragraphs": [{ "text": "臨終立曹叡並命曹真、曹休、陳群、司馬懿輔政見《文帝紀》正文；小說在此大體依史實，但省略曹休並壓縮制度與喪葬安排。", "citations": [{ "sourceId": "sgz-wendi-yiling", "locator": "卷二・黃初七年" }] }] } }
+    {
+      "chapter": "第七十八回",
+      "eventName": "曹操臨終與曹丕繼位",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫曹操臨終囑咐後事，曹丕由鄴郡趕赴洛陽，在賈逵、華歆等人協助下嗣魏王與丞相位，並處理曹彰帶兵來問璽綬的危機。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第七十八回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "曹丕繼位、曹彰曾率軍而來都有早期材料背景，但小說把宮廷對話、曹彰交兵與服從過程集中戲劇化；正史未記曹彰當場企圖奪位。",
+            "citations": [
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・延康元年"
+              },
+              {
+                "sourceId": "sgz-rencheng-chensi",
+                "locator": "卷十九・曹彰傳"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第七十九回",
+      "eventName": "七步成詩",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫曹丕以曹植未及奔喪為罪，命他七步內作兄弟詩；曹植吟出四句『煮豆燃豆萁』，卞太后又出面求情，曹丕遂貶曹植為安鄉侯。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第七十九回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "七步詩六句版本最早見《世說新語》，小說加以縮寫並嵌入喪禮衝突。《三國志》記曹植遭監控、貶徙，卻沒有七步作詩與死刑威脅。",
+            "citations": [
+              {
+                "sourceId": "shishuo-wenxue-qibu",
+                "locator": "《世說新語・文學》"
+              },
+              {
+                "sourceId": "sgz-caozhi-main",
+                "locator": "卷十九・曹植傳"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第八十回",
+      "eventName": "逼迫漢獻帝禪位",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說以華歆等群臣反覆威逼、曹洪曹休帶劍入宮、獻帝哭泣退位等場面，塑造曹丕篡漢；曹丕三次上表辭讓後登壇稱帝。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第八十回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "漢魏禪代的詔策、勸進、辭讓與繁陽儀式均有史籍記載，權力不對等也確實存在；但持劍逼宮與逐句對罵屬小說場景，不能當作實錄。",
+            "citations": [
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・延康元年受禪"
+              },
+              {
+                "sourceId": "houhanshu-xiandi",
+                "locator": "卷九・禪位"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第八十二回",
+      "eventName": "封孫權為吳王",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說寫孫權為抵禦劉備而向魏稱臣，曹丕採納劉曄等議，封孫權為吳王，使其專力對蜀。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第八十二回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "稱臣、封王與共同牽制劉備皆有正史根據；但史實中的劉曄其實反對立即封王，認為此舉將為孫權『傅翼』，小說弱化了這項政策爭論。",
+            "citations": [
+              {
+                "sourceId": "fuzi-liuye-sunquan",
+                "locator": "《劉曄傳》裴注引《傅子》"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第八十五至八十六回",
+      "eventName": "大舉伐吳與徐盛疑城",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說把曹丕南征集中描寫為御駕至廣陵，徐盛沿江設假城、火攻魏軍，曹丕龍舟遇險後大敗撤退。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第八十五至八十六回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "史實至少有222—223、224、225年三次行動。徐盛疑城見後來史籍整合，水勢、風浪與結冰分屬不同年份；小說把多次南征及不同材料壓縮成一場戲劇性慘敗。",
+            "citations": [
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・黃初三年至六年"
+              },
+              {
+                "sourceId": "zztj-wei70-guangling",
+                "locator": "卷七十"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chapter": "第九十一回",
+      "eventName": "曹丕病逝與託孤",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "小說簡述曹丕在位七年病重，託曹真、陳群、司馬懿等輔佐曹叡後去世，曹叡即位。",
+            "citations": [
+              {
+                "sourceId": "sanguo-yanyi",
+                "locator": "第九十一回"
+              }
+            ]
+          }
+        ]
+      },
+      "historicalDifference": {
+        "paragraphs": [
+          {
+            "text": "臨終立曹叡並命曹真、曹休、陳群、司馬懿輔政見《文帝紀》正文；小說在此大體依史實，但省略曹休並壓縮制度與喪葬安排。",
+            "citations": [
+              {
+                "sourceId": "sgz-wendi-yiling",
+                "locator": "卷二・黃初七年"
+              }
+            ]
+          }
+        ]
+      }
+    }
   ],
   "works": [
     {
@@ -192,7 +1235,12 @@
       "summary": "討論文人相輕、建安七子、文體差異、才氣與文章不朽價值，是中國現存最早的系統性文學批評專論之一。",
       "anthology": "《昭明文選》卷五十二",
       "excerpt": "文以氣為主；氣之清濁有體，不可力強而致。",
-      "citations": [{ "sourceId": "wenxuan-dianlun-lunwen", "locator": "卷五十二・典論論文" }],
+      "citations": [
+        {
+          "sourceId": "wenxuan-dianlun-lunwen",
+          "locator": "卷五十二・典論論文"
+        }
+      ],
       "fullText": [
         "文人相輕，自古而然。傅毅之於班固，伯仲之間耳，而固小之，與弟超書曰：『武仲以能屬文為蘭臺令史，下筆不能自休。』夫人善於自見，而文非一體，鮮能備善。是以各以所長，相輕所短。里語曰：『家有敝帚，享之千金。』斯不自見之患也。今之文人，魯國孔融文舉，廣陵陳琳孔璋，山陽王粲仲宣，北海徐幹偉長，陳留阮瑀元瑜，汝南應瑒德璉，東平劉楨公幹：斯七子者，於學無所遺，於辭無所假，咸以自騁驥騄於千里，仰齊足而並馳。以此相服，亦良難矣。蓋君子審己以度人，故能免於斯累，而作論文。",
         "王粲長於辭賦，徐幹時有齊氣，然粲之匹也。如粲之初征、登樓、槐賦、征思，幹之玄猿、漏卮、圓扇、橘賦，雖張、蔡不過也。然於他文，未能稱是。琳、瑀之章表書記，今之雋也。應瑒和而不壯；劉楨壯而不密。孔融體氣高妙，有過人者；然不能持論，理不勝辭，以至乎雜以嘲戲；及其所善，揚、班儔也。",
@@ -209,7 +1257,12 @@
       "summary": "以秋景與思婦口吻書寫遊子久客、獨守空房及夜不能寐，是現存最早一批通篇七言的完整詩作。",
       "anthology": "《樂府詩集》平調曲；《魏文帝集》",
       "excerpt": "秋風蕭瑟天氣涼，草木搖落露為霜。",
-      "citations": [{ "sourceId": "yuefu-shiji-caopi", "locator": "〈燕歌行〉其一" }],
+      "citations": [
+        {
+          "sourceId": "yuefu-shiji-caopi",
+          "locator": "〈燕歌行〉其一"
+        }
+      ],
       "fullText": [
         "秋風蕭瑟天氣涼，草木搖落露為霜。",
         "群燕辭歸鵠南翔，念君客遊思斷腸。",
@@ -229,7 +1282,12 @@
       "summary": "延續久別難會、夜不能眠的主題；本站依《魏文帝集》所收本辭正文，不混入晉樂改編增句。",
       "anthology": "《樂府詩集》平調曲；《魏文帝集》",
       "excerpt": "別日何易會日難，山川遙遠路漫漫。",
-      "citations": [{ "sourceId": "yuefu-shiji-caopi", "locator": "〈燕歌行〉其二本辭" }],
+      "citations": [
+        {
+          "sourceId": "yuefu-shiji-caopi",
+          "locator": "〈燕歌行〉其二本辭"
+        }
+      ],
       "fullText": [
         "別日何易會日難，山川遙遠路漫漫。",
         "鬱陶思君未敢言，寄聲浮雲往不還。",
