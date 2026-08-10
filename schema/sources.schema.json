@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://three-kingdoms-biographies.local/schema/sources.schema.json",
+  "title": "data/sources.json",
+  "description": "來源目錄：每筆條目描述一份被人物資料引用的原始文獻或史料層級。",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "kind", "title"],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+        "description": "來源唯一 ID，小寫英數字加連字號。"
+      },
+      "kind": {
+        "type": "string",
+        "description": "史料層級。README 定義六大分類，目前資料實際使用以下字面值；新增其他層級用語前，先確認是否能對應到既有六大分類之一。",
+        "enum": [
+          "三國志正文",
+          "裴松之注引",
+          "其他史籍",
+          "演義原文",
+          "後世文學",
+          "現代遊戲"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "description": "讀者看到的來源名稱。"
+      },
+      "note": {
+        "type": "string",
+        "description": "選填，說明作者、傳本、亡佚、版本或使用限制。"
+      },
+      "url": {
+        "type": "string",
+        "format": "uri",
+        "description": "選填，未來可能加入的穩定可核對原始文獻頁面連結。"
+      }
+    }
+  }
+}
