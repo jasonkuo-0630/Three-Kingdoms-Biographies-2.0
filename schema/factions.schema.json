@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://three-kingdoms-biographies.local/schema/factions.schema.json",
+  "title": "data/factions.json",
+  "description": "勢力目錄：分成網站瀏覽用的 filterGroups 大分類，與人物實際效力過的具體政權 actualFactions。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["filterGroups", "actualFactions"],
+  "properties": {
+    "filterGroups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "label", "order"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "enum": ["donghan", "wei", "shu", "wu", "qunxiong", "jin"],
+            "description": "目前已定義的網站瀏覽分類；'jin'（西晉）目前尚無人物或 actualFaction 使用，是為未來預留的分類。"
+          },
+          "label": { "type": "string", "minLength": 1 },
+          "order": { "type": "integer", "minimum": 1 }
+        }
+      }
+    },
+    "actualFactions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "filterGroup", "description"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+            "description": "具體政權／勢力階段的唯一 ID。"
+          },
+          "name": { "type": "string", "minLength": 1 },
+          "filterGroup": {
+            "type": "string",
+            "enum": ["donghan", "wei", "shu", "wu", "qunxiong", "jin"],
+            "description": "這個具體勢力在網站分類系統中的上層歸類，必須是 filterGroups 中已定義的 id。"
+          },
+          "description": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}
