@@ -114,7 +114,9 @@
             "sourceId": "sgz-zhouyu-main",
             "locator": "卷五十四・周瑜傳開篇"
           }
-        ]
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
       },
       {
         "personName": "周忠",
@@ -127,7 +129,9 @@
             "sourceId": "sgz-zhouyu-main",
             "locator": "卷五十四・周瑜傳開篇"
           }
-        ]
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
       },
       {
         "personName": "周異",
@@ -140,7 +144,9 @@
             "sourceId": "sgz-zhouyu-main",
             "locator": "卷五十四・『父異，洛陽令』"
           }
-        ]
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
       },
       {
         "personName": "周尚",
@@ -153,7 +159,9 @@
             "sourceId": "sgz-zhouyu-main",
             "locator": "卷五十四・孫策渡江及袁術代守丹楊段"
           }
-        ]
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫策",
@@ -180,8 +188,11 @@
               "locator": "第十五回",
               "note": "「因結為昆仲，策長瑜兩月，瑜以兄事策」"
             }
-          ]
-        }
+          ],
+          "natureCategory": "literary"
+        },
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       },
       {
         "personName": "小橋（後世通作小喬）",
@@ -206,7 +217,9 @@
             "sourceId": "sanguo-yanyi",
             "locator": "第四十四回・孔明智激周瑜"
           }
-        ]
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
       },
       {
         "personName": "周氏（名不詳）",
@@ -219,7 +232,9 @@
             "sourceId": "sgz-zhouyu-main",
             "locator": "卷五十四・『女配太子登』"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "周循",
@@ -232,7 +247,9 @@
             "sourceId": "sgz-zhouyu-main",
             "locator": "卷五十四・周瑜子女段"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "周胤",
@@ -245,7 +262,9 @@
             "sourceId": "sgz-zhouyu-main",
             "locator": "卷五十四・周胤及群臣請復爵段"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "周峻",
@@ -258,7 +277,9 @@
             "sourceId": "sgz-zhouyu-main",
             "locator": "卷五十四・周瑜傳末"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "周護",
@@ -271,7 +292,9 @@
             "sourceId": "sgz-zhouyu-main",
             "locator": "卷五十四・周瑜傳末"
           }
-        ]
+        ],
+        "relationGroup": "grandchild",
+        "natureCategory": "historical"
       }
     ],
     "titlesAndRanks": [
