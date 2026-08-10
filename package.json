@@ -1,0 +1,17 @@
+{
+  "name": "three-kingdoms-biographies-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "開發用資料驗證與渲染測試腳本，不是網站執行時依賴。網站本身仍是純 HTML/CSS/原生 JavaScript + JSON 的靜態網站，不需要 Node.js、npm 或任何這裡列出的套件才能運作；這些工具只是用來在改資料或改程式後，快速檢查有沒有把東西弄壞。",
+  "scripts": {
+    "validate": "node scripts/validate-data.js",
+    "render-test": "node scripts/render-test.js",
+    "test": "npm run validate && npm run render-test"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "jsdom": "^29.0.0",
+    "node-fetch": "^2.7.0"
+  }
+}
