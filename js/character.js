@@ -430,9 +430,13 @@ function renderOverviewTab(c) {
     html += `
       <div class="section-block">
         <h2 class="section-title">人物簡介</h2>
-        ${contentBlockHtml(ov.intro, sourceMap)}
+        ${contentBlockHtml(ov.intro, sourceMap, ov.intro.uncertaintyNote)}
       </div>
     `;
+    // 註：ov.intro.uncertaintyNote 是巢狀在 intro 這個 ContentBlock 內部（不
+    // 是跟 factionTimeline/relatives 同層），跟 historicalBio 事件的
+    // uncertaintyNote 放法不同。以前這裡沒把它傳給 contentBlockHtml，孫權、
+    // 孫策條目裡寫的年代考據說明因此從未顯示，已修正。
   }
 
   html += renderFactionTimeline(ov.factionTimeline);
@@ -484,6 +488,10 @@ function romanceTimelineHtml(entries) {
   if (!entries || !entries.length) {
     return `<p class="paraphrase-text">尚無演義生平資料。</p>`;
   }
+  // e.uncertaintyNote 是跟 chapter/eventName/content 同層的欄位（例如黃夫人
+  // 「黃月英」名稱流傳的考據限制），以前這裡呼叫 contentBlockHtml 沒有把它
+  // 傳進去，資料寫了但畫面上永遠不會顯示。修正為跟 historicalTimelineHtml
+  // 一致的寫法。
   const items = entries
     .map(
       (e) => `
@@ -493,7 +501,7 @@ function romanceTimelineHtml(entries) {
         <div class="timeline-content">
           <span class="timeline-period-inline">${escapeHtml(e.chapter)}</span>
           <h3 class="timeline-title">${escapeHtml(e.eventName)}</h3>
-          ${contentBlockHtml(e.content, sourceMap)}
+          ${contentBlockHtml(e.content, sourceMap, e.uncertaintyNote)}
           ${
             e.historicalDifference
               ? `<div class="diff-note"><span class="diff-label">史實差異</span>${diffNoteHtml(
@@ -549,9 +557,9 @@ function worksNoteHtml(worksNote) {
 function worksTabHtml(works, worksNote) {
   const noteHtml = worksNoteHtml(worksNote);
   const noteBlock = noteHtml ? `<div class="plain-card worksnote-block">${noteHtml}</div>` : "";
-  // works 可能是空陣列（例如孫權、劉協這種只有 worksNote 說明「為什麼
-  // 沒有列著作」的人物）——這種情況不要提前 return 空字串，要讓上面
-  // 這段 noteBlock 正常顯示，只是底下不會再接著跑出任何著作卡片。
+  // 這個函式只會在 works.length > 0（見 renderTabs 的 hasWorks 判斷）
+  // 時才被呼叫，所以理論上不會遇到空陣列。保留這個防呆分支只是避免
+  // 未來呼叫點變動時直接壞掉，不代表 worksNote 可以單獨觸發此函式。
   if (!works || !works.length) return noteBlock;
   return (
     noteBlock +
@@ -589,10 +597,11 @@ function worksTabHtml(works, worksNote) {
 /* ---------- 頁籤切換（hash 路由 + 鍵盤方向鍵 + 瀏覽器上一頁/下一頁） ---------- */
 
 function renderTabs(c) {
-  // hasWorks 決定「著作」頁籤要不要出現：即使 works 是空陣列，只要有
-  // worksNote（說明為什麼沒有列著作），也要讓頁籤出現，不然這段說明
-  // 文字永遠沒有地方顯示——孫權、劉協、關平、關興都是這種情況。
-  const hasWorks = (c.works && c.works.length > 0) || Boolean(c.worksNote);
+  // hasWorks 只看 works.length：只有真的收錄至少一篇作品時，「著作」
+  // 頁籤才出現。worksNote 是作品的補充說明（傳本、真偽、收錄範圍），
+  // 不能單獨觸發頁籤——沒有 works 卻只想寫「查無著作」，屬於資料層
+  // 該省略的內容，不是前端該額外開頁面顯示的東西。
+  const hasWorks = Boolean(c.works && c.works.length > 0);
   const tabs = TAB_DEFS.filter((t) => t.key !== "works" || hasWorks);
   const availableKeys = tabs.map((t) => t.key);
 
