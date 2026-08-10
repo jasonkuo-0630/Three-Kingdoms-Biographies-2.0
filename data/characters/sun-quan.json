@@ -114,7 +114,9 @@
             "sourceId": "sgz-sunjian-main",
             "locator": "卷四十六・孫堅傳"
           }
-        ]
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
       },
       {
         "personName": "吳夫人",
@@ -127,7 +129,9 @@
             "sourceId": "sgz-wufuren-main",
             "locator": "卷五十・孫破虜吳夫人傳"
           }
-        ]
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫策",
@@ -144,7 +148,9 @@
             "sourceId": "sgz-wuzhu-main",
             "locator": "卷四十七・建安五年"
           }
-        ]
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫翊",
@@ -157,7 +163,9 @@
             "sourceId": "sgz-wu-zongshi-main",
             "locator": "卷五十一・孫翊傳"
           }
-        ]
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫匡",
@@ -170,7 +178,9 @@
             "sourceId": "sgz-wu-zongshi-main",
             "locator": "卷五十一・孫匡條"
           }
-        ]
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫夫人",
@@ -187,7 +197,9 @@
             "sourceId": "sgz-fazheng-main",
             "locator": "卷三十七・法正論孫夫人"
           }
-        ]
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       },
       {
         "personName": "謝夫人",
@@ -200,7 +212,9 @@
             "sourceId": "sgz-wufei-main",
             "locator": "卷五十・吳主謝夫人傳"
           }
-        ]
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
       },
       {
         "personName": "徐夫人",
@@ -213,7 +227,9 @@
             "sourceId": "sgz-wufei-main",
             "locator": "卷五十・吳主徐夫人傳"
           }
-        ]
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
       },
       {
         "personName": "步練師",
@@ -226,7 +242,9 @@
             "sourceId": "sgz-wufei-main",
             "locator": "卷五十・吳主步夫人傳"
           }
-        ]
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
       },
       {
         "personName": "王夫人（琅邪）",
@@ -243,7 +261,9 @@
             "sourceId": "sgz-sunhe-sunba-main",
             "locator": "卷五十九・孫和傳"
           }
-        ]
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
       },
       {
         "personName": "潘淑",
@@ -256,7 +276,9 @@
             "sourceId": "sgz-wufei-main",
             "locator": "卷五十・吳主潘夫人傳"
           }
-        ]
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫登",
@@ -269,7 +291,9 @@
             "sourceId": "sgz-sunhe-sunba-main",
             "locator": "卷五十九・孫登傳"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫慮",
@@ -282,7 +306,9 @@
             "sourceId": "sgz-sunhe-sunba-main",
             "locator": "卷五十九・孫慮傳"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫和",
@@ -295,7 +321,9 @@
             "sourceId": "sgz-sunhe-sunba-main",
             "locator": "卷五十九・孫和傳"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫霸",
@@ -308,7 +336,9 @@
             "sourceId": "sgz-sunhe-sunba-main",
             "locator": "卷五十九・孫霸傳"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫奮",
@@ -321,7 +351,9 @@
             "sourceId": "sgz-sunhe-sunba-main",
             "locator": "卷五十九・孫奮傳"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫休",
@@ -334,7 +366,9 @@
             "sourceId": "sgz-wu-three-rulers",
             "locator": "卷四十八・孫休傳"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫亮",
@@ -347,7 +381,9 @@
             "sourceId": "sgz-wu-three-rulers",
             "locator": "卷四十八・孫亮傳"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫魯班",
@@ -360,7 +396,9 @@
             "sourceId": "sgz-sunhe-sunba-main",
             "locator": "卷五十九・孫和傳"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫魯育",
@@ -373,7 +411,9 @@
             "sourceId": "sgz-wufei-main",
             "locator": "卷五十・步夫人傳及相關裴注"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       }
     ],
     "titlesAndRanks": [
