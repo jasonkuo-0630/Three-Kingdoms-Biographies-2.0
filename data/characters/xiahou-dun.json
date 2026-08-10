@@ -106,7 +106,7 @@
       {
         "stageName": "曹丕魏王國過渡政權",
         "personName": "曹丕",
-        "personId": "cao-pi",
+        "personId": null,
         "actualFactionId": "cao-pi-wei-kingdom",
         "period": "延康元年正月—四月（220年）",
         "periodUncertain": false,
@@ -125,7 +125,9 @@
             "sourceId": "sgz-xiahoudun-main",
             "locator": "卷九・夏侯惇傳開篇"
           }
-        ]
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
       },
       {
         "personName": "曹操",
@@ -142,7 +144,9 @@
             "sourceId": "caoman-zhuan-caocao-peizhu",
             "locator": "《武帝紀》開篇裴注引《曹瞞傳》《世語》"
           }
-        ]
+        ],
+        "relationGroup": "other",
+        "natureCategory": "historical"
       },
       {
         "personName": "夏侯淵",
@@ -155,7 +159,9 @@
             "sourceId": "sgz-xiahouyuan-main",
             "locator": "卷九・夏侯淵傳開篇"
           }
-        ]
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       },
       {
         "personName": "夏侯廉",
@@ -168,7 +174,9 @@
             "sourceId": "sgz-xiahoudun-main",
             "locator": "卷九・傳末家族段"
           }
-        ]
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       },
       {
         "personName": "夏侯充",
@@ -181,7 +189,9 @@
             "sourceId": "sgz-xiahoudun-main",
             "locator": "卷九・夏侯惇傳末"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "夏侯楙",
@@ -198,7 +208,9 @@
             "sourceId": "weilue-xiahoudun-peizhu",
             "locator": "《夏侯惇傳》裴注引《魏略》夏侯楙事"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "清河公主",
@@ -211,7 +223,9 @@
             "sourceId": "sgz-xiahoudun-main",
             "locator": "卷九・傳末夏侯楙段"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "其餘子孫",
@@ -224,7 +238,9 @@
             "sourceId": "sgz-xiahoudun-main",
             "locator": "卷九・傳末追封子孫段"
           }
-        ]
+        ],
+        "relationGroup": "other",
+        "natureCategory": "historical"
       }
     ],
     "titlesAndRanks": [
@@ -362,7 +378,6 @@
           "context": "建安二十一年夏侯惇都督二十六軍留居巢，受賜伎樂名倡時",
           "textType": "古籍原文",
           "originalText": "魏絳以和戎之功，猶受金石之樂，況將軍乎！",
-          "paraphrase": "曹操以魏絳因和戎有功而獲賜金石樂器為例，表示夏侯惇功勞深重，自然更應獲得伎樂與名倡的賞賜。",
           "citations": [
             {
               "sourceId": "sgz-xiahoudun-main",
@@ -376,7 +391,6 @@
           "context": "夏侯惇因諸將皆受魏官號而自陳不宜獨居漢官，曹操先以師友之禮回應",
           "textType": "古籍原文",
           "originalText": "吾聞太上師臣，其次友臣。夫臣者，貴德之人也，區區之魏，而臣足以屈君乎？",
-          "paraphrase": "曹操表示，最高明的君主以臣下為師，其次則以臣下為友；夏侯惇是以德行受尊重的人，區區魏國的臣屬名位，不足以使他屈居其下。",
           "citations": [
             {
               "sourceId": "weishu-xiahoudun-peizhu",
@@ -405,7 +419,6 @@
           "context": "《諸夏侯曹傳》卷末合評",
           "textType": "古籍原文",
           "originalText": "夏侯、曹氏，世爲婚姻，故惇、淵、仁、洪、休、尚、真等並以親舊肺腑，貴重於時，左右勳業，咸有効勞。",
-          "paraphrase": "陳壽指出夏侯氏與曹氏世代通婚，夏侯惇等人憑藉宗族舊交與親信重臣的身分受到尊重，同時也確實輔佐曹氏建立功業，各自有所貢獻。",
           "citations": [
             {
               "sourceId": "sgz-weishu9-appraisal",
@@ -419,7 +432,6 @@
           "context": "泰始二年夏侯惇後嗣一度斷絕，詔擇近屬續封",
           "textType": "古籍原文",
           "originalText": "惇，魏之元功，勳書竹帛。",
-          "paraphrase": "司馬炎肯定夏侯惇是曹魏的開國元勳，其功績足以記載於史冊，因此不應讓他的後嗣與封爵斷絕。",
           "citations": [
             {
               "sourceId": "sgz-xiahoudun-main",
