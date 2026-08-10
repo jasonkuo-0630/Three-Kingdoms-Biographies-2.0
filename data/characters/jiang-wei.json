@@ -69,20 +69,7 @@
         "personId": null,
         "actualFactionId": "caowei-tianshui-local-service",
         "period": "入仕年份不詳 — 太和二年／蜀漢建興六年（228年）",
-        "periodUncertain": true,
-        "description": {
-          "paragraphs": [
-            {
-              "text": "姜維先任天水郡上計掾，後受州辟為從事；又因父姜冏戰死而受中郎官、參本郡軍事。史書沒有交代他每次任官的年份，不能把整段仕歷硬定在曹丕或曹叡某一個年號內。",
-              "citations": [
-                {
-                  "sourceId": "sgz-jiangwei-main",
-                  "locator": "卷四十四・姜維傳開篇"
-                }
-              ]
-            }
-          ]
-        }
+        "periodUncertain": true
       },
       {
         "stageName": "蜀漢・後主政權",
@@ -90,20 +77,7 @@
         "personId": null,
         "actualFactionId": "shuhan-houzhu",
         "period": "建興六年（228年）— 炎興元年（263年）蜀漢滅亡",
-        "periodUncertain": false,
-        "description": {
-          "paragraphs": [
-            {
-              "text": "姜維在諸葛亮第一次北伐撤軍時進入蜀漢，先後歷經諸葛亮、蔣琬、費禕掌政時期，最終官至大將軍、封平襄侯。這是他一生主要政治與軍事歸屬。",
-              "citations": [
-                {
-                  "sourceId": "sgz-jiangwei-main",
-                  "locator": "卷四十四・建興六年至景耀六年"
-                }
-              ]
-            }
-          ]
-        }
+        "periodUncertain": false
       },
       {
         "stageName": "降鍾會後參與成都之變・暗圖復蜀",
@@ -111,28 +85,7 @@
         "personId": null,
         "actualFactionId": "zhong-hui-chengdu-rebellion",
         "period": "炎興元年末至魏咸熙元年正月（263—264年）",
-        "periodUncertain": false,
-        "description": {
-          "paragraphs": [
-            {
-              "text": "劉禪降魏後，姜維奉敕向鍾會放下武器，之後受鍾會厚待並參與其叛亂。裴注所引《漢晉春秋》《華陽國志》《晉陽秋》都將姜維的深層目的解釋為利用鍾會奪取魏軍兵權、伺機恢復蜀漢，因此本階段記為短暫的名義從屬，不把他簡化成真正轉而效忠鍾會。",
-              "citations": [
-                {
-                  "sourceId": "sgz-jiangwei-main",
-                  "locator": "卷四十四・降鍾會至成都之亂"
-                },
-                {
-                  "sourceId": "hanjin-chunqiu-jiangwei-zhonghui",
-                  "locator": "《姜維傳》裴注引《漢晉春秋》"
-                },
-                {
-                  "sourceId": "jinyangqiu-jiangwei",
-                  "locator": "《姜維傳》裴注引《晉陽秋》"
-                }
-              ]
-            }
-          ]
-        }
+        "periodUncertain": false
       }
     ],
     "relatives": [
@@ -147,7 +100,9 @@
             "sourceId": "sgz-jiangwei-main",
             "locator": "卷四十四・姜維傳開篇"
           }
-        ]
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
       },
       {
         "personName": "姜氏（名不詳）",
@@ -168,7 +123,9 @@
             "sourceId": "sunsheng-zaji-jiangwei",
             "locator": "《姜維傳》裴注引孫盛《雜記》"
           }
-        ]
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
       },
       {
         "personName": "姜氏配偶（名不詳）",
@@ -185,7 +142,9 @@
             "sourceId": "sgz-jiangwei-main",
             "locator": "卷四十四・成都之亂後『維妻子皆伏誅』"
           }
-        ]
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
       },
       {
         "personName": "姜氏子女（姓名、數量不詳）",
@@ -202,7 +161,9 @@
             "sourceId": "sgz-jiangwei-main",
             "locator": "卷四十四・姜維傳末"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       }
     ],
     "titlesAndRanks": [
