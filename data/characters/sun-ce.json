@@ -108,7 +108,9 @@
             "sourceId": "zztj-kaoyi-sunjian-sunce",
             "locator": "孫堅戰死年代考"
           }
-        ]
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
       },
       {
         "personName": "吳夫人",
@@ -125,7 +127,9 @@
             "sourceId": "sgz-sunce-main",
             "locator": "卷四十六・孫策傳開篇"
           }
-        ]
+        ],
+        "relationGroup": "ancestor",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫權",
@@ -138,7 +142,9 @@
             "sourceId": "sgz-sunce-main",
             "locator": "卷四十六・臨終託付"
           }
-        ]
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫翊",
@@ -151,7 +157,9 @@
             "sourceId": "sgz-sunjian-main",
             "locator": "卷四十六・『堅四子：策、權、翊、匡』"
           }
-        ]
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫匡",
@@ -168,7 +176,9 @@
             "sourceId": "sgz-sunce-main",
             "locator": "卷四十六裴注引《魏書》及《江表傳》詔書"
           }
-        ]
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫朗（一名孫仁）",
@@ -181,7 +191,9 @@
             "sourceId": "zhilin-sunce",
             "locator": "《孫堅傳》注引《志林》"
           }
-        ]
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫夫人（本名不詳，後世稱孫尚香）",
@@ -198,7 +210,9 @@
             "sourceId": "sgz-fazheng-main",
             "locator": "卷三十七・『孫權以妹妻先主』"
           }
-        ]
+        ],
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       },
       {
         "personName": "大橋（後世通作大喬）",
@@ -211,7 +225,9 @@
             "sourceId": "sgz-zhouyu-main",
             "locator": "卷五十四・攻皖得橋公二女"
           }
-        ]
+        ],
+        "relationGroup": "spouse",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫紹",
@@ -224,7 +240,9 @@
             "sourceId": "sgz-sunce-main",
             "locator": "卷四十六・孫策傳末"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫氏（嫁顧邵）",
@@ -237,7 +255,9 @@
             "sourceId": "sgz-guyong-main",
             "locator": "卷五十二・顧邵附傳『權妻以策女』"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫氏（嫁陸遜）",
@@ -250,7 +270,9 @@
             "sourceId": "sgz-luxun-main",
             "locator": "卷五十八・『權以兄策女配遜』"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫氏（嫁朱紀）",
@@ -263,7 +285,9 @@
             "sourceId": "sgz-zhuzhi-main",
             "locator": "卷五十六・朱治傳『權以策女妻之』"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "孫奉",
@@ -276,7 +300,9 @@
             "sourceId": "sgz-sunce-main",
             "locator": "卷四十六・孫策傳末"
           }
-        ]
+        ],
+        "relationGroup": "grandchild",
+        "natureCategory": "historical"
       },
       {
         "personName": "周瑜",
@@ -303,8 +329,11 @@
               "locator": "第十五回",
               "note": "小說稱兩人結為昆仲，孫策年長兩月，周瑜以兄事策。"
             }
-          ]
-        }
+          ],
+          "natureCategory": "literary"
+        },
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       }
     ],
     "titlesAndRanks": [
