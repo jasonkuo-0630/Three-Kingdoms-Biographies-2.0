@@ -127,8 +127,11 @@
               "sourceId": "sanguo-yanyi",
               "locator": "第一回"
             }
-          ]
-        }
+          ],
+          "natureCategory": "literary"
+        },
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       },
       {
         "personName": "張飛",
@@ -150,8 +153,11 @@
               "sourceId": "sanguo-yanyi",
               "locator": "第一回"
             }
-          ]
-        }
+          ],
+          "natureCategory": "literary"
+        },
+        "relationGroup": "sibling",
+        "natureCategory": "historical"
       },
       {
         "personName": "關平",
@@ -168,7 +174,9 @@
             "sourceId": "sanguo-yanyi",
             "locator": "第二十八回"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "關興",
@@ -181,7 +189,9 @@
             "sourceId": "sgz-guanyu-main",
             "locator": "卷三十六・關羽傳末"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "關氏（名不詳）",
@@ -194,7 +204,9 @@
             "sourceId": "sgz-guanyu-main",
             "locator": "卷三十六・建安二十四年"
           }
-        ]
+        ],
+        "relationGroup": "child",
+        "natureCategory": "historical"
       },
       {
         "personName": "關統",
@@ -207,7 +219,9 @@
             "sourceId": "sgz-guanyu-main",
             "locator": "卷三十六・關羽傳末"
           }
-        ]
+        ],
+        "relationGroup": "grandchild",
+        "natureCategory": "historical"
       },
       {
         "personName": "關彝",
@@ -220,7 +234,9 @@
             "sourceId": "sgz-guanyu-main",
             "locator": "卷三十六・關羽傳末"
           }
-        ]
+        ],
+        "relationGroup": "grandchild",
+        "natureCategory": "historical"
       }
     ],
     "titlesAndRanks": [
