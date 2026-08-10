@@ -77,11 +77,11 @@
   --ink-soft: #46524d;
   --paper: #eee8da;
   --paper-light: #f7f3e9;
-  --tone-wei: #334b5d;
-  --tone-shu: #466348;
-  --tone-wu: #82433b;
-  --tone-han: #54405f;
-  --tone-qun: #7a5a35;
+  --tone-wei: #4b7898;  /* 曹魏：鐵藍 */
+  --tone-shu: #557d59;  /* 蜀漢：松綠 */
+  --tone-wu: #984b43;   /* 東吳：朱砂紅 */
+  --tone-han: #755d88;  /* 東漢：黛紫 */
+  --tone-qun: #967044;  /* 群雄：銅褐 */
 }
 
 * {
@@ -158,7 +158,13 @@ summary:focus-visible {
 .home-page,
 .faction-page {
   min-height: 100vh;
-  background: var(--ink);
+  background:
+  radial-gradient(
+    ellipse 1600px 900px at 50% 0%,
+    color-mix(in srgb, var(--tone) 18%, transparent),
+    transparent 75%
+  ),
+  color-mix(in srgb, var(--tone) 26%, black);
   color: #f4eee3;
   font-family: var(--font-body);
 }
