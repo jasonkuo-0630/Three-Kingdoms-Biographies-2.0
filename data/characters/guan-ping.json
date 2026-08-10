@@ -1,13 +1,61 @@
 {
   "schemaVersion": 2,
+  "dataStatus": "reviewed-draft",
   "published": true,
+  "lastReviewedAt": "2026-08-10",
   "id": "guan-ping",
   "name": "關平",
   "courtesyName": null,
+  "childhoodName": null,
+  "artName": null,
   "otherNames": [],
+  "lifespan": "生年不詳—建安二十四年（219年）",
+  "birthplace": "史籍未載；不可因其父關羽籍貫而逕定出生地",
+  "primaryIdentity": "關羽之子，建安二十四年隨父在荊州敗亡並同被孫權軍殺害",
+  "summary": "關平是《三國志》明確記載的關羽之子，生年、字號、官職與早年經歷皆不詳。現存正史只在建安二十四年荊州敗亡時提到他與父親同遭孫權軍擒殺，沒有可證實的獨立戰功。《三國演義》改寫他為關定十八歲次子，由關羽收為義子，並增寫襄樊作戰、突圍救父等情節；這套義子身世不得倒置為史實。",
   "avatar": "images/guan_ping.png",
-  "overview": {},
-  "historicalBio": [],
-  "romanceBio": [],
-  "works": []
+  "overview": {
+    "intro": {
+      "paragraphs": [
+        {
+          "text": "關平是關羽之子。《三國志・關羽傳》記孫權軍在臨沮『斬羽及子平』，用語已明確指出父子關係；史書沒有說他是養子，也沒有關定這位生父。",
+          "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・建安二十四年『斬羽及子平於臨沮』" }]
+        },
+        {
+          "text": "除與關羽一同遇害外，陳壽正文沒有記錄關平的生年、字號、官職、婚姻、子女或獨立軍事行動。本站因此不以小說戰績反推其史實生涯，也不把關羽早年隨劉備活動的年代自動延伸為關平的活動時間。",
+          "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽傳末" }]
+        },
+        {
+          "text": "《三國演義》第二十八回另造關定、關寧一家，稱關平十八歲、原為關定次子，由劉備提議拜關羽為父。這是小說為人物補寫的收養故事，與正史『子平』不可合併。",
+          "citations": [{ "sourceId": "sanguo-yanyi", "locator": "第二十八回" }, { "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽傳末" }]
+        }
+      ],
+      "originalTexts": [
+        { "text": "權遣將逆擊羽，斬羽及子平於臨沮。", "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽傳" }
+      ]
+    },
+    "factionTimeline": [
+      { "stageName": "漢中王政權・關羽荊州軍", "personName": "劉備", "personId": "liu-bei", "actualFactionId": "hanzhong-kingdom", "period": "建安二十四年（219年；現存正史唯一明確活動年份）", "periodUncertain": false }
+    ],
+    "relatives": [
+      { "personName": "關羽", "personId": "guan-yu", "relation": "父", "natureType": "三國志正文記載", "note": "《關羽傳》明稱關平為關羽之子；建安二十四年父子在臨沮一同被孫權軍殺害。《三國演義》所寫關定之子、後拜關羽為父只屬小說設定。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・『斬羽及子平於臨沮』" }, { "sourceId": "sanguo-yanyi", "locator": "第二十八回" }] },
+      { "personName": "關興", "personId": "guan-xing", "relation": "兄弟（長幼未詳）", "natureType": "三國志正文記載", "note": "關興同為關羽之子，關羽死後承襲爵位。正文沒有明說關平與關興的長幼次序；不可只憑敘事先後斷定關平必為兄。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽傳末" }] },
+      { "personName": "關氏（名不詳）", "personId": null, "relation": "姊妹（長幼未詳）", "natureType": "三國志正文記載", "note": "關羽之女，孫權曾為其子求婚而遭拒。史書未載姓名、排行及其與關平是否同母。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・孫權為子索羽女" }] }
+    ],
+    "titlesAndRanks": [],
+    "posthumousTitle": null,
+    "evaluations": { "contemporary": [], "later": [] }
+  },
+  "historicalBio": [
+    { "period": "建安二十四年（219年）以前", "periodType": "unknown", "title": "早年生平、官職與活動均無記載", "content": { "paragraphs": [ { "text": "現存《三國志》沒有記錄關平出生時間、出生地、字號、母親、官爵或早年經歷，也沒有任何能確定他何時開始隨關羽在荊州活動的材料。基於史料沉默，不能把他安排進赤壁後劉備荊州政權的整段時間軸，更不能把小說中的汝南投效、襄樊戰績當作填補。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽傳通篇及傳末" }] } ] }, "uncertaintyNote": "史料沒有提供關平在219年以前的獨立活動紀錄。" },
+    { "period": "建安二十四年（219年）", "periodType": "year", "title": "荊州敗亡，與關羽同在臨沮被殺", "content": { "paragraphs": [ { "text": "關羽由樊城前線退兵後，孫權已據江陵，關羽軍眾逐漸離散。孫權派兵迎擊，關羽與其子關平在臨沮被殺。《關羽傳》正文只用一句記錄關平結局，沒有交代他被擒的具體過程、是否曾單獨斷後或受降勸說。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・建安二十四年荊州敗亡" }] } ], "originalTexts": [ { "text": "權遣將逆擊羽，斬羽及子平於臨沮。", "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽傳" } ] } }
+  ],
+  "romanceBio": [
+    { "chapter": "第二十八回", "eventName": "虛構為關定次子，十八歲拜關羽為父", "content": { "paragraphs": [ { "text": "小說寫劉備、關羽等人在河北界首投宿關定莊院。關定有二子，長子關寧學文、次子關平學武；劉備問得關平十八歲，因關羽『尚未有子』，提議讓關平拜關羽為父，關平遂隨行。", "citations": [{ "sourceId": "sanguo-yanyi", "locator": "第二十八回・關定命關平拜父" }] } ] }, "historicalDifference": { "paragraphs": [ { "text": "正史明稱關平為關羽之子，沒有關定、關寧，也沒有十八歲收養的情節。小說『關羽尚未有子』還與正史記載關羽另有子關興相衝突，因此只能視為獨立的文學設定。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・『斬羽及子平』及『子興嗣』" }] } ] } },
+    { "chapter": "第七十三回", "eventName": "隨父攻襄樊，與廖化設伏擊退曹軍", "content": { "paragraphs": [ { "text": "小說在襄樊戰事中讓關平與廖化詐敗誘敵，再由後路殺出；關平並追斬翟元，成為具有獨立戰功的青年武將。", "citations": [{ "sourceId": "sanguo-yanyi", "locator": "第七十三回" }] } ] }, "historicalDifference": { "paragraphs": [ { "text": "關羽建安二十四年攻樊、水淹于禁七軍是正史事件，但《關羽傳》沒有關平、廖化設伏或關平斬翟元的記載；關平是否實際參與襄樊戰役亦無法由現存正文證明。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・建安二十四年襄樊之戰" }] } ] } },
+    { "chapter": "第七十六至七十七回", "eventName": "隨父退守麥城、斷後救父而被擒", "content": { "paragraphs": [ { "text": "小說讓關平全程隨關羽退至麥城，突圍時報告趙累戰死並奉命斷後；關羽被長鉤套索擒獲後，關平回身救父，遭潘璋、朱然軍包圍，力盡被擒。", "citations": [{ "sourceId": "sanguo-yanyi", "locator": "第七十六至七十七回" }] } ] }, "historicalDifference": { "paragraphs": [ { "text": "正史只記孫權遣將迎擊，關羽與子關平在臨沮被殺，沒有麥城突圍時關平斷後、回救父親或力盡被擒的細節。潘璋部司馬馬忠擒關羽見於《吳書・潘璋傳》，但關平的被擒者與過程仍不詳。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・關羽傳末" }] } ] } },
+    { "chapter": "第七十七回", "eventName": "與關羽同拒降遇害", "content": { "paragraphs": [ { "text": "小說寫孫權在帳中勸降關羽，關羽厲聲拒絕；經左咸勸孫權不可留患後，關羽父子一同被推出殺害，並明繫於建安二十四年冬十二月。", "citations": [{ "sourceId": "sanguo-yanyi", "locator": "第七十七回" }] } ] }, "historicalDifference": { "paragraphs": [ { "text": "父子同死於建安二十四年及臨沮地區具有正史核心，但帳前勸降、左咸進言與父子同時受刑的完整場面屬小說敘事。《三國志》未保存關平臨死前的言行。", "citations": [{ "sourceId": "sgz-guanyu-main", "locator": "卷三十六・『斬羽及子平於臨沮』" }] } ] } }
+  ],
+  "works": [],
+  "worksNote": "現存史籍沒有保存可確定為關平所作的書信、奏表或其他文字。"
 }
