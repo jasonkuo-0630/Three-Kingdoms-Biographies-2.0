@@ -17,7 +17,7 @@
    https://github.com/max32002/bakudaifont），不能單純多加字進現有檔案。 */
 @font-face {
   font-family: "Bakudai";
-  src: url("fonts/bakudai-watermark.woff2") format("woff2");
+  src: url("../fonts/bakudai-watermark.woff2") format("woff2");
   font-display: swap;
 }
 
